@@ -3,6 +3,11 @@ const nextConfig = {
 	reactStrictMode: true,
 	async redirects() {
 		return [
+			{
+				source: '/sitemap_index.xml',
+				destination: '/sitemap.xml',
+				permanent: true,
+			},
 			{ source: '/services', destination: '/lawyers-in-lahore', permanent: true },
 			{ source: '/services/family-law', destination: '/family-lawyer-in-lahore', permanent: true },
 			{ source: '/services/criminal-lawyer', destination: '/criminal-lawyer-in-lahore', permanent: true },
