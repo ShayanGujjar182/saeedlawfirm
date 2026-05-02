@@ -1,59 +1,87 @@
 import Link from 'next/link'
 
-// MUI
-import CheckIcon from '@material-ui/icons/Check'
+const SERVICES = [
+	'Human Resource Consulting',
+	'Legal Advisory & Due Diligence',
+	'MSME & Startup Compliance',
+	'Organisation Development',
+]
+
+const TRUST_BADGES = [
+	{ label: 'Registered under MSMED Act 2006' },
+	{ label: '15+ Years of Practice' },
+	{ label: 'Confidential & Privileged Consultations' },
+]
+
+const CheckIcon = () => (
+	<svg className="w-5 h-5 text-gold-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24" aria-hidden="true">
+		<path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+	</svg>
+)
+
+const ShieldIcon = () => (
+	<svg className="w-4 h-4 text-gold-600 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+		<path d="M12 2L3 7v5c0 5.25 3.75 10.15 9 11.25C17.25 22.15 21 17.25 21 12V7L12 2zm-1 13l-3-3 1.41-1.41L11 12.17l4.59-4.58L17 9l-6 6z" />
+	</svg>
+)
 
 const Landing = () => {
 	return (
-		<header className="bg-white dark:bg-gray-800">
-			<div className="container flex flex-col px-6 py-10 mx-auto space-y-6 md:h-128 md:py-16 md:flex-row md:items-center md:space-x-6">
-				<div className="w-full md:w-1/2">
-					<div className="max-w-lg">
-						<h1 className="text-2xl font-medium tracking-wide text-gray-800 dark:text-white md:text-4xl">
-							Get Accurate Legal Assistance
-						</h1>
-						<p className="mt-2 text-gray-600 dark:text-gray-300">
-							Our services are pure consultations on Management and Legal matters. We
-							provide advise, counsel and suggest modes for resolution to our clients.
-						</p>
-						<div className="grid gap-6 mt-8 sm:grid-cols-2">
-							<div className="flex items-center space-x-6 text-gray-800 dark:text-gray-200">
-								<CheckIcon fontSize="small" />
-								<span>Human Resource Consulting</span>
-							</div>
+		<header className="bg-white">
+			<div className="max-w-7xl mx-auto px-6 py-16 md:py-24 flex flex-col md:flex-row md:items-center gap-12">
 
-							<div className="flex items-center space-x-6 text-gray-800 dark:text-gray-200">
-								<CheckIcon fontSize="small" />
-								<span>Legal Advisory</span>
-							</div>
+				<div className="w-full md:w-1/2 max-w-xl">
+					<p className="text-gold-600 text-sm font-semibold uppercase tracking-widest mb-3">
+						Legal &amp; HR Consulting
+					</p>
+					<h1 className="font-serif text-4xl md:text-5xl font-semibold text-navy-900 leading-tight">
+						Accurate Legal &amp; HR Guidance You Can Trust
+					</h1>
+					<div className="divider-gold" />
+					<p className="text-navy-700 text-base leading-relaxed mb-8 max-w-md">
+						Bodhankar &amp; Associates provides expert counsel on management and legal matters —
+						advising individuals, SMEs, and startups through consultation and mediation.
+					</p>
 
-							<div className="flex items-center space-x-6 text-gray-800 dark:text-gray-200">
-								<CheckIcon fontSize="small" />
-								<span>Legal Due Diligence</span>
-							</div>
+					<ul className="space-y-3 mb-10">
+						{SERVICES.map((s) => (
+							<li key={s} className="flex items-start gap-3 text-navy-800 text-sm font-medium">
+								<CheckIcon />
+								<span>{s}</span>
+							</li>
+						))}
+					</ul>
 
-							<div className="flex items-center space-x-6 text-gray-800 dark:text-gray-200">
-								<CheckIcon fontSize="small" />
-								<span>MSME & Startup Compliance</span>
-							</div>
-						</div>
+					<div className="flex flex-wrap gap-4">
+						<Link href="/what-we-do" className="btn-gold">
+							Explore Our Services
+						</Link>
+						<Link href="/contact" className="btn-outline">
+							Book a Consultation
+						</Link>
 					</div>
 
-					<div className="mt-8">
-						<Link href="/what-we-do">
-							<a className="px-5 py-2 font-semibold text-gray-100 transition-colors duration-200 transform bg-gray-900 rounded-md hover:bg-gray-700">
-								See All Services
-							</a>
-						</Link>
+					<div className="mt-10 pt-8 border-t border-gray-100 flex flex-wrap gap-3">
+						{TRUST_BADGES.map((b) => (
+							<div key={b.label} className="flex items-center gap-2 text-xs text-navy-700 bg-gold-50 border border-gold-100 rounded-full px-3 py-1.5">
+								<ShieldIcon />
+								<span>{b.label}</span>
+							</div>
+						))}
 					</div>
 				</div>
 
-				<div className="flex items-center justify-center w-full h-96 md:w-1/2">
+				<div className="w-full md:w-1/2 relative">
+					<div className="absolute -top-4 -left-4 w-full h-full border-2 border-gold-300 rounded-lg hidden md:block" aria-hidden="true" />
 					<img
-						className="object-cover w-full h-full max-w-2xl rounded-md"
+						className="relative object-cover w-full h-80 md:h-[480px] rounded-lg shadow-xl"
 						src="/images/homepage-landing.jpeg"
-						alt="Blindfolded woman holding a balance"
+						alt="Lady Justice — scales of justice representing legal expertise"
 					/>
+					<div className="absolute bottom-6 right-6 bg-navy-900 text-white rounded-lg px-5 py-4 shadow-lg hidden md:block">
+						<p className="font-serif text-2xl font-semibold text-gold-400">500+</p>
+						<p className="text-xs text-gray-300 mt-0.5 leading-tight">Clients<br />Advised</p>
+					</div>
 				</div>
 			</div>
 		</header>

@@ -1,0 +1,101 @@
+{
+  "kind": "service | court | area",
+  "slug": "example-page-slug",
+  "route": "/example-page-slug",
+  "parent": {
+    "label": "Parent page title",
+    "slug": "parent-page-slug",
+    "route": "/parent-page-slug"
+  },
+  "ancestors": [
+    {
+      "label": "Top-level parent",
+      "slug": "top-level-parent",
+      "route": "/top-level-parent"
+    }
+  ],
+  "seo": {
+    "title": "SEO title for browser and search results",
+    "description": "Meta description for this page",
+    "canonicalPath": "/example-page-slug"
+  },
+  "hero": {
+    "eyebrow": "Small label above H1",
+    "h1": "Visible page heading",
+    "intro": "Hero intro paragraph"
+  },
+  "content": {
+    "h1": "Visible page heading",
+    "subheading": "Small label above the H1",
+    "description": "Main page description used near the H1",
+    "introBlocks": [
+      {
+        "type": "paragraph",
+        "text": "Introductory body paragraph before the first H2 section."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "H2 section heading",
+        "subheading": "Optional section subheading",
+        "description": "First paragraph under this H2.",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Additional paragraph text."
+          },
+          {
+            "type": "list",
+            "items": [
+              "Bullet point one",
+              "Bullet point two"
+            ]
+          },
+          {
+            "type": "orderedList",
+            "items": [
+              "Step one",
+              "Step two"
+            ]
+          },
+          {
+            "type": "table",
+            "headers": [
+              "Column one",
+              "Column two"
+            ],
+            "rows": [
+              [
+                "Cell one",
+                "Cell two"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "bodyMarkdown": "Main page body in Markdown. Headings, lists, links, and tables are supported.",
+  "details": [
+    {
+      "label": "Section title",
+      "values": [
+        "Detail item one",
+        "Detail item two"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Question?",
+      "a": "Answer."
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "Related page title",
+      "href": "/related-page",
+      "description": "Related page summary."
+    }
+  ]
+}

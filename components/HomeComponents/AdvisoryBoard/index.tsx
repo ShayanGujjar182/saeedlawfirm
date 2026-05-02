@@ -1,38 +1,54 @@
-// DATA
-import { advisoryBoard } from "./data"
+import { advisoryBoard } from './data'
+
+const initials = (name: string) =>
+	name
+		.replace(/^(Dr\.\s*\(Prof\)|Mr\.|Ms\.|Mrs\.)\s*/i, '')
+		.split(' ')
+		.filter(Boolean)
+		.slice(0, 2)
+		.map((w) => w[0].toUpperCase())
+		.join('')
 
 const AdvisoryBoard = (): JSX.Element => {
-
 	return (
-		<section className="text-gray-600 body-font bg-white ">
-			<div className="container px-5 py-24 mx-auto">
-				<div className="flex flex-col text-center w-full mb-20">
-					<h1 className="text-2xl font-medium title-font mb-4 text-gray-900">
-						ADVISORY BOARD
-					</h1>
-					<p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-						We are active partners of evolving HR & Legal ecosystem that improvises with challenging times and workplace. Eminent and Senior Advisers are our guiding force. They guide us on professional fronts on variety of critical subject matters and related issues.
+		<section className="bg-white py-20">
+			<div className="max-w-7xl mx-auto px-6">
+
+				{/* Heading */}
+				<div className="text-center mb-14">
+					<p className="text-gold-600 text-sm font-semibold uppercase tracking-widest mb-2">Our Advisors</p>
+					<h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy-900">Advisory Board</h2>
+					<div className="w-12 h-1 bg-gold-600 rounded mx-auto mt-3 mb-5" />
+					<p className="text-navy-700 text-base leading-relaxed max-w-2xl mx-auto">
+						Eminent and senior advisers form our guiding force. They provide professional counsel across
+						a variety of critical subject matters in HR, Legal, and Management domains.
 					</p>
 				</div>
-				<div className="flex flex-wrap -m-4">
+
+				{/* Cards */}
+				<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
 					{advisoryBoard.map((advisor, idx) => (
-						<div className="p-4 lg:w-1/4 md:w-1/2" key={idx}>
-							<div className="h-full flex flex-col items-center text-center" >
-								<img
-									alt="team"
-									className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-									src="https://dummyimage.com/200x200"
-								/>
-								<div className="w-full">
-									<h2 className="title-font font-medium text-lg text-gray-900">
-										{advisor.name}
-									</h2>
-									<h3 className="text-gray-500 mb-3">{advisor.designation}</h3>
-									<p className="mb-4 text-justify">
-										{advisor.description}
-									</p>
-								</div>
+						<div
+							key={idx}
+							className="flex flex-col items-center text-center p-7 rounded-lg border border-gray-200 bg-white hover:shadow-lg hover:border-gold-300 transition-all duration-200 cursor-default"
+						>
+							{/* Avatar with initials */}
+							<div className="w-16 h-16 rounded-full bg-navy-900 flex items-center justify-center mb-4 flex-shrink-0">
+								<span className="font-serif text-xl font-semibold text-gold-400">
+									{initials(advisor.name)}
+								</span>
 							</div>
+
+							<h3 className="font-serif text-lg font-semibold text-navy-900 leading-snug mb-1">
+								{advisor.name}
+							</h3>
+							<p className="text-xs text-gold-700 font-medium mb-3 leading-snug">
+								{advisor.designation}
+							</p>
+							<div className="w-8 h-px bg-gold-300 mb-3" />
+							<p className="text-sm text-navy-700 leading-relaxed">
+								{advisor.description}
+							</p>
 						</div>
 					))}
 				</div>

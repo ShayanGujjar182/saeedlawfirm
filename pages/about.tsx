@@ -1,81 +1,78 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
-// COMPONENTS
-import Mission from '../components/AboutComponents/Mission'
-import Vision from '../components/AboutComponents/Vision'
+export default function About() {
+  return (
+    <>
+      <Head><title>About Us | Saeed Law Firm Lahore</title></Head>
 
-const About = (): JSX.Element => {
-	return (
-		<>
-			<Head>
-				<title>About us | Bodhankar & Associates</title>
-				<meta
-					name="viewport"
-					content="minimum-scale=1, initial-scale=1, width=device-width"
-				/>
-			</Head>
-			<div className="bg-white dark:bg-gray-800">
-				<div className="container flex flex-col px-6 py-10 mx-auto space-y-6 md:h-128 md:py-16 md:flex-row md:items-center md:space-x-6">
-					<div className="flex items-center justify-center w-full h-96 md:w-1/2">
-						<img
-							className="object-cover w-full h-full max-w-2xl rounded-md"
-							src="/images/why-us.jpeg"
-							alt="Bodhankar & Associates"
-						/>
-					</div>
+      <div className="bg-navy-900 py-16 px-6 text-center">
+        <p className="text-gold-400 text-sm font-semibold uppercase tracking-widest mb-2">About Us</p>
+        <h1 className="font-serif text-3xl md:text-4xl font-semibold text-white mb-3">Personal Lawyers &amp; Legal Consultants</h1>
+        <div className="w-12 h-1 bg-gold-600 rounded mx-auto" />
+      </div>
 
-					<div className="w-full md:w-1/2">
-						<div className="max-w-lg">
-							<h2 className="text-2xl font-bold text-gray-800 dark:text-white md:text-3xl">
-								About{' '}
-								<span className="text-indigo-600 dark:text-indigo-400">Us</span>
-							</h2>
-							<p className="mt-4 text-gray-600 dark:text-gray-400 text-justify">
-								<b>Bodhankar & Associates</b> is a knowledge services firm providing consulting services in the areas of Human Resource Management, Legal Compliance & Organization Development. The firm guides individuals, small & medium enterprises and startups through consultation and mediation.
-							</p>
-							<p className="mt-4 text-gray-600 dark:text-gray-400 text-justify">
-								The firm advises on specific queries and documentation with respect to human resource, labour, organization development, HR strategies, statutory acts, government schemes, student counseling programs and career guidance. The firm provides paralegal support services to various types of businesses.
-							</p>
-							<p className="mt-4 text-gray-600 dark:text-gray-400 text-justify">
-								The firm adheres to ethical professional standards in view of its multi-dimensional approach towards sustaining ethics & morality in business, work and life. The firm is registered under MSME Act, 2006 and is affiliated to several academic forums and socio-legal associations.
-							</p>
+      {/* Intro */}
+      <section className="bg-white py-20">
+        <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row md:items-center gap-12">
+          <div className="w-full md:w-1/2">
+            <img className="object-cover w-full h-80 md:h-[440px] rounded-lg shadow-lg" src="/images/why-us.jpeg" alt="Saeed Law Firm Lahore" />
+          </div>
+          <div className="w-full md:w-1/2">
+            <p className="text-gold-600 text-sm font-semibold uppercase tracking-widest mb-2">About Us</p>
+            <h2 className="font-serif text-3xl font-semibold text-navy-900 mb-1">Bilal Saeed &amp; Team – Your Shield in Law</h2>
+            <div className="divider-gold" />
+            <p className="text-navy-700 leading-relaxed mb-4">
+              Saeed Law Firm is a trusted legal practice in Lahore, offering expert legal services and professional consultancy to individuals, families, and businesses. We focus on delivering tailored legal guidance that safeguards your rights and interests while helping you navigate complex legal situations.
+            </p>
+            <p className="text-navy-700 leading-relaxed mb-4">
+              Saeed Law Firm, led by the esteemed Bilal Saeed, is dedicated to providing authoritative and results-driven legal solutions. Our experienced team handles complex cases across corporate, civil, and criminal law, ensuring clients&apos; rights are fully protected.
+            </p>
+            <p className="text-navy-700 leading-relaxed mb-8">
+              Committed to professionalism, integrity, and excellence, we guide you through every legal challenge with clarity and confidence, delivering outcomes that secure your future and build lasting trust.
+            </p>
+            <Link href="/contact" className="btn-gold">Get In Touch</Link>
+          </div>
+        </div>
+      </section>
 
-							<div className="mt-8">
-								<Link href="/contact">
-									<a className="px-5 py-2 font-semibold text-gray-100 transition-colors duration-200 transform bg-gray-900 rounded-md hover:bg-gray-700">
-										Get In Touch
-									</a>
-								</Link>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+      {/* Why Choose */}
+      <section className="bg-navy-900 py-20 px-6">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-12">
+            <p className="text-gold-400 text-sm font-semibold uppercase tracking-widest mb-2">Our Benefits</p>
+            <h2 className="font-serif text-3xl font-semibold text-white">Why Choose Our Lawyers?</h2>
+            <div className="w-12 h-1 bg-gold-600 rounded mx-auto mt-3 mb-4" />
+            <p className="text-gray-300 max-w-2xl mx-auto text-sm leading-relaxed">
+              Our skilled team understands the complexities of the legal system and is fully prepared to handle your case with confidence and expertise.
+            </p>
+          </div>
+          <div className="grid sm:grid-cols-2 gap-5">
+            {[
+              { title: 'Expertise & Experience',              body: 'Over 50 years of combined legal practice across Pakistan\'s court system — from district courts to the Supreme Court.' },
+              { title: 'Client-Focused Approach',            body: 'We tailor every legal strategy to your unique situation, never offering one-size-fits-all solutions.' },
+              { title: 'Wide Range of Legal Services',       body: 'Family law, criminal defence, tax, immigration, personal injury, and civil litigation — all under one roof.' },
+              { title: 'Strong Commitment to the Community', body: 'We believe in accessible justice and take our responsibility to the communities we serve seriously.' },
+            ].map(b => (
+              <div key={b.title} className="bg-navy-800 border border-navy-700 rounded-lg p-6 hover:border-gold-600 transition-colors duration-200">
+                <h3 className="font-serif text-lg font-semibold text-gold-400 mb-2">{b.title}</h3>
+                <p className="text-gray-300 text-sm leading-relaxed">{b.body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
-			<Vision />
-			<div className='bg-white'>
-				<div className='max-w-4xl mx-auto px-6 md:px-0 py-16'>
-					<p className="mt-4 text-gray-600 dark:text-gray-400 text-justify">
-						Driven by hunger for intellectual stimulation, we are constantly involved in researching ideas, conducting qualitative and quantitative analysis and applying complex frameworks to solve knotty problems. Our primary goal is to help people and their businesses. We built trust because of our will to help our clients accomplish their goals. Our role is to assist organization in critical areas of their inclusiveness work. We act as an educator, a catalyst for deeper change, a resource or a facilitator, the leadership of the process remains within your organization. We act as an extension of in-house legal cell or as independent legal consultants. Our efforts are towards being strategic partners for our clients growth and not just be a consulting firm.
-							</p>
-
-					<p className="mt-4 text-gray-600 dark:text-gray-400 text-justify">
-						Our Associates have a successful track record of representing companies and individuals before domestic courts and arbitration tribunals. Although, our Associates have been collaborating on various matters since a fairly long time, the firm was formed recently in order to serve a larger platform for new clients and associates.
-
-							</p>
-					<p className="mt-4 text-gray-600 dark:text-gray-400 text-justify">
-						We focus on addressing industry wise Management & Legal Consultancy services. Our priority is to safeguard our client’s interests and ensure that personal or professional association of any Associate does not involve a conflict of interest.
-							</p>
-					<p className="mt-4 text-gray-600 dark:text-gray-400 text-justify">
-						We are a socially responsible firm and undertake pro-bono work to support several philanthropic organizations, NGOs and government initiatives related to social justice, child-care and education.
-							</p>
-				</div>
-			</div>
-
-			<Mission />
-		</>
-	)
+      {/* CTA */}
+      <section className="bg-gold-600 py-12 px-6 text-center">
+        <h2 className="font-serif text-2xl font-semibold text-white mb-3">Make an Appointment</h2>
+        <p className="text-white/90 mb-6 max-w-xl mx-auto text-sm">
+          Get compassionate legal help for divorce, custody, maintenance, or guardianship. Contact Saeed Law Firm today for a private consultation with an experienced family lawyer.
+        </p>
+        <Link href="/contact" className="bg-white text-gold-700 font-semibold px-7 py-3 rounded hover:bg-gold-50 transition-colors duration-200 inline-block">
+          Book a Consultation
+        </Link>
+      </section>
+    </>
+  )
 }
-
-export default About

@@ -1,58 +1,64 @@
 import Link from 'next/link'
 
+const STATS = [
+	{ value: '15+', label: 'Years of Practice' },
+	{ value: '500+', label: 'Clients Advised' },
+	{ value: '3',   label: 'Practice Areas' },
+]
+
 const WhyUs = (): JSX.Element => {
 	return (
-		<div className="bg-white dark:bg-gray-800">
-			<div className="container flex flex-col px-6 py-10 mx-auto space-y-6 md:h-128 md:py-16 md:flex-row md:items-center md:space-x-6">
-				<div className="flex items-center justify-center w-full h-96 md:w-1/2">
+		<section className="bg-gray-50 py-20">
+			<div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row md:items-center gap-12">
+
+				<div className="w-full md:w-1/2 relative">
 					<img
-						className="object-cover w-full h-full max-w-2xl rounded-md"
+						className="object-cover w-full h-80 md:h-[460px] rounded-lg shadow-lg"
 						src="/images/why-us.jpeg"
-						alt="Bodhankar & Associates"
+						alt="Bodhankar & Associates — law library"
 					/>
-				</div>
-
-				<div className="w-full md:w-1/2">
-					<div className="max-w-lg">
-						<h2 className="text-2xl font-bold text-gray-800 dark:text-white md:text-3xl">
-							Why <span className="text-indigo-600 dark:text-indigo-400">Us?</span>
-						</h2>
-						<p className="mt-4 text-gray-600 dark:text-gray-400">
-							<b>Bodhankar & Associates</b> is a proprietary knowledge firm registered
-							under MSMED Act, 2006 providing consulting services in the areas of
-							Human Resource Management, Legal Compliance, Organization Development &
-							Career Counseling. The firm guides individuals, small & medium
-							enterprises and startups through consultation and mediation.
-						</p>
-						<p className="mt-4 text-gray-600 dark:text-gray-400">
-							The firm advises on specific queries and documentation with respect to
-							human resource, labour, organization development, HR strategies,
-							statutory acts, government schemes, student counseling and career
-							guidance.
-						</p>
-						{/* <p className="mt-4 text-gray-600 dark:text-gray-400">
-							We have a hunger for intellectual stimulation and are constantly
-							involved in researching ideas, conducting qualitative and quantitative
-							analysis and applying complex frameworks to solve knotty problems. Our
-							primary goal is to help people and their businesses. We build trust
-							because of our will to help our clients accomplish their goals. Our role
-							is to assist organization in critical areas of their inclusiveness work.
-							We may act as an educator, a catalyst for deeper change, a resource, or
-							a facilitator, the leadership of the process remains within your
-							organization.
-						</p> */}
-
-						<div className="mt-8">
-							<Link href="/contact">
-								<a className="px-5 py-2 font-semibold text-gray-100 transition-colors duration-200 transform bg-gray-900 rounded-md hover:bg-gray-700">
-									Get in touch
-								</a>
-							</Link>
-						</div>
+					<div className="absolute -bottom-6 -right-4 hidden md:flex gap-4 bg-white rounded-lg shadow-xl p-5 border border-gray-100">
+						{STATS.map((s) => (
+							<div key={s.label} className="text-center px-3">
+								<p className="font-serif text-2xl font-bold text-gold-600">{s.value}</p>
+								<p className="text-xs text-navy-700 mt-0.5 leading-tight whitespace-nowrap">{s.label}</p>
+							</div>
+						))}
 					</div>
 				</div>
+
+				<div className="w-full md:w-1/2 md:pl-8">
+					<p className="text-gold-600 text-sm font-semibold uppercase tracking-widest mb-3">Why Choose Us</p>
+					<h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy-900 leading-tight">
+						A Proprietary Knowledge Firm Built on Trust
+					</h2>
+					<div className="divider-gold" />
+					<p className="text-navy-700 text-base leading-relaxed mb-4">
+						<strong className="text-navy-900">Bodhankar &amp; Associates</strong> is a proprietary knowledge
+						firm registered under the MSMED Act, 2006. We provide consulting services across Human Resource
+						Management, Legal Compliance, Organisation Development, and Career Counselling.
+					</p>
+					<p className="text-navy-700 text-base leading-relaxed mb-8">
+						The firm advises on specific queries and documentation with respect to human resource, labour,
+						statutory acts, government schemes, and student career guidance — guiding individuals, SMEs,
+						and startups through consultation and mediation.
+					</p>
+
+					<div className="flex gap-6 mb-8 md:hidden">
+						{STATS.map((s) => (
+							<div key={s.label} className="text-center">
+								<p className="font-serif text-2xl font-bold text-gold-600">{s.value}</p>
+								<p className="text-xs text-navy-700 mt-0.5 leading-tight">{s.label}</p>
+							</div>
+						))}
+					</div>
+
+					<Link href="/contact" className="btn-gold">
+						Get in Touch
+					</Link>
+				</div>
 			</div>
-		</div>
+		</section>
 	)
 }
 

@@ -1,147 +1,70 @@
 import Link from 'next/link'
 
-// MUI ICONS
-import LinkedInIcon from '@material-ui/icons/LinkedIn'
-import InstagramIcon from '@material-ui/icons/Instagram'
-import TwitterIcon from '@material-ui/icons/Twitter'
+const SERVICES = [
+  { label: 'Family Lawyer',      href: '/family-lawyer-in-lahore' },
+  { label: 'Criminal Lawyer',    href: '/criminal-lawyer-in-lahore' },
+  { label: 'Tax Lawyer',         href: '/tax-lawyer-in-lahore' },
+  { label: 'Immigration Lawyer', href: '/immigration-lawyer-in-lahore' },
+  { label: 'Property Lawyer',    href: '/property-lawyer-in-lahore' },
+  { label: 'Civil Lawyer',       href: '/civil-lawyer-in-lahore' },
+]
 
-const Footer = (): JSX.Element => {
-	return (
-		<footer className="dark:bg-gray-800">
-			<div className="container px-6 py-4 mx-auto">
-				<div className="lg:flex">
-					<div className="w-full -mx-6 lg:w-2/5">
-						<div className="px-6">
-							<div>
-								<Link href="/">
-									<a className="text-xl font-bold text-gray-800 dark:text-white hover:text-gray-700 dark:hover:text-gray-300">
-										Bodhankar & Associates
-									</a>
-								</Link>
-							</div>
+export default function Footer() {
+  return (
+    <footer className="bg-navy-900 text-gray-300">
+      <div className="max-w-7xl mx-auto px-6 py-14">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
 
-							<p className="max-w-md mt-2 text-gray-500 dark:text-gray-400">
-								We provide advise, counsel and suggest modes for resolution to our
-								clients.
-							</p>
+          <div className="lg:col-span-2">
+            <Link href="/" className="font-serif text-xl font-semibold text-white hover:text-gold-400 transition-colors duration-200">
+              Saeed Law Firm
+            </Link>
+            <p className="mt-1 text-gold-400 text-xs font-semibold tracking-widest uppercase mb-3">Lahore</p>
+            <p className="text-sm text-gray-400 leading-relaxed max-w-sm">
+              From home to heritage, business to family, our team is dedicated to providing trusted legal counsel and comprehensive representation every step of the way.
+            </p>
+          </div>
 
-							<div className="flex mt-4 -mx-2">
-								<a
-									href="https://www.linkedin.com/company/bodhankar-&-associates/"
-									target="_blank"
-									rel="noreferrer"
-									className="mx-2 text-gray-700 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400"
-									aria-label="Linkden">
-									<LinkedInIcon />
-								</a>
+          <div>
+            <h3 className="text-white text-sm font-semibold uppercase tracking-widest mb-4">OUR SERVICES</h3>
+            <ul className="space-y-2 text-sm">
+              {SERVICES.map(s => (
+                <li key={s.href}>
+                  <Link href={s.href} className="text-gray-400 hover:text-gold-400 transition-colors duration-200">{s.label}</Link>
+                </li>
+              ))}
+            </ul>
+          </div>
 
-								<a
-									href="https://www.instagram.com/sunbodh/"
-									target="_blank"
-									rel="noreferrer"
-									className="mx-2 text-gray-700 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400"
-									aria-label="Instagram">
-									<InstagramIcon />
-								</a>
+          <div>
+            <h3 className="text-white text-sm font-semibold uppercase tracking-widest mb-4">QUICK LINKS</h3>
+            <ul className="space-y-2 text-sm mb-6">
+              {[
+                { label: 'Home',     href: '/' },
+                { label: 'About Us', href: '/about' },
+                { label: 'Services', href: '/what-we-do' },
+                { label: 'Contact Us', href: '/contact' },
+              ].map(({ label, href }) => (
+                <li key={href}>
+                  <Link href={href} className="text-gray-400 hover:text-gold-400 transition-colors duration-200">{label}</Link>
+                </li>
+              ))}
+            </ul>
 
-								<a
-									href="https://twitter.com/sunbodh"
-									target="_blank"
-									rel="noreferrer"
-									className="mx-2 text-gray-700 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400"
-									aria-label="Twitter">
-									<TwitterIcon />
-								</a>
-							</div>
-						</div>
-					</div>
+            <div className="space-y-1 text-sm">
+              <p className="text-white text-xs font-semibold uppercase tracking-widest mb-2">Contact</p>
+              <a href="tel:+923194959420" className="block text-gray-400 hover:text-gold-400 transition-colors cursor-pointer">+92 319 4959420</a>
+              <p className="text-gray-400">FAX: +92 319 4959420</p>
+              <p className="text-gray-400 text-xs leading-snug">13 Fane Road Tauheed Mazil,<br />Lahore, Pakistan</p>
+            </div>
+          </div>
+        </div>
 
-					<div className="mt-6 lg:mt-0 lg:flex-1">
-						<div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4">
-							<div>
-								<h3 className="text-gray-700 uppercase dark:text-white">About</h3>
-								<a
-									href="#"
-									className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-									Company
-								</a>
-								<a
-									href="#"
-									className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-									community
-								</a>
-								<a
-									href="#"
-									className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-									Careers
-								</a>
-							</div>
-
-							<div>
-								<h3 className="text-gray-700 uppercase dark:text-white">Blog</h3>
-								<a
-									href="#"
-									className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-									Tec
-								</a>
-								<a
-									href="#"
-									className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-									Music
-								</a>
-								<a
-									href="#"
-									className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-									Videos
-								</a>
-							</div>
-
-							<div>
-								<h3 className="text-gray-700 uppercase dark:text-white">
-									Products
-								</h3>
-								<a
-									href="#"
-									className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-									Mega cloud
-								</a>
-								<a
-									href="#"
-									className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-									Aperion UI
-								</a>
-								<a
-									href="#"
-									className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-									Meraki UI
-								</a>
-							</div>
-
-							<div>
-								<a href='tel:+919849792800'>
-									<h3 className="text-gray-700 uppercase dark:text-white">Contact</h3>
-									<span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-										+91 9849792800
-								</span>
-								</a>
-								<span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-									example@email.com
-								</span>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<hr className="h-px my-6 bg-gray-300 border-none dark:bg-gray-700" />
-
-				<div>
-					<p className="text-center text-gray-800 dark:text-white">
-						© Bodhankar & Associates {new Date().getFullYear()} - All rights reserved
-					</p>
-				</div>
-			</div>
-		</footer>
-	)
+        <div className="mt-12 pt-6 border-t border-navy-800 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-gray-500">
+          <p>© Copyright {new Date().getFullYear()} Saeed Law Firm. All Rights Reserved</p>
+          <p>Established 1975 &nbsp;·&nbsp; Lahore, Pakistan</p>
+        </div>
+      </div>
+    </footer>
+  )
 }
-
-export default Footer

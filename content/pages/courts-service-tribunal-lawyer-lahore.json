@@ -1,0 +1,237 @@
+{
+  "kind": "court",
+  "slug": "service-tribunal-lawyer-lahore",
+  "route": "/courts/service-tribunal-lawyer-lahore",
+  "parent": {
+    "label": "Lahore Courts",
+    "slug": "courts",
+    "route": "/courts"
+  },
+  "ancestors": [
+    {
+      "label": "Lahore Courts",
+      "slug": "courts",
+      "route": "/courts"
+    }
+  ],
+  "seo": {
+    "title": "Service Tribunal Lawyer in Lahore | Punjab Govt Service Disputes",
+    "description": "Punjab Service Tribunal lawyer in Lahore. Appeals on dismissal, suspension, promotion, and pension disputes for Punjab government employees.",
+    "canonicalPath": "/courts/service-tribunal-lawyer-lahore"
+  },
+  "hero": {
+    "eyebrow": "Punjab Service Tribunal",
+    "h1": "Service Tribunal Lawyer in Lahore",
+    "intro": "Punjab Service Tribunal lawyer in Lahore. Appeals on dismissal, suspension, promotion, and pension disputes for Punjab government employees."
+  },
+  "bodyMarkdown": "The Punjab Service Tribunal hears appeals by government employees of Punjab against orders affecting their service — dismissal, removal, suspension, reduction in rank, withholding of promotion, and pension disputes. A **service tribunal lawyer in Lahore** drafts the appeal under the Punjab Service Tribunals Act 1974, marshals the service rules and disciplinary record, and presents the case to the bench. **Saeed Law Firm** has handled service matters for Lahore-based government employees since 1975, including cases reaching the Lahore High Court and Supreme Court on further appeal.\n\n### The Punjab Service Tribunal — Jurisdiction\n\n- **Established under:** Punjab Service Tribunals Act 1974\n- **Composition:** Chairman + members appointed by the provincial government\n- **Jurisdiction:** appeals by Punjab government civil servants against orders relating to terms and conditions of service\n- **Seat:** Lahore\n\nThe tribunal does not hear:\n- Federal government employees (those go to the Federal Service Tribunal)\n- Statutory bodies whose enabling laws exclude the tribunal's jurisdiction\n- Matters not constituting service-rule grievances\n\n### When to File at Service Tribunal\n\nA **service tribunal lawyer in Lahore** files appeals on:\n\n- **Dismissal and removal** — orders under the Punjab Civil Servants (Efficiency and Discipline) Rules 1999\n- **Suspension** challenges where extended without justification\n- **Compulsory retirement** challenges\n- **Reduction in rank or pay scale**\n- **Withholding of increments or promotion**\n- **Seniority disputes** including ACR-based issues\n- **Pension and gratuity** denials and miscalculations\n- **Transfer orders** that amount to punishment in disguise\n- **Disciplinary proceedings** challenged on procedural grounds\n\n### Procedure at Punjab Service Tribunal\n\n1. **Departmental representation** — under most service rules, an internal representation is required before approaching the tribunal\n2. **Appeal filing** at the tribunal within 30 days of the impugned order or representation rejection\n3. **Court fee** as prescribed\n4. **Notice to the department**\n5. **Departmental reply** and counter-reply\n6. **Hearing** on facts and law\n7. **Order** of the tribunal\n8. **Further appeal** to the Supreme Court of Pakistan (the LHC does not have jurisdiction over service matter appeals — these go directly to the Supreme Court under the Constitution)\n\nThe 30-day limitation period is strictly enforced. Late filings require condonation with sufficient cause and rarely succeed.\n\n### What a Service Tribunal Lawyer in Lahore Does\n\nThe work involves:\n\n- Reviewing the service record and disciplinary file\n- Identifying procedural defaults in the departmental proceedings (notice, opportunity of being heard, biased inquiry officer, etc.)\n- Drafting grounds with rule-by-rule analysis\n- Presenting documentary and oral evidence\n- Arguing the case before the bench\n- Coordinating with witnesses from the department where helpful\n\n### Common Procedural Defects That Win Service Cases\n\nThe most successful service tribunal appeals turn on procedural rather than factual arguments:\n\n- Inquiry conducted by an officer who was not authorised\n- Show-cause notice that did not specify charges adequately\n- No opportunity of personal hearing\n- Inquiry report not supplied to the employee before the final order\n- Charge framing inconsistent with the inquiry findings\n- Punishment disproportionate to the proved charges\n\nA **service matter lawyer in Lahore** trained in these procedural arguments wins cases that look weak on facts.\n\n### Pension and Gratuity Cases\n\nBeyond disciplinary disputes, the tribunal also hears pension and gratuity matters where the department has miscalculated, withheld, or denied entitlements. These cases are typically document-heavy and turn on rule interpretation rather than disputed facts.\n\n### Why Saeed Law Firm\n\n50 years' experience including service-tribunal practice. Familiarity with Punjab civil service rules. Office in central Lahore for ease of consultation by serving and retired government employees.\n\n### Frequently Asked Questions\n\n**Who can file at the Punjab Service Tribunal?**\nCivil servants of the Punjab Government, including those of attached departments and certain statutory bodies whose enabling laws permit. Federal government employees go to the Federal Service Tribunal.\n\n**What is the limitation period for service tribunal appeals?**\n30 days from the impugned order or rejection of departmental representation, under the Punjab Service Tribunals Act 1974. Late filings require condonation.\n\n**Can a dismissed government employee be reinstated through the tribunal?**\nYes. The tribunal may set aside dismissal and order reinstatement, with or without back wages. The remedy is discretionary and depends on the merits.\n\n**Does the Lahore High Court hear service matters?**\nThe LHC has constitutional jurisdiction over the tribunal in limited circumstances (for example, where the tribunal lacks jurisdiction or commits manifest illegality). Generally, service matter appeals proceed directly to the Supreme Court from the tribunal.\n\n**How much does a service tribunal lawyer in Lahore charge?**\nInitial consultation PKR 5,000–10,000. Tribunal appeals are stage-based — drafting and filing, hearing, arguments. Written fee proposal before engagement.",
+  "details": [
+    {
+      "label": "Court Address",
+      "values": [
+        "Punjab Service Tribunal, Lahore"
+      ]
+    },
+    {
+      "label": "Jurisdiction",
+      "values": [
+        "Service appeals of Punjab government employees"
+      ]
+    },
+    {
+      "label": "Governing Statute",
+      "values": [
+        "Punjab Service Tribunals Act 1974"
+      ]
+    },
+    {
+      "label": "Case Types We Handle",
+      "values": [
+        "Dismissal & removal appeals",
+        "Suspension challenges",
+        "Promotion & seniority disputes",
+        "Pension & gratuity recovery",
+        "Disciplinary action defence"
+      ]
+    },
+    {
+      "label": "Filing Procedure",
+      "values": []
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How do I book a consultation with Saeed Law Firm?",
+      "a": "Use the contact form on this site, call our Fane Road office, or WhatsApp us. We respond within one business day and schedule a same-week appointment for most matters."
+    },
+    {
+      "q": "Do you serve clients outside Lahore?",
+      "a": "Yes. We represent clients across Pakistan and overseas Pakistanis, with primary court appearances in Lahore. Remote consultations are available via Zoom and WhatsApp."
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "Civil Lawyer in Lahore",
+      "href": "/civil-lawyer-in-lahore",
+      "description": "Civil lawyer in Lahore handling suits for declaration, possession, recovery, specific performance, and damages at Civil Courts and Lahore High Court."
+    },
+    {
+      "title": "Lawyer at Lahore High Court",
+      "href": "/courts/lawyer-at-lahore-high-court",
+      "description": "Practising advocates at the Lahore High Court since 1975. Saeed Law Firm's office is on Fane Road, minutes from the LHC main building. Writs, appeals, and constitutional petitions."
+    }
+  ],
+  "content": {
+    "h1": "Service Tribunal Lawyer in Lahore",
+    "subheading": "Punjab Service Tribunal",
+    "description": "Punjab Service Tribunal lawyer in Lahore. Appeals on dismissal, suspension, promotion, and pension disputes for Punjab government employees.",
+    "introBlocks": [
+      {
+        "type": "paragraph",
+        "text": "The Punjab Service Tribunal hears appeals by government employees of Punjab against orders affecting their service — dismissal, removal, suspension, reduction in rank, withholding of promotion, and pension disputes. A **service tribunal lawyer in Lahore** drafts the appeal under the Punjab Service Tribunals Act 1974, marshals the service rules and disciplinary record, and presents the case to the bench. **Saeed Law Firm** has handled service matters for Lahore-based government employees since 1975, including cases reaching the Lahore High Court and Supreme Court on further appeal."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "The Punjab Service Tribunal — Jurisdiction",
+        "subheading": "",
+        "description": "The tribunal does not hear:",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "**Established under:** Punjab Service Tribunals Act 1974",
+              "**Composition:** Chairman + members appointed by the provincial government",
+              "**Jurisdiction:** appeals by Punjab government civil servants against orders relating to terms and conditions of service",
+              "**Seat:** Lahore"
+            ]
+          },
+          {
+            "type": "list",
+            "items": [
+              "Federal government employees (those go to the Federal Service Tribunal)",
+              "Statutory bodies whose enabling laws exclude the tribunal's jurisdiction",
+              "Matters not constituting service-rule grievances"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "When to File at Service Tribunal",
+        "subheading": "",
+        "description": "A **service tribunal lawyer in Lahore** files appeals on:",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "**Dismissal and removal** — orders under the Punjab Civil Servants (Efficiency and Discipline) Rules 1999",
+              "**Suspension** challenges where extended without justification",
+              "**Compulsory retirement** challenges",
+              "**Reduction in rank or pay scale**",
+              "**Withholding of increments or promotion**",
+              "**Seniority disputes** including ACR-based issues",
+              "**Pension and gratuity** denials and miscalculations",
+              "**Transfer orders** that amount to punishment in disguise",
+              "**Disciplinary proceedings** challenged on procedural grounds"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Procedure at Punjab Service Tribunal",
+        "subheading": "",
+        "description": "The 30-day limitation period is strictly enforced. Late filings require condonation with sufficient cause and rarely succeed.",
+        "blocks": [
+          {
+            "type": "orderedList",
+            "items": [
+              "**Departmental representation** — under most service rules, an internal representation is required before approaching the tribunal",
+              "**Appeal filing** at the tribunal within 30 days of the impugned order or representation rejection",
+              "**Court fee** as prescribed",
+              "**Notice to the department**",
+              "**Departmental reply** and counter-reply",
+              "**Hearing** on facts and law",
+              "**Order** of the tribunal",
+              "**Further appeal** to the Supreme Court of Pakistan (the LHC does not have jurisdiction over service matter appeals — these go directly to the Supreme Court under the Constitution)"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "What a Service Tribunal Lawyer in Lahore Does",
+        "subheading": "",
+        "description": "The work involves:",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Reviewing the service record and disciplinary file",
+              "Identifying procedural defaults in the departmental proceedings (notice, opportunity of being heard, biased inquiry officer, etc.)",
+              "Drafting grounds with rule-by-rule analysis",
+              "Presenting documentary and oral evidence",
+              "Arguing the case before the bench",
+              "Coordinating with witnesses from the department where helpful"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Common Procedural Defects That Win Service Cases",
+        "subheading": "",
+        "description": "The most successful service tribunal appeals turn on procedural rather than factual arguments:",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Inquiry conducted by an officer who was not authorised",
+              "Show-cause notice that did not specify charges adequately",
+              "No opportunity of personal hearing",
+              "Inquiry report not supplied to the employee before the final order",
+              "Charge framing inconsistent with the inquiry findings",
+              "Punishment disproportionate to the proved charges"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "A **service matter lawyer in Lahore** trained in these procedural arguments wins cases that look weak on facts."
+          }
+        ]
+      },
+      {
+        "heading": "Pension and Gratuity Cases",
+        "subheading": "",
+        "description": "Beyond disciplinary disputes, the tribunal also hears pension and gratuity matters where the department has miscalculated, withheld, or denied entitlements. These cases are typically document-heavy and turn on rule interpretation rather than disputed facts.",
+        "blocks": []
+      },
+      {
+        "heading": "Why Saeed Law Firm",
+        "subheading": "",
+        "description": "50 years' experience including service-tribunal practice. Familiarity with Punjab civil service rules. Office in central Lahore for ease of consultation by serving and retired government employees.",
+        "blocks": []
+      },
+      {
+        "heading": "Frequently Asked Questions",
+        "subheading": "",
+        "description": "**Who can file at the Punjab Service Tribunal?** Civil servants of the Punjab Government, including those of attached departments and certain statutory bodies whose enabling laws permit. Federal government employees go to the Federal Service Tribunal.",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "**What is the limitation period for service tribunal appeals?** 30 days from the impugned order or rejection of departmental representation, under the Punjab Service Tribunals Act 1974. Late filings require condonation."
+          },
+          {
+            "type": "paragraph",
+            "text": "**Can a dismissed government employee be reinstated through the tribunal?** Yes. The tribunal may set aside dismissal and order reinstatement, with or without back wages. The remedy is discretionary and depends on the merits."
+          },
+          {
+            "type": "paragraph",
+            "text": "**Does the Lahore High Court hear service matters?** The LHC has constitutional jurisdiction over the tribunal in limited circumstances (for example, where the tribunal lacks jurisdiction or commits manifest illegality). Generally, service matter appeals proceed directly to the Supreme Court from the tribunal."
+          },
+          {
+            "type": "paragraph",
+            "text": "**How much does a service tribunal lawyer in Lahore charge?** Initial consultation PKR 5,000–10,000. Tribunal appeals are stage-based — drafting and filing, hearing, arguments. Written fee proposal before engagement."
+          }
+        ]
+      }
+    ]
+  }
+}
