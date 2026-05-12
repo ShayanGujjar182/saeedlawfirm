@@ -127,8 +127,7 @@ export default function DynamicSeoPage({
             <div className="w-12 h-1 bg-gold-600 rounded mx-auto mb-6" />
             <p className="text-gray-300 text-base leading-relaxed max-w-2xl mx-auto mb-8">{page.hero.intro}</p>
             <div className="flex flex-wrap justify-center gap-4">
-              <Link href="/contact" className="btn-gold">Book a Consultation Today</Link>
-              <a href="tel:+923194959420" className="inline-flex items-center px-6 py-3 border-2 border-white text-white font-semibold rounded text-sm hover:bg-white/10 transition-colors duration-200">Call Now</a>
+              <Link href="https://wa.me/+923194959420" className="btn-gold">Call Now</Link>
             </div>
           </div>
         </header>
@@ -239,8 +238,7 @@ export default function DynamicSeoPage({
             Speak with Saeed Law Firm about your matter and get a clear case scope, documents checklist, and next steps.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Link href="/contact" className="bg-white text-gold-700 font-semibold px-6 py-3 rounded hover:bg-gold-50 transition-colors duration-200">Get In Touch</Link>
-            <a href="tel:+923194959420" className="border-2 border-white text-white font-semibold px-6 py-3 rounded hover:bg-white/10 transition-colors duration-200">+92 319 4959420</a>
+            <Link href="https://wa.me/+923194959420" className="bg-white text-gold-700 font-semibold px-6 py-3 rounded hover:bg-gold-50 transition-colors duration-200">Call Now</Link>
           </div>
         </section>
       </main>

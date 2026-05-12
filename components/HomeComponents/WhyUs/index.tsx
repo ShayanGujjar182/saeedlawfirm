@@ -53,8 +53,8 @@ const WhyUs = (): JSX.Element => {
 						))}
 					</div>
 
-					<Link href="/contact" className="btn-gold">
-						Get in Touch
+					<Link href="https://wa.me/+923194959420" className="btn-gold">
+						Call Now
 					</Link>
 				</div>
 			</div>

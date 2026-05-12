@@ -53,11 +53,8 @@ const Landing = () => {
 					</ul>
 
 					<div className="flex flex-wrap gap-4">
-						<Link href="/what-we-do" className="btn-gold">
-							Explore Our Services
-						</Link>
-						<Link href="/contact" className="btn-outline">
-							Book a Consultation
+						<Link href="https://wa.me/+923194959420" className="btn-outline">
+							Call Now
 						</Link>
 					</div>
 

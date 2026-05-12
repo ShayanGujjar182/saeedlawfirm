@@ -41,7 +41,7 @@ export default function Services() {
             <p className="text-gray-300 mb-6 max-w-xl mx-auto text-sm leading-relaxed">
               Contact Saeed Law Firm today. Discuss your legal matter and begin working toward the best possible outcome with experienced lawyers.
             </p>
-            <Link href="/contact" className="btn-gold">Book a Consultation Today</Link>
+            <Link href="https://wa.me/+923194959420" className="btn-gold">Call Now</Link>
           </div>
         </div>
       </div>

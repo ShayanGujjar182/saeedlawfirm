@@ -72,8 +72,7 @@ export default function Home() {
               Whether you require urgent legal assistance, long-term legal counsel, or effective courtroom representation, Saeed Law Firm Lahore remains committed to protecting your rights and achieving the best possible legal outcomes.
             </p>
             <div className="flex flex-wrap gap-4">
-              <Link href="/contact" className="btn-gold">Book a Consultation Today</Link>
-              <a href="tel:+923194959420" className="btn-outline">Call Now</a>
+              <Link href="https://wa.me/+923194959420" className="btn-gold">Call Now</Link>
             </div>
           </div>
           <div className="w-full md:w-1/2 relative">
@@ -97,8 +96,8 @@ export default function Home() {
         <p className="text-white/90 mb-5 max-w-xl mx-auto text-sm">
           Schedule your consultation today and take the first step towards resolving your legal matters. Our team is ready to assist you.
         </p>
-        <Link href="/contact" className="bg-white text-gold-700 font-semibold px-7 py-3 rounded hover:bg-gold-50 transition-colors duration-200 inline-block">
-          Book a Consultation Today
+        <Link href="https://wa.me/+923194959420" className="bg-white text-gold-700 font-semibold px-7 py-3 rounded hover:bg-gold-50 transition-colors duration-200 inline-block">
+          Call Now
         </Link>
       </div>
 
@@ -199,7 +198,7 @@ export default function Home() {
           <p className="text-navy-700 mb-8 max-w-xl mx-auto text-sm leading-relaxed">
             Looking for exceptional legal support? Get in touch today to schedule a consultation. Whether it&apos;s business law, family law, civil litigation, or immigration matters, Saeed &amp; Lawyers Lahore is here to assist you every step of the way.
           </p>
-          <Link href="/contact" className="btn-gold">Get In Touch Today</Link>
+          <Link href="https://wa.me/+923194959420" className="btn-gold">Call Now</Link>
         </div>
       </section>
 

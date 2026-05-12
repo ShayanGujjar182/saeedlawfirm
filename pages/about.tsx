@@ -31,7 +31,7 @@ export default function About() {
             <p className="text-navy-700 leading-relaxed mb-8">
               Committed to professionalism, integrity, and excellence, we guide you through every legal challenge with clarity and confidence, delivering outcomes that secure your future and build lasting trust.
             </p>
-            <Link href="/contact" className="btn-gold">Get In Touch</Link>
+            <Link href="https://wa.me/+923194959420" className="btn-gold">Call Now</Link>
           </div>
         </div>
       </section>
@@ -69,8 +69,8 @@ export default function About() {
         <p className="text-white/90 mb-6 max-w-xl mx-auto text-sm">
           Get compassionate legal help for divorce, custody, maintenance, or guardianship. Contact Saeed Law Firm today for a private consultation with an experienced family lawyer.
         </p>
-        <Link href="/contact" className="bg-white text-gold-700 font-semibold px-7 py-3 rounded hover:bg-gold-50 transition-colors duration-200 inline-block">
-          Book a Consultation
+        <Link href="https://wa.me/+923194959420" className="bg-white text-gold-700 font-semibold px-7 py-3 rounded hover:bg-gold-50 transition-colors duration-200 inline-block">
+          Call Now
         </Link>
       </section>
     </>

@@ -82,7 +82,7 @@ const PhoneIcon = () => (
 const SOCIAL_LINKS = [
 	{
 		label: 'Facebook',
-		href: 'https://www.facebook.com/saeedlawfirm',
+		href: 'https://www.facebook.com/people/Saaed-Law-Firm/61589129141834/',
 		icon: (
 			<svg className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
 				<path d="M14 8.5V6.75c0-.77.5-.95.86-.95H17V2.1L14.02 2C10.7 2 9.94 4.48 9.94 6.07V8.5H7v3.86h2.94V22h4.06v-9.64h2.73l.43-3.86H14Z" />
@@ -90,23 +90,20 @@ const SOCIAL_LINKS = [
 		)
 	},
 	{
-		label: 'LinkedIn',
-		href: 'https://www.linkedin.com/company/saeedlawfirm',
+		label: 'YouTube',
+		href: 'https://www.youtube.com/@saeedlawfirmpakistan',
 		icon: (
 			<svg className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-				<path d="M6.94 8.98H3.22V21h3.72V8.98ZM5.08 3C3.88 3 2.9 3.94 2.9 5.1c0 1.18.98 2.12 2.18 2.12 1.22 0 2.2-.94 2.2-2.12C7.28 3.94 6.3 3 5.08 3Zm16.02 11.1c0-3.22-1.72-5.38-4.58-5.38-1.58 0-2.64.86-3.08 1.68h-.05V8.98H9.82V21h3.72v-5.94c0-1.57.3-3.08 2.24-3.08 1.9 0 1.93 1.78 1.93 3.18V21h3.72v-6.9h-.33Z" />
+				<path d="M21.58 7.19a2.75 2.75 0 0 0-1.94-1.95C17.92 4.78 11.99 4.78 11.99 4.78s-5.93 0-7.65.46A2.75 2.75 0 0 0 2.4 7.19 28.7 28.7 0 0 0 1.94 12a28.7 28.7 0 0 0 .46 4.81 2.75 2.75 0 0 0 1.94 1.95c1.72.46 7.65.46 7.65.46s5.93 0 7.65-.46a2.75 2.75 0 0 0 1.94-1.95A28.7 28.7 0 0 0 22.04 12a28.7 28.7 0 0 0-.46-4.81ZM10 15.27V8.73L15.45 12 10 15.27Z" />
 			</svg>
 		)
 	},
 	{
-		label: 'Google Business',
-		href: 'https://g.page/saeedlawfirm',
+		label: 'Instagram',
+		href: 'https://www.instagram.com/saeed.lawfirm/',
 		icon: (
 			<svg className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-				<path d="M21.6 12.23c0-.74-.07-1.45-.2-2.13H12v4.03h5.38a4.6 4.6 0 0 1-2 3.02v2.5h3.24c1.9-1.75 2.98-4.32 2.98-7.42Z" />
-				<path d="M12 22c2.7 0 4.97-.9 6.62-2.43l-3.24-2.5c-.9.6-2.05.96-3.38.96-2.6 0-4.8-1.76-5.58-4.12H3.08v2.58A9.99 9.99 0 0 0 12 22Z" />
-				<path d="M6.42 13.91A6.02 6.02 0 0 1 6.1 12c0-.66.11-1.3.32-1.91V7.51H3.08A9.99 9.99 0 0 0 2 12c0 1.61.39 3.13 1.08 4.49l3.34-2.58Z" />
-				<path d="M12 5.97c1.47 0 2.78.5 3.82 1.49l2.87-2.87C16.96 2.98 14.7 2 12 2a9.99 9.99 0 0 0-8.92 5.51l3.34 2.58C7.2 7.73 9.4 5.97 12 5.97Z" />
+				<path d="M7.75 2h8.5A5.76 5.76 0 0 1 22 7.75v8.5A5.76 5.76 0 0 1 16.25 22h-8.5A5.76 5.76 0 0 1 2 16.25v-8.5A5.76 5.76 0 0 1 7.75 2Zm0 2A3.75 3.75 0 0 0 4 7.75v8.5A3.75 3.75 0 0 0 7.75 20h8.5A3.75 3.75 0 0 0 20 16.25v-8.5A3.75 3.75 0 0 0 16.25 4h-8.5ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm5.25-2.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5Z" />
 			</svg>
 		)
 	}
@@ -273,7 +270,7 @@ export default function Navbar() {
 						Contact
 					</Link>
 
-					<Link href="/contact" className="btn-gold text-sm">
+					<Link href="https://wa.me/+923194959420" className="btn-gold text-sm">
 						Book Consultation
 					</Link>
 				</div>
@@ -392,7 +389,7 @@ export default function Navbar() {
 					</Link>
 
 					<Link
-						href="/contact"
+						href="https://wa.me/+923194959420"
 						onClick={close}
 						className="btn-gold w-full justify-center mt-3 block text-center"
 					>

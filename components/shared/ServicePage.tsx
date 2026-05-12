@@ -56,8 +56,7 @@ export default function ServicePage({
           <div className="w-12 h-1 bg-gold-600 rounded mx-auto mb-6" />
           <p className="text-gray-300 text-base leading-relaxed max-w-2xl mx-auto mb-8">{intro}</p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Link href="/contact" className="btn-gold">Book a Consultation Today</Link>
-            <a href="tel:+923194959420" className="inline-flex items-center px-6 py-3 border-2 border-white text-white font-semibold rounded text-sm hover:bg-white/10 transition-colors duration-200 cursor-pointer">Call Now</a>
+            <Link href="https://wa.me/+923194959420" className="btn-gold">Call Now</Link>
           </div>
         </div>
       </div>
@@ -183,8 +182,7 @@ export default function ServicePage({
           {ctaBody ?? 'Contact Saeed Law Firm today. Discuss your legal matter, understand your position, and begin building your case with experienced lawyers.'}
         </p>
         <div className="flex flex-wrap justify-center gap-4">
-          <Link href="/contact" className="bg-white text-gold-700 font-semibold px-6 py-3 rounded hover:bg-gold-50 transition-colors duration-200 cursor-pointer">Get In Touch</Link>
-          <a href="tel:+923194959420" className="border-2 border-white text-white font-semibold px-6 py-3 rounded hover:bg-white/10 transition-colors duration-200 cursor-pointer">+92 319 4959420</a>
+          <Link href="https://wa.me/+923194959420" className="bg-white text-gold-700 font-semibold px-6 py-3 rounded hover:bg-gold-50 transition-colors duration-200 cursor-pointer">Call Now</Link>
         </div>
       </div>
 
