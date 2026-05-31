@@ -6,18 +6,18 @@
   "casesHandled": "800+",
   "url": "https://saeedlawfirm.com",
   "logo": "https://saeedlawfirm.com/logo.png",
-  "telephone": "+92-XXX-XXXXXXX",
+  "telephone": "+92-319-4959420",
   "email": "info@saeedlawfirm.com",
   "address": {
-    "streetAddress": "13 Fane Road, Tauheed Manzil",
+    "streetAddress": "Y Block Main Market, Sector Y, DHA Phase 3",
     "addressLocality": "Lahore",
     "addressRegion": "Punjab",
-    "postalCode": "54000",
+    "postalCode": "54793",
     "addressCountry": "PK"
   },
   "geo": {
-    "latitude": 31.5610,
-    "longitude": 74.3147
+    "latitude": 31.472,
+    "longitude": 74.378
   },
   "openingHours": [
     "Mo-Fr 09:00-18:00",

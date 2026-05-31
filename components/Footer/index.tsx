@@ -55,7 +55,7 @@ export default function Footer() {
               <p className="text-white text-xs font-semibold uppercase tracking-widest mb-2">Contact</p>
               <a href="tel:+923194959420" className="block text-gray-400 hover:text-gold-400 transition-colors cursor-pointer">+92 319 4959420</a>
               <p className="text-gray-400">FAX: +92 319 4959420</p>
-              <p className="text-gray-400 text-xs leading-snug">13 Fane Road Tauheed Mazil,<br />Lahore, Pakistan</p>
+              <p className="text-gray-400 text-xs leading-snug">Y Block Main Market, Sector Y,<br />DHA Phase 3, Lahore 54793</p>
             </div>
           </div>
         </div>

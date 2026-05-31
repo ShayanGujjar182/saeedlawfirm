@@ -6,7 +6,7 @@ export default function Document() {
       <Head>
         <meta
           name="description"
-          content="Saeed Law Firm Lahore – Trusted Lawyers & Legal Consultants in Lahore. Established 1975. 50+ years experience. Expert in Family Law, Criminal Defence, Tax, Immigration, Personal Injury & Civil Litigation."
+          content="Saeed Law Firm Lahore: Trusted Lawyers & Legal Consultants in Lahore. Established 1975. 50+ years experience. Expert in Family Law, Criminal Defence, Tax, Immigration, Personal Injury & Civil Litigation."
         />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

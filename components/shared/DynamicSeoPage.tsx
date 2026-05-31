@@ -163,10 +163,15 @@ export default function DynamicSeoPage({
                 ))}
               </article>
             ) : (
-              <article
-                className="seo-content text-navy-800"
-                dangerouslySetInnerHTML={{ __html: html }}
-              />
+              <>
+                {page.reviewNote && (
+                  <p className="text-sm italic text-gray-500 mb-8">{page.reviewNote}</p>
+                )}
+                <article
+                  className="seo-content text-navy-800"
+                  dangerouslySetInnerHTML={{ __html: html }}
+                />
+              </>
             )}
           </div>
         </section>
@@ -235,7 +240,7 @@ export default function DynamicSeoPage({
         <section className="bg-gold-600 py-12 px-6 text-center">
           <h2 className="font-serif text-2xl md:text-3xl font-semibold text-white mb-3">Book a Consultation</h2>
           <p className="text-white/90 mb-6 max-w-xl mx-auto text-sm leading-relaxed">
-            Speak with Saeed Law Firm about your matter and get a clear case scope, documents checklist, and next steps.
+            Your initial consultation is normally PKR 8,000, free for a limited time. Speak with Saeed Law Firm about your matter and get a clear case scope, documents checklist, and next steps.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="https://wa.me/+923194959420" className="bg-white text-gold-700 font-semibold px-6 py-3 rounded hover:bg-gold-50 transition-colors duration-200">Call Now</Link>

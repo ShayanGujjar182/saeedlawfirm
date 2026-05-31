@@ -25,7 +25,7 @@ export default function Contact() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
                 <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
               </svg>
-              <span className="text-sm text-navy-700 font-medium">13 Fane Road Infront of Lahore High Court, Tauheed Manzil</span>
+              <span className="text-sm text-navy-700 font-medium">Y Block Main Market, Sector Y, DHA Phase 3, Lahore 54793</span>
             </div>
 
             <a href="tel:+923194959420" className="flex flex-col items-center text-center bg-white border border-gray-200 rounded-lg px-4 py-6 hover:border-gold-300 transition-colors duration-200 cursor-pointer">
