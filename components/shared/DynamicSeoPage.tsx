@@ -28,8 +28,27 @@ function inlineHtml(value: string) {
   return { __html: inlineMarkdownToHtml(value) }
 }
 
+const FREE_OFFER = 'free for a limited time'
+
+function highlightFreeOffer(value: string) {
+  const html = inlineMarkdownToHtml(value).replace(
+    FREE_OFFER,
+    `<strong class="text-red-600 font-bold">${FREE_OFFER}</strong>`,
+  )
+  return { __html: html }
+}
+
 function renderContentBlock(block: PageContentBlock, index: number) {
   if (block.type === 'paragraph') {
+    if (block.text.startsWith('Reviewed by') || block.text.startsWith('Last updated')) {
+      return (
+        <p
+          key={index}
+          className="italic text-gold-700 text-sm border-l-2 border-gold-400 pl-4 mb-6"
+          dangerouslySetInnerHTML={inlineHtml(block.text)}
+        />
+      )
+    }
     return <p key={index} dangerouslySetInnerHTML={inlineHtml(block.text)} />
   }
 
@@ -208,7 +227,7 @@ export default function DynamicSeoPage({
                       </svg>
                     </summary>
                     <div className="px-6 pb-5 text-sm text-navy-700 leading-relaxed border-t border-gray-100">
-                      <p className="pt-4">{item.a}</p>
+                      <p className="pt-4" dangerouslySetInnerHTML={highlightFreeOffer(item.a)} />
                     </div>
                   </details>
                 ))}
@@ -240,7 +259,7 @@ export default function DynamicSeoPage({
         <section className="bg-gold-600 py-12 px-6 text-center">
           <h2 className="font-serif text-2xl md:text-3xl font-semibold text-white mb-3">Book a Consultation</h2>
           <p className="text-white/90 mb-6 max-w-xl mx-auto text-sm leading-relaxed">
-            Your initial consultation is normally PKR 8,000, free for a limited time. Speak with Saeed Law Firm about your matter and get a clear case scope, documents checklist, and next steps.
+            Your initial consultation is normally PKR 8,000, <strong className="text-black font-bold">free for a limited time</strong>. Speak with Saeed Law Firm about your matter and get a clear case scope, documents checklist, and next steps.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="https://wa.me/+923194959420" className="bg-white text-gold-700 font-semibold px-6 py-3 rounded hover:bg-gold-50 transition-colors duration-200">Call Now</Link>
