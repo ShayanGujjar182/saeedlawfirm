@@ -134,7 +134,7 @@ export default function DynamicSeoPage({
         <meta property="og:type" content="website" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(organizationSchema()) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(breadcrumbSchema(breadcrumbs)) }} />
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(legalServiceSchema({ h1: page.hero.h1, metaDescription: page.seo.description, slug: canonicalPath.replace(/^\//, '') })) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(legalServiceSchema({ h1: page.hero.h1, metaDescription: page.seo.description, slug: canonicalPath.replace(/^\//, ''), areaServed: page.areaServed })) }} />
         {faqs.length > 0 && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(faqSchema(faqs)) }} />}
       </Head>
 

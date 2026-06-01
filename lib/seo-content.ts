@@ -204,7 +204,20 @@ export function faqSchema(items: FAQ[]) {
   }
 }
 
-export function legalServiceSchema(page: { h1: string; metaDescription: string; slug: string; service?: string }) {
+export function legalServiceSchema(page: {
+  h1: string
+  metaDescription: string
+  slug: string
+  service?: string
+  areaServed?: string | string[]
+}) {
+  const areas = page.areaServed
+    ? (Array.isArray(page.areaServed) ? page.areaServed : [page.areaServed]).map(name => ({
+        '@type': 'Place',
+        name,
+      }))
+    : { '@type': 'City', name: 'Lahore' }
+
   return {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
@@ -212,7 +225,12 @@ export function legalServiceSchema(page: { h1: string; metaDescription: string; 
     description: page.metaDescription,
     url: `${SITE_URL}/${page.slug}`,
     provider: { '@id': `${SITE_URL}#organization` },
-    areaServed: { '@type': 'City', name: 'Lahore' },
+    address: {
+      '@type': 'PostalAddress',
+      ...FIRM.address,
+    },
+    telephone: FIRM.telephone,
+    areaServed: areas,
     serviceType: page.service ?? page.h1,
   }
 }

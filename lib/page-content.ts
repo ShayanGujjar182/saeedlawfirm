@@ -76,6 +76,7 @@ export type SeoPageContent = {
     intro: string
   }
   content?: PageContentHierarchy
+  areaServed?: string | string[]
   reviewNote?: string
   bodyMarkdown: string
   details: PageDetail[]
