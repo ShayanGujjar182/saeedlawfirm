@@ -1,7 +1,13 @@
 import fs from 'fs'
 import path from 'path'
 
-export type PageKind = 'service' | 'court' | 'area'
+export type PageKind = 'service' | 'court' | 'area' | 'article'
+
+export type PageAuthor = {
+  name: string
+  title?: string
+  barCouncil?: string
+}
 
 export type PageFAQ = {
   q: string
@@ -78,6 +84,9 @@ export type SeoPageContent = {
   content?: PageContentHierarchy
   areaServed?: string | string[]
   reviewNote?: string
+  author?: PageAuthor
+  datePublished?: string
+  dateModified?: string
   bodyMarkdown: string
   details: PageDetail[]
   faqs: PageFAQ[]

@@ -257,6 +257,13 @@ export default function Navbar() {
 					))}
 
 					<Link
+						href="/blog"
+						className="text-sm font-medium text-navy-800 hover:text-gold-600 transition-colors duration-200"
+					>
+						Blog
+					</Link>
+
+					<Link
 						href="/about"
 						className="text-sm font-medium text-navy-800 hover:text-gold-600 transition-colors duration-200"
 					>
@@ -371,6 +378,14 @@ export default function Navbar() {
 							)}
 						</div>
 					))}
+
+					<Link
+						href="/blog"
+						onClick={close}
+						className="block py-2.5 text-sm font-medium text-navy-800 hover:text-gold-600 transition-colors"
+					>
+						Blog
+					</Link>
 
 					<Link
 						href="/about"

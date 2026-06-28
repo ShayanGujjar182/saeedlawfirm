@@ -4,6 +4,7 @@ import Link from 'next/link'
 import type { SeoPageContent } from '../../lib/page-content'
 import {
   SITE_URL,
+  articleSchema,
   breadcrumbSchema,
   faqSchema,
   inlineMarkdownToHtml,
@@ -134,7 +135,11 @@ export default function DynamicSeoPage({
         <meta property="og:type" content="website" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(organizationSchema()) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(breadcrumbSchema(breadcrumbs)) }} />
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(legalServiceSchema({ h1: page.hero.h1, metaDescription: page.seo.description, slug: canonicalPath.replace(/^\//, ''), areaServed: page.areaServed })) }} />
+        {page.kind === 'article' ? (
+          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(articleSchema({ h1: page.hero.h1, metaDescription: page.seo.description, path: canonicalPath, datePublished: page.datePublished, dateModified: page.dateModified, author: page.author })) }} />
+        ) : (
+          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(legalServiceSchema({ h1: page.hero.h1, metaDescription: page.seo.description, slug: canonicalPath.replace(/^\//, ''), areaServed: page.areaServed })) }} />
+        )}
         {faqs.length > 0 && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(faqSchema(faqs)) }} />}
       </Head>
 

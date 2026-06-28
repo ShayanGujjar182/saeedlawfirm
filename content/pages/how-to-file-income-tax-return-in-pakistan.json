@@ -1,0 +1,105 @@
+{
+  "kind": "article",
+  "slug": "how-to-file-income-tax-return-in-pakistan",
+  "route": "/blog/how-to-file-income-tax-return-in-pakistan",
+  "parent": {
+    "label": "Blog",
+    "slug": "blog",
+    "route": "/blog"
+  },
+  "ancestors": [
+    {
+      "label": "Best Lawyers in Lahore",
+      "slug": "lawyers-in-lahore",
+      "route": "/lawyers-in-lahore"
+    },
+    {
+      "label": "Blog",
+      "slug": "blog",
+      "route": "/blog"
+    }
+  ],
+  "seo": {
+    "title": "How to File Your Income Tax Return in Pakistan: Step-by-Step",
+    "description": "File your income tax return in Pakistan: deadline, IRIS steps, wealth statement & refund process explained. Annual guide for salaried persons.",
+    "canonicalPath": "/blog/how-to-file-income-tax-return-in-pakistan"
+  },
+  "hero": {
+    "eyebrow": "Tax Guide",
+    "h1": "How to File Your Income Tax Return in Pakistan",
+    "intro": "If you earn a salary in Pakistan and are above the income threshold, or if you're on the Active Taxpayer List, you must file an income tax return each year. The deadline is usually 30 September. You file on the IRIS portal at iris.fbr.gov.pk using your NTN. It takes about 1-2 hours."
+  },
+  "author": {
+    "name": "Bilal Saeed",
+    "title": "Advocate",
+    "barCouncil": "Punjab Bar Council"
+  },
+  "datePublished": "2026-06-28",
+  "dateModified": "2026-06-28",
+  "bodyMarkdown": "\nThis guide reflects the law and FBR practice as of June 2026. Deadlines and penalty amounts change, so confirm the current figures on the official FBR site before you file.\n\n## Key Facts at a Glance\n\n| Item | Detail |\n|---|---|\n| Who must file | Salaried persons above the taxable-income threshold set by FBR; anyone listed on the Active Taxpayer List (ATL); business or agricultural income above threshold |\n| Deadline | Generally 30 September for salaried persons. FBR may extend by notification; always check fbr.gov.pk in August |\n| Where to file | IRIS portal at iris.fbr.gov.pk using your NTN |\n| Wealth statement | Required for resident individuals under section 116; list all assets as of 30 June |\n| Late filing | A penalty applies under section 182A and you lose ATL surcharge benefits; amounts set by FBR, check current rate |\n| Governing law | Income Tax Ordinance 2001 (section 114 return, section 116 wealth statement, section 182A penalties, section 114A assessment notices) |\n\n### Who Must File an Income Tax Return\n\nThe Federal Board of Revenue (FBR) requires you to file an income tax return if you meet any of these conditions:\n\n1. You earned income above FBR's annual tax-free threshold for salaried persons.\n2. You are listed on the Active Taxpayer List (ATL), regardless of income level.\n3. You own agricultural or business income above the threshold.\n4. You hold valuable assets (property, vehicles, investments) that suggest taxable income.\n\nFor salaried persons, the income threshold is set by [FBR](https://fbr.gov.pk) each year. If you're unsure whether you meet it, check the latest FBR notification on [fbr.gov.pk](https://fbr.gov.pk) or contact your employer's HR department. If you're on the ATL, filing is mandatory. Failure to file carries penalties under the [Income Tax Ordinance 2001](https://pakistancode.gov.pk). If you are not yet a filer, you may first need to [register as a filer](/blog/how-to-become-a-filer-in-pakistan).\n\n### The Filing Deadline and Extensions\n\nThe standard deadline for salaried persons is 30 September of the tax year. This deadline is fixed in the [Income Tax Ordinance 2001](https://pakistancode.gov.pk), section 114. However, [FBR](https://fbr.gov.pk) may issue a notification extending the deadline each year due to technical issues or other circumstances. You should check [fbr.gov.pk](https://fbr.gov.pk) in August or September to confirm the current year's deadline. For the official return forms and step-by-step IRIS screens, use the [IRIS portal](https://iris.fbr.gov.pk) and the [FBR taxpayer guides](https://fbr.gov.pk).\n\nFiling after 30 September (or any extended deadline) incurs a late-filing penalty. A penalty for late or non-filing applies under the Income Tax Ordinance 2001; FBR sets and revises the amount, so check the current penalty on the [FBR](https://fbr.gov.pk) site. Do not rely on outdated figures. The penalty and loss of ATL surcharge benefits make it worthwhile to file on time.\n\n### Documents and Data You Need Before Filing\n\nGather the following before you log into IRIS:\n\n| Item | Source | What It Shows |\n|---|---|---|\n| Salary certificate | Your employer's HR department | Total salary, deductions already withheld |\n| Tax deducted at source (TDS) statement | Your employer or the FBR portal | Taxes already paid on your salary |\n| List of bank accounts | Your banks | Account numbers and balances as of 30 June |\n| Property documents (if owned) | Your original deeds or DC valuation | Asset value for wealth statement |\n| Vehicle registration (if owned) | NADRA or your registration paper | Vehicle details and value |\n| Rental income documents (if applicable) | Your tenancy agreements and receipts | Income from property lettings |\n| Investment statements (if applicable) | Your broker or fund manager | Stocks, bonds, or mutual fund values |\n| NTN (National Tax Number) | Your NTN certificate or FBR portal | Your identifier in the tax system |\n\n### Step-by-Step IRIS Filing for Salaried Persons\n\n**Step 1: Log into IRIS**\n\nGo to [iris.fbr.gov.pk](https://iris.fbr.gov.pk). Enter your NTN and password. If you don't have an IRIS account, register first on the [FBR](https://fbr.gov.pk) website using your CNIC, NTN, and mobile number. Verify your mobile number via OTP (one-time password).\n\n**Step 2: Start a New Return**\n\nClick \"File Return\" or \"New Return\" (the wording varies by year). The system will prompt you to select the return type. For salaried persons, choose \"Individual Return – Salaried\" or similar. The system will then display a form for the current tax year.\n\n**Step 3: Enter Personal and Income Details**\n\nFill in your personal information (name, CNIC, NTN, address). Then, in the income section, enter:\n- Your gross salary from your employer\n- Any allowances (housing, transport, entertainment)\n- Any other employment income\n- If you have business income, rental income, or capital gains, enter those in their respective sections\n\nAttach or reference your salary certificate. IRIS may auto-fill some fields if your employer has filed withholding information with FBR. In our Lahore practice, we often see salaried filers discover that the tax deducted at source shown on their employer's TDS certificate does not match what appears in the IRIS system. The fix is to reconcile the employer's deduction certificate against the IRIS figures before submitting your return; contact your employer's HR or the FBR to clarify the discrepancy if amounts differ significantly.\n\n**Step 4: Deduct Allowances and Expenses**\n\nUnder the deductions section, claim:\n- Zakat (if applicable and paid)\n- Professional fees or subscriptions\n- Interest on educational loans (if applicable)\n- Insurance premiums\n- Charitable donations (within limits set by FBR)\n\nDo not over-claim; keep receipts. IRIS may flag unusually large deductions for review.\n\n**Step 5: Complete the Wealth Statement**\n\nThis is the reconciliation of your assets. Section 116 of the Income Tax Ordinance 2001 requires you to declare all assets as of 30 June of the tax year. You must list:\n- Bank account balances (all accounts, all banks)\n- Property owned (address, value per DC valuation or FBR tables)\n- Vehicles (make, year, estimated value)\n- Jewelry, stocks, or other investments\n- Any loans outstanding (mortgages, personal loans)\n\nYour total assets should equal your accumulated income plus any gifts or inheritance, minus what you've spent. A gap between the two raises flags.\n\nExample (illustrative, hypothetical): You own a house valued at 5 million rupees, but your tax returns show only 2 million in lifetime salary. FBR will issue a notice asking you to reconcile the difference. You would need to produce documents showing the source: an inheritance letter with a death certificate, a registered gift deed, a loan agreement from a family member, or receipts from the sale of inherited property.\n\n**Step 6: Review and Submit**\n\nIRIS will show you a summary. Check that all figures are correct. Click \"Submit.\" The system generates a Unique Submission Reference (USR). Save or screenshot this number. You will receive an email confirmation and an SMS to your registered mobile number.\n\n**Step 7: Verification**\n\nAfter submission, you have 30 days to verify your return using a digital signature or by visiting an FBR office to sign a hard copy. Most people verify online using their NTN login. IRIS will prompt you to verify; do so as soon as possible to avoid delays. Once verified, your return is considered filed in full.\n\n### Wealth Statement Reconciliation\n\nThe wealth statement is where things often get complicated. [FBR](https://fbr.gov.pk) matches your declared income against your assets. If the two don't align, they will issue a notice under section 114A asking you to explain the gap.\n\nFBR typically accepts these sources as proof:\n- Inheritance letters (with death certificate of the decedent)\n- Registered gift deeds\n- Loans from family members (statutory declaration from the lender)\n- Proceeds from sale of inherited property\n- Business drawings or withdrawals from a sole proprietorship\n\nIf you don't respond within 30 days, FBR can treat the gap as unreported income and demand payment. Keep all documents that show where your money came from.\n\n### After You File: ATL Status and Refunds\n\nOnce your return is verified, FBR processes it. You'll hear back in 15-30 days.\n\n**Added to ATL (Active Taxpayer List).** You're now officially a filer. You get lower withholding on bank interest, can apply for loans more easily, and meet business licensing requirements. You also have to file every year going forward.\n\n**Refund.** If FBR deducted more tax than you owe, you get a refund. It takes 30-60 days. The money goes to your bank account. Track it on IRIS under \"Refund Status.\"\n\n**Additional Tax Demanded.** If FBR finds problems or issues a supplementary assessment, they'll send you a notice. You have 30 days to respond or pay.\n\n### Late Filing Penalties\n\nFile after the deadline, and you pay a penalty under section 182A of the [Income Tax Ordinance 2001](https://pakistancode.gov.pk). A penalty for late or non-filing applies; FBR sets and revises the amount, so check the current penalty on the [FBR](https://fbr.gov.pk) site. You also lose relief from the late-filer surcharge. Do not assume outdated penalty percentages apply to your year.\n\nKey statutory sections: section 114 (filing obligation), section 116 (wealth statement), section 182A (late-filing penalty), section 114A (FBR assessment notices).\n\n### What Happens If You Don't File\n\nSkip the deadline and you face:\n- A penalty under section 182A (FBR's rate changes yearly).\n- Loss of ATL status.\n- A notice from FBR under section 114A for a best-judgment assessment.\n- No refunds.\n- Problems getting loans or business licenses that require filer status.\n- Possible prosecution if FBR thinks you dodged taxes on purpose (rare for salaried people, but it happens).\n\nIf you missed the deadline in past years, it's not too late. File an arrears return. You'll pay penalties, but it clears the record.\n\n### When to Hire a Tax Lawyer in Lahore\n\nYou should seek professional help if:\n\n1. **You've received an FBR notice** (section 114A, supplementary assessment, or show-cause notice). These require a formal written response within 30 days. A lawyer can draft the response and represent you at FBR hearings.\n\n2. **Your wealth statement doesn't reconcile**. If you have a large gap between assets and declared income, a lawyer can structure a statutory declaration or gift deed and liaise with FBR to avoid a lengthy assessment.\n\n3. **You are a non-resident earning Pakistani income** (e.g., remittances, rental income from property in Pakistan, or pensions). Non-resident taxation has special rules; a lawyer can ensure compliance and minimize withholding.\n\n4. **Your case goes to ATIR (Appeals Tribunal of Income Tax)** or the Lahore High Court. Only a Bar-Council-admitted lawyer can represent you in court. Tax consultants cannot.\n\nIf your return is straightforward (single employer, standard deductions, no assets to reconcile), you can often file on your own or with an accountant. But if FBR issues a notice, do not respond without a lawyer.\n\n### FAQs\n\n**Q: What is the last date for income tax return filing in Pakistan?**\n\nA: The standard deadline is 30 September of the tax year. [FBR](https://fbr.gov.pk) may extend it by notification. Check [fbr.gov.pk](https://fbr.gov.pk) in August for the current year's deadline. If you miss the deadline, you can still file, but you will be liable for a late-filing penalty under section 182A.\n\n**Q: How do I file an income tax return for a salaried person in Pakistan?**\n\nA: Log into [IRIS](https://iris.fbr.gov.pk) using your NTN and password. Select \"Individual Return – Salaried,\" enter your salary and deductions, complete the wealth statement, and submit. Verify your return within 30 days to finalize. The whole process takes 1-2 hours if you have your documents ready.\n\n**Q: What is the penalty for late filing in Pakistan?**\n\nA: The penalty is calculated under section 182A of the [Income Tax Ordinance 2001](https://pakistancode.gov.pk) and is a percentage of your tax liability. [FBR](https://fbr.gov.pk) updates the percentage each year. Late filers also lose surcharge relief benefits. Check the current rate on [fbr.gov.pk](https://fbr.gov.pk).\n\n**Q: Do I need a wealth statement in my income tax return?**\n\nA: Yes. Section 116 of the Income Tax Ordinance 2001 requires all taxpayers to file a wealth statement listing all assets (bank accounts, property, vehicles, investments) as of 30 June of the tax year. FBR uses this to reconcile your assets with your declared income. If the figures don't match, FBR will issue a notice asking for the source of the gap.\n\n**Q: What happens if I don't file my income tax return on time?**\n\nA: You become liable for a penalty, lose ATL status, may be issued a best-judgment assessment, and will be denied refunds. You also face difficulty obtaining loans or business licenses that require tax-filer status. If the non-filing is deemed deliberate, you could face prosecution (rare for salaried persons). It's never too late to file an arrears return, though penalties will apply.\n\n**Q: How long does it take to get a refund after filing?**\n\nA: Once your return is verified, FBR typically processes it within 15-30 days. If you are entitled to a refund (tax deducted at source exceeds your liability), it will be credited to your bank account within 30-60 days. You can track the refund status on IRIS under \"Refund Status.\"\n\n---\n\nThis article is general information, not legal advice.\n\nGot an FBR notice? [A tax lawyer in Lahore](/tax-lawyer-in-lahore) can help with the response.\n\n### Speak to a tax lawyer in Lahore\n\nSaeed Law Firm has been advising taxpayers in Lahore since 1975. If you get an FBR notice or your wealth statement doesn't add up, we can help. First consultation is free. [Contact us](/contact) or call the office at +92-319-4959420.\n\n**Saeed Law Firm.** Y Block Main Market, Sector Y, DHA Phase 3, Lahore 54793.\n",
+  "details": [
+    {
+      "label": "Governing law",
+      "values": [
+        "Income Tax Ordinance 2001 (s.114, s.116, s.182A, s.114A)"
+      ]
+    },
+    {
+      "label": "Where / which office",
+      "values": [
+        "IRIS portal (iris.fbr.gov.pk)",
+        "FBR office (for verification)"
+      ]
+    },
+    {
+      "label": "What you need",
+      "values": [
+        "Salary certificate",
+        "Tax deducted at source (TDS) statement",
+        "Bank account list",
+        "Property documents",
+        "Vehicle registration",
+        "NTN"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the last date for income tax return filing in Pakistan?",
+      "a": "The standard deadline is 30 September of the tax year. The FBR may extend it by notification. Check fbr.gov.pk in August for the current year's deadline."
+    },
+    {
+      "q": "How do I file an income tax return for a salaried person in Pakistan?",
+      "a": "Log into IRIS using your NTN and password. Select Individual Return – Salaried, enter your salary and deductions, complete the wealth statement, and submit. Verify within 30 days. The process takes 1-2 hours."
+    },
+    {
+      "q": "What is the penalty for late filing in Pakistan?",
+      "a": "A penalty for late or non-filing applies under the Income Tax Ordinance 2001; FBR sets and revises the amount, so check the current penalty on the FBR site. Late filers also lose surcharge relief benefits."
+    },
+    {
+      "q": "Do I need a wealth statement in my income tax return?",
+      "a": "Yes. Section 116 of the Income Tax Ordinance 2001 requires all taxpayers to file a wealth statement listing all assets as of 30 June. FBR uses it to reconcile assets with declared income."
+    },
+    {
+      "q": "What happens if I don't file my income tax return on time?",
+      "a": "You face a penalty, loss of ATL status, a notice for best-judgment assessment, no refunds, and difficulty obtaining loans or business licenses. Prosecution is rare for salaried persons."
+    },
+    {
+      "q": "How long does it take to get a refund after filing?",
+      "a": "FBR typically processes your return within 15-30 days. A refund (if owed) goes to your bank account within 30-60 days. Track it on IRIS under Refund Status."
+    }
+  ],
+  "relatedPages": [
+    {
+      "title": "Tax Lawyer in Lahore",
+      "href": "/tax-lawyer-in-lahore",
+      "description": "Professional tax representation and advisory for income tax returns, notices, and compliance."
+    },
+    {
+      "title": "How to Become a Filer in Pakistan",
+      "href": "/blog/how-to-become-a-filer-in-pakistan",
+      "description": "Guide to registering as an income tax filer with FBR and the NTN application process."
+    }
+  ],
+  "reviewNote": "Written and reviewed by Bilal Saeed, Advocate (Punjab Bar Council), admitted to the Lahore High Court and District Courts Lahore. Last updated 28 June 2026. This article is general information, not legal advice."
+}

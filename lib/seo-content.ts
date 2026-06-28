@@ -234,3 +234,30 @@ export function legalServiceSchema(page: {
     serviceType: page.service ?? page.h1,
   }
 }
+
+export function articleSchema(page: {
+  h1: string
+  metaDescription: string
+  path: string
+  datePublished?: string
+  dateModified?: string
+  author?: { name: string; title?: string; barCouncil?: string }
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: page.h1,
+    description: page.metaDescription,
+    mainEntityOfPage: `${SITE_URL}${page.path}`,
+    datePublished: page.datePublished,
+    dateModified: page.dateModified ?? page.datePublished,
+    author: {
+      '@type': 'Person',
+      name: page.author?.name ?? FIRM.principalLawyer.name,
+      jobTitle: page.author?.title ?? FIRM.principalLawyer.title,
+      worksFor: { '@id': `${SITE_URL}#organization` },
+    },
+    publisher: { '@id': `${SITE_URL}#organization` },
+    image: FIRM.logo,
+  }
+}
