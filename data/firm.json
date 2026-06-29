@@ -1,42 +1,35 @@
 {
-  "name": "Saeed Law Firm",
-  "legalName": "Saeed Law Firm",
-  "founded": "1975",
-  "yearsExperience": 50,
-  "casesHandled": "800+",
-  "url": "https://saeedlawfirm.com",
-  "logo": "https://saeedlawfirm.com/logo.png",
-  "telephone": "+92-319-4959420",
-  "email": "ahmadbilal2003@gmail.com",
-  "address": {
-    "streetAddress": "Y Block Main Market, Sector Y, DHA Phase 3",
-    "addressLocality": "Lahore",
-    "addressRegion": "Punjab",
-    "postalCode": "54793",
-    "addressCountry": "PK"
-  },
-  "geo": {
-    "latitude": 31.472,
-    "longitude": 74.378
-  },
-  "openingHours": [
-    "Mo-Fr 09:00-18:00",
-    "Sa 10:00-14:00"
-  ],
-  "principalLawyer": {
-    "name": "Bilal Saeed",
-    "title": "Advocate",
-    "barCouncil": "Punjab Bar Council",
-    "barCouncilNumber": "REPLACE_WITH_ACTUAL",
-    "courtsAdmitted": [
-      "Lahore High Court",
-      "District Courts Lahore",
-      "Family Courts Lahore"
-    ]
-  },
-  "sameAs": [
-    "https://www.facebook.com/people/Saaed-Law-Firm/61589129141834/",
-    "https://www.youtube.com/@saeedlawfirmpakistan",
-    "https://www.instagram.com/saeed.lawfirm/"
-  ]
+	"name": "Saeed Law Firm",
+	"legalName": "Saeed Law Firm",
+	"founded": "1975",
+	"yearsExperience": 50,
+	"casesHandled": "800+",
+	"url": "https://saeedlawfirm.com",
+	"logo": "https://saeedlawfirm.com/logo.png",
+	"telephone": "+92-319-4959420",
+	"email": "ahmadbilal2003@gmail.com",
+	"address": {
+		"streetAddress": "Y Block Main Market, Sector Y, DHA Phase 3",
+		"addressLocality": "Lahore",
+		"addressRegion": "Punjab",
+		"postalCode": "54793",
+		"addressCountry": "PK"
+	},
+	"geo": {
+		"latitude": 31.472,
+		"longitude": 74.378
+	},
+	"openingHours": ["Mo-Fr 09:00-18:00", "Sa 10:00-14:00"],
+	"principalLawyer": {
+		"name": "Bilal Saeed",
+		"title": "Advocate",
+		"barCouncil": "Punjab Bar Council",
+		"barCouncilNumber": "REPLACE_WITH_ACTUAL",
+		"courtsAdmitted": ["Lahore High Court", "District Courts Lahore", "Family Courts Lahore"]
+	},
+	"sameAs": [
+		"https://www.facebook.com/people/Saaed-Law-Firm/61589129141834/",
+		"https://www.youtube.com/@saeedlawfirmpakistan",
+		"https://www.instagram.com/saeed.lawfirm/"
+	]
 }

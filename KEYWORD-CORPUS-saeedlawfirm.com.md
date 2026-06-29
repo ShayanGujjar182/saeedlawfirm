@@ -70,3 +70,9 @@ Note: the exact "{court} lawyer lahore" long-tail heads (e.g. "cantonment court 
 
 ## SERP competitors
 google_serp_competitors returned an empty set for the combined court-lawyer query basket at location_code 2586 (the precise long-tails are sub-threshold). Observed ranking domains for the in-cluster head terms across the keyword pulls: lhc.gov.pk, districtcourtslahore.gov.pk, lahorecantt.gov.pk, pst.punjab.gov.pk, atir.gov.pk, fbr.gov.pk, punjablaws.gov.pk, supremecourt.gov.pk (government/official forums dominate; commercial competition is LOW, which is the opportunity).
+
+---
+
+## 2026-06-29 — GSC baseline pull (routine Run 1, Theme 1 technical)
+
+GSC `sc-domain:saeedlawfirm.com`, 12mo to 2026-06-25. Brand healthy ("saeed law firm" 1118 impr/pos 2.23; "...lahore" pos 1.04). Money-page baselines + legacy-URL redirect map captured in the vault corpus (canonical) and `seo-routine/state.json`. Run 1 shipped 7 legacy 301s (/about-us, /contact-us, asylum cluster, traffic-violence, car-insurance) + fixed firm email. New /blog/* articles at 0 impr (published 2026-06-28). Full tables: see vault `Organic SEO/KEYWORD-CORPUS-saeedlawfirm.com.md` 2026-06-29 section.
