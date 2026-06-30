@@ -3,10 +3,17 @@ import Head from 'next/head'
 import Link from 'next/link'
 
 import { listSeoPagesByKind } from '../../lib/page-content'
-import type { SeoPageContent } from '../../lib/page-content'
+
+// ponytail: only the fields the cards render — full SeoPageContent ballooned page-data past Next's 128 kB warning.
+type CourtCard = {
+	route: string
+	eyebrow: string
+	h1: string
+	intro: string
+}
 
 type Props = {
-	courts: SeoPageContent[]
+	courts: CourtCard[]
 }
 
 export default function CourtsIndex({ courts }: Props) {
@@ -30,7 +37,8 @@ export default function CourtsIndex({ courts }: Props) {
 					</h1>
 					<div className="w-12 h-1 bg-gold-600 rounded mx-auto mb-6" />
 					<p className="text-gray-300 text-base leading-relaxed max-w-2xl mx-auto">
-						Choose a court to find court-specific legal representation from Saeed Law Firm.
+						Choose a court to find court-specific legal representation from Saeed Law
+						Firm.
 					</p>
 				</header>
 
@@ -43,13 +51,13 @@ export default function CourtsIndex({ courts }: Props) {
 								className="bg-white border border-gray-200 rounded-lg p-6 hover:border-gold-400 hover:shadow-md transition-all duration-200"
 							>
 								<p className="text-gold-600 text-xs font-semibold uppercase tracking-widest mb-2">
-									{court.hero.eyebrow}
+									{court.eyebrow}
 								</p>
 								<h2 className="font-serif text-xl font-semibold text-navy-900 mb-3">
-									{court.hero.h1}
+									{court.h1}
 								</h2>
 								<p className="text-sm text-navy-700 leading-relaxed">
-									{court.hero.intro}
+									{court.intro}
 								</p>
 							</Link>
 						))}
@@ -62,6 +70,11 @@ export default function CourtsIndex({ courts }: Props) {
 
 export const getStaticProps: GetStaticProps<Props> = () => ({
 	props: {
-		courts: listSeoPagesByKind('court'),
-	},
+		courts: listSeoPagesByKind('court').map(court => ({
+			route: court.route,
+			eyebrow: court.hero.eyebrow,
+			h1: court.hero.h1,
+			intro: court.hero.intro
+		}))
+	}
 })
