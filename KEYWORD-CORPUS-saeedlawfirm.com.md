@@ -76,3 +76,9 @@ google_serp_competitors returned an empty set for the combined court-lawyer quer
 ## 2026-06-29 — GSC baseline pull (routine Run 1, Theme 1 technical)
 
 GSC `sc-domain:saeedlawfirm.com`, 12mo to 2026-06-25. Brand healthy ("saeed law firm" 1118 impr/pos 2.23; "...lahore" pos 1.04). Money-page baselines + legacy-URL redirect map captured in the vault corpus (canonical) and `seo-routine/state.json`. Run 1 shipped 7 legacy 301s (/about-us, /contact-us, asylum cluster, traffic-violence, car-insurance) + fixed firm email. New /blog/* articles at 0 impr (published 2026-06-28). Full tables: see vault `Organic SEO/KEYWORD-CORPUS-saeedlawfirm.com.md` 2026-06-29 section.
+
+---
+
+## 2026-07-01 — GSC page snapshot (Run 9, post-deploy), 2026-06-22→06-30
+
+Blog `/blog/*` still 0 impressions (published 2026-06-28, ~3 days old; first signal ~2026-07-12). Money pages improving vs 12-mo baseline in a noisy 9-day window: /family-lawyer-in-lahore 12.17→9.54, /immigration-lawyer-in-lahore 16.38→13.31, /property-lawyer-in-lahore 7.76→6.41, /civil-lawyer-in-lahore 8.34→7.57, /khula-lawyer-in-lahore 10.21→8.89. Still open: http:// 822 impr vs https:// 195 (host-level HTTP→HTTPS 301 at Vercel not in place). Full table in the vault corpus.

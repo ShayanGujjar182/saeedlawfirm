@@ -81,6 +81,10 @@ export type SeoPageContent = {
 		h1: string
 		intro: string
 	}
+	image?: {
+		src: string
+		alt: string
+	}
 	content?: PageContentHierarchy
 	areaServed?: string | string[]
 	reviewNote?: string

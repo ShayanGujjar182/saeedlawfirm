@@ -199,6 +199,7 @@ export default function DynamicSeoPage({ html, page }: Props) {
 	const guides = page.kind === 'service' ? (SERVICE_GUIDES[page.slug] ?? []) : []
 	const canonicalPath = page.seo.canonicalPath || page.route
 	const canonicalUrl = `${SITE_URL}${canonicalPath}`
+	const ogImageUrl = page.image ? `${SITE_URL}${page.image.src}` : undefined
 	const content = page.content
 	const hasStructuredContent = Boolean(content?.sections?.length || content?.introBlocks?.length)
 	const hierarchy = page.ancestors?.length
@@ -227,7 +228,19 @@ export default function DynamicSeoPage({ html, page }: Props) {
 				<meta property="og:title" content={page.seo.title} />
 				<meta property="og:description" content={page.seo.description} />
 				<meta property="og:url" content={canonicalUrl} />
-				<meta property="og:type" content="website" />
+				<meta
+					property="og:type"
+					content={page.kind === 'article' ? 'article' : 'website'}
+				/>
+				{ogImageUrl && (
+					<>
+						<meta property="og:image" content={ogImageUrl} />
+						<meta name="twitter:card" content="summary_large_image" />
+						<meta name="twitter:image" content={ogImageUrl} />
+						<meta name="twitter:title" content={page.seo.title} />
+						<meta name="twitter:description" content={page.seo.description} />
+					</>
+				)}
 				<script
 					type="application/ld+json"
 					dangerouslySetInnerHTML={{ __html: jsonLd(organizationSchema()) }}
@@ -247,7 +260,8 @@ export default function DynamicSeoPage({ html, page }: Props) {
 									path: canonicalPath,
 									datePublished: page.datePublished,
 									dateModified: page.dateModified,
-									author: page.author
+									author: page.author,
+									image: ogImageUrl
 								})
 							)
 						}}
@@ -310,6 +324,20 @@ export default function DynamicSeoPage({ html, page }: Props) {
 						</div>
 					</div>
 				</header>
+
+				{page.image && (
+					<figure className="max-w-4xl mx-auto px-6 -mt-10 mb-4">
+						{/* eslint-disable-next-line @next/next/no-img-element */}
+						<img
+							src={page.image.src}
+							alt={page.image.alt}
+							width={1200}
+							height={633}
+							loading="eager"
+							className="w-full rounded-xl shadow-lg border border-gray-200"
+						/>
+					</figure>
+				)}
 
 				<div className="bg-white border-b border-gray-200">
 					<div className="max-w-7xl mx-auto px-6 py-8 grid grid-cols-2 md:grid-cols-4 gap-6">

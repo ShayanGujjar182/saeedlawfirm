@@ -273,6 +273,7 @@ export function articleSchema(page: {
 	datePublished?: string
 	dateModified?: string
 	author?: { name: string; title?: string; barCouncil?: string }
+	image?: string
 }) {
 	return {
 		'@context': 'https://schema.org',
@@ -294,6 +295,6 @@ export function articleSchema(page: {
 			}
 		},
 		publisher: { '@id': `${SITE_URL}#organization` },
-		image: FIRM.logo
+		image: page.image ?? FIRM.logo
 	}
 }
