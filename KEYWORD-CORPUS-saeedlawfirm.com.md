@@ -1,84 +1,777 @@
-# KEYWORD CORPUS — saeedlawfirm.com (Organic SEO, courts cluster)
+# KEYWORD CORPUS — saeedlawfirm.com (Organic SEO)
 
-> Append-only. Each entry records the raw DataForSEO pull used to anchor a page rewrite. Never overwrite prior entries.
-> Source: DataForSEO Labs (google_keyword_overview, google_keyword_ideas, google_serp_competitors).
-> Location: Pakistan (location_code 2586; the Labs keyword endpoints accept country-level only). Language: English. Pulled 2026-06-01.
+> **Append-only.** Every DataForSEO pull for this domain's organic (non-local) work is appended below with date + source. Never overwrite prior entries.
 
 ---
 
-## Seed-term overview (real volumes, location_code 2586, English)
+## 2026-05-31 — /property-lawyer-in-lahore (page rewrite)
 
-| keyword | search volume (mo) | competition | KD | main intent |
+**Source:** DataForSEO Labs (location: Pakistan, code 2586) + Google Ads search volume (location: Lahore,Punjab,Pakistan, code 1011082) + live Google SERP (Lahore). Language: English (`en`).
+**Task:** Single-page rewrite of `/property-lawyer-in-lahore` to score 95+ on /seo-content.
+
+### Primary keyword chosen
+**`property lawyer in lahore`** — anchor for the page.
+
+| Keyword | Vol (PK, Labs) | Vol (Lahore, Ads) | KD | Competition | Intent | Trend (Y/Q/M) | Core/synonym |
+|---|---|---|---|---|---|---|---|
+| property lawyer in lahore | 110 | 90 | 44 | LOW (0.15 / idx 16) | commercial | +136% / +53% / +24% | core |
+| property lawyer lahore | 110 | — | 44 | LOW (0.15) | commercial | +136% / +53% / +24% | → core: property lawyer in lahore |
+| property lawyers in lahore | 110 | — | 44 | LOW (0.15) | commercial | +136% / +53% / +24% | → core: property lawyer in lahore |
+| property lawyer in pakistan | 90 | — | n/a (low) | LOW (0.02) | commercial | +22% / +22% | adjacent national |
+| property lawyer near me | 50 | — | n/a | LOW (0.28) | commercial + navigational | +125% / +80% | adjacent (Related Search) |
+| best property lawyer in lahore | 30 | 30 | 45 | LOW→MED (0.32 / idx 38) | commercial | +50% Q | secondary |
+| real estate lawyer in lahore | — | n/d | n/a | n/a | commercial | — | competitor term (SERP ranks for it) |
+| property dispute lawyer in lahore | — | n/d | n/a | n/a | commercial | — | supporting long-tail |
+| land dispute lawyer in lahore | — | n/d | n/a | n/a | commercial | — | supporting long-tail |
+| inheritance lawyer in lahore | — | n/d | n/a | n/a | — | — | supporting long-tail |
+| succession certificate lawyer lahore | — | n/d | n/a | n/a | — | — | supporting long-tail |
+| intiqal lawyer lahore | — | n/d | n/a | n/a | — | — | supporting long-tail |
+| dha property lawyer lahore | — | n/d | n/a | n/a | — | — | supporting long-tail |
+| pre emption lawyer lahore | — | n/d | n/a | n/a | — | — | supporting long-tail |
+
+`n/d` = no Google Ads volume data returned at Lahore city level (term too thin in Ads DB); valid as semantic/long-tail support, not as a volume target.
+
+### `property lawyer in lahore` — monthly searches (Labs, PK)
+2025-05: 70 · 06: 90 · 07: 110 · 08: 90 · 09: 70 · 10: 70 · 11: 90 · 12: 110 · 2026-01: 140 · 02: 170 · 03: 210 · 04: 260
+CPC $0.32 · low/high top-of-page bid $0.14 / $0.35 · categories 10003, 10042.
+**Read:** demand is accelerating hard (3.7× from trough to Apr-26). First-mover window confirmed.
+
+### `best property lawyer in lahore` — monthly (Labs, PK)
+2025-05: 20 · 06: 30 · 07: 30 · 08: 50 · 09: 40 · 10: 70 · 11: 10 · 12: 40 · 2026-01: 10 · 02: 20 · 03: 30 · 04: 30. CPC $0.23, KD 45.
+
+### Live SERP — "property lawyer in lahore" (Lahore, desktop, 2026-05-31)
+SERP features present: **ai_overview** (top), **local_pack**, **people_also_ask**, **discussions_and_forums** (Facebook/Vakeel Online), **related_searches**, **knowledge_graph** (Haroon Advocate Lex Just Law Firm, 4.8★/235).
+
+Organic competitors:
+1. umarlawassociates.com — "Property Lawyer in Lahore, Pakistan"
+2. lawzana.com — directory: "10 best Real Estate Lawyers in Lahore (2026)"
+3. zallp.com — Zafar & Associates LLP, "Real Estate Law Services" (4.8★/4,390)
+4. hamzaandhamza.com — Hamza & Hamza Law Associates
+5. familycaselawyer.com — Nazia Law Associates, "Property Case Lawyers in Lahore"
+6. primerus.com — Meer & Hasan, "Intellectual Property Lawyer" (off-intent)
+7. facebook.com / Vakeel Online — forum threads ("best property lawyer in Lahore for LDA")
+8. voiceofjustice.pk — "Best Property Lawyer in Lahore for Specific Performance"
+9. rialawassociates.pk — "Best Property Real Estate Lawyer in Lahore"
+
+**Note:** lawzana lists a "Saeed and Moeez Law Firm" — that is NOT our client (Saeed Law Firm, saeedlawfirm.com). Do not conflate.
+
+### People Also Ask (intent to satisfy on-page / FAQ)
+- How much does a lawyer charge in Pakistan?
+- Can a son claim father's property when the father is alive in Pakistan?
+- How to get a free lawyer in Pakistan?
+- Who pays court fees?
+- Is a lawyer the same as an attorney?
+
+### Related searches
+Best property lawyer in Lahore · Best lawyer in Lahore · List of lawyers in Lahore · Top 10 law firms in Lahore · Lawyer contact number in Lahore · Property lawyer near me · Female lawyers in Lahore
+
+### Semantic cluster locked for the rewrite
+- **Primary:** property lawyer in lahore (+ synonyms property lawyer lahore / property lawyers in lahore)
+- **Secondary:** best property lawyer in lahore · property lawyer in pakistan · property lawyer near me
+- **Supporting entities:** property/land dispute lawyer · real estate lawyer in lahore · mutation (intiqal) · specific performance of sale agreement · partition suit · inheritance / succession certificate · pre-emption (shufa) · DHA / LDA / Bahria Town allotment disputes · revenue record / fard / jamabandi
+
+### Raw IDs (DataForSEO task references)
+- keyword_overview: 05311713-1807-0607
+- related_keywords: 05311713-1807-0387
+- keyword_suggestions: 05311713-1807-0399
+- serp_competitors (Labs): 05311713-1807-0383 (empty for PK — sparse DB)
+- serp_organic_live: 05311714-1807-0139
+- google_ads_search_volume (Lahore): 05311714-1807-0367
+
+---
+
+## 2026-05-31 — /lawyers-in-lahore (HUB page rewrite)
+
+**Source:** DataForSEO Labs keyword_overview + keyword_suggestions (location: Pakistan, code 2586) + live Google SERP (Lahore,Punjab,Pakistan). Language: English (`en`).
+**Task:** Hub rewrite to score 95+ on /seo-content. Anchors the entire lawyer-in-lahore cluster; links down to all 11 spokes.
+
+### Primary keyword chosen
+**`lawyer in lahore`** (clusters with `lawyers in lahore`, same core) — head-term anchor.
+
+| Keyword | Vol (PK) | KD | Competition | Intent | Trend (M/Q/Y) | Role |
+|---|---|---|---|---|---|---|
+| lawyer in lahore | 1,000 | n/a | LOW (0.24) | commercial | – / – / +48% | PRIMARY |
+| lawyers in lahore | 1,000 | n/a | LOW (0.24) | commercial | – / – / +48% | primary (core: lawyer in lahore) |
+| law firm in lahore | 480 | 10 | LOW (0.33) | commercial | +23 / +23 / -45 | secondary |
+| law firm lahore | 480 | 20 | LOW (0.33) | commercial | +23 / +23 / -45 | secondary |
+| best lawyer in lahore | 260 | 8 | MEDIUM (0.48) | commercial | -19 / +53 / -19 | secondary |
+| advocate in lahore | 90 | n/a | MEDIUM (0.40) | navigational | +56 / +100 / +180 | secondary |
+| top 10 law firms in lahore | 90 | n/a | LOW (0.28) | commercial | +80 / +80 / -18 | supporting |
+| best law firm in lahore | n/d | 46 | — | commercial | — | supporting |
+| top lawyers in lahore | 20 | 44 | MEDIUM (0.56) | commercial | -50 / – / -50 | supporting |
+| lawyer contact number in lahore | 70 | 43 | HIGH (0.70) | navigational | -29 / – / -29 | long-tail (CTA/contact) |
+| free lawyer services in lahore | 10 | n/a | — | informational | — | long-tail (pro-bono FAQ) |
+
+Related searches (live SERP): best lawyer in lahore, list of lawyers in lahore, lawyer contact number in lahore, family lawyer in lahore, best family lawyer in lahore, female lawyers in lahore, divorce lawyer in lahore, best criminal lawyer in lahore.
+
+**EXCLUDE (employment intent, not client intent):** `lawyer jobs in lahore` (1,000), `junior lawyer jobs in lahore` (30), `corporate lawyer jobs in lahore` (20). Do NOT optimise the hub toward these.
+
+### `lawyer in lahore` — monthly searches (Labs, PK)
+2025-05: 1,000 · 06: 720 · 07: 880 · 08: 720 · 09: 880 · 10: 880 · 11: 1,300 · 12: 1,600 · 2026-01: 1,600 · 02: 1,300 · 03: 1,300 · 04: 1,300. CPC $0.43 · top-of-page bid $0.18–$0.50. +48% YoY.
+**Read:** demand stepped up ~1.5–1.6× from mid-2025 and has held above 1,300/mo since Nov-25. The head term is the right hub anchor.
+
+### Live SERP — "lawyer in lahore" (Lahore, desktop, 2026-05-31)
+SERP features: **local_pack** (top 3), **people_also_ask**, **related_searches**. No AI overview surfaced on this pull.
+Local pack: Mian Law Chamber (mlcpk.com, 4.8/594), Asad & Co Lawyers (5.0/384), Advocate Sheikh Nafees (4.9/68).
+Organic (non-local): 1) lawzana.com directory "10 best Lawyers in Lahore (2026)" 2) ubldigital.com panel-advocate DOC list 3) paklawyer.com (family/divorce/khula firm) 4) lawyersofpakistan.pk 5) ekatchery.com directory 6) advocateinlahore.com (Advocate Jamila, female) 7) khadijalawassociates.com 8) hamzaandhamza.com 9) familycaselawyer.com (Nazia Law Associates).
+**Note:** lawzana lists a "Saeed and Moeez Law Firm" — that is NOT our client (Saeed Law Firm, saeedlawfirm.com). Do not conflate.
+
+### People Also Ask (target in FAQ)
+- How much does it cost to hire a lawyer in Pakistan? (premium model: consult PKR 5,000–15,000; notice PKR 10,000–25,000; per-hearing PKR 10,000–30,000)
+- Which lawyer is best in Pakistan?
+- Who is the top 1 lawyer? / What are the top 3 law firms? (off-geo, India/global — ignore)
+
+**Strategic read:** organic is directory + local-pack heavy. The winning angle for a single firm is depth: court-specific experience, a real how-to-choose framework, and FAQs that answer the cost + legitimacy + female-lawyer PAA/related queries. Keep the page client-intent only (strip any jobs drift).
+
+---
+
+## 2026-05-31 — /child-custody-lawyer-in-lahore (spoke rewrite)
+
+**Source:** DataForSEO Labs keyword_suggestions + related_keywords (location: Pakistan, code 2586) + live Google SERP (Lahore,Punjab,Pakistan). Language: English (`en`).
+
+### Primary keyword chosen
+**`child custody lawyer in lahore`** — anchor. Volume is BELOW the DataForSEO reporting threshold (<10/mo; keyword_suggestions and related_keywords both returned 0 rows for the seed). This is an intent/PAA-driven page, not a volume play. Confirmed in the hub pull too (term not returned).
+
+Semantic cluster (intent-anchored, no measurable Ads volume): hizanat lawyer in lahore · guardianship lawyer in lahore · custody case lawyer in lahore · guardian court lahore · child custody in pakistan · Guardians and Wards Act 1890 (ss.7/17/25/39/41) · welfare of the minor · visitation/access · Section 41 NOC minor travel.
+
+### Live SERP — "child custody lawyer in lahore" (Lahore, desktop, 2026-05-31)
+SERP features: **local_pack** (top 3), **people_also_ask** (4, all firing async AI Overviews), **related_searches**.
+Local pack: Asad & Co Lawyers (5.0/384), Pak-Lawyer Associates (4.9/247), "Divorce/family/guardian/criminal lawyer" (5.0/105).
+Organic: 1) lawzana.com "10 best Family Lawyers in Lahore" directory 2) paklawyer.com (home) 3) khadijalawassociates.com 4) facebook.com/CCLSIP "Child Custody Law Services in Pakistan" (124.8K followers, fathers'-rights angle) 5) hamzaandhamza.com/family-laws 6) familycaselawyer.com (Nazia) 7) rialawassociates.pk/family-lawyer-in-lahore 8) paklawyer.com/services/child-custody-services-in-lahore (dedicated page) 9) zanlaw.pk.
+**PAA (answer on-page / FAQ):** How can a father get full custody in Pakistan? · How can a mother lose custody? · What is the age limit for child custody in Pakistan? · Who gets custody of kids in Islam? — all four trigger AI Overviews = GEO opportunity.
+Related: best family lawyer in lahore, khula lawyer in lahore, divorce lawyer in lahore, female lawyers in lahore.
+
+**Strategic read:** zero measurable search volume but a live local pack + 4 AI-Overview PAAs. Win condition is depth + citability: hizanat vs guardianship, the s.17 welfare test, Guardian Court procedure, and answer-first FAQs mapped to the 4 PAA questions (already covered in faqs.json). Competitor paklawyer has a dedicated child-custody page — out-depth it.
+
+---
+
+## 2026-05-31 — /civil-lawyer-in-lahore (spoke rewrite)
+
+**Source:** DataForSEO Labs keyword_suggestions + serp_competitors (location: Pakistan, code 2586). Language en. (serp_competitors returned 0 rows — Labs ranking DB is thin for these civil terms; live SERP for civil queries is the same Lahore family-firm/directory set as the hub: hamzaandhamza, familycaselawyer/Nazia, lawzana, paklawyer, khadijalawassociates.)
+
+### Primary keyword chosen
+**`civil lawyer in lahore`** (~30/mo, commercial). Only volumed sibling returned: `best civil lawyer in lahore` (30/mo, KD 43, MEDIUM 0.48, +100% quarterly). Rest of the cluster is sub-threshold and intent-led.
+
+Semantic cluster (intent-anchored): civil litigation lawyer lahore · specific performance (Section 12 Specific Relief Act 1877) · declaration suit (Section 42 SRA) · suit for possession · recovery of money · injunction (Order 39 CPC) · damages (Contract Act 1872 ss.73–74) · limitation (Limitation Act 1908 Art 113 three-year / Art 142 twelve-year) · Court Fees Act 1870 · Civil Judge / Senior Civil Judge / District Judge / Lahore High Court.
+
+**Strategic read:** low-volume, high-intent commercial term with a thin specialist field (the ranking pages are generalist family firms and directories, not civil-litigation specialists). A genuinely technical, well-structured civil-litigation page wins on depth. Caution flags found in the existing draft: a fabricated "anonymised case study" with invented amounts/dates and an invented "high first-instance approval rate" stat — both removed in this rewrite to meet the no-invented-outcomes YMYL rule. External links were de-spammed (15+ identical links to pakistancode.gov.pk homepage reduced to a small genuine reference set).
+
+---
+
+## 2026-05-31 — /corporate-lawyer-in-lahore (spoke rewrite)
+
+**Source:** DataForSEO Labs keyword_suggestions + serp_competitors (location: Pakistan, code 2586). Language en.
+
+### Primary keyword chosen
+**`corporate lawyer in lahore`** — 20/mo, **KD 0.02 (very low)**, LOW competition (0.32), CPC $0.13, commercial intent, **+100% quarterly**. Low-volume but trivially winnable (lowest difficulty in the whole set) and high client value (B2B).
+
+**EXCLUDE:** `corporate lawyer jobs in lahore` (20/mo) — employment intent.
+
+Semantic cluster (intent-anchored): company registration / incorporation lawyer lahore · SECP lawyer lahore · company lawyer lahore · shareholder agreement · SMC / Pvt Ltd / LLP incorporation · Companies Act 2017 (ss.14/32/144/168/171/255/286–290/510) · LHC Companies Bench (oppression / mismanagement / winding up) · commercial contract drafting · M&A / due diligence · Arbitration Act 1940 · SECP compliance (Form A / Form 29 / Form 7).
+
+**serp_competitors:** 0 rows returned (Labs ranking DB thin for low-volume Lahore legal terms — same as civil/child-custody). Live organic competitor landscape for Lahore legal queries (captured in the hub + child-custody live SERP pulls) is directory + generalist-firm dominated: lawzana, paklawyer, hamzaandhamza, familycaselawyer (Nazia), khadijalawassociates, plus commercial firms (Zafar & Associates / zallp) on corporate terms.
+
+**Strategic read:** KD 0.02 = an easy ranking win. The existing page already out-depths competitors on Companies Act 2017 / SECP procedure. Win condition is just clean execution (de-spam, de-em-dash, schema, internal links) and answer-first FAQs. No fabricated content found on this page (fees framed as models; penalty figures are statutory).
+
+---
+
+## 2026-05-31 — /court-marriage-lawyer-in-lahore (spoke rewrite)
+
+**Source:** DataForSEO Labs keyword_suggestions (location: Pakistan, code 2586) + live Google SERP (Lahore). Language en.
+
+### Primary keyword chosen
+**`court marriage lawyer in lahore`** — 10/mo, KD ~0.1 (LOW comp), commercial intent, +100% Q. The page's commercial anchor.
+
+**Higher-volume head terms in the same cluster (the page should satisfy these informational intents too):**
+| Keyword | Vol (PK) | KD | Comp | Intent |
 |---|---|---|---|---|
-| lahore high court | 74,000 | LOW (0.01) | 3 | informational |
-| district court lahore | 4,400 | LOW (0.03) | n/a | navigational |
-| district courts lahore | 4,400 | LOW | n/a | navigational |
-| session court lahore | 6,600 | LOW (0.02) | n/a | informational |
-| district and session court | 3,600 | LOW | 15 | navigational |
-| cantonment board lahore | 1,900 | LOW (0.02) | n/a | navigational |
-| punjab service tribunal | 590 | LOW (0) | n/a | navigational |
-| family court lahore | 390 | LOW (0.12) | n/a | navigational |
-| divorce lawyer lahore | 140 | MEDIUM (0.59) | 50 | commercial |
-| property lawyer lahore | 110 | LOW (0.15) | 44 | commercial |
-| tax lawyer lahore | 110 | LOW (0.24) | n/a | commercial |
-| atir lahore | 90 | LOW (0) | n/a | informational |
-| criminal lawyer lahore | 40 | LOW (0.25) | n/a | commercial |
-| service tribunal lahore | 30 | LOW (0.01) | 43 | informational |
-| appellate tribunal inland revenue lahore | 30 | LOW (0) | n/a | navigational |
+| court marriage in lahore | 70 | 48 | LOW (0.26) | informational (process/legality) |
+| court marriage fees in lahore | 30 | n/a | LOW (0.28) | informational, +100% M/Q |
+| court marriage in lahore pakistan | 10 | 39 | MEDIUM | informational |
+| court marriage procedure in lahore | 10 | n/a | HIGH (0.71) | navigational |
+| court marriage lawyer in lahore | 10 | n/a | LOW (0.10) | commercial (PRIMARY) |
 
-Note: the exact "{court} lawyer lahore" long-tail heads (e.g. "cantonment court lawyer lahore", "tax tribunal lawyer lahore") return no DataForSEO volume (sub-threshold), so each page targets the head category term in-cluster while owning the precise commercial long-tail.
+**Strategy:** anchor the commercial term but capture the 70/mo "court marriage in lahore" + "fees" + "procedure" informational demand on the same page (process, requirements, fees framing, legality, NADRA/MRC) and the four AI-Overview PAAs.
+
+### Live SERP — "court marriage lawyer in lahore" (Lahore, 2026-05-31)
+Local pack: onlinemarriage.pk (Advocate M. Ali Naeem Azad, 4.9/47), "Court Marriage/Khula/Divorce/NADRA Services" (4.6/20), Jamila Law Associate / advocateinlahore.com (5.0/21). All are online/court-marriage specialists.
+Organic: paklawyer.com/services/court-marriage-services-in-lahore · lawzana "10 best Marriage Lawyers" · advocateinlahore.com (Jamila) · voiceofjustice.pk court-marriage · familycaselawyer.com (Nazia) · khadijalawassociates.com · legalinformation.asia · qanoon.online "Court Marriage Fees and Process" · lawsocietypakistan.com.
+**PAA (all firing AI Overviews):** What is the process of court marriage in Pakistan? · Does court marriage count as Nikah? · What are the rules for marriage in Punjab court? · Is court marriage legal in Islam? — page already answers all four. Related: court marriage fees in lahore, best family lawyer, female lawyers, divorce, khula.
+
+**Flags fixed in rewrite:** fabricated "anonymised case study" (invented client, visa timeline, 48-hour order) removed per no-invented-outcomes rule; unverifiable "hundreds of court marriages completed" track-record claim removed; ~30 identical pakistancode.gov.pk homepage links de-spammed to plain-text citations + a small reference set. Broken /family-court-lawyer-lahore link corrected to /courts/family-court-lawyer-lahore.
 
 ---
 
-## /courts/cantonment-court-lawyer-lahore
-**Primary:** cantonment court lawyer in lahore
-**Anchor head:** cantonment board lahore (1,900/mo, LOW)
-**Cluster (real, observed):** cantonment board lahore (1,900) · walton cantonment board lahore (210) · chaklala cantonment board (1,600, comparator) · meo / military estates office lahore · cantonment property mutation/transfer · house tax cantonment lahore · cantonment board bylaws · lease renewal MEO · A-1 land
-**Cite:** lahorecantt.gov.pk, meo.gov.pk
+## 2026-05-31 — /criminal-lawyer-in-lahore (spoke rewrite)
 
-## /courts/district-court-lawyer-lahore
-**Primary:** district court lawyer in lahore
-**Anchor heads:** district court lahore (4,400) · district courts lahore (4,400) · session court lahore (6,600)
-**Cluster:** district and session court (3,600) · district and sessions courts (3,600) · session courts (3,600) · civil court (1,900) · case status district court (480) · case list district court (390) · stay order, recovery suit, execution petition (intent-derived)
-**Cite:** lhc.gov.pk, districtcourtslahore.gov.pk
+**Source:** DataForSEO Labs keyword_suggestions (location: Pakistan, code 2586) + live Google SERP (Lahore). Language en.
 
-## /courts/family-court-lawyer-lahore
-**Primary:** family court lawyer in lahore
-**Anchor head:** family court lahore (390)
-**Cluster:** divorce lawyer lahore (140, KD50) · guardian court · khula · child custody · maintenance · dower (haq mehr) · dowry recovery · dissolution of marriage · family court procedure (West Pakistan Family Courts Act 1964)
-**Cite:** lhc.gov.pk, punjablaws.gov.pk
+### Primary keyword chosen
+**`criminal lawyer in lahore`** — 40/mo, LOW competition, +125% quarterly / +80% yearly (commercial). Higher-volume sibling to also capture (already on page): **`best criminal lawyer in lahore`** — 90/mo, KD 44, LOW comp (0.21), commercial.
 
-## /courts/lawyer-at-lahore-high-court
-**Primary:** lawyer at Lahore High Court
-**Anchor head:** lahore high court (74,000, KD3) — flagship
-**Cluster:** lahore high court judges (590) · lahore high court cause list / last hearing status (480-590) · lahore high court district judiciary (390) · supreme court of pakistan (49,500) · writ petition / article 199 / constitutional petition · civil & criminal appeal · bail before arrest · intra-court appeal
-**Cite:** lhc.gov.pk, supremecourt.gov.pk
+Cluster (intent-anchored): criminal defence lawyer lahore · bail lawyer (pre-arrest CrPC 498 / after-arrest CrPC 497) · FIR registration & quashing (561-A CrPC) · PPC offences (302/307/379/406/420/337) · Anti-Terrorism Court (ATA 1997) · narcotics (CNSA 1997) · cybercrime (PECA 2016) · Sessions Court / Judicial Magistrate / Lahore High Court.
 
-## /courts/service-tribunal-lawyer-lahore
-**Primary:** service tribunal lawyer in lahore
-**Anchor head:** punjab service tribunal (590)
-**Cluster:** service tribunal lahore (30, KD43) · punjab judiciary CMS · departmental appeal · civil servant appeal · reinstatement · promotion/seniority dispute · terms and conditions of service (Punjab Service Tribunals Act 1974; Punjab Civil Servants Act 1974)
-**Cite:** pst.punjab.gov.pk, punjablaws.gov.pk
+### Live SERP — "criminal lawyer in lahore" (Lahore, 2026-05-31)
+Local pack: Mian Law Chamber (mlcpk.com, 4.8/594), Haroon Advocate Lex Just Law Firm (4.8/235), Advocate Sheikh Nafees (4.9/68).
+Organic: lawzana.com "Best Criminal Defense Lawyers" · **zallp.com (Zafar & Associates LLP, 4.8/9,212 — strong specialist)** · rialawassociates.pk/criminal-lawyer-in-lahore · lawyersofpakistan.pk · absco.pk · axislaw.pk · voiceofjustice.pk bail-matter page. discussions_and_forums (Facebook Vakeel Online / Quora "best criminal case lawyer in Lahore").
+PAA: How much do lawyers charge in Pakistan? (AI overview) · Which LLB is best for criminal law? (AI overview) · plus India-skewed "top criminal lawyers" results (ignore, off-geo). Related: best criminal lawyer in lahore, best criminal lawyer in pakistan, female lawyers in lahore.
 
-## /courts/tax-tribunal-lawyer-lahore
-**Primary:** tax tribunal lawyer in lahore
-**Anchor heads:** atir lahore (90) · appellate tribunal inland revenue lahore (30)
-**Cluster:** appellate tribunal inland revenue headquarters (260) · competition appellate tribunal (140, comparator) · income tax appeal · sales tax appeal · FBR appeal · commissioner inland revenue (appeals) · tax reference to high court · federal excise
-**Cite:** atir.gov.pk, fbr.gov.pk
+**Flags fixed in rewrite:** invented quashing success-rate stat ("20-30% of applications") removed; wrong law-report expansions corrected (PLD = Pakistan Legal Decisions, not "Pakistan Law Digest"; YLR = Yearly Law Reporter, not "Yogananda Law Reports") — abbreviations kept without false expansions; services.json criminal `title` em dash removed; broken /lawyer-at-lahore-high-court and /district-court-lawyer-lahore links corrected to /courts/. Fee figures kept consistent with on-file bail range (PKR 25,000–75,000); no inflation.
 
 ---
 
-## SERP competitors
-google_serp_competitors returned an empty set for the combined court-lawyer query basket at location_code 2586 (the precise long-tails are sub-threshold). Observed ranking domains for the in-cluster head terms across the keyword pulls: lhc.gov.pk, districtcourtslahore.gov.pk, lahorecantt.gov.pk, pst.punjab.gov.pk, atir.gov.pk, fbr.gov.pk, punjablaws.gov.pk, supremecourt.gov.pk (government/official forums dominate; commercial competition is LOW, which is the opportunity).
+## 2026-05-31 — /divorce-lawyer-in-lahore (spoke rewrite)
+
+**Source:** DataForSEO Labs keyword_suggestions (location: Pakistan, code 2586). Language en. (Family-cluster live SERP already characterised in hub + child-custody + court-marriage pulls: paklawyer, hamzaandhamza, familycaselawyer/Nazia, khadijalawassociates, lawzana, rialawassociates — generalist family firms + directories.)
+
+### Primary keyword chosen
+**`divorce lawyer in lahore`** — 140/mo, **KD 50**, MEDIUM competition (0.59), commercial. The toughest spoke in the set by difficulty.
+
+| Keyword | Vol | KD | Comp | Intent |
+|---|---|---|---|---|
+| divorce lawyer in lahore | 140 | 50 | MEDIUM (0.59) | commercial (PRIMARY) |
+| divorce lawyer in lahore pakistan | 140 | 53 | MEDIUM | commercial |
+| best divorce lawyer in lahore | 10 | 53 | MEDIUM | commercial, +100% M/Q |
+
+Cluster (intent): talaq lawyer lahore (MFLO 1961 s.7, Union Council 90-day notice) · khula (sibling page, Dissolution of Muslim Marriages Act 1939 s.2) · mutual divorce / mubarat lawyer · haq mehr (dower) recovery · dowry recovery (Dowry & Bridal Gifts Act 1976) · iddat-period maintenance · Family Courts at Aiwan-e-Adal.
+
+**Strategic read:** KD 50 means the head term needs genuine depth + E-E-A-T to compete with established family firms. The page already covers the three divorce paths thoroughly; win on procedure clarity, answer-first FAQs, and clean execution.
+
+**Flags fixed in rewrite:** rendering bug — file had YAML frontmatter + a literal `# Divorce Lawyer in Lahore` H1 and NO `## Body copy` marker, so the renderer dumped frontmatter + a duplicate H1 onto the live page (fixed by inserting the marker). Fabricated "25 minutes by car / 11km" travel precision removed. Hub up-link added.
+
+---
+
+## 2026-05-31 — /family-lawyer-in-lahore (parent spoke rewrite)
+
+**Source:** DataForSEO Labs keyword_suggestions (location: Pakistan, code 2586). Language en. Family-cluster live SERP already characterised (paklawyer, hamzaandhamza, familycaselawyer/Nazia, khadijalawassociates, lawzana, rialawassociates).
+
+### Primary keyword chosen
+**`family lawyer in lahore`** — 170/mo, **KD 3 (very low, easy win)**, MEDIUM competition (0.57), CPC $0.43, commercial. Backlink profile of current rankers is light (avg ~35 ref domains), so the head term is genuinely winnable with a strong page.
+Sibling: **`best family lawyer in lahore`** — 90/mo, KD 49, +120% quarterly, commercial.
+
+Cluster: family law attorney in lahore · family court lawyer lahore · divorce / khula / child-custody / court-marriage (the four child pages) · MFLO 1961 (s.6/s.7) · West Pakistan Family Courts Act 1964 · Dissolution of Muslim Marriages Act 1939 (s.2) · Guardians and Wards Act 1890 · maintenance/nafaqa · dower/dowry · hizanat.
+
+**Role:** parent hub of the family cluster. Links DOWN to all four family sub-pages (divorce, khula, child-custody, court-marriage) and UP to the site hub /lawyers-in-lahore.
+
+**Flags fixed in rewrite:** services.json family `title` em dash removed ("Saeed Law Firm — 50+ Years Experience"); stray `## Body copy (publish-ready)` marker corrected to `## Body copy` (the " (publish-ready)" was rendering as a line); hub up-link added. Real deep statute links to pakistancode.gov.pk kept (legitimate, not spam).
+
+---
+
+## 2026-05-31 — /immigration-lawyer-in-lahore (spoke rewrite)
+
+**Source:** DataForSEO Labs keyword_suggestions (location: Pakistan, code 2586) + live Google SERP (Lahore). Language en.
+
+### Primary keyword chosen
+**`immigration lawyer in lahore`** — 140/mo, **KD 21**, MEDIUM comp (0.41), CPC $0.47, commercial. Rankers have light backlink profiles (~5 ref domains) = winnable.
+Cluster: best immigration lawyer in lahore (30, KD41) · uk immigration lawyer in lahore (related) · us immigration lawyer in lahore (20) · canada immigration lawyer in lahore (10) · MOFA attestation · HEC attestation · Apostille · visa refusal appeal · country-of-origin expert statement / asylum · power of attorney (overseas Pakistani) · NICOP/CNIC · police character certificate.
+
+### Live SERP — "immigration lawyer in lahore" (Lahore, 2026-05-31)
+**ai_overview at rank 1 (GEO opportunity — answer-first FAQs matter).**
+Local pack: Zaidi Law Associates (4.9/103), D'Legal Immigration Solicitors LLP (4.9/74), Saad Ahsan Residency & Citizenship (4.3/94) — immigration specialists/consultancies.
+Organic: chistylawchambers.com "Best Immigration Lawyer in Lahore" · lawzana.com directory · primerus.com (Meer & Hasan) · usimmigrationadvisor.com (Davies & Associates) · ma-law.org.pk (Mumtaz) · ukvisaconsultants.com · **zallp.com (Zafar & Associates, 4.8/13,386)** · highbrow.com.pk (consultancy) · attornea.com.
+PAA: How much do immigration solicitors cost? (UK-skewed) · Is it worth using an immigration lawyer? (AI ov) · How much to hire a lawyer in Pakistan? (AI ov) · How to get free legal advice in Pakistan? (AI ov). Related: best/uk/us immigration lawyer in lahore, immigration lawyer fees, immigration consultants in lahore.
+
+**Strategic angle:** the SERP is dominated by visa CONSULTANCIES. The page's differentiator (regulated lawyer, no outcome guarantees, "what we don't do", consultant-scam warning, source-country documentation focus) is strong and on-brand. Keep it.
+
+**Flags fixed in rewrite:** fabricated UK-spouse-visa "case study" (invented client, Manchester sponsor, I-94 stamp, 12-week approval) removed; invented "hundreds of MOFA attestation chains" track-record claim removed; broken /mofa internal link and broken /lawyer-at-lahore-high-court links fixed (→ external mofa.gov.pk / /courts/lawyer-at-lahore-high-court); repeated inline MOFA/NADRA links de-duplicated (kept first mention, rest plain text); possibly-inaccurate "Apostille ... 2025" accession date softened to no specific year (Pakistan acceded earlier; avoid asserting a wrong date in YMYL content); hub up-link added. Diverse authoritative source links (gov.pk, hcch.net, unhcr.org) kept in Sources.
+
+---
+
+## 2026-05-31 — /khula-lawyer-in-lahore (spoke rewrite)
+
+**Source:** DataForSEO Labs keyword_suggestions (location: Pakistan, code 2586). Language en. Family-cluster live SERP already characterised.
+
+### Primary keyword chosen
+**`khula lawyer in lahore`** — 40/mo, MEDIUM competition (0.65), CPC $0.25, commercial, declining (-40% YoY). Only volumed term in the cluster; rest sub-threshold.
+Cluster (intent-anchored): wife-initiated divorce · khula procedure in Pakistan · khula grounds (Dissolution of Muslim Marriages Act 1939, Section 2 — eight grounds) · khula at Aiwan-e-Adal Family Court · haq mehr / dower in khula · reconciliation council · iddat · ex parte decree.
+
+**Strategic read:** low and declining volume but high-intent commercial. Depth on the eight statutory grounds + procedure + dower strategy wins. Family-firm/directory competitor set (paklawyer, hamzaandhamza, Nazia, etc.).
+
+**Flags fixed in rewrite (significant):** FABRICATED case-law citations removed — "Bhutto v. Bhutto (1970), Salar Gul v. Syed Wali Khan (1994), Uzma v. Muhammad Akram (2013)" appear to be invented precedent (citing fake case law in YMYL legal content is a serious liability); replaced with a generic, non-fabricated reference to superior-court jurisprudence under the 1939 Act. Wrong contact email corrected (page had `consult@saeedlawfirm.com`; firm email is `info@saeedlawfirm.com`). Fabricated "25-minute drive" travel precision removed. Uncorroborated specific firm-fee figures (PKR 50,000–250,000) softened to the firm's standard framing (free consult; fixed fee uncontested / stage-based contested; written proposal) since they don't match other pages and fees are YMYL-sensitive. Hub up-link added.
+
+---
+
+## 2026-05-31 — /tax-lawyer-in-lahore (spoke rewrite)
+
+**Source:** DataForSEO Labs keyword_suggestions (location: Pakistan, code 2586) + live Google SERP (Lahore). Language en.
+
+### Primary keyword chosen
+**`tax lawyer in lahore`** — 110/mo, **KD 41**, LOW competition (0.24), CPC $0.35, commercial, +22% YoY.
+Cluster: best tax lawyer in lahore (20, KD n/a, MEDIUM) · income tax lawyer in lahore (10, KD 41) · tax lawyer lahore (core) · FBR lawyer lahore · tax appeal / tax tribunal lawyer · Commissioner Appeals · ATIR Lahore · Income Tax Ordinance 2001 (ss.122/161/176/177/182/133/126) · Sales Tax Act 1990 · Punjab Sales Tax on Services Act 2012 · FBR audit defence · stay application.
+
+### Live SERP — "tax lawyer in lahore" (Lahore, 2026-05-31)
+Local pack (TAX SPECIALISTS): Nauman Law Associates (5.0/201), Saif Ullah Account & Tax Law Associates (4.9/41), Aftab Tax Law Associates (5.0/184).
+Organic: lawzana directory · hamzaandhamza.com/tax-lawyer-in-lahore · **zallp.com (Zafar & Associates, Income Tax Law, 4.8/8,264, Gulberg II)** · khanassociates.com.pk (domestic & international tax, Gulberg IV) · absco.pk · upwork.com (freelancers) · rialawassociates.pk/taxation-lawyer · taxcare.pk (consultant) · tareentaxlaw.com.
+PAA: How much does a tax consultant cost in Pakistan? (PKR 10k–75k) · How much does a tax practitioner cost? · How much to hire a lawyer in Pakistan? · What is the salary of a tax lawyer in Pakistan? Related: best/free tax lawyer in lahore, income tax lawyer fees, top tax lawyers in pakistan, tax lawyer pakistan.
+
+**Strategic angle:** strong specialist field (Aftab Tax Law, Nauman Law, Zafar & Associates). Differentiate on the "only a Bar-Council lawyer can appear at ATIR / Lahore High Court (a consultant cannot)" point and procedural depth (notice → audit → Commissioner → ATIR → LHC reference). Keep that framing.
+
+**Flags fixed in rewrite:** fabricated "anonymised FBR audit defence" case study (invented AOP, Rs 8.5m revenue, 2 March 2025 notice, Rs 2.35m impact, penalty waived) removed; invented track-record stats ("thousands of FBR notices defended", "significant stay-application success rate", "regular penalty waivers secured") removed; repeated pakistancode.gov.pk homepage statute links de-spammed to plain text (diverse FBR/IRIS/ATIR/LHC portal links kept in source notes); broken /lawyer-at-lahore-high-court link fixed to /courts/; uncorroborated specific firm-fee amounts (Rs 25k–300k) softened to fixed/stage-based "quoted in writing"; hub up-link added.
+
+---
+
+## 2026-05-31 — / (homepage rewrite)
+
+**Source:** DataForSEO Labs keyword_overview (location: Pakistan, code 2586) + Google Ads search volume (location: Lahore,Punjab,Pakistan, code 1011082) + Labs keyword_suggestions + live Google SERP (Lahore). Language: English (`en`).
+**Task:** Full rewrite of homepage `/` to score 95+ on /seo-content. Brand hub — anchor + link down to service/courts/areas clusters.
+
+### Primary keyword chosen
+**`law firm in lahore`** — brand-hub anchor (matches the firm's own identity "Saeed Law Firm", low difficulty, accelerating). High-volume support term `lawyers in lahore` woven in naturally.
+
+| Keyword | Vol (PK, Labs) | Vol (Lahore, Ads) | KD | Competition | Intent | Trend (Y/Q/M) | Role |
+|---|---|---|---|---|---|---|---|
+| law firm in lahore | 480 | 320 | 10 | LOW (Labs 0.33) / MED (Ads idx 36) | commercial | -45% / +23% / +23% | PRIMARY |
+| law firm lahore | 480 | 320 | 20 | LOW/MED | commercial | -45% / +23% / +23% | → synonym of primary (core: law firms in lahore) |
+| lawyers in lahore | 1000 | 880 | n/a (core "lawyer in lahore") | LOW (0.24 / idx 26) | commercial | +48% Y | high-vol support |
+| best lawyers in lahore | 260 | 170 | 8 | MED (0.48 / idx 48) | commercial | -19% / +53% / -19% | secondary |
+| best law firm in lahore | n/d | n/d | 46 | MED | commercial | — | secondary (core: best law firms in lahore) |
+| top law firms in lahore | 90 | n/d | 46 | MED | commercial | -36% Y / +40% M | secondary (related search) |
+| best advocate in lahore | 40 | n/d | low | MED (0.57) | commercial | +150% Y | adjacent |
+| legal consultant in lahore | n/d | n/d | n/a | n/a | — | — | brand-fit support term |
+
+`n/d` = no volume returned at that source/level; valid as semantic support, not a volume target.
+
+### `law firm in lahore` — monthly (Labs, PK)
+2025-05: 590 · 06: 590 · 07: 720 · 08: 480 · 09: 480 · 10: 720 · 11: 390 · 12: 390 · 2026-01: 480 · 02: 390 · 03: 390 · 04: 480. CPC $0.36 · KD 10 · categories 10018/10163/13686.
+
+### `lawyers in lahore` — monthly (Labs, PK)
+2025-05: 1000 · 06: 720 · 07: 880 · 08: 720 · 09: 880 · 10: 880 · 11: 1300 · 12: 1600 · 2026-01: 1600 · 02: 1300 · 03: 1300 · 04: 1300. +48% YoY. Biggest discovery term in the niche.
+
+### Live SERP — "law firm in lahore" (Lahore, desktop, 2026-05-31)
+SERP features: **local_pack** (3 GBP results at top: Asad & Co 5★/384, Lawyers of Pakistan 4.8★/2600, Fahad & Advocates 5★/47), **people_also_ask**, **related_searches**. No site-wide AI overview shown for this query (PAA elements async).
+
+Organic competitors (homepages winning the term — all full-service firm fronts):
+1. axislaw.pk — "Axis Law Chambers", commercial dispute / arbitration
+2. hamzaandhamza.com — "one of the Best law firms in Lahore" (family, divorce, tax)
+3. zallp.com — Zafar & Associates LLP, "largest full-service law firm in Pakistan and Asia Pacific"
+4. primerus.com — Meer & Hasan (corporate)
+5. lawzana.com — directory "10 best Lawyers in Lahore (2026)"
+6. clm.com.pk — Cornelius, Lane & Mufti, "one of the largest and most well reputed law firms in Pakistan"
+7. absco.pk — ABS & Co, "civil, business, criminal, property, start-up law"
+8. lawyersofpakistan.pk; ma-law.org.pk (Mumtaz & Associates)
+
+**Read:** the term is won by full-service firm HOMEPAGES that (a) state scale/reputation and (b) enumerate practice areas with internal links. Saeed Law Firm's edge to lean on: established 1975, 50 years, 800+ cases, named principal (Bilal Saeed, Advocate), DHA Phase 3 address. Local pack dominance means a clear NAP + GBP signal matters even on the homepage.
+
+### People Also Ask
+- What is the biggest law firm in Pakistan?
+- What are the top 10 law firms?
+- Who is the top lawyer in Pakistan? / Who is the best lawyer in Pakistan?
+
+### Related searches
+Top 10 law firms in Lahore · Top law firms in Lahore · Corporate law firms in Lahore · Top corporate law firms in Lahore · List of lawyers in Lahore · Top 10 law firms in Pakistan
+
+### Semantic cluster locked for the homepage
+- **Primary:** law firm in lahore (+ synonyms law firm lahore / law firms in lahore)
+- **High-vol support:** lawyers in lahore
+- **Secondary:** best lawyers in lahore · best law firm in lahore · top law firms in lahore · legal consultants in lahore
+- **Trust anchors (E-E-A-T):** established 1975 · 50 years · 800+ cases · Bilal Saeed, Advocate · Lahore High Court / District Courts / Family Courts · DHA Phase 3
+
+---
+
+## 2026-05-31 — /areas/* neighborhood pages (8-page rewrite, consolidated baseline)
+
+**Source:** DataForSEO Labs `keyword_overview` + `keyword_suggestions` (location: Pakistan, code 2586) and Google Ads `search_volume` (location: Lahore,Punjab,Pakistan, code 1011082). Language: English (`en`).
+**Task:** Rewrite the 8 `/areas/lawyer-in-{neighborhood}-lahore` pages to 95+ on /seo-content, differentiated, no doorway duplication.
+
+### CRITICAL DATA FINDING — exact hyper-local strings have no measurable volume
+All 8 exact-match area terms returned **no data** in BOTH sources:
+- Labs `keyword_overview` for the 8 primaries + 8 adjacents → `items: []` (not in Labs DB).
+- Google Ads `search_volume` (Lahore city) for all 8 primaries → returned the keyword objects with **no `search_volume` field** (null at city level).
+- Labs `keyword_suggestions` seeded on `lawyer in lahore` (50 rows, vol>0) surfaced **zero** neighbourhood-qualified variants — only practice-area, "best", jobs, and nationality-immigration long-tails.
+
+**Read:** Neighbourhood-qualified legal queries in Lahore are below DataForSEO's measurement threshold. Strategy is therefore exact-match local relevance (own the string, ~zero competition) anchored to a semantic cluster of the practice-area PARENT terms that DO carry volume + verifiable local geography (sectors/phases, landmarks, serving courts, dominant case mix). Volume is NOT the differentiator; local entity specificity is.
+
+### Parent / cluster anchor terms WITH measured volume (Labs, PK, 2026-05)
+| Keyword | Vol (PK) | KD | Comp | Intent | Trend Y |
+|---|---|---|---|---|---|
+| lawyer in lahore / lawyers in lahore | 1000 | — | LOW (0.24) | commercial | +48% |
+| law firm in lahore | 480 | 10 | LOW (0.33) | commercial | -45% |
+| best lawyer in lahore | 260 | 8 | MED (0.48) | commercial | -19% |
+| family lawyer in lahore | 170 | 3 | MED (0.57) | commercial | +91% Q |
+| immigration lawyer in lahore | 140 | 21 | MED (0.41) | commercial | -36% |
+| divorce lawyer in lahore | 140 | 50 | MED (0.59) | commercial | -46% |
+| property lawyer in lahore | 110 | 44 | LOW (0.15) | commercial | +136% |
+| tax lawyer in lahore | 110 | 41 | LOW (0.24) | commercial | +22% |
+| advocate in lahore | 90 | — | MED (0.40) | navigational | +180% |
+| best criminal lawyer in lahore | 90 | 44 | LOW (0.21) | commercial | -21% |
+| best family lawyer in lahore | 90 | 49 | MED (0.47) | commercial | -21% |
+| corporate lawyer in lahore | 20 | — | LOW (0.32) | commercial | +100% Q |
+
+`advocate in lahore` is navigational (+180% YoY) — strong brand/entity signal to support in body + schema.
+
+### Per-page primary keyword + cluster mapping (chosen)
+| Page | Primary (exact, own it) | Practice-area cluster anchors (volume parents) | Local differentiator basis |
+|---|---|---|---|
+| bahria-town | lawyer in bahria town lahore | property lawyer in lahore; civil; family (inheritance) | Private gated society admin; plot-file/possession; internal grievance → Civil Court → LHC writ |
+| dha | lawyer in dha lahore | property + family + corporate + tax (multi-practice) | **Firm's own office is IN DHA Phase 3 Y Block** (true proximity hook); Cantonment Court jurisdiction; phases 1–10 |
+| faisal-town | lawyer in faisal town lahore | property; civil; family | Dense middle-class residential + commercial market; rental/tenancy + sale-purchase; District Courts |
+| gulberg | lawyer in gulberg lahore | corporate lawyer in lahore; tax; property (commercial) | MM Alam Rd / Main Boulevard commercial+corporate hub; SECP, commercial leases, tax |
+| johar-town | lawyer in johar town lahore | family lawyer in lahore; property; civil | Large LDA residential; Emporium/Expo corridor; family + LDA plot matters |
+| lahore-cantt | lawyer in lahore cantt | property; criminal; civil | **Cantonment Board jurisdiction** (distinct from LDA/DHA); Cantonment Court; cantonment property rules |
+| model-town | lawyer in model town lahore | civil; family; property (cooperative society) | Old cooperative society (Model Town Cooperative Society) blocks A–N; legacy inheritance/partition; District Courts at Model Town |
+| township | lawyer in township lahore | family; property; civil | LDA-developed working/middle residential (sectors); Township/Green Town; family + tenancy + plot |
+
+### SERP competitors (Labs ranking DB)
+Not re-pulled per page: prior corpus pulls confirm `serp_competitors` returns ~0 rows for low-volume Lahore legal terms; live organic competitor set is directory + generalist-firm dominated (lawzana, paklawyer, hamzaandhamza, familycaselawyer/Nazia, khadijalawassociates, advocateinlahore). No competitor holds a differentiated per-neighbourhood page set — the gap these 8 pages target.
+
+---
+
+## 2026-05-31 — /what-we-do (services-overview hub rewrite)
+
+**Source:** DataForSEO Labs keyword_overview (Pakistan, 2586) + Google Ads search volume (Lahore, 1011082) + live Google SERP (Lahore). Language: en.
+**Task:** Rewrite `/what-we-do` (practice-area overview hub) to 95+. Must link into all 6 service clusters + up to homepage.
+
+### Primary keyword chosen
+**`law firms in lahore`** (plural / services-overview framing, to stay distinct from homepage's singular `law firm in lahore`). Thematic support `legal services in lahore` (intent-matched but no measurable volume).
+
+| Keyword | Vol (PK, Labs) | Vol (Lahore, Ads) | KD | Competition | Intent | Role |
+|---|---|---|---|---|---|---|
+| law firms in lahore | 480 | 320 | 13 | LOW (0.33) / MED (idx 36) | commercial | PRIMARY |
+| legal services in lahore | n/d | n/d | n/a | n/a | commercial | thematic support (exact page-intent match, no volume) |
+| legal services lahore | n/d | 10 | n/a | n/a | commercial | thin support |
+| lawyer in lahore | — | 880 | n/a | LOW (idx 26) | commercial | adjacent high-vol |
+| law firm services | 10 | n/d | n/a | LOW | commercial | too thin |
+| (links to) family/criminal/property/tax/immigration/civil lawyer in lahore | see prior entries | | | | commercial | practice-area cluster targets |
+
+`n/d` = no volume returned; valid as semantic support only.
+
+### Live SERP — "law firms in lahore" (Lahore, 2026-05-31)
+Features: local_pack (Asad & Co 5★/384, Lawyers of Pakistan 4.8★/2600, Mian Law Chamber 4.8★/594), people_also_ask, related_searches.
+Organic winners (all full-service firm fronts enumerating practice areas + "full-service"): axislaw.pk, hamzaandhamza.com ("Best law firms in Lahore… family, divorce, tax"), zallp.com ("largest full-service law firms… legal services in multiple areas"), clm.com.pk, primerus.com (Meer & Hasan corporate), absco.pk ("full-service law firm in Lahore, providing top-quality legal services in multiple areas of the law"), ma-law.org.pk, legal500.com (rankings directory).
+**Read:** the page must read as a full-service overview that (a) frames the firm as covering multiple areas of law and (b) routes to each practice-area page. "Full-service law firm in Lahore" + "legal services across [areas]" is the winning on-page pattern.
+
+### PAA
+What is the biggest law firm in Pakistan? · What are the top 3 law firms? · Who is the highest paid lawyer in Pakistan?
+
+### Related searches
+Top 10 law firms in Lahore · Top law firms in Lahore · Corporate law firms in Lahore · International law firms in Lahore · Top corporate law firms in Lahore
+
+### Semantic cluster locked for /what-we-do
+- **Primary:** law firms in lahore (services-overview framing)
+- **Thematic support:** legal services in lahore · full-service law firm in Lahore · legal services across [family/criminal/property/tax/immigration/civil]
+- **Internal targets:** the 6 service pages + homepage (up) + /lawyers-in-lahore hub
+
+---
+
+## 2026-05-31 — /about (E-E-A-T trust page rewrite)
+
+**Source:** DataForSEO Labs keyword_overview (Pakistan, 2586) + Google Ads volume (Lahore, 1011082, from prior pulls) + live Google SERP (Lahore). Language: en.
+**Task:** Rewrite `/about` (trust page) to 95+. Lead with E-E-A-T using ONLY existing site facts (no invented names/credentials/awards/outcomes).
+
+### Primary keyword chosen
+**`best lawyers in lahore`** (260 PK / 170 Lahore, **KD 8**, MED comp, commercial) — credibility query that fits an about page. Support: best advocate in lahore (40), best law firm in lahore (KD 46), experienced lawyers in lahore (thematic, no vol), about saeed law firm (brand).
+
+| Keyword | Vol (PK) | Vol (Lahore) | KD | Comp | Intent | Role |
+|---|---|---|---|---|---|---|
+| best lawyers in lahore | 260 | 170 | 8 | MED (0.48) | commercial | PRIMARY |
+| best advocate in lahore | 40 | n/d | low | MED (0.57) | commercial | support |
+| best law firm in lahore | n/d | n/d | 46 | MED | commercial | support (brand-trust) |
+| top lawyers in lahore | 20 | — | 44 | MED | commercial | minor |
+| experienced lawyers in lahore | n/d | n/d | n/a | n/a | — | thematic support |
+
+### Live SERP — "best lawyers in lahore" (Lahore, 2026-05-31)
+Features: **ai_overview** (top), **local_pack** (Mian Law Chamber 4.8★/594, Asad & Co 5★/384, Lawyers of Pakistan 4.8★/2600), **people_also_ask**, **related_searches**.
+Organic: lawzana.com (listicle "10 best Lawyers in Lahore 2026"), paklawyer.com ("trusted law firm in Lahore… family, divorce, khula, custody, civil, NADRA"), attornea.com ("Top 10 Law Firms in Lahore"), legalinformation.asia ("Advocate Uzair Rasheed Sandhu"), umarlawassociates.com, ekatchery/ubl directories, facebook groups.
+**Read:** head term is owned by directories/listicles + reviews-heavy GBP profiles. An about page won't outrank those for the head term; its job is to build the firm ENTITY and E-E-A-T (founding 1975, 50 yrs, 800+ cases, Bilal Saeed Advocate, LHC/District/Family courts) that feeds the AI overview and brand/"best law firm" trust queries. Quotable, structured experience facts > adjectives. No invented reviews/awards.
+
+### PAA
+Who is the top 1 lawyer? · What are the top 3 law firms? · How much does a lawyer charge in Pakistan?
+
+### Related searches
+List of lawyers in Lahore · Top 10 law firms in Lahore · Best family lawyer in Lahore · Top criminal lawyers in Lahore · Best civil lawyer in Lahore
+
+### Semantic cluster locked for /about
+- **Primary:** best lawyers in lahore
+- **Support:** experienced lawyers in lahore · best advocate in lahore · best law firm in lahore · about Saeed Law Firm
+- **E-E-A-T anchors (only existing facts):** established 1975 · 50 years · 800+ cases · Bilal Saeed, Advocate (Punjab Bar Council) · Lahore High Court / District Courts / Family Courts · DHA Phase 3 office
+
+---
+
+## 2026-05-31 — /ethos (values / E-E-A-T page rewrite)
+
+**Source:** DataForSEO Labs keyword_overview (Pakistan, 2586) + Google Ads volume (Lahore, 1011082). Language: en.
+**Task:** Rewrite `/ethos` (firm values page) to 95+. Pure trust/E-E-A-T page.
+
+### Keyword finding: NO measurable volume
+Labs returned an EMPTY result set for: trusted law firm in lahore, ethical law firm in lahore, law firm ethics, client confidentiality lawyer, legal ethics pakistan, honest lawyer in lahore, reliable lawyer in lahore. Google Ads (Lahore) returned NO volume for: trusted law firm in lahore, ethical law firm in lahore, honest lawyer in lahore, reliable lawyer in lahore, best law firm in lahore.
+
+**Conclusion:** an ethos/values page has no standalone search demand in this market. Anchoring it to a volume keyword would be dishonest. SEO role of this page = (1) reinforce the firm ENTITY / E-E-A-T (ethics, confidentiality, rule of law), (2) internal-link equity to/from the trust cluster (/about, /what-we-do, homepage), (3) thematic support for the brand's "trusted / best law firm in lahore" narrative which DOES have demand on other pages.
+
+### Anchor chosen (thematic, not volume)
+**`trusted law firm in lahore`** / `ethical law firm in lahore` — intent-matched, zero measured volume. Page is keyword-aware (mentions "law firm in Lahore", legal ethics, client confidentiality) but scored on content quality + E-E-A-T, not keyword targeting.
+
+### Existing on-site values to build on (from components/Ethos/data.ts — do not invent beyond these)
+Business: Information Security, Client Confidentiality, Conflict Checks, Transparency, Accountability, Regulatory Compliance, Preserving Privilege.
+Individual: Pledge, Professional Conduct, Client Confidentiality, Rule of Law, Sanctity of Contracts, Information Security, Quality & Character, Legal Knowledge & Skill Development.
+
+---
+
+## 2026-05-31 — /contact (conversion page rewrite)
+
+**Source:** DataForSEO Labs keyword_overview (Pakistan, 2586) + Google Ads volume (Lahore, 1011082). Language: en.
+**Task:** Rewrite `/contact` to 95+. Clear NAP + obvious conversion path + Organization/LegalService JSON-LD with correct contact details.
+
+### Primary keyword chosen
+**`lawyer contact number in lahore`** (70 PK / 40 Lahore, **navigational**, KD 43, HIGH comp) — the contact page literally answers this (phone, address, form). Support: contact lawyer in Lahore (n/d), free legal advice in Lahore (40 PK / 30 Lahore, informational, KD 57), legal consultation in Lahore (n/d).
+
+| Keyword | Vol (PK) | Vol (Lahore) | KD | Comp | Intent | Role |
+|---|---|---|---|---|---|---|
+| lawyer contact number in lahore | 70 | 40 | 43 | HIGH (idx 73) | navigational | PRIMARY |
+| free legal advice in lahore | 40 | 30 | 57 | MED | informational | support (free-consult angle) |
+| contact lawyer in lahore | n/d | n/d | n/a | n/a | navigational | support |
+| law firm in lahore contact | n/d | n/d | n/a | n/a | navigational | support |
+| legal consultation in lahore | n/d | n/d | n/a | n/a | — | support |
+
+### NAP correction made on rewrite
+Old contact page showed email `ahmadbilal2003@gmail.com` (inconsistent with firm.json). Canonical email per data/firm.json = **info@saeedlawfirm.com**. Phone +92 319 4959420 (matches). Address: Y Block Main Market, Sector Y, DHA Phase 3, Lahore 54793. Hours: Mo-Fr 09:00-18:00, Sa 10:00-14:00. Rewrite aligns visible NAP to firm.json so it matches organizationSchema() JSON-LD. **FLAG to Taha: confirm info@saeedlawfirm.com is the right public inbox (gmail was likely a placeholder).**
+
+### Semantic cluster locked for /contact
+- **Primary:** lawyer contact number in lahore
+- **Support:** contact Saeed Law Firm · free legal advice in Lahore · free consultation · law firm in Lahore contact · DHA Phase 3 Lahore office
+
+---
+
+## 2026-06-28 — ORGANIC BLOG / TOPICAL-AUTHORITY research (informational keyword expansion)
+
+**Source:** DataForSEO Labs `keyword_suggestions` (location 2586 Pakistan, lang `en`, filter search_volume>0, order by volume desc) across 12 informational seeds + Google Search Console (`sc-domain:saeedlawfirm.com`, 12 mo to 2026-06-25) + competitor crawl (zallp.com, paklawyer.com). Language: English (`en`).
+**Task:** Find informational/PAA demand the existing commercial pages can't target, to plan a blog spoke layer. Full plan: `CONTENT-PLAN-saeedlawfirm.com-2026-06-28.md`.
+**Note:** all values are MONTHLY Pakistan volume; competition LOW unless stated. KD shown where the API returned it. This is the first *informational* (non-commercial) pull for this domain; prior corpus sections are the commercial cluster.
+
+### TAX cluster (largest top-of-funnel)
+| Keyword | Vol (PK) | Intent | KD | Note |
+|---|---|---|---|---|
+| income tax return | 9,900 | informational | — | synonyms "return income tax" etc share this |
+| fbr income tax return | 4,400 | informational | — | |
+| income tax return last date | 2,900 | informational | — | + "last date for/of" variants |
+| how to become filer in pakistan | 2,400 | informational | **1** | trivially winnable |
+| fbr income tax return extension | 2,400 | informational | — | |
+| income tax return filing | 1,900 | informational | — | "online filing" 1,900 transactional |
+| how to become a filer in pakistan | 880 | informational | — | |
+| fbr income tax return form for salaried persons | 720 | transactional | — | |
+| income tax return verification / site / deadline / due date | 590 | info/nav | — | |
+| how to become filer | 480 | informational | 2 | |
+| how to become a filer | 320 | informational | — | |
+| how to become filer in pakistan online | 210 | informational | 45 | |
+| how to become a/tax filer in pakistan | 110 | informational | 30 | |
+| how to become filer in pakistan for salaried person | 50 | informational | 44 | |
+| how to become filer in pakistan for overseas | 30 | informational | 45 | overseas (future phase) |
+
+### PROPERTY / INHERITANCE cluster (gold-tier)
+| Keyword | Vol (PK) | Intent | KD | Note |
+|---|---|---|---|---|
+| succession certificate | 2,900 | informational | — | |
+| succession certificate nadra | 1,900 | navigational | — | |
+| nadra succession certificate / process | 1,000 | navigational | — | "process" 1,000 |
+| succession certificate nadra fee | 720 | informational | — | |
+| what is succession certificate | 320 | informational | — | "nadra fee/fees" 320 |
+| succession certificate nadra required documents | 260 | informational | — | "meaning in urdu" 260 |
+| nadra succession certificate download / apply online | 260 / 210 | transactional | — | |
+| how to get succession certificate from nadra | 140 | informational | — | "verification" 140/110 |
+| nadra succession certificate office timing | 110 | navigational | — | |
+| transfer of property act (1882) (cluster) | 720–880 | informational | 18–44 | partly LAW-STUDENT intent (pdf/notes/sections 52/53/53a/54) — separate from client topic |
+| transfer of property act pakistan (+ pdf) | 170 / 140 | informational | 18 | |
+| property transfer fee calculator (punjab) | 110 / 50 | informational | — | |
+| property transfer tax (punjab) | 70 / 70 | informational | 69 | |
+| transfer of property after death of father in pakistan | 40 | informational | 44 | high client intent |
+| property transfer fees / fee | 40 | informational | 12 | low KD |
+
+### FAMILY cluster
+| Keyword | Vol (PK) | Intent | KD | Note |
+|---|---|---|---|---|
+| court marriage (+ "for marriage"/"and") | 1,300 | informational | — | |
+| court marriage in pakistan / pakistan court marriage | 590 | informational | — | "in karachi" 590 |
+| court marriage fee(s) in pakistan | 140 | informational | — | |
+| court marriage fees / charges | 110 | informational | — | "in islamabad" 110 |
+| is court marriage legal in islam | 110 | informational | — | AI-Overview PAA |
+| is court marriage allowed in islam | 110 | informational | — | AI-Overview PAA |
+| court marriage meaning in urdu | 110 | informational | — | |
+| court marriage muslim | 70 | informational | — | |
+| divorce (head) | 3,600 | informational | — | "divorce meaning in urdu" 2,400 |
+| divorce papers / papers for divorce | 1,900 | informational | — | |
+| divorce rate in pakistan (ratio/percentage/statistics/pakistan divorce rate) | 1,300 | informational | — | STAT/link-magnet cluster |
+| divorce paper(s) in pakistan | 720 | informational | — | |
+| khula (head) | 590 | informational | — | |
+| khula papers / procedure of khula in pakistan | 390 | informational | — | |
+| khula meaning in urdu / in urdu / in english | 170–210 | informational | — | |
+| khula papers in pakistan | 140 | informational | — | |
+| khula ki iddat kitni hai | 110 | informational | — | |
+| khula notice to husband | 110 | informational | — | |
+| what is khula in islam / khula means | 110 | informational | — | |
+| child custody | 320 | informational | — | spiked 2,400 in 2026-04 |
+| family law child custody | 90 | informational | — | |
+| child custody lawyer | 70 | commercial | — | |
+- NOISE excluded from family seeds: "khula hai sabhi ke liye" (naat 4,400), "khula aasman restaurant", "khula trouser design"; divorce celebrity news ("rajab butt divorce", "sehar hayat divorce" 720–1,300).
+
+### CIVIL cluster (cheque dishonour, 489-F)
+| Keyword | Vol (PK) | Intent | KD | Note |
+|---|---|---|---|---|
+| cheque bounce meaning (+ "bounce cheque meaning") | 260 | informational | **1** | |
+| cheque bounce | 210 | informational | 21 | |
+| bounce cheque | 140 | commercial | 21 | |
+| cheque bounce meaning in urdu | 110 | informational | 48 | |
+| what is cheque bounce | 90 | informational | 45 | |
+| cheque bounce validity period in pakistan | 90 | informational | — | |
+| cheque bounce case | 70 | informational | — | |
+| fir on cheque bounce in pakistan | 50 | transactional | — | 489-F PPC |
+| cheque bounce law / punishment in pakistan | 40 / 40 | informational | 40 | |
+| bail in cheque bounce case in pakistan | 20 | navigational | 46 | |
+
+### CRIMINAL cluster (bail)
+| Keyword | Vol (PK) | Intent | KD | Note |
+|---|---|---|---|---|
+| bail (legal head) | 2,900 | informational | — | seed heavily polluted by non-legal "bail" (mehndi/henna design 14,800; celeb news Imran Khan/Amar Bail) — target via QUALIFIED terms only |
+| pre arrest bail section | 110 | informational | — | |
+| pre arrest bail meaning in urdu | 90 | informational | — | |
+| pre arrest bail case law | 50 | informational | 41 | |
+| pre arrest bail crpc / in urdu / format | 30–40 | informational | — | |
+| grounds for/of pre arrest bail | 30 / 20 | info/trans | — | |
+| pre arrest bail in pakistan | 30 | informational | — | +200% YoY |
+| pre arrest bail in 489-f | 20 | informational | — | |
+| pre arrest bail application (format in pakistan) | 20 | info/trans | 41 | |
+
+### CORPORATE cluster
+| Keyword | Vol (PK) | Intent | KD | Note |
+|---|---|---|---|---|
+| secp company registration / company registration with secp / secp pakistan | 2,400 | navigational/trans | — | |
+| company registration in pakistan / pakistan company registration | 1,900 | informational | — | |
+| registration of a company in pakistan | 1,900 | transactional | — | |
+| company registration / registration of company | 720 | informational | — | |
+| llc company registration | 720 | informational | MED | |
+- EXCLUDE: "company registration in united kingdom/england" (1,900, MED, CPC $5.14) — foreign intent, not target market.
+
+### GSC-confirmed demand (real impressions, saeedlawfirm.com, 12 mo to 2026-06-25)
+**Proven legacy-blog posts still indexed (no equivalent on new Next.js site — recover + 301):**
+| Legacy URL | Impr | Avg pos |
+|---|---|---|
+| /best-countries-for-asylum-a-complete-2025-guide-for-applicants/ | 162 | 7.8 |
+| /traffic-violence-in-pakistan-causes-effects-and-solutions/ | 120 | 5.8 |
+| /car-insurance-after-accident-a-complete-guide/ | 55 | 9.7 |
+| /asylum-seekers-understanding-their-journey-rights-and-legal-protection/ | 16 | 7.0 |
+| /immigration-law-for-asylum-a-complete-guide-to-seeking-protection/ | 2 | 1.5 |
+
+- Informational/cost queries in GSC: "immigration lawyer fees", "civil court lawyer fees", "are law firms open on weekends", "lawyer near me free consultation", "civil court aiwan e adal lahore", "best countries for asylum seekers 2025 2026".
+- Entity query: "bilal saeed father lawyer" (principal) — author/E-E-A-T signal.
+- Cross-SERP PAA (appears on nearly every practice area, fires AI Overview): **"how much does a lawyer charge in Pakistan?"** → dedicated pillar post planned.
+- Migration debris / possible old-WP hack in GSC: `/prize/*` (many), `/shop/pg/...`, `/hello-world/`, `/demo-home/`, `/home-version-*`, `/category/*`, `/tag/*`, `/author/admin/` — audit + 301/410.
+- NOISE in GSC (US/UK spillover, ignore for targeting): "car accident lawyer" 315, "business lawyer" 273, "attorney" misspellings, "near me" attorney terms.
+
+### Competitor topical-authority gap (informational layer)
+- **zallp.com (Zafar & Associates, 13K+ reviews, full-service):** NO blog/articles/FAQ — service descriptions + testimonials only. Strongest firm cedes the entire informational layer.
+- **paklawyer.com:** has a family-focused blog (Halala, MOFA attestation, child maintenance, how to get khula, adoption) — thin, beatable on depth. Main informational competitor.
+- Informational SERPs currently won by directories (lawzana) + content sites (qanoon.online, legalversity, voiceofjustice) — not authority firms. Gap = comprehensive, answer-first, E-E-A-T-backed guides.
+
+### DataForSEO task IDs (traceability)
+keyword_suggestions seeds (loc 2586, en): court marriage `06281701-1807-0399-0000-de456bd2fda3` · khula `…-d7aded439567` · child custody `…-739b1c81248f` · succession certificate `…-e08a696a9f5b` · divorce / income tax return / bail / company registration (batch 2, IDs in saved tool-results) · pre arrest bail `06281704-1807-0399-0000-6c75d3781e27` · property transfer `…-c2004264503f` · how to become filer `…-8d5e7462b123` · cheque bounce `…-6e1f8c48d9bb`.
 
 ---
 
 ## 2026-06-29 — GSC baseline pull (routine Run 1, Theme 1 technical)
 
-GSC `sc-domain:saeedlawfirm.com`, 12mo to 2026-06-25. Brand healthy ("saeed law firm" 1118 impr/pos 2.23; "...lahore" pos 1.04). Money-page baselines + legacy-URL redirect map captured in the vault corpus (canonical) and `seo-routine/state.json`. Run 1 shipped 7 legacy 301s (/about-us, /contact-us, asylum cluster, traffic-violence, car-insurance) + fixed firm email. New /blog/* articles at 0 impr (published 2026-06-28). Full tables: see vault `Organic SEO/KEYWORD-CORPUS-saeedlawfirm.com.md` 2026-06-29 section.
+**Source:** Google Search Console `sc-domain:saeedlawfirm.com`, 12 mo window 2025-06-29 → 2026-06-25. Pulled by the daily SEO routine for baseline + legacy-URL redirect mapping. Append-only.
+
+### Top queries (brand + non-brand)
+| Query | Impr | Pos | Clicks | Note |
+|---|---|---|---|---|
+| saeed law firm | 1118 | 2.23 | 64 | brand, healthy |
+| saeed law firm lahore | 352 | 1.04 | 18 | brand #1 |
+| law firms near me | 55 | 11.82 | 4 | non-brand local |
+| law firms in lahore | 146 | 15.26 | 3 | p.2 — opportunity |
+| best law firms in lahore | 27 | 10.41 | 2 | p.2 |
+| law firms in pakistan | 34 | 8.15 | 2 | |
+| law firms lahore | 53 | 9.15 | 2 | |
+| best civil lawyer in lahore | 15 | 12.8 | 1 | |
+| best property lawyer in lahore | 16 | 13.88 | 1 | |
+| khula lawyer in lahore | 22 | 7.36 | 1 | money page ranking |
+| lawyer near me | 60 | 11.1 | 1 | local |
+| lawyers near me | 73 | 5.97 | 1 | local |
+| lawyer in lahore | 48 | 15.92 | 1 | |
+| immigration lawyer fees | 2 | 3.5 | 1 | cost-intent PAA (Brief 17) |
+| lawyer near me free consultation | 5 | 1.0 | 1 | |
+
+### Page-level baseline (live money pages)
+| Page | Impr | Pos | Clicks |
+|---|---|---|---|
+| / (home) | 3647 | 6.20 | 103 |
+| /property-lawyer-in-lahore | 770 | 7.76 | 22 |
+| /lawyers-in-lahore | 657 | 7.99 | 13 |
+| /family-lawyer-in-lahore | 387 | 12.17 | 5 |
+| /civil-lawyer-in-lahore | 630 | 8.34 | 2 |
+| /tax-lawyer-in-lahore | 108 | 8.67 | 4 |
+| /immigration-lawyer-in-lahore | 203 | 16.38 | 3 |
+| /criminal-lawyer-in-lahore | 129 | 9.56 | 0 |
+| /khula-lawyer-in-lahore | 156 | 10.21 | 3 |
+| /child-custody-lawyer-in-lahore | 101 | 7.91 | 0 |
+| /corporate-lawyer-in-lahore | 76 | 11.49 | 1 |
+
+*New `/blog/*` articles: 0 impressions (published 2026-06-28, 1 day before pull). First measurable data ~2026-07-12.*
+
+### Legacy WordPress URLs still indexed (redirect targets)
+| Legacy URL | Impr | Pos | Action taken Run 1 |
+|---|---|---|---|
+| /about-us/ | 1014 | 5.23 | 301 → /about |
+| /contact-us/ | 1496 | 6.91 | 301 → /contact |
+| /best-countries-for-asylum-a-complete-2025-guide-for-applicants/ | 162 | 7.83 | 301 → /blog/best-countries-for-asylum |
+| /traffic-violence-in-pakistan-causes-effects-and-solutions/ | 120 | 5.83 | 301 → /blog/road-accident-compensation-and-car-insurance-in-pakistan |
+| /car-insurance-after-accident-a-complete-guide/ | 55 | 9.65 | 301 → /blog/road-accident-compensation-and-car-insurance-in-pakistan |
+| /asylum-seekers-understanding-their-journey.../ | 16 | 7.0 | 301 → /blog/best-countries-for-asylum |
+| /immigration-law-for-asylum-a-complete-guide.../ | 2 | 1.5 | 301 → /blog/best-countries-for-asylum |
+| /faqs/ | 151 | 4.41 | (no clean target yet — backlog P2) |
+| /cases/ | 166 | 8.10 | (no clean target yet — backlog P2) |
+| /demo-home/ | 79 | 6.29 | WP debris — 404, GSC removal pending |
+| /prize/* (~25), /shop/pg/*, /category/*, /tag/*, /author/admin/ | ~1–2 each | mixed | suspected old-WP-hack debris — 404, GSC removal pending |
+
+**Index-split note:** `http://saeedlawfirm.com/` = 8386 impr vs `https://` = 3647 — confirm host-level HTTP→HTTPS + www canonicalisation (not fixable in next.config.js).
 
 ---
 
-## 2026-07-01 — GSC page snapshot (Run 9, post-deploy), 2026-06-22→06-30
+## 2026-07-01 — GSC page snapshot (Run 9, post-deploy), sc-domain:saeedlawfirm.com, 2026-06-22→06-30 (9 days)
 
-Blog `/blog/*` still 0 impressions (published 2026-06-28, ~3 days old; first signal ~2026-07-12). Money pages improving vs 12-mo baseline in a noisy 9-day window: /family-lawyer-in-lahore 12.17→9.54, /immigration-lawyer-in-lahore 16.38→13.31, /property-lawyer-in-lahore 7.76→6.41, /civil-lawyer-in-lahore 8.34→7.57, /khula-lawyer-in-lahore 10.21→8.89. Still open: http:// 822 impr vs https:// 195 (host-level HTTP→HTTPS 301 at Vercel not in place). Full table in the vault corpus.
+Append-only. First GSC pull AFTER the owner committed/deployed runs 1-8 (`29 june` + `30 june`). Blog is ~3 days old; window is short and noisy — do not over-attribute.
+
+**`/blog/*` guides: 0 impressions** (page filter `contains /blog` returned no rows). Published 2026-06-28; not yet earning. First real signal expected ~2026-07-12.
+
+**Money-page movement vs 12-mo baseline (noisy 9-day window):**
+| Page | Impr (9d) | Pos (9d) | 12-mo baseline pos | Move |
+|---|---|---|---|---|
+| /lawyers-in-lahore | 612 | 9.42 | 7.99 | – |
+| / (https home) | 195 | 5.71 | — | — |
+| /property-lawyer-in-lahore | 199 | 6.41 | 7.76 | ↑ |
+| /criminal-lawyer-in-lahore | 88 | 8.39 | 9.56 | ↑ |
+| /family-lawyer-in-lahore | 306 | 9.54 | 12.17 | ↑ |
+| /immigration-lawyer-in-lahore | 107 | 13.31 | 16.38 | ↑ |
+| /khula-lawyer-in-lahore | 107 | 8.89 | 10.21 | ↑ |
+| /tax-lawyer-in-lahore | 71 | 9.14 | 8.67 | – |
+| /civil-lawyer-in-lahore | 283 | 7.57 | 8.34 | ↑ |
+| /child-custody-lawyer-in-lahore | 9 | 18.0 | 7.91 | ↓ (thin volume) |
+| /corporate-lawyer-in-lahore | 12 | 10.5 | 11.49 | ↑ |
+
+**Index-split still open:** `http://saeedlawfirm.com/` = 822 impr vs `https://` = 195 in the window. Host-level HTTP→HTTPS 301 at Vercel still NOT in place (not fixable in-repo). Also `/tax-lawyer/` legacy URL still indexed (19 impr, pos 20.7).
+
+---
+
+## 2026-07-03 — GSC pull (Run 11, theme 4) · window 2026-06-23→07-02, page dim
+
+Append-only. Blog is now indexing; short/noisy window, do not over-attribute.
+
+**Blog mover — the property-transfer guide is breaking out:**
+| Page | Impr | Pos | Clicks | Prior (run 10, 06-22→07-01) |
+|---|---|---|---|---|
+| /blog/how-to-transfer-property-in-punjab | 72 | 6.15 | 1 | 4 impr @ pos 5.5 |
+
+Still the ONLY `/blog/*` page above the GSC reporting threshold (other 21 guides sub-threshold; broader signal tracking to ~07-12). ~18× impression jump in 2 days validated prioritising its HowTo schema this run.
+
+**Money pages (in-window):**
+| Page | Impr | Pos | 12-mo baseline pos |
+|---|---|---|---|
+| /lawyers-in-lahore | 649 | 9.53 | 7.99 |
+| /property-lawyer-in-lahore | 257 | 6.87 | 7.76 |
+| /family-lawyer-in-lahore | 337 | 10.42 | 12.17 |
+| /civil-lawyer-in-lahore | 313 | 8.25 | 8.34 |
+| /criminal-lawyer-in-lahore | 119 | 8.33 | 9.56 |
+| /khula-lawyer-in-lahore | 162 | 8.31 | 10.21 |
+| /immigration-lawyer-in-lahore | 117 | 11.37 | 16.38 |
+| /tax-lawyer-in-lahore | 100 | 8.14 | 8.67 |
+| /corporate-lawyer-in-lahore | 12 | 10.17 | 11.49 |
+| /child-custody-lawyer-in-lahore | 8 | 17.25 | 7.91 (thin volume) |
+
+**Index-split still open:** `http://saeedlawfirm.com/` = 993 impr vs `https://` = 211. Host-level HTTP→HTTPS 301 at Vercel still NOT in place (owner/dev, not in-repo). Legacy `/tax-lawyer/` still indexed (17 impr, pos 20.1).
