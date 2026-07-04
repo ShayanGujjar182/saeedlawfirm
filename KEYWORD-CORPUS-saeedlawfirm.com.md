@@ -775,3 +775,35 @@ Still the ONLY `/blog/*` page above the GSC reporting threshold (other 21 guides
 | /child-custody-lawyer-in-lahore | 8 | 17.25 | 7.91 (thin volume) |
 
 **Index-split still open:** `http://saeedlawfirm.com/` = 993 impr vs `https://` = 211. Host-level HTTP→HTTPS 301 at Vercel still NOT in place (owner/dev, not in-repo). Legacy `/tax-lawyer/` still indexed (17 impr, pos 20.1).
+
+---
+
+## 2026-07-04 — GSC measurement (Run 12, Theme 5: money-page on-page)
+
+**Source:** Google Search Console (`sc-domain:saeedlawfirm.com`), 2026-06-06 → 2026-07-03 (28-day window). Page + query,page dims. Cycle-2 edits live since owner committed runs 1-11.
+
+### Money-page positions (28-day, https canonical)
+| Page | Impr | Pos | CTR | Clicks | vs baseline pos |
+|------|------|-----|-----|--------|-----------------|
+| / (home) | 771 | 6.82 | 3.37% | 26 | — |
+| /lawyers-in-lahore | 1058 | 9.20 | 2.08% | 22 | 7.99 (slipped, more impr) |
+| /property-lawyer-in-lahore | 711 | 7.18 | 2.53% | 18 | 7.76 (improved) |
+| /family-lawyer-in-lahore | 633 | **11.92** | **1.10%** | 7 | 12.17 (flat; run-9 window saw 9.54 — noisy) |
+| /khula-lawyer-in-lahore | 326 | 9.21 | 2.15% | 7 | 10.21 (improved) |
+| /tax-lawyer-in-lahore | 188 | 8.23 | 2.66% | 5 | 8.67 (improved) |
+| /immigration-lawyer-in-lahore | 253 | **12.86** | 1.58% | 4 | 16.38 (improved strongly) |
+| /civil-lawyer-in-lahore | 664 | 8.55 | 0.45% | 3 | 8.34 (flat) |
+| /criminal-lawyer-in-lahore | 260 | 8.64 | 1.15% | 3 | 9.56 (improved) |
+| /corporate-lawyer-in-lahore | 72 | 10.81 | 1.39% | 1 | 11.49 (improved) |
+| /child-custody-lawyer-in-lahore | 101 | 8.76 | 0% | 0 | 7.91 (flat) |
+
+### Blog mover (still the only /blog/* surfacing)
+- **/blog/how-to-transfer-property-in-punjab**: 282 impr @ pos 5.80 (was 72 impr @ 6.15 on 07-03; 4 impr @ 5.5 on 07-02). Steady climb; validates the run-11 HowTo priority. Query "hiba transfer fee in punjab" pos 7. Other 21 guides still ~0 impr (blog ~6 days of live crawl).
+
+### Query notes for the two theme-5 targets
+- **immigration**: "immigration lawyer fees" pos 3.5 (2 impr, 1 click) — fees intent surfacing. Page ranks head-term "immigration lawyer in lahore" mid-page-2.
+- **family**: mostly head/near-head ("family lawyer", "family law center", "a family lawyer") + long-tail; low CTR at pos ~12 is position-driven. Title/desc already keyword-strong; on-page lever is ranking, not CTR copy.
+
+### Technical flags (unchanged, owner/dev)
+- **http:// still outranks https://**: http home 2672 impr @ pos 4.55 vs https home 771 @ 6.82. Host-level HTTP→HTTPS 301 at Vercel STILL not in place — biggest un-actioned lever (not in-repo).
+- Legacy WP practice URLs still indexed with no 301: `/family-lawyer/` (61 impr, pos 14.6), `/tax-lawyer/` (53), `/immigration-lawyer/` (14), `/criminal-lawyer/` (6). Not in the run-1 redirect set — candidate for a next theme-1 pass.
