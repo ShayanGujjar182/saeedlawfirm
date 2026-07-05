@@ -107,6 +107,44 @@ const SERVICE_GUIDES: Record<string, { title: string; href: string }[]> = {
 	],
 	'immigration-lawyer-in-lahore': [
 		{ title: 'Best Countries for Asylum', href: '/blog/best-countries-for-asylum' }
+	],
+	'khula-lawyer-in-lahore': [
+		{ title: 'Khula Procedure in Pakistan', href: '/blog/khula-procedure-in-pakistan' },
+		{ title: 'Divorce Procedure in Pakistan', href: '/blog/divorce-procedure-in-pakistan' },
+		{ title: 'Child Custody in Pakistan', href: '/blog/child-custody-in-pakistan' }
+	],
+	'child-custody-lawyer-in-lahore': [
+		{ title: 'Child Custody in Pakistan', href: '/blog/child-custody-in-pakistan' },
+		{ title: 'Divorce Procedure in Pakistan', href: '/blog/divorce-procedure-in-pakistan' },
+		{ title: 'Khula Procedure in Pakistan', href: '/blog/khula-procedure-in-pakistan' }
+	],
+	'divorce-lawyer-in-lahore': [
+		{ title: 'Divorce Procedure in Pakistan', href: '/blog/divorce-procedure-in-pakistan' },
+		{ title: 'Khula Procedure in Pakistan', href: '/blog/khula-procedure-in-pakistan' },
+		{ title: 'Child Custody in Pakistan', href: '/blog/child-custody-in-pakistan' },
+		{ title: 'Divorce Rate in Pakistan', href: '/blog/divorce-rate-in-pakistan' }
+	],
+	'court-marriage-lawyer-in-lahore': [
+		{ title: 'Court Marriage in Pakistan', href: '/blog/court-marriage-in-pakistan' },
+		{ title: 'Divorce Procedure in Pakistan', href: '/blog/divorce-procedure-in-pakistan' },
+		{ title: 'Khula Procedure in Pakistan', href: '/blog/khula-procedure-in-pakistan' }
+	],
+	'lawyers-in-lahore': [
+		{
+			title: 'How to Transfer Property in Punjab',
+			href: '/blog/how-to-transfer-property-in-punjab'
+		},
+		{ title: 'Divorce Procedure in Pakistan', href: '/blog/divorce-procedure-in-pakistan' },
+		{
+			title: 'How to Become a Filer in Pakistan',
+			href: '/blog/how-to-become-a-filer-in-pakistan'
+		},
+		{ title: 'Pre-Arrest Bail in Pakistan', href: '/blog/pre-arrest-bail-in-pakistan' },
+		{
+			title: 'Company Registration with SECP',
+			href: '/blog/company-registration-in-pakistan-secp'
+		},
+		{ title: 'Cheque Bounce (Section 489-F)', href: '/blog/cheque-bounce-in-pakistan' }
 	]
 }
 
