@@ -11,7 +11,8 @@ import {
 	inlineMarkdownToHtml,
 	jsonLd,
 	legalServiceSchema,
-	organizationSchema
+	organizationSchema,
+	speakableSchema
 } from '../../lib/seo-content'
 import type { PageContentBlock } from '../../lib/page-content'
 
@@ -287,6 +288,10 @@ export default function DynamicSeoPage({ html, page }: Props) {
 					type="application/ld+json"
 					dangerouslySetInnerHTML={{ __html: jsonLd(breadcrumbSchema(breadcrumbs)) }}
 				/>
+				<script
+					type="application/ld+json"
+					dangerouslySetInnerHTML={{ __html: jsonLd(speakableSchema(canonicalPath)) }}
+				/>
 				{page.kind === 'article' ? (
 					<script
 						type="application/ld+json"
@@ -352,7 +357,7 @@ export default function DynamicSeoPage({ html, page }: Props) {
 							{page.hero.h1}
 						</h1>
 						<div className="w-12 h-1 bg-gold-600 rounded mx-auto mb-6" />
-						<p className="text-gray-300 text-base leading-relaxed max-w-2xl mx-auto mb-8">
+						<p className="page-summary text-gray-300 text-base leading-relaxed max-w-2xl mx-auto mb-8">
 							{page.hero.intro}
 						</p>
 						<div className="flex flex-wrap justify-center gap-4">

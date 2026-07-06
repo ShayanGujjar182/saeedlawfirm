@@ -266,6 +266,22 @@ export function howToSchema(page: {
 	}
 }
 
+// speakable: marks the headline + answer-first summary as text-to-speech friendly
+// for voice assistants and AI answer engines (GEO). Targets the stable `.page-summary`
+// hook on the hero intro and the single h1. Emitted on every dynamic SEO page.
+export function speakableSchema(path: string) {
+	return {
+		'@context': 'https://schema.org',
+		'@type': 'WebPage',
+		'@id': `${SITE_URL}${path}#webpage`,
+		url: `${SITE_URL}${path}`,
+		speakable: {
+			'@type': 'SpeakableSpecification',
+			cssSelector: ['h1', '.page-summary']
+		}
+	}
+}
+
 export function articleSchema(page: {
 	h1: string
 	metaDescription: string

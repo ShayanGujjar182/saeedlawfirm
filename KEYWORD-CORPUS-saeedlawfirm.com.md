@@ -807,3 +807,67 @@ Still the ONLY `/blog/*` page above the GSC reporting threshold (other 21 guides
 ### Technical flags (unchanged, owner/dev)
 - **http:// still outranks https://**: http home 2672 impr @ pos 4.55 vs https home 771 @ 6.82. Host-level HTTP→HTTPS 301 at Vercel STILL not in place — biggest un-actioned lever (not in-repo).
 - Legacy WP practice URLs still indexed with no 301: `/family-lawyer/` (61 impr, pos 14.6), `/tax-lawyer/` (53), `/immigration-lawyer/` (14), `/criminal-lawyer/` (6). Not in the run-1 redirect set — candidate for a next theme-1 pass.
+
+---
+
+## 2026-07-06 — Run 14 (Theme 7: Local + GEO) · GSC 2026-06-08 → 07-04
+
+Source: Google Search Console (sc-domain:saeedlawfirm.com), page + query dims. Append-only.
+
+### Page performance (page dim, top rows)
+| Page | Impr | Pos | Clicks |
+|---|---|---|---|
+| / (https) | 789 | 6.28 | 26 |
+| / (http, un-canonicalised) | 2785 | 4.49 | 24 |
+| /lawyers-in-lahore | 1124 | 8.99 | 22 |
+| /property-lawyer-in-lahore | 748 | 6.95 | 19 |
+| /blog/how-to-transfer-property-in-punjab | 592 | 6.28 | 11 |
+| /khula-lawyer-in-lahore | 355 | 9.00 | 8 |
+| /family-lawyer-in-lahore | 694 | 11.42 | 7 |
+| /tax-lawyer-in-lahore | 220 | 7.97 | 5 |
+| /criminal-lawyer-in-lahore | 289 | 8.40 | 4 |
+| /immigration-lawyer-in-lahore | 271 | 12.21 | 4 |
+| /civil-lawyer-in-lahore | 689 | 8.27 | 3 |
+| /corporate-lawyer-in-lahore | 73 | 10.85 | 1 |
+| /divorce-lawyer-in-lahore | 44 | 17.48 | 1 |
+| /child-custody-lawyer-in-lahore | 88 | 8.35 | 0 |
+| /blog/best-countries-for-asylum | 11 | 7.36 | 0 |
+
+Blog: only `/blog/how-to-transfer-property-in-punjab` (592 impr, climbing 4→72→282→430→592 across runs 10-14) and a trace of best-countries-for-asylum surface. The other 20 guides remain sub-threshold at ~5-6 weeks live.
+
+### Query cluster — /lawyers-in-lahore (query dim, "law firm / best lawyer" entity is WEAK)
+| Query | Impr | Pos |
+|---|---|---|
+| best civil lawyer in lahore | 9 | 9.22 |
+| best service matter lawyer in lahore | 5 | 9.80 |
+| advocate near me | 13 | 8.62 |
+| criminal case lawyer near me | 3 | 6.33 |
+| best advocate in lahore | 3 | 9.33 |
+| best lawyer in lahore | 8 | 26.38 |
+| best lawyer lahore | 3 | 30.33 |
+| best law firm in lahore | 1 | 43.0 |
+| best family lawyer in lahore | 1 | 54.0 |
+| best divorce lawyer in lahore | 1 | 59.0 |
+| lahore lawyers | 2 | 55.5 |
+| civil litigation in lahore | 4 | 62.0 |
+
+Read: the hub ranks well for "best civil lawyer" / near-me / "best advocate", but the head **"best law firm in lahore" / "best lawyer in lahore" / "lahore lawyers"** cluster sits p.3-6 — the "law firm" entity is under-represented on-page. Run 14 fixed the eyebrow → "Law Firm in Lahore · Established 1975" (entity above fold); deeper body/H1 work queued P2#8.
+
+### Legacy WP practice URLs still indexed, NO 301 (queued P1#5, cycle-3 theme 1)
+| URL | Impr | Pos |
+|---|---|---|
+| /family-lawyer/ | 49 | 11.67 |
+| /tax-lawyer/ | 51 | 12.41 |
+| /immigration-lawyer/ | 13 | 14.85 |
+| /criminal-lawyer/ | 7 | 7.29 |
+
+### Technical flag (owner/dev, unchanged)
+- **http:// still outranks https://**: http home 2785 impr @ pos 4.49 vs https 789 @ 6.28. Host-level HTTP→HTTPS 301 STILL missing — the single biggest un-actioned lever (not in-repo).
+
+### Quick-wins (GSC detect_quick_wins, pos 4-10 / CTR <2%, min 40 impr)
+| Query | Page | Pos | Impr | Clicks | Note |
+|---|---|---|---|---|---|
+| personal injury lawyer near me | /civil-lawyer-in-lahore | 8.0 | 201 | 0 | HIGH — ranks p.1 on 201 impr with 0 clicks; PI query landing on the civil page (title/meta mismatch). ~10 clicks on the table. |
+| family lawyer lahore | /family-lawyer-in-lahore | 8.1 | 42 | 0 | HIGH — head "family lawyer lahore" at pos 8, 0 CTR. |
+
+Both are CTR-lever (title/meta/intro) targets for the next theme-5 money-page pass, not ranking problems.
