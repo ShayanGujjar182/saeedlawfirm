@@ -871,3 +871,49 @@ Read: the hub ranks well for "best civil lawyer" / near-me / "best advocate", bu
 | family lawyer lahore | /family-lawyer-in-lahore | 8.1 | 42 | 0 | HIGH — head "family lawyer lahore" at pos 8, 0 CTR. |
 
 Both are CTR-lever (title/meta/intro) targets for the next theme-5 money-page pass, not ranking problems.
+
+---
+
+## 2026-07-07 — Run 15 (cycle 3, theme 1: Technical) — GSC page dim + live-status audit
+
+**GSC window 2026-06-09 → 07-05 (page dimension, all 22 surfacing URLs).**
+
+### Money pages (position vs 12-mo baseline)
+| Page | Impr | Pos | Baseline pos | Clicks |
+|---|---|---|---|---|
+| /lawyers-in-lahore | 1147 | 9.01 | 7.99 | 21 |
+| /property-lawyer-in-lahore | 775 | 6.91 | 7.76 | 19 |
+| /family-lawyer-in-lahore | 737 | 11.15 | 12.17 | 7 |
+| /civil-lawyer-in-lahore | 690 | 8.18 | 8.34 | 3 |
+| /khula-lawyer-in-lahore | 363 | 8.74 | 10.21 | 8 |
+| /criminal-lawyer-in-lahore | 301 | 8.26 | 9.56 | 5 |
+| /immigration-lawyer-in-lahore | 284 | 11.91 | 16.38 | 4 |
+| /tax-lawyer-in-lahore | 227 | 7.96 | 8.67 | 5 |
+| /child-custody-lawyer-in-lahore | 81 | 8.37 | 7.91 | 0 |
+| /corporate-lawyer-in-lahore | 66 | 11.53 | 11.49 | 1 |
+| /divorce-lawyer-in-lahore | 45 | 17.04 | — | 1 |
+
+### Blog (only 2 of 22 guides surface)
+| Page | Impr | Pos | Clicks |
+|---|---|---|---|
+| /blog/how-to-transfer-property-in-punjab | 716 | 6.30 | 15 |
+| /blog/best-countries-for-asylum | 19 | 7.42 | 0 |
+
+### Host + legacy URLs (page dim)
+| URL | Impr | Pos | Live status (curl) |
+|---|---|---|---|
+| http://saeedlawfirm.com/ | 2828 | 4.40 | 301 → https (WORKS — split is consolidation lag) |
+| https://saeedlawfirm.com/ | 785 | 5.84 | 200 (canonical host) |
+| http://www.saeedlawfirm.com/ | 1 | 1.0 | — |
+| /family-lawyer/ | 36 | 7.5 | 308 → /family-lawyer → 308 → /family-lawyer-in-lahore |
+| /tax-lawyer/ | 49 | 12.65 | 308 → /tax-lawyer → 308 → money page |
+| /immigration-lawyer/ | 13 | 14.85 | 308 → money page |
+| /criminal-lawyer/ | 8 | 6.75 | 308 → money page |
+| /faqs, /cases | 0 | — | were 404 → 301'd to /about this run |
+
+### Live-status audit corrections (supersede prior corpus/state technical flags)
+- **http→https 301 is LIVE** (`curl http://` → 301 → https). The prior flag "host-level HTTP→HTTPS 301 STILL missing, single biggest un-actioned lever" (runs 8-14) was a **misread**. The http/https impression split is index consolidation lag, not a missing redirect. No action; monitor.
+- **www→non-www was the actual missing host redirect**: `https://www.saeedlawfirm.com/` served a live 200 for every path. Fixed run 15 (host-conditioned 308 in next.config.js).
+- **Legacy practice-URL 301s never missing** — present since the initial commit; verified live. Impressions = Google's slow drop of already-301'd URLs.
+
+No DataForSEO calls this run (theme-1 technical work needs no volume data; GSC sufficient).
