@@ -917,3 +917,40 @@ Both are CTR-lever (title/meta/intro) targets for the next theme-5 money-page pa
 - **Legacy practice-URL 301s never missing** — present since the initial commit; verified live. Impressions = Google's slow drop of already-301'd URLs.
 
 No DataForSEO calls this run (theme-1 technical work needs no volume data; GSC sufficient).
+
+---
+
+## 2026-07-08 — Run 16 GSC pull (family/immigration intent) + DataForSEO location gotcha
+
+**Source:** Google Search Console `sc-domain:saeedlawfirm.com`, 2026-06-09 → 2026-07-06 (28d). Real Pakistan intent.
+
+### Guides surfacing (only 3 of 22 — concentration confirmed)
+| Guide | Impr | Pos | Clicks |
+|---|---|---|---|
+| /blog/how-to-transfer-property-in-punjab | 865 | 6.29 | 19 |
+| /blog/best-countries-for-asylum | 23 | 6.87 | 1 |
+| /blog/khula-procedure-in-pakistan | 2 | 8.5 | 0 |
+
+### Money-page positions (28d)
+| Page | Impr | Pos | Clicks |
+|---|---|---|---|
+| /property-lawyer-in-lahore | 819 | 6.78 | 22 |
+| /family-lawyer-in-lahore | 763 | 11.09 | 8 (CTR 1.05%, weakest CTR) |
+| /civil-lawyer-in-lahore | 724 | 7.98 | 3 |
+| /khula-lawyer-in-lahore | 386 | 8.68 | 8 |
+| /criminal-lawyer-in-lahore | 334 | 8.02 | 6 |
+| /immigration-lawyer-in-lahore | 299 | 11.98 | 4 |
+| /child-custody-lawyer-in-lahore | 82 | 8.39 | 0 |
+| /corporate-lawyer-in-lahore | 70 | 11.11 | 1 |
+| /divorce-lawyer-in-lahore | 45 | 17.04 | 1 (weakest position) |
+
+### Latent family/immigration query demand (already ranking, low volume)
+- `khula lawyer in lahore` — pos 4.9, 39 impr
+- `khula lawyer near me` — pos 1, 2 impr
+- `immigration lawyer fees` — pos 3.5, 2 impr (fee-intent)
+- `best property lawyer in lahore` — pos 7.9, 16 impr
+- `tax lawyer lahore` — pos 8.9, 22 impr
+- `law firms in lahore` — pos 9.98, 48 impr
+
+### ⚠️ DATA GOTCHA (durable)
+`mcp__dataforseo__kw_data_google_ads_search_volume` **ignores `location_code`** — passed 2586 (Pakistan), it returned `location_code: 2840` (USA) volumes for every keyword. All PK-intent terms (khula/talaq/court-marriage procedure) showed only 10-50/mo = US spillover, NOT Pakistan demand. Do NOT trust that tool for PK volume. Use GSC intent signal, or `dataforseo_labs_google_keyword_overview` / `_bulk_keyword_difficulty` with an explicit location filter and verify the returned `location_code` echoes 2586/1011082.
