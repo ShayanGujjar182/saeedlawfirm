@@ -3,6 +3,7 @@ import Link from 'next/link'
 
 import type { SeoPageContent } from '../../lib/page-content'
 import {
+	FIRM,
 	SITE_URL,
 	articleSchema,
 	breadcrumbSchema,
@@ -416,6 +417,27 @@ export default function DynamicSeoPage({ html, page }: Props) {
 										Courts Lahore
 									</p>
 								)}
+								<p className="text-xs text-gray-500 mt-1">
+									{page.dateModified && (
+										<>Last updated {formatDate(page.dateModified)}. </>
+									)}
+									General information, not legal advice.{' '}
+									<Link href="/about" className="text-gold-700 underline">
+										About the firm
+									</Link>
+								</p>
+							</div>
+						)}
+						{(page.kind === 'service' || page.kind === 'area') && (
+							<div className="mb-8 border-l-2 border-gold-400 bg-gray-50 rounded-r-lg p-4">
+								<p className="text-sm font-semibold text-navy-900">
+									Reviewed by {FIRM.principalLawyer.name},{' '}
+									{FIRM.principalLawyer.title}, {FIRM.name}
+								</p>
+								<p className="text-xs text-navy-600 mt-0.5">
+									{FIRM.principalLawyer.barCouncil} · Lahore High Court and
+									District Courts Lahore · Established {FIRM.founded}
+								</p>
 								<p className="text-xs text-gray-500 mt-1">
 									{page.dateModified && (
 										<>Last updated {formatDate(page.dateModified)}. </>
