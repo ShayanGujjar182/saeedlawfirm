@@ -235,6 +235,20 @@ export function legalServiceSchema(page: {
 		description: page.metaDescription,
 		url: `${SITE_URL}/${page.slug}`,
 		provider: { '@id': `${SITE_URL}#organization` },
+		// Mirrors the visible "Reviewed by Bilal Saeed, Advocate" box on service/area
+		// pages so the machine-readable attribution matches the on-page E-E-A-T signal.
+		// Same Person shape as articleSchema's author; sourced from data/firm.json only.
+		employee: {
+			'@type': 'Person',
+			name: FIRM.principalLawyer.name,
+			jobTitle: FIRM.principalLawyer.title,
+			url: `${SITE_URL}/about`,
+			worksFor: { '@id': `${SITE_URL}#organization` },
+			memberOf: {
+				'@type': 'Organization',
+				name: FIRM.principalLawyer.barCouncil
+			}
+		},
 		address: {
 			'@type': 'PostalAddress',
 			...FIRM.address

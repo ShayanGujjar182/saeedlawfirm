@@ -954,3 +954,42 @@ No DataForSEO calls this run (theme-1 technical work needs no volume data; GSC s
 
 ### ⚠️ DATA GOTCHA (durable)
 `mcp__dataforseo__kw_data_google_ads_search_volume` **ignores `location_code`** — passed 2586 (Pakistan), it returned `location_code: 2840` (USA) volumes for every keyword. All PK-intent terms (khula/talaq/court-marriage procedure) showed only 10-50/mo = US spillover, NOT Pakistan demand. Do NOT trust that tool for PK volume. Use GSC intent signal, or `dataforseo_labs_google_keyword_overview` / `_bulk_keyword_difficulty` with an explicit location filter and verify the returned `location_code` echoes 2586/1011082.
+## 2026-07-10 — GSC page-dim snapshot (run 18, theme 4) · window 2026-06-12 → 07-08
+
+Source: `google-search-console` MCP `search_analytics`, page dimension, sc-domain:saeedlawfirm.com. PK/Lahore intent. Appended for grading, not fabricated.
+
+### 🔑 SHIFT — topical breadth is now arriving (was "only 3 of 22 guides surface" through run 17)
+~14 of 22 guides now register impressions, the whole family/property cluster sits on page 1:
+
+| Guide (/blog/…) | Impr | Pos | Clicks |
+|---|---|---|---|
+| how-to-transfer-property-in-punjab | 1127 | 6.34 | 22 (still dominant) |
+| court-marriage-in-pakistan | 103 | 6.15 | 1 |
+| divorce-rate-in-pakistan | 84 | 5.39 | 1 |
+| inheritance-law-in-pakistan | 62 | 4.81 | 1 |
+| divorce-procedure-in-pakistan | 61 | 5.48 | 1 (run-16 HowTo) |
+| child-custody-in-pakistan | 48 | 6.27 | 0 |
+| nadra-succession-certificate-in-pakistan | 40 | 6.73 | 1 |
+| best-countries-for-asylum | 34 | 7.18 | 1 |
+| gift-deed-hiba-vs-sale-vs-will-in-pakistan | 18 | 3.28 | 0 |
+| how-to-become-a-filer-in-pakistan | 15 | 4.67 | 0 |
+| fbr-tax-notice-how-to-respond | 9 | 12.56 | 0 |
+| khula-procedure-in-pakistan | 7 | 8.29 | 0 (run-16 HowTo; noisy) |
+| how-to-file-income-tax-return-in-pakistan | 5 | 9.40 | 0 |
+
+### Money-page positions (window above)
+| Page | Impr | Pos | Clicks | Note |
+|---|---|---|---|---|
+| /lawyers-in-lahore | 1256 | 9.11 | 22 | hub |
+| /property-lawyer-in-lahore | 834 | 6.65 | 22 | strongest |
+| /family-lawyer-in-lahore | 805 | 10.43 | 8 | CTR 0.99% (still low); pos improving |
+| /civil-lawyer-in-lahore | 713 | 7.64 | 2 | CTR 0.28% — worst CTR, theme-5 quick-win |
+| /criminal-lawyer-in-lahore | 411 | 7.69 | 8 | |
+| /khula-lawyer-in-lahore | 387 | 8.40 | 10 | CTR 2.58%, strong |
+| /immigration-lawyer-in-lahore | 312 | 11.89 | 4 | |
+| /tax-lawyer-in-lahore | 263 | 7.97 | 3 | |
+| /child-custody-lawyer-in-lahore | 64 | 8.52 | 0 | |
+| /corporate-lawyer-in-lahore | 64 | 8.81 | 1 | |
+| /divorce-lawyer-in-lahore | 38 | 14.66 | 1 | recovered from 17.49 (was weakest) |
+
+Host split (monitor, consolidation lag): http home 2905 impr @ 4.27 vs https 805 @ 5.51. Already-301'd legacy WP URLs still slowly dropping: /tax-lawyer/ 44, /family-lawyer/ 14, /immigration-lawyer/ 10, /criminal-lawyer/ 7.
