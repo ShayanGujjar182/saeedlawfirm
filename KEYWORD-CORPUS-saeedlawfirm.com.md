@@ -993,3 +993,133 @@ Source: `google-search-console` MCP `search_analytics`, page dimension, sc-domai
 | /divorce-lawyer-in-lahore | 38 | 14.66 | 1 | recovered from 17.49 (was weakest) |
 
 Host split (monitor, consolidation lag): http home 2905 impr @ 4.27 vs https 805 @ 5.51. Already-301'd legacy WP URLs still slowly dropping: /tax-lawyer/ 44, /family-lawyer/ 14, /immigration-lawyer/ 10, /criminal-lawyer/ 7.
+
+---
+
+## 2026-07-11 — Run 19 (cycle 3, theme 5) GSC pull · query-dim on the two theme-5 money pages (loc: real PK/GSC)
+
+**Window:** 2026-06-12 → 07-09 (28d), page + query dims. Source: GSC `sc-domain:saeedlawfirm.com`. Purpose: confirm the intent landing on `/civil-lawyer-in-lahore` (worst-CTR money page) before the theme-5 title/meta rewrite.
+
+### `/civil-lawyer-in-lahore` — 726 impr @ pos 7.61, CTR 0.28% (2 clicks). The page is dominated by PERSONAL-INJURY / ACCIDENT intent, not the "civil litigation" its title targeted:
+| Query | Impr | Pos | Clicks |
+|---|---|---|---|
+| personal injury lawyer near me | 172 | 8.09 | 0 |
+| car accident lawyer | 6 | 16.83 | 0 |
+| personal injury lawyer | 6 | 10.50 | 0 |
+| accident claim attorney | 4 | 7.0 | 0 |
+| car accident attorney | 3 | 8.33 | 0 |
+| civil lawyer | 3 | 10.33 | 0 |
+| car accident attorneys | 1 | 7.0 | 1 (the page's only accident click) |
+| injury lawyer | 2 | 9.5 | 0 |
+| traffic accident lawyer | 2 | 5.5 | 0 |
+| vehicle accident lawyers | 2 | 8.0 | 0 |
+| lawyer for personal injury | 2 | 27 | 0 |
+| civil litigation in lahore | 8 | 9.5 | 0 |
+| civil lawyer near me | 2 | 1.0 | 0 |
+| best civil lawyer in lahore | 1 | 1.0 | 0 |
+| lawyer for civil court | 1 | 1.0 | 0 |
+| no win no fee civil lawyers near me | 1 | 4.0 | 0 |
+Read: ~200+ impr of PI/accident intent (car/road/traffic accident, personal injury, injury lawyer, near-me) land here at page-1 positions with ~0 CTR because the SERP snippet said "Civil Lawyer | Suits, Recovery & Specific Performance". The page's own body already covers "damages: contract breach and tort... negligence", and the firm has `/services/personal-injury` + the road-accident guide — so the PI angle is accurate, not spillover-only. **ACTION taken run 19:** title → "Civil & Personal Injury Lawyer in Lahore | Accident Claims"; meta + hero.intro rewritten to lead with accident/personal-injury compensation; added a "Personal injury and road accident claims" body section linking the road-accident guide + PI service.
+
+### `/family-lawyer-in-lahore` — 831 impr @ pos 10.43, CTR 0.96% (8 clicks). Secondary theme-5 target. Catching heavy DIVORCE intent it doesn't rank well for (dedicated /divorce page ranks weakly):
+| Query | Impr | Pos | Clicks |
+|---|---|---|---|
+| best family lawyer in lahore | 21 | 13.90 | 0 |
+| divorce lawyer lahore | 17 | 20.76 | 0 |
+| divorce attorney near me | 9 | 8.78 | 0 |
+| divorce lawyer in lahore | 8 | 22.38 | 0 |
+| best divorce lawyer in lahore | 6 | 23.83 | 0 |
+| divorce and khula lawyers in lahore | 6 | 37 | 0 |
+| family court lawyer lahore | 2 | 1.0 | 0 |
+Note: family page's low CTR is position-driven (pos 10.43, page-1-bottom) + divorce-intent cannibalization, NOT a clean snippet mismatch like civil. Deferred — its lever is ranking/routing, not a title tweak. The divorce cluster (divorce lawyer lahore 17 @ 20.8, best divorce lawyer in lahore 6 @ 23.8) lands on the family page while the dedicated `/divorce-lawyer-in-lahore` sits at 14.66 — a routing/authority gap to watch.
+
+### Money-page positions (same window, page dim)
+| Page | Impr | Pos | Clicks | CTR |
+|---|---|---|---|---|
+| /property-lawyer-in-lahore | 901 | 6.56 | 25 | 2.77% |
+| /lawyers-in-lahore | 1282 | 9.20 | 22 | 1.72% |
+| /criminal-lawyer-in-lahore | 455 | 7.55 | 11 | 2.42% |
+| /khula-lawyer-in-lahore | 408 | 8.23 | 10 | 2.45% |
+| /family-lawyer-in-lahore | 831 | 10.43 | 8 | 0.96% |
+| /immigration-lawyer-in-lahore | 329 | 11.73 | 4 | 1.22% |
+| /tax-lawyer-in-lahore | 270 | 7.94 | 3 | 1.11% |
+| /civil-lawyer-in-lahore | 726 | 7.61 | 2 | 0.28% (worst — fixed this run) |
+| /child-custody-lawyer-in-lahore | 65 | 8.54 | 0 | 0% |
+| /corporate-lawyer-in-lahore | 65 | 8.78 | 1 | 1.54% |
+| /divorce-lawyer-in-lahore | 39 | 15.92 | 1 | 2.56% |
+
+Blog movers same window: /blog/how-to-transfer-property-in-punjab 1313 impr @ 6.25 (24 clk, still dominant); /blog/divorce-rate-in-pakistan 318 @ 5.45 (9 clk); /blog/inheritance-law-in-pakistan 358 @ 5.56 (2 clk); /blog/court-marriage-in-pakistan 289 @ 6.88 (1 clk); /blog/child-custody-in-pakistan 170 @ 6.36 (1 clk); /blog/gift-deed 68 @ 4.69 (4 clk); /blog/divorce-procedure 219 @ 6.10 (2 clk, run-16 HowTo); /blog/best-countries-for-asylum 43 @ 7.19 (2 clk). ~14 of 22 guides now register — breadth arriving (supersedes cycle-2 "concentration only" thesis). Host split http home 3066 @ 4.27 vs https 832 @ 5.58 (consolidation lag, monitor).
+
+
+## 2026-07-12 — Run 20 GSC pull (Theme 6, internal-linking mesh audit)
+
+Source: Google Search Console MCP, `sc-domain:saeedlawfirm.com`, window 2026-06-13 → 2026-07-10.
+
+### Blog guide impressions (page dim) — 13 of 22 guides surfacing
+| URL | impr | pos | clicks |
+|---|---|---|---|
+| /blog/how-to-transfer-property-in-punjab | 1466 | 6.27 | 24 |
+| /blog/divorce-rate-in-pakistan | 514 | 5.25 | 15 |
+| /blog/inheritance-law-in-pakistan | 642 | 5.74 | 6 |
+| /blog/gift-deed-hiba-vs-sale-vs-will-in-pakistan | 107 | 5.17 | 4 |
+| /blog/divorce-procedure-in-pakistan | 372 | 5.69 | 3 |
+| /blog/best-countries-for-asylum | 51 | 7.31 | 2 |
+| /blog/child-custody-in-pakistan | 330 | 6.96 | 1 |
+| /blog/court-marriage-in-pakistan | 767 | 6.98 | 1 |
+| /blog/fbr-tax-notice-how-to-respond | 68 | 11.47 | 1 |
+| /blog/how-to-become-a-filer-in-pakistan | 96 | 8.30 | 1 |
+| /blog/nadra-succession-certificate-in-pakistan | 177 | 6.82 | 1 |
+| /blog/how-to-file-income-tax-return-in-pakistan | 103 | 13.84 | 0 |
+| /blog/khula-procedure-in-pakistan | 15 | 7.53 | 0 |
+
+**NOT surfacing (0 impr)** = the two guides that had no money-page mesh link (meshed in run 20): `how-much-does-a-lawyer-cost-in-pakistan`, `road-accident-compensation-and-car-insurance-in-pakistan`. Hypothesis: the new down-links push them over the impression threshold; grade at ~07-20.
+
+### Fee-intent demand (query dim, query contains "fee") — cross-practice, page-1, ~0 CTR
+| query | impr | pos | clicks |
+|---|---|---|---|
+| immigration lawyer fees | 2 | 3.5 | 1 |
+| family lawyer consultation fee | 2 | 2 | 0 |
+| lawyer consultation fee | 1 | 4 | 0 |
+| civil court lawyer fees | 1 | 9 | 0 |
+| khula case fees in pakistan | 5 | 6.8 | 0 |
+| no win no fee civil lawyers near me | 1 | 4 | 0 |
+| no win no fee employment lawyers near me | 6 | 1.83 | 0 |
+| property transfer fee in punjab | 7 | 10.86 | 0 |
+| what is normal fee | 1 | 1 | 0 |
+
+Read: genuine cross-practice fee demand at page-1 positions with ~0 clicks; the (now-meshed) `how-much-does-a-lawyer-cost-in-pakistan` guide is the natural target. Immigration ranks highest (pos 3.5) → placed the cost guide on the immigration money page + the hub in run 20.
+
+---
+
+## 2026-07-13 — Run 21 (Theme 7: Local + GEO) — local-intent query pull (GSC, PAK-filtered)
+
+Source: GSC `search_analytics`, sc-domain:saeedlawfirm.com, 2026-06-14 → 2026-07-12, country=PAK. Append-only (durable rule).
+
+### Local / "near me" intent (query dim) — page-1-ish, ~0 CTR (authority/position-gated)
+| query | impr | pos | clicks |
+|---|---|---|---|
+| law firms in lahore | 43 | 10.49 | 2 |
+| property lawyer lahore | 53 | 7.58 | 1 |
+| tax lawyer lahore | 28 | 7.39 | 1 |
+| criminal lawyer lahore | 25 | 9.0 | 1 |
+| advocate near me | 14 | 8.71 | 0 |
+| advocate near me for property | 13 | 10.0 | 0 |
+| law firm lahore | 14 | 14.29 | 1 |
+| divorce and khula lawyers in lahore | 13 | 27.23 | 1 |
+| advocate for property near me | 6 | 9.67 | 0 |
+| adverse possession lawyers near me | 5 | 14.0 | 0 |
+| aiwan e adal lahore | 5 | 11.6 | 0 |
+| khula lawyer near me | 2 | 1.0 | 1 |
+| property advocate near me | 2 | 5.0 | 1 |
+
+Read: strong "near me" + city-head local demand landing on the hub/money pages at pos 8-14 with ~0 CTR. `aiwan e adal lahore` = the Lahore District Courts complex (a court-page local entity). This is authority/position-gated, NOT a linking or llms.txt fix: the local pages are already fully Navbar-linked sitewide + in the sitemap + carry `areaServed` schema.
+
+### Local-page performance (page dim, PAK) — the local layer is near-invisible
+| page | impr | pos | clicks |
+|---|---|---|---|
+| /courts/district-court-lawyer-lahore | 13 | 11.0 | 1 |
+
+Only ONE of the 8 `/areas/*` + 6 `/courts/*` pages surfaces in the 28-day PAK window (district-court, 7.7% CTR). The local layer is sub-threshold — a coverage/authority problem, not a technical one.
+
+### GEO action shipped (run 21)
+`/llms.txt` now lists all 8 `/areas/*` + 6 `/courts/*` pages (was practice-areas + guides + NAP only), generated from `listSeoPagesByKind('area'/'court')`. Makes the local layer AI-citable for "lawyer in DHA Lahore" / "family court lawyer Lahore" intent. Speculative GEO value; no ranking bet.

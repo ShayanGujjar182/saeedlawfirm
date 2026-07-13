@@ -15,6 +15,14 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
 		.map(page => `- [${page.hero.h1}](${SITE_URL}${page.route})`)
 		.join('\n')
 
+	const areas = listSeoPagesByKind('area')
+		.map(page => `- [${page.hero.h1}](${SITE_URL}${page.route})`)
+		.join('\n')
+
+	const courts = listSeoPagesByKind('court')
+		.map(page => `- [${page.hero.h1}](${SITE_URL}${page.route})`)
+		.join('\n')
+
 	const body = `# ${FIRM.name}
 
 > ${FIRM.name}, established ${FIRM.founded}, is a law firm in Lahore, Pakistan. Practice areas: family, criminal, civil, corporate, property, tax, and immigration law. Principal: ${FIRM.principalLawyer.name}, ${FIRM.principalLawyer.title} (${FIRM.principalLawyer.barCouncil}), admitted to the Lahore High Court, District Courts Lahore, and Family Courts Lahore.
@@ -34,6 +42,12 @@ ${services}
 
 ## Legal guides
 ${guides}
+
+## Lahore neighbourhoods served
+${areas}
+
+## Courts we represent clients before
+${courts}
 `
 
 	res.setHeader('Content-Type', 'text/plain; charset=utf-8')

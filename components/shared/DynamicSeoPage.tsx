@@ -94,7 +94,11 @@ const SERVICE_GUIDES: Record<string, { title: string; href: string }[]> = {
 			href: '/blog/recovery-of-money-and-specific-performance-in-pakistan'
 		},
 		{ title: 'Rent & Tenancy Law in Punjab', href: '/blog/rent-and-tenancy-law-in-punjab' },
-		{ title: 'Defamation Law in Pakistan', href: '/blog/defamation-law-in-pakistan' }
+		{ title: 'Defamation Law in Pakistan', href: '/blog/defamation-law-in-pakistan' },
+		{
+			title: 'Road Accident Compensation & Car Insurance',
+			href: '/blog/road-accident-compensation-and-car-insurance-in-pakistan'
+		}
 	],
 	'criminal-lawyer-in-lahore': [
 		{ title: 'Pre-Arrest Bail in Pakistan', href: '/blog/pre-arrest-bail-in-pakistan' },
@@ -108,7 +112,11 @@ const SERVICE_GUIDES: Record<string, { title: string; href: string }[]> = {
 		}
 	],
 	'immigration-lawyer-in-lahore': [
-		{ title: 'Best Countries for Asylum', href: '/blog/best-countries-for-asylum' }
+		{ title: 'Best Countries for Asylum', href: '/blog/best-countries-for-asylum' },
+		{
+			title: 'Legal Fees in Pakistan Explained',
+			href: '/blog/how-much-does-a-lawyer-cost-in-pakistan'
+		}
 	],
 	'khula-lawyer-in-lahore': [
 		{ title: 'Khula Procedure in Pakistan', href: '/blog/khula-procedure-in-pakistan' },
@@ -146,7 +154,11 @@ const SERVICE_GUIDES: Record<string, { title: string; href: string }[]> = {
 			title: 'Company Registration with SECP',
 			href: '/blog/company-registration-in-pakistan-secp'
 		},
-		{ title: 'Cheque Bounce (Section 489-F)', href: '/blog/cheque-bounce-in-pakistan' }
+		{ title: 'Cheque Bounce (Section 489-F)', href: '/blog/cheque-bounce-in-pakistan' },
+		{
+			title: 'How Much Does a Lawyer Cost in Pakistan',
+			href: '/blog/how-much-does-a-lawyer-cost-in-pakistan'
+		}
 	]
 }
 
