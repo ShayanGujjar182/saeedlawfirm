@@ -1123,3 +1123,77 @@ Only ONE of the 8 `/areas/*` + 6 `/courts/*` pages surfaces in the 28-day PAK wi
 
 ### GEO action shipped (run 21)
 `/llms.txt` now lists all 8 `/areas/*` + 6 `/courts/*` pages (was practice-areas + guides + NAP only), generated from `listSeoPagesByKind('area'/'court')`. Makes the local layer AI-citable for "lawyer in DHA Lahore" / "family court lawyer Lahore" intent. Speculative GEO value; no ranking bet.
+
+---
+
+## 2026-07-15 — Run 22 (Theme 1: Technical & crawlability) — hypothesis-grading pull (GSC, PAK-filtered)
+
+Source: GSC `search_analytics`, sc-domain:saeedlawfirm.com, 2026-06-16 → 2026-07-13, country=PAK, page + query dims. Append-only (durable rule). No DataForSEO calls this run (0 spend): the theme needed no volume data and GSC carried real PK intent.
+
+### Run-20 hypothesis GRADED — VALIDATED. Both meshed guides crossed the impression threshold from ZERO.
+| page | before (run 20) | now | pos | clicks |
+|---|---|---|---|---|
+| /blog/how-much-does-a-lawyer-cost-in-pakistan | 0 impr | **12** | **3.58** | 0 |
+| /blog/road-accident-compensation-and-car-insurance-in-pakistan | 0 impr | **8** | **4.13** | 1 (12.5% CTR) |
+
+Read: the run-20 `SERVICE_GUIDES` mesh worked exactly as hypothesised. Both previously-orphaned guides now surface, and both landed at **page-1 top-5** immediately. Internal linking from a money page is sufficient to get a guide indexed and ranked here. Volumes are tiny (12 and 8 impr) so CTR is not yet readable — do NOT over-read the 0 clicks on the fee guide at pos 3.58.
+
+### Run-19 hypothesis — NOT YET GRADEABLE (verdict PENDING, do not re-action)
+| page | impr | pos | clicks | CTR |
+|---|---|---|---|---|
+| /civil-lawyer-in-lahore | 230 | 9.65 | 0 | 0% |
+
+The run-19 civil title/meta/PI rewrite shipped **2026-07-11**; this window (06-16 → 07-13) is ~91% pre-change, so it measures the OLD snippet. CTR reading 0% (vs the 0.28% baseline) is a window artefact, not a regression. Re-grade on a clean post-07-11 window at the next boundary (~2026-07-25). Impressions also fell 726 → 230 vs the run-16 window, but the windows differ — treat as unread, not as a drop.
+
+### Top PK-intent pages this window (page dim)
+| page | impr | pos | clicks |
+|---|---|---|---|
+| http://saeedlawfirm.com/ (legacy host) | 875 | 5.17 | 10 |
+| /lawyers-in-lahore | 395 | 15.63 | 2 |
+| /family-lawyer-in-lahore | 361 | 13.20 | 1 |
+| /blog/divorce-rate-in-pakistan | **286** | **4.69** | **6** |
+| /civil-lawyer-in-lahore | 230 | 9.65 | 0 |
+| /property-lawyer-in-lahore | 215 | 7.60 | 4 |
+| /criminal-lawyer-in-lahore | 160 | 7.86 | 0 |
+| https://saeedlawfirm.com/ | 123 | 5.63 | 7 |
+| /blog/pre-arrest-bail-in-pakistan | 97 | 6.42 | **0** |
+| /immigration-lawyer-in-lahore | 83 | 16.93 | 1 |
+| /khula-lawyer-in-lahore | 73 | 8.34 | 4 |
+| /tax-lawyer-in-lahore | 73 | 9.10 | 2 |
+| /blog/inheritance-law-in-pakistan | 56 | 7.36 | 1 |
+| /blog/how-to-file-income-tax-return-in-pakistan | 51 | 23.27 | 0 |
+| /blog/child-custody-in-pakistan | 40 | 14.50 | 0 |
+| /blog/how-to-transfer-property-in-punjab | **36** | **10.06** | 1 |
+
+### LEAD-CHANGE among the guides — flag for next content run
+`/blog/divorce-rate-in-pakistan` is now the **strongest guide on the site** (286 impr @ 4.69, 6 clicks) and `/blog/how-to-transfer-property-in-punjab` — the run-16 "winner" that the concentration thesis was built on — has fallen to 36 impr @ 10.06 (was 865 @ 6.29 in the 06-09→07-06 window). Windows overlap, so this is not a clean like-for-like, but the magnitude warrants a look. Statistical-demand guides ("divorce rate", "divorce ratio 2026") are pulling real PK volume at pos 1.5-5.8.
+
+### /blog/pre-arrest-bail-in-pakistan — 97 impr @ 6.42, ZERO clicks (query dim, PAK)
+| query | impr | pos | clicks |
+|---|---|---|---|
+| 498 crpc | 19 | 8.47 | 0 |
+| pre arrest bail | 17 | 5.76 | 0 |
+| pre arrest bail section | 14 | 5.14 | 0 |
+| 498 crpc pakistan | 9 | 5.44 | 0 |
+| bail before arrest | 7 | 4.71 | 0 |
+| section 498 crpc pakistan | 7 | 9.86 | 0 |
+| pre arrest bail crpc | 4 | 3.75 | 0 |
+| crpc 498 | 3 | 7.33 | 0 |
+| 498 | 3 | 11.0 | 0 |
+| section 498 crpc | 2 | 5.5 | 0 |
+| anticipatory bail in pakistan | 2 | 4.0 | 0 |
+| prearrest | 2 | 4.0 | 0 |
+
+**PHANTOM #4 — investigated and DISPROVEN, do not re-queue as a title/CTR lever.** The obvious read (statute vocabulary missing from the snippet, the run-19 civil pattern) is FALSE. The page's `seo.title` is already *"Pre-Arrest Bail in Pakistan: Section 498 CrPC Explained"*, the meta description already opens *"Pre-arrest bail (section 498 CrPC)..."*, the H1 is identical, and the body already carries `Section 498 CrPC` ×5, `anticipatory bail` ×11, `bail before arrest` ×2. Query and snippet are **fully aligned**. The 0 CTR at pos ~5-8 is therefore NOT a copy mismatch — most likely SERP-feature/competition-driven (statute lookups resolve in-SERP or on legal-database sites). No on-page lever exists; do not spend another run on it.
+
+### Fee-intent demand (the queued theme-2 target) — thin but real
+| query | impr | pos | clicks |
+|---|---|---|---|
+| immigration lawyer fees | 2 | 3.5 | 1 (50% CTR) |
+| affordable lawyer services in lahore | 3 | 49.0 | 0 |
+| affordable family attorney | 1 | 44.0 | 0 |
+
+Read: the fee guide is at pos 3.58 but only 12 impr — the head fee terms are not yet attaching. Demand exists but is thin in PK; this is a depth/coverage play, not a CTR play.
+
+### Technical layer — LIVE-VERIFIED CLEAN (curl, 2026-07-15)
+`http://` → 301 → `https://`; `www` → 308 → non-www; `/about-us/` and `/contact-us/` resolve in 2 hops to `/about` and `/contact` [200]; `/prize/*`, `/shop/pg/*`, `/category/*`, `/hello-world` all still **410**; `/llms.txt` **200**; sitemap serves **53** `<loc>`; canonical is correct https/non-www on homepage, service, article, area, court and static routes. **The http(875)/https(123) impression split is confirmed index-consolidation lag, NOT a canonical or redirect defect** — canonicals were live-checked on every page type this run. Monitor only; no repo fix exists.
