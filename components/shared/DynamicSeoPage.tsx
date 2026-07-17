@@ -251,7 +251,7 @@ export default function DynamicSeoPage({ html, page }: Props) {
 	const guides = page.kind === 'service' ? (SERVICE_GUIDES[page.slug] ?? []) : []
 	const canonicalPath = page.seo.canonicalPath || page.route
 	const canonicalUrl = `${SITE_URL}${canonicalPath}`
-	const ogImageUrl = page.image ? `${SITE_URL}${page.image.src}` : undefined
+	const ogImageUrl = page.image ? `${SITE_URL}${page.image.src}` : `${SITE_URL}/og-default.jpg`
 	const content = page.content
 	const hasStructuredContent = Boolean(content?.sections?.length || content?.introBlocks?.length)
 	const hierarchy = page.ancestors?.length

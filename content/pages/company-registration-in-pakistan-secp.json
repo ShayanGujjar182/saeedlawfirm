@@ -2,17 +2,25 @@
 	"kind": "article",
 	"slug": "company-registration-in-pakistan-secp",
 	"route": "/blog/company-registration-in-pakistan-secp",
-	"parent": { "label": "Blog", "slug": "blog", "route": "/blog" },
+	"parent": {
+		"label": "Blog",
+		"slug": "blog",
+		"route": "/blog"
+	},
 	"ancestors": [
 		{
 			"label": "Best Lawyers in Lahore",
 			"slug": "lawyers-in-lahore",
 			"route": "/lawyers-in-lahore"
 		},
-		{ "label": "Blog", "slug": "blog", "route": "/blog" }
+		{
+			"label": "Blog",
+			"slug": "blog",
+			"route": "/blog"
+		}
 	],
 	"seo": {
-		"title": "How to Register a Company in Pakistan: SMC vs Pvt Ltd Explained",
+		"title": "How to Register a Company in Pakistan: SMC vs Pvt Ltd",
 		"description": "Register a company in Pakistan via SECP. Compare SMC, Private Limited & LLP structures, filing steps, costs & timeline. Corporate registration guide 2026.",
 		"canonicalPath": "/blog/company-registration-in-pakistan-secp"
 	},
@@ -21,7 +29,11 @@
 		"h1": "How to Register a Company in Pakistan: SMC vs Pvt Ltd Explained",
 		"intro": "You register a company in Pakistan through the SECP eServices portal at https://eservices.secp.gov.pk. First choose your structure: sole proprietor (unregistered), Single Member Company (SMC, one founder, simpler), Private Limited Company (Pvt Ltd, traditional, multiple shareholders), or Limited Liability Partnership (LLP, for professional partnerships). Then reserve a name, file your Memorandum and Articles of Association, await SECP approval, and receive your Certificate of Incorporation. Post-incorporation you apply for an NTN with the FBR, open a bank account, and register for sales tax if applicable. The whole process takes 1–2 weeks if your documents are complete."
 	},
-	"author": { "name": "Bilal Saeed", "title": "Advocate", "barCouncil": "Punjab Bar Council" },
+	"author": {
+		"name": "Bilal Saeed",
+		"title": "Advocate",
+		"barCouncil": "Punjab Bar Council"
+	},
 	"datePublished": "2026-06-28",
 	"dateModified": "2026-06-28",
 	"howTo": {

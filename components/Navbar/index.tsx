@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
 
 const SERVICES = [
-	{ label: 'All Lawyers in Lahore', href: '/lawyers-in-lahore' },
+	{ label: 'Best Lawyers in Lahore', href: '/lawyers-in-lahore' },
 	{ label: 'Family Lawyer', href: '/family-lawyer-in-lahore' },
 	{ label: 'Criminal Lawyer', href: '/criminal-lawyer-in-lahore' },
 	{ label: 'Property Lawyer', href: '/property-lawyer-in-lahore' },
@@ -237,22 +237,26 @@ export default function Navbar() {
 								</svg>
 							</button>
 
-							{dropOpen === group.title && (
-								<div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-64 bg-white border border-gray-200 rounded-lg shadow-xl p-3 z-50">
-									<div className="space-y-1">
-										{group.links.map(item => (
-											<Link
-												key={item.href}
-												href={item.href}
-												onClick={() => setDropOpen(false)}
-												className="block rounded px-3 py-2 text-sm text-navy-800 hover:bg-gold-50 hover:text-gold-700 transition-colors duration-150"
-											>
-												{item.label}
-											</Link>
-										))}
-									</div>
+							{/* Always render the dropdown links (CSS-toggled) so they exist in SSR HTML —
+							    conditional rendering left the area/court/service links invisible to crawlers */}
+							<div
+								className={`absolute top-full left-1/2 -translate-x-1/2 mt-2 w-64 bg-white border border-gray-200 rounded-lg shadow-xl p-3 z-50 ${
+									dropOpen === group.title ? 'block' : 'hidden'
+								}`}
+							>
+								<div className="space-y-1">
+									{group.links.map(item => (
+										<Link
+											key={item.href}
+											href={item.href}
+											onClick={() => setDropOpen(false)}
+											className="block rounded px-3 py-2 text-sm text-navy-800 hover:bg-gold-50 hover:text-gold-700 transition-colors duration-150"
+										>
+											{item.label}
+										</Link>
+									))}
 								</div>
-							)}
+							</div>
 						</div>
 					))}
 
