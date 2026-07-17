@@ -1287,3 +1287,214 @@ Window 2026-06-16 → 2026-07-14, country=PAK, page=`/blog/divorce-rate-in-pakis
 | road-accident-compensation (run-20 mesh) | 22 | 8.50 | 1 |
 
 **Gradings:** No new movement vs run 23 (window ends before the run-23 edits shipped). Run-20 mesh still VALIDATED (both meshed guides holding pos ~4.7 / 8.5). PHANTOM #4 re-confirmed (pre-arrest-bail 130 @ 6.15, 0 clk — do not re-queue). Money-page CTR unchanged (family 0.26%, civil 0%, criminal 0%) — run-22 meta fix and run-19 civil fix both still awaiting recrawl; grade at ~07-25/07-30, a null result is valid. `/divorce-lawyer-in-lahore` still 3 @ 75.67 — the run-23 contextual body link (07-16) not yet crawled.
+
+
+---
+
+## 2026-07-17 — COMBINED FULL AUDIT (organic + local + maps) — GSC 6-month pull + geo-grid + UK diaspora volumes
+
+Run context: combined /seo-audit + /seo-local + /seo-maps audit. GSC window 2026-01-17 → 2026-07-16, property `sc-domain:saeedlawfirm.com`. DataForSEO: PK loc 2586, UK loc 2826, maps grid via `dataforseo-maps` MCP (8 keywords × 49 points + centroid, ~$0.81). Raw dumps archived at `20-Clients/SaeedLawFirm/Data/audit-2026-07-17/` (grid JSONs, GSC query dumps, crawl JSON).
+
+### GSC — country segments (6 months, all queries)
+
+| country | clicks | impressions | CTR% | avg pos |
+|---|---|---|---|---|
+| PAK | 389 | 20,990 | 1.85 | 7.37 |
+| USA | 26 | 5,657 | 0.46 | 7.59 |
+| IND | 6 | 2,645 | 0.23 | 3.15 |
+| GBR | 30 | 611 | 4.91 | 6.56 |
+| ARE | 11 | 367 | 3.00 | 5.97 |
+| SAU | 7 | 299 | 2.34 | 5.66 |
+| CAN | 8 | 303 | 2.64 | 6.04 |
+| AUS | 6 | 138 | 4.35 | 9.85 |
+| DEU | 4 | 206 | 1.94 | 6.15 |
+
+Last-28d (2026-06-18 → 07-16): PAK 278 clk / 15,346 impr / pos **7.11**. Impression inflection 2026-07-09: ~500/day → ~1,800-1,970/day by 07-13/15 with position holding ~6-7.
+**PK non-brand weighted avg position (visible queries, 6mo): 10.25.** Non-brand impr by position bucket: 1-3: 466 · 4-10: 1,200 · 11-20: 821 · 21-50: 244 · 51+: 16. Brand = 4 queries / 475 impr. (Caveat: query dimension exposes 3,222 of 20,990 PK impressions; the anonymized tail is not in these rows.)
+
+### GSC PK — top non-brand queries (6mo, top 60 by impressions)
+
+| query | impressions | clicks | ctr% | avg pos |
+|---|---|---|---|---|
+| divorce rate in pakistan | 355 | 8 | 2.25 | 5.9 |
+| law firms in lahore | 145 | 5 | 3.45 | 14.1 |
+| 498 crpc in pakistan | 91 | 0 | 0.00 | 5.9 |
+| criminal defense lawyer | 84 | 0 | 0.00 | 7.8 |
+| divorce rate in pakistan 2026 | 74 | 4 | 5.41 | 2.9 |
+| pakistan divorce rate | 62 | 1 | 1.61 | 5.6 |
+| law firms near me | 57 | 1 | 1.75 | 19.1 |
+| lawyers in lahore | 55 | 0 | 0.00 | 21.1 |
+| khula lawyer in lahore | 47 | 5 | 10.64 | 4.6 |
+| divorce ratio in pakistan | 46 | 1 | 2.17 | 6.2 |
+| divorce lawyer lahore | 45 | 0 | 0.00 | 20.2 |
+| best lawyer in lahore | 43 | 0 | 0.00 | 19.4 |
+| property lawyer in lahore | 41 | 2 | 4.88 | 5.9 |
+| lawyer in lahore | 39 | 1 | 2.56 | 11.7 |
+| best family lawyer in lahore | 38 | 0 | 0.00 | 15.4 |
+| 498 crpc | 32 | 0 | 0.00 | 6.8 |
+| car accident lawyer | 32 | 0 | 0.00 | 17.8 |
+| law firm lahore | 33 | 1 | 3.03 | 11.7 |
+| accident claim attorney | 30 | 0 | 0.00 | 7.0 |
+| tax lawyer in lahore | 29 | 1 | 3.45 | 13.1 |
+| property lawyer lahore | 28 | 1 | 3.57 | 6.1 |
+| divorce rate in islamabad 2026 | 26 | 1 | 3.85 | 3.4 |
+| criminal lawyer lahore | 25 | 1 | 4.00 | 8.4 |
+| civil litigation in lahore | 22 | 0 | 0.00 | 33.7 |
+| best law firm in lahore | 20 | 0 | 0.00 | 12.1 |
+| transfer of property after death of father in pakistan | 20 | 1 | 5.00 | 7.4 |
+| khula procedure in pakistan | 19 | 1 | 5.26 | 6.3 |
+| divorce and khula lawyers in lahore | 17 | 0 | 0.00 | 33.0 |
+| inheritance law in pakistan | 17 | 1 | 5.88 | 7.2 |
+| corporate law firms in lahore | 15 | 1 | 6.67 | 20.0 |
+| 498 crpc pakistan | 13 | 0 | 0.00 | 5.3 |
+| divorce lawyer in lahore | 13 | 0 | 0.00 | 15.5 |
+| family court lawyer in lahore | 12 | 1 | 8.33 | 7.9 |
+| khula lawyer near me | 12 | 2 | 16.67 | 3.1 |
+| best lawyers in lahore | 10 | 0 | 0.00 | 15.1 |
+| best child custody lawyer near me | 10 | 1 | 10.00 | 9.1 |
+| best car accident attorney near me | 8 | 0 | 0.00 | 17.6 |
+| court marriage | 8 | 0 | 0.00 | 14.0 |
+
+(Full 500-row dump: `Data/audit-2026-07-17/query-pak.json`; top-60 processed table also in `Data/audit-2026-07-17/`.)
+
+### GSC PK — striking distance (pos 11–20, impr ≥ 8, 6mo) → landing page
+
+| query | impr | clicks | pos | landing page |
+|---|---|---|---|---|
+| law firms in lahore | 145 | 5 | 14.1 | http:// homepage variant |
+| law firms near me | 57 | 1 | 19.1 | http:// homepage variant |
+| best lawyer in lahore | 43 | 0 | 19.4 | http:// homepage variant |
+| lawyer in lahore | 39 | 1 | 11.7 | / |
+| best family lawyer in lahore | 38 | 0 | 15.4 | /family-lawyer-in-lahore |
+| law firm lahore | 33 | 1 | 11.7 | http:// homepage variant |
+| car accident lawyer | 32 | 0 | 17.8 | /personal-injury-lawyer/ (legacy 301 URL still ranking) |
+| tax lawyer in lahore | 29 | 1 | 13.1 | /tax-lawyer-in-lahore |
+| best law firm in lahore | 20 | 0 | 12.1 | http:// homepage variant |
+| corporate law firms in lahore | 15 | 1 | 20.0 | http:// homepage variant |
+| divorce lawyer in lahore | 13 | 0 | 15.5 | /family-lawyer-in-lahore (cannibalizes /divorce-lawyer-in-lahore @ pos 60.7) |
+| best lawyers in lahore | 10 | 0 | 15.1 | http:// homepage variant |
+| best car accident attorney near me | 8 | 0 | 17.6 | /personal-injury-lawyer/ |
+| court marriage | 8 | 0 | 14.0 | /blog/court-marriage-in-pakistan |
+
+Page-1 CTR gaps (pos 4-10, impr≥25, CTR<1.2%): criminal defense lawyer 84 @ 7.8 (0 clk) · 498 crpc 32 @ 6.8 (0 clk — PHANTOM #4, no lever) · accident claim attorney 30 @ 7.0 (0 clk, lands on legacy /personal-injury-lawyer/).
+Page-2/3 near-misses (21-35, impr≥15): lawyers in lahore 55 @ 21.1 · divorce lawyer lahore 45 @ 20.2 → family page · civil litigation in lahore 22 @ 33.7 · divorce and khula lawyers in lahore 17 @ 33.0.
+
+### GSC GBR — full segment (6mo; the whole UK dataset is 44 queries / 611 impr)
+
+| query | impr | clicks | pos |
+|---|---|---|---|
+| saeed law firm | 74 | 12 | 1.9 |
+| pakistan divorce rate | 12 | 0 | 7.5 |
+| divorce rate in pakistan | 11 | 0 | 9.2 |
+| new inheritance law in pakistan | 2 | 1 | 3.0 |
+| divorce rate pakistan / rates / ratio (variants) | 6 | 0 | 6–9.5 |
+| family court lahore | 2 | 0 | 11.0 |
+| best property lawyer in lahore | 2 | 0 | 10.0 |
+| lawyers in lahore | 2 | 0 | 1.0 |
+| khula rate in pakistan | 1 | 0 | 11.0 |
+| nadra succession certificate fees | 1 | 0 | 11.0 |
+| best lawyer in lahore | 1 | 0 | 21.0 |
+| law firms in lahore | 1 | 0 | 21.0 |
+| law firm lahore | 1 | 0 | 54.0 |
+| bike accident solicitors | 1 | 0 | 73.0 |
+| (remainder: single-impression brand/informational variants) | — | — | — |
+
+GBR striking distance (11–20): family court lahore 2 @ 11 · khula rate in pakistan 1 @ 11 · nadra succession certificate fees 1 @ 11. **The UK segment is embryonic — no UK-intent page exists on the site; all UK impressions are PK-topic guides + brand.**
+
+### GSC PK — 7-day surge check (2026-07-09 → 07-16, top queries)
+
+divorce rate in pakistan 2026: 44 impr @ 1.7 (run-23 refresh hit #1-2) · divorce rate in pakistan 96 @ 5.8 · 498 crpc 32 @ 6.8 · divorce ratio in pakistan 2026 28 @ 1.8 · property lawyer lahore 19 @ 5.8 · khula lawyer in lahore 11 @ 2.8 · transfer of property after death of father 11 @ 7.0 · law firms in lahore 10 @ 9.7 · criminal lawyer lahore 10 @ 8.1 · lawyers in lahore 8 @ 18.1. Surge is broad-based (statute lookups + divorce-stats cluster + property/inheritance).
+
+### DataForSEO — keyword difficulty (PK, 2026-07-17)
+
+| keyword | KD |
+|---|---|
+| family lawyer lahore | 4 |
+| khula procedure in pakistan | 4 |
+| income tax return pakistan | 6 |
+| best lawyer in lahore | 8 |
+| company registration in pakistan | 8 |
+| law firm in lahore | 12 |
+| immigration lawyer lahore | 21 |
+| gift deed in pakistan | 39 |
+| property lawyer in lahore | 44 |
+| divorce lawyer in lahore | 50 |
+| (lawyer in lahore, tax lawyer lahore, criminal/civil lawyer in lahore, khula lawyer in lahore, court marriage lawyer, child custody, corporate, nadra succession certificate, pre arrest bail, cheque bounce, defamation, inheritance law, divorce rate, transfer of property, rent agreement law punjab, fbr tax notice reply, court marriage in pakistan, child custody in pakistan, how to become a filer) | no KD data (thin PK SERP data) |
+
+### DataForSEO Labs — ranked keywords caveat (PK, pulled 2026-07-17)
+
+Labs PK database registers only ~5-10 keywords for saeedlawfirm.com and still maps them to LEGACY URLs (`/family-lawyer/`, `/tax-lawyer/`, `/criminal-lawyer/`, `/personal-injury-lawyer/`) with the old homepage title — DB last full SERP updates Apr-May 2026, i.e. pre-rebuild. Recorded rankings: law firm lahore #17 (480/mo, KD 20) · law firms in lahore #26 (480/mo, KD 13) · lawyers in lahore #37 (1,000/mo) · law firm near me #47 (480/mo, KD 29) · a family lawyer #50 (1,000/mo) · lawyer for tax #62 (390/mo) · taxation lawyer #65 (390/mo) · criminal lawyer #72 (720/mo) · personal injury lawyer #81 (320/mo). **Treat GSC as source of truth for current positions; Labs is lagging this domain.** UK Labs ranked keywords: **zero rows**.
+
+### DataForSEO — UK diaspora keyword volumes (loc 2826, 2026-07-17)
+
+| keyword | UK vol/mo | intent | note |
+|---|---|---|---|
+| pakistani solicitors near me | 70 | commercial | UK-local solicitor intent — NOT a PK-firm target; CPC £2.68 |
+| succession certificate pakistan | 50 | informational | best UK-diaspora target measured |
+| court marriage in pakistan | 20 | informational | declining trend |
+| inheritance law in pakistan | 10 | informational | KD 22 |
+| buy property in pakistan from uk | 10 | transactional | |
+| overseas pakistani property dispute | 10 | informational | |
+| pakistani lawyer uk, pakistani property lawyer uk, power of attorney pakistan from uk, nadra power of attorney uk, khula from uk, divorce in pakistan from uk, transfer property from uk, pakistani divorce lawyer uk, islamic divorce uk pakistani law, property fraud overseas pakistani | <10 (no data) | — | theme total ≈ 100–200/mo |
+
+**Read: UK diaspora demand is a low-volume, high-case-value niche.** Strategy = 2-3 dedicated overseas-Pakistani service pages + GBP overseas signals + AI-answer presence, not a traffic play.
+
+### Backlinks — authority gap (2026-07-17)
+
+| domain | referring domains | backlink rank |
+|---|---|---|
+| saeedlawfirm.com | **10** (8 nofollow) | 73 |
+| smlaw.pk (Saeed & Moeez) | 11 | n/a |
+| lawuntold.com (Malik) | 30 | 10 |
+| pakistanlawfirm.com (Mian Saeed) | 78 | 58 |
+| faizilawfirm.com | 115 | 205 |
+| joshandmakinternational.com | 317 | 194 |
+
+saeedlawfirm.com: 33 backlinks, spam score 18, first seen 2025-08-07. Organic SERP competitors per Labs intersections: zallp.com (avg pos 2.4), hamzaandhamza.com (165 kws, ETV 4,667), lawzana.com, legal500.com, khanassociates.com.pk, absco.pk, lawbridgechambers.com, starofservice.pk.
+
+### MAPS — 7×7 geo-grid (2km spacing, 13z, mobile, depth 20) + Lahore centroid (12z, depth 100), 2026-07-17
+
+Office pin 31.4723777, 74.3783941. Recomputed uniformly from raw JSONs:
+
+| keyword | appears/49 | top3/49 | top10/49 | avg rank (present) | city centroid |
+|---|---|---|---|---|---|
+| law firm in lahore | 20 | 16 | 19 | 2.8 | #73 |
+| lawyer (short, continuity) | 20 | 17 | 19 | 2.9 | >100 |
+| property lawyer lahore | 20 | 14 | 19 | 3.7 | #89 |
+| lawyer in lahore | 19 | 6 | 18 | 4.5 | >100 |
+| best lawyer lahore | 18 | 6 | 16 | 5.6 | >100 (corrected re-run; an initial agent reading of #21 used a mistyped coordinate 8km south) |
+| family lawyer lahore | 21 | 5 | 19 | 6.1 | #77 |
+| tax lawyer lahore | 18 | 1 | 14 | 7.9 | >100 |
+| immigration lawyer lahore | 5 | 0 | 1 | 14.8 | >100 |
+
+E/W columns (±4-6km) blank on every keyword — consistent with the 13z portrait-viewport artifact documented 06-13/06-30; within the visible 3-column corridor Saeed appears at ~90-100% of points. vs 06-30 baseline (short keywords): coverage stable, corridor top-3 similar; **"lawyer" short-form top-3 17/49 ≈ 06-30's 33%**.
+
+### MAPS — competitor radius (top-3 slots across 8 keywords × 49 points; Saeed total = 65 slots)
+
+| business | rating | max reviews | top-3 slots | # keywords |
+|---|---|---|---|---|
+| Divorce Lawyer Lahore (Plot 112 Y Block DHA 3 — same block) | 4.7 | 20 | **69** | 5 |
+| Defense Law Firm (DLF.llp) | 4.9 | 51 | 50 | 4 |
+| Faizi Law Firm (Johar Town) | 4.9 | 186 | 48 | 7 |
+| 24Justice Online Lawyers | 4.8 | 132 | 47 | 6 |
+| Advocate Sheikh Nafees | 4.9 | 69 | 36 | 4 |
+| Raza & Associates (IP/corporate) | 4.1 | 43 | 33 | 4 |
+| MyLawyer | 4.9 | 76 | 32 | 6 |
+| MIAN LAW CHAMBER | 4.8 | 592 | 28 | 5 |
+| Jillani & Co (Gulberg) | 4.8 | 102 | 25 | 5 |
+| SHAIKHAIN Mgmt & Law | 4.9 | 52 | 25 | 4 |
+| Sultan Law Firm | 5.0 | 15 | 20 | 7 |
+| Tax and Law Consultant | 5.0 | 81 | 20 | 2 |
+| File Tax Return | 4.8 | 76 | 20 (tax only: 18/49) | 1 |
+| ZAFAR & ASSOCIATES LLP | 4.4 | 78 | 16 | 4 |
+| immigration verticals: ATWICS (481 rev), Immigration Corporates (158), Tri Legal (58), Real Immigration & Law (28), HQ Law (232) | — | — | own the immigration map | — |
+
+City-centroid pack leaders (12z): Lawyers of Pakistan 4.8×2,566 · MIAN 4.8×592 · Asad & Co 5.0×384 · Pak-Lawyer 4.9×248 · Haroon/Lex Just 4.8×236 — court-district (Mozang/Fane Rd) cluster + review mass gate the city map.
+
+### GBP snapshot (Business Listings API, 2026-07-17)
+
+5.0★ × **103** (101×5 / 1×4 / 1×1) — **unchanged since 2026-06-30 → review velocity stalled (was +14/mo)**. Primary `Law firm` + 9 secondaries (incl. Real estate attorney, Estate planning attorney). ~46 services live across 10 categories. 749-char description live. 36 photos. Attributes full. **Hours still "Open 24 hours" ×7 (4th consecutive audit)**. Website field still `http://saeedlawfirm.com/`. Place topics: legal advice 10 · tax law 7 · family law 7 · professional team 5 · refugee support 4.
+
+### Brand SERP (mobile, Lahore, 2026-07-17)
+
+Local pack: **Saeed Law Firm #1 (5.0×103)** · Mian Saeed Law Firm #2 (4.4×13) · Saeed & Moeez #3 (5.0×30 — review count doubled from 20 in May). Organic: saeedlawfirm.com #1 (new title + correct per-page description rendering) · lawzana.com/lawyer/saeed-law-firm-lahore #4 (firm's own Lawzana profile EXISTS — contradicts "absent" assumption; claim it) · smlaw.pk #8 · 5 other Saeed-confusables in top 13 (Bhutta and Saeed, Sayeed Hafeez & Mirza, Saeed Law Company FB, saeedlawconsultants.com, alsaeed-law.com). Instagram profile #9 (42 followers).
