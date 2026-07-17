@@ -1197,3 +1197,55 @@ Read: the fee guide is at pos 3.58 but only 12 impr — the head fee terms are n
 
 ### Technical layer — LIVE-VERIFIED CLEAN (curl, 2026-07-15)
 `http://` → 301 → `https://`; `www` → 308 → non-www; `/about-us/` and `/contact-us/` resolve in 2 hops to `/about` and `/contact` [200]; `/prize/*`, `/shop/pg/*`, `/category/*`, `/hello-world` all still **410**; `/llms.txt` **200**; sitemap serves **53** `<loc>`; canonical is correct https/non-www on homepage, service, article, area, court and static routes. **The http(875)/https(123) impression split is confirmed index-consolidation lag, NOT a canonical or redirect defect** — canonicals were live-checked on every page type this run. Monitor only; no repo fix exists.
+
+---
+
+## 2026-07-16 — Run 23 (cycle 4, Theme 2: Topical-authority content) — GSC PAK pull, `/blog/divorce-rate-in-pakistan` query dim
+
+Window 2026-06-16 → 2026-07-14, country=PAK, page=`/blog/divorce-rate-in-pakistan`. Page total: **331 impr @ pos 4.74, 6 clicks, CTR 1.81%** — now the site's STRONGEST guide (overtook `how-to-transfer-property-in-punjab`, which fell to 36 @ 10.06). Query cluster the page already ranks for with thin on-page coverage (the run-23 content targets):
+
+| query | impr | pos | clicks | intent |
+|---|---|---|---|---|
+| divorce rate in pakistan | 99 | 5.86 | 2 | head |
+| divorce rate in pakistan 2026 | 39 | 1.79 | 1 | head/year |
+| pakistan divorce rate | 35 | 5.40 | 0 | head |
+| divorce ratio in pakistan 2026 | 25 | 1.88 | 2 | head/year |
+| divorce rate in islamabad | 15 | 8.87 | 0 | **geo (Islamabad)** |
+| divorce percentage in pakistan | 10 | 4.30 | 0 | **metric** |
+| divorce ratio in pakistan | 10 | 1.00 | 0 | head |
+| islamabad divorce rate 2026 | 8 | 3.38 | 0 | **geo (Islamabad)** |
+| divorce rate in islamabad 2026 | 7 | 3.43 | 1 | **geo (Islamabad)** |
+| lahore divorce rate | 7 | 3.43 | 0 | **geo (Lahore)** |
+| divorce law in pakistan 2026 | 6 | 10.0 | 0 | law overview |
+| divorce rates in pakistan | 5 | 5.20 | 0 | head |
+| pakistan divorce ratio | 5 | 7.40 | 0 | head |
+| daily divorce rate in pakistan | 4 | 3.50 | 0 | **metric (per day)** |
+| divorce rate in lahore | 4 | 4.00 | 0 | **geo (Lahore)** |
+| talaq ratio in pakistan | 4 | 7.25 | 0 | **talaq vs khula** |
+| pakistan divorce rate 2026 | 4 | 1.75 | 0 | head/year |
+| divorce rate in punjab pakistan | 3 | 4.67 | 0 | **geo (Punjab)** |
+| divorce rate in pakistan per day | 3 | 2.67 | 0 | **metric (per day)** |
+| divorce rate in pakistan percentage | 3 | 7.67 | 0 | **metric** |
+| percentage of divorce in pakistan | 3 | 4.00 | 0 | **metric** |
+| divorce rate in pakistan per 1,000 | 1 | 9.0 | 0 | **metric (per 1,000)** |
+
+**Read:** the page ranks pos 3–9 for a geo cluster (Islamabad / Lahore / Punjab) and a rate-metric cluster (percentage / per-1,000 / per-day) with **no dedicated on-page section for either**. Run 23 added a per-city section (Islamabad, Lahore + Punjab, Karachi) and an honest "how the rate is measured" section (no invented figures — YMYL), 3 FAQs (Islamabad, per-1,000 methodology, talaq-vs-khula), and a contextual body link to the weakest money page `/divorce-lawyer-in-lahore`. **YMYL note: no divorce figure was invented or "updated" — the page states rates are not centrally published and points to PBS/Union Council as sources.**
+
+### Blog page grading (same window, PAK)
+| guide | impr | pos | clk |
+|---|---|---|---|
+| divorce-rate-in-pakistan | 331 | 4.74 | 6 |
+| pre-arrest-bail-in-pakistan | 130 | 6.15 | 0 |
+| inheritance-law-in-pakistan | 69 | 7.36 | 1 |
+| how-to-file-income-tax-return | 64 | 23.1 | 0 |
+| child-custody-in-pakistan | 48 | 13.6 | 0 |
+| how-to-file-an-fir-in-pakistan | 43 | 8.21 | 0 |
+| court-marriage-in-pakistan | 40 | 20.2 | 0 |
+| how-to-transfer-property-in-punjab | 36 | 10.06 | 1 |
+| cheque-bounce-in-pakistan | 32 | 6.66 | 0 |
+| fbr-tax-notice-how-to-respond | 25 | 32.2 | 0 |
+| how-much-does-a-lawyer-cost (run-20 mesh) | 23 | 4.74 | 1 |
+| road-accident-compensation (run-20 mesh) | 22 | 8.5 | 1 |
+| divorce-procedure-in-pakistan | 19 | 6.95 | 0 |
+
+**Gradings:** run-20 SERVICE_GUIDES mesh still VALIDATED (both meshed guides climbing at pos ~4.7 / 8.5). PHANTOM #4 re-confirmed: pre-arrest-bail 130 impr @ 6.15, still 0 clicks (statute-lookup SERP; no on-page lever). Lead change confirmed: divorce-rate has decisively overtaken transfer-property.
