@@ -1249,3 +1249,41 @@ Window 2026-06-16 → 2026-07-14, country=PAK, page=`/blog/divorce-rate-in-pakis
 | divorce-procedure-in-pakistan | 19 | 6.95 | 0 |
 
 **Gradings:** run-20 SERVICE_GUIDES mesh still VALIDATED (both meshed guides climbing at pos ~4.7 / 8.5). PHANTOM #4 re-confirmed: pre-arrest-bail 130 impr @ 6.15, still 0 clicks (statute-lookup SERP; no on-page lever). Lead change confirmed: divorce-rate has decisively overtaken transfer-property.
+
+
+---
+
+## 2026-07-17 — Run 24 (cycle 4) · Theme 3: E-E-A-T & YMYL trust
+
+**Source:** Google Search Console (`sc-domain:saeedlawfirm.com`), page dim, PAK, 2026-06-16 → 07-14. This window ENDS 07-14, i.e. before run-23's 07-16 divorce-rate edits shipped, so it grades older hypotheses only; the run-23 geo/metric additions grade at ~07-30.
+
+**YMYL accuracy finding (the run-24 ship):** `content/pages/areas-lawyer-in-johar-town-lahore.json` cited the wrong statute name **"Guardian and Wards Act"** (singular, no year) ×4 — corrected to **"Guardians and Wards Act 1890"** (the canonical Pakistani statute, already cited correctly ×3 in `family-lawyer-in-lahore.json`). Statute-name audit across all 49 content pages otherwise jurisdiction-correct (CrPC 1898 ×80, Muslim Family Laws Ordinance ×54, Dissolution of Muslim Marriages Act 1939 ×54, Guardians and Wards Act 1890 ×50, West Pakistan Family Courts Act 1964 ×30, Companies Act 2017 ×17, Pakistan Penal Code 1860 ×12, Qanun-e-Shahadat Order 1984 ×4; Evidence Act 1872 appears once, only inside the safe "replaced the Evidence Act 1872" phrase). Template debris (India/Hyderabad/Bodhankar/MSMED/IPC/CrPC-1973) = 0. Divorce-rate guide re-read = clean (hedges every figure; no fabricated statistic).
+
+### Money-page grading (PAK, 06-16 → 07-14) — run-22 duplicate-meta fix still pending recrawl (~07-30)
+| page | impr | pos | ctr% | clk |
+|---|---|---|---|---|
+| /lawyers-in-lahore (hub) | 404 | 15.47 | 0.50 | 2 |
+| /family-lawyer-in-lahore | 379 | 13.17 | 0.26 | 1 |
+| /civil-lawyer-in-lahore | 230 | 9.65 | 0.00 | 0 |
+| /property-lawyer-in-lahore | 218 | 7.58 | 1.83 | 4 |
+| /criminal-lawyer-in-lahore | 171 | 7.87 | 0.00 | 0 |
+| /immigration-lawyer-in-lahore | 88 | 16.45 | 1.14 | 1 |
+| /tax-lawyer-in-lahore | 82 | 9.00 | 2.44 | 2 |
+| /khula-lawyer-in-lahore | 75 | 8.27 | 5.33 | 4 |
+| /divorce-lawyer-in-lahore (weakest) | 3 | 75.67 | 0.00 | 0 |
+
+### Blog grading (PAK, same window)
+| guide | impr | pos | clk |
+|---|---|---|---|
+| divorce-rate-in-pakistan (strongest) | 331 | 4.74 | 6 |
+| pre-arrest-bail-in-pakistan (PHANTOM #4) | 130 | 6.15 | 0 |
+| inheritance-law-in-pakistan | 69 | 7.36 | 1 |
+| how-to-file-income-tax-return | 64 | 23.1 | 0 |
+| child-custody-in-pakistan | 48 | 13.6 | 0 |
+| how-to-file-an-fir-in-pakistan | 43 | 8.21 | 0 |
+| court-marriage-in-pakistan | 40 | 20.2 | 0 |
+| how-to-transfer-property-in-punjab | 36 | 10.06 | 1 |
+| how-much-does-a-lawyer-cost (run-20 mesh) | 23 | 4.74 | 1 |
+| road-accident-compensation (run-20 mesh) | 22 | 8.50 | 1 |
+
+**Gradings:** No new movement vs run 23 (window ends before the run-23 edits shipped). Run-20 mesh still VALIDATED (both meshed guides holding pos ~4.7 / 8.5). PHANTOM #4 re-confirmed (pre-arrest-bail 130 @ 6.15, 0 clk — do not re-queue). Money-page CTR unchanged (family 0.26%, civil 0%, criminal 0%) — run-22 meta fix and run-19 civil fix both still awaiting recrawl; grade at ~07-25/07-30, a null result is valid. `/divorce-lawyer-in-lahore` still 3 @ 75.67 — the run-23 contextual body link (07-16) not yet crawled.
