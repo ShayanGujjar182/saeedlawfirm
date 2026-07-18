@@ -1498,3 +1498,66 @@ City-centroid pack leaders (12z): Lawyers of Pakistan 4.8×2,566 · MIAN 4.8×59
 ### Brand SERP (mobile, Lahore, 2026-07-17)
 
 Local pack: **Saeed Law Firm #1 (5.0×103)** · Mian Saeed Law Firm #2 (4.4×13) · Saeed & Moeez #3 (5.0×30 — review count doubled from 20 in May). Organic: saeedlawfirm.com #1 (new title + correct per-page description rendering) · lawzana.com/lawyer/saeed-law-firm-lahore #4 (firm's own Lawzana profile EXISTS — contradicts "absent" assumption; claim it) · smlaw.pk #8 · 5 other Saeed-confusables in top 13 (Bhutta and Saeed, Sayeed Hafeez & Mirza, Saeed Law Company FB, saeedlawconsultants.com, alsaeed-law.com). Instagram profile #9 (42 followers).
+
+## 2026-07-18 — Run 25 (cycle 4) · Theme 4: Legal schema & structured data — GSC PAK pull (query + page dim, 2026-06-18→07-16)
+
+Source: Google Search Console (`sc-domain:saeedlawfirm.com`), 28-day window, Pakistan intent. Pulled for the theme-4 unmet-rich-result-surface scan + prior-hypothesis grading. Richest window to date — the site is now converting (many pages earning double-digit clicks). No DataForSEO calls (0 spend).
+
+**Query dim (top rows):**
+
+| query | clicks | impr | CTR | pos |
+|---|---|---|---|---|
+| saeed law firm | 14 | 85 | 16.5% | 1.95 |
+| divorce rate in pakistan | 4 | 239 | 1.67% | 6.48 |
+| pakistan divorce rate | 1 | 108 | 0.93% | 6.80 |
+| divorce rate in pakistan 2026 | 3 | 79 | 3.80% | 1.91 |
+| divorce ratio in pakistan 2026 | 3 | 39 | 7.69% | 1.67 |
+| divorce ratio in pakistan | 1 | 35 | 2.86% | 5.17 |
+| divorce rate in pakistan percentage | 1 | 13 | 7.69% | 8.46 |
+| divorce rate in islamabad 2026 | 1 | 10 | 10.0% | 2.80 |
+| divorce rate in punjab pakistan | 1 | 5 | 20.0% | 4.40 |
+| law firms in lahore | 3 | 46 | 6.52% | 10.11 |
+| khula lawyer in lahore | 2 | 43 | 4.65% | 3.51 |
+| property lawyer lahore | 1 | 57 | 1.75% | 7.46 |
+| tax lawyer lahore | 1 | 38 | 2.63% | 9.03 |
+| criminal lawyer lahore | 1 | 34 | 2.94% | 8.97 |
+| immigration lawyer fees | 1 | 2 | 50.0% | 3.50 |
+| khula lawyer near me | 1 | 2 | 50.0% | 1.00 |
+| 498 crpc | 0 | 38 | 0% | 6.84 |
+| 498 crpc pakistan | 0 | 17 | 0% | 5.82 |
+
+Note: the `498 crpc` / `498 crpc pakistan` cluster (→ `/blog/pre-arrest-bail-in-pakistan`) is PHANTOM #4 — a pure statute-lookup cluster whose snippet is already fully aligned; no on-page lever. Do not re-queue a title/CTR edit.
+
+**Page dim (top rows by clicks):**
+
+| page | clicks | impr | CTR | pos |
+|---|---|---|---|---|
+| /blog/divorce-rate-in-pakistan | 41 | 1716 | 2.39% | 5.53 |
+| / (https root) | 37 | 773 | 4.79% | 6.00 |
+| http:// root (legacy, consolidation lag) | 36 | 3368 | 1.07% | 4.35 |
+| /blog/inheritance-law-in-pakistan | 34 | 2536 | 1.34% | 5.91 |
+| /property-lawyer-in-lahore | 28 | 1084 | 2.58% | 6.24 |
+| /lawyers-in-lahore (hub) | 25 | 1376 | 1.82% | 10.10 |
+| /blog/how-to-transfer-property-in-punjab | 24 | 1527 | 1.57% | 6.27 |
+| /blog/cheque-bounce-in-pakistan | 16 | 681 | 2.35% | 5.05 |
+| /blog/pre-arrest-bail-in-pakistan | 16 | 733 | 2.18% | 5.32 |
+| /criminal-lawyer-in-lahore | 14 | 573 | 2.44% | 7.50 |
+| /khula-lawyer-in-lahore | 13 | 471 | 2.76% | 7.38 |
+| /blog/how-much-does-a-lawyer-cost-in-pakistan | 12 | 504 | 2.38% | 4.37 |
+| /family-lawyer-in-lahore | 11 | 1088 | 1.01% | 10.03 |
+| /blog/gift-deed-hiba-vs-sale-vs-will-in-pakistan | 11 | 412 | 2.67% | 5.64 |
+| /blog/divorce-procedure-in-pakistan | 10 | 955 | 1.05% | 5.90 |
+| /blog/child-custody-in-pakistan | 8 | 1422 | 0.56% | 7.43 |
+| /blog/court-marriage-in-pakistan | 6 | 2119 | 0.28% | 7.41 |
+| /tax-lawyer-in-lahore | 5 | 333 | 1.50% | 7.76 |
+| /civil-lawyer-in-lahore | 3 | 751 | 0.40% | 7.53 |
+| /immigration-lawyer-in-lahore | 3 | 377 | 0.80% | 10.98 |
+| /courts/district-court-lawyer-lahore | 2 | 79 | 2.53% | 6.72 |
+| /child-custody-lawyer-in-lahore | 1 | 30 | 3.33% | 11.33 |
+| /divorce-lawyer-in-lahore | 1 | 16 | 6.25% | 10.25 |
+
+**Hypothesis grades from this pull:**
+- **run-22 duplicate-meta fix — early-validating.** Money-page CTR lifted from near-0 to 1–2.5% on the shadowed pages: family 0.28%→**1.01%**, criminal 0%→**2.44%**, hub 0.51%→**1.82%**, civil 0%→0.40%, property 2.58%. Aggregate mixes pre/post-crawl + maturation → attribute cautiously; formal grade ~07-30.
+- **run-23 divorce-rate geo/metric + `/divorce-lawyer` link — strong.** divorce-rate 1716 @ 5.53 (41 clk); `/divorce-lawyer-in-lahore` **recovered pos 75.7 → 10.25** via the contextual link (the "a strong internal link indexes AND ranks" mechanism, now on a money page).
+- **run-20 SERVICE_GUIDES mesh — compounding.** how-much-cost 504 @ 4.37 (12 clk), road-accident 187 @ 6.56 (3 clk) — both from ZERO.
+- **PHANTOM #4 softened.** `/blog/pre-arrest-bail-in-pakistan` matured to 733 @ 5.32, 16 clk on its own; still no on-page lever (snippet aligned) — it just needed crawl time.

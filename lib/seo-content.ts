@@ -240,6 +240,7 @@ export function legalServiceSchema(page: {
 		// Same Person shape as articleSchema's author; sourced from data/firm.json only.
 		employee: {
 			'@type': 'Person',
+			'@id': `${SITE_URL}/about#bilal-saeed`,
 			name: FIRM.principalLawyer.name,
 			jobTitle: FIRM.principalLawyer.title,
 			url: `${SITE_URL}/about`,
@@ -315,6 +316,10 @@ export function articleSchema(page: {
 		dateModified: page.dateModified ?? page.datePublished,
 		author: {
 			'@type': 'Person',
+			// ponytail: shared @id consolidates the attorney entity across all guides +
+			// service pages. Correct because every page is authored by the one principal
+			// (Bilal Saeed); gate this @id on author.name if a second author is ever added.
+			'@id': `${SITE_URL}/about#bilal-saeed`,
 			name: page.author?.name ?? FIRM.principalLawyer.name,
 			jobTitle: page.author?.title ?? FIRM.principalLawyer.title,
 			url: `${SITE_URL}/about`,
