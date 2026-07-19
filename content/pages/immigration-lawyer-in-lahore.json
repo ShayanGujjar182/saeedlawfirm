@@ -25,7 +25,11 @@
 		},
 		{
 			"label": "Where Immigration Lawyer Cases Are Heard",
-			"values": []
+			"values": [
+				"MOFA & HEC, Islamabad (document attestation)",
+				"District Court Lahore (POA, succession, probate)",
+				"Lahore High Court (POA-authorized representation)"
+			]
 		},
 		{
 			"label": "Case Types We Handle",
@@ -39,7 +43,9 @@
 		},
 		{
 			"label": "Fee Structure",
-			"values": []
+			"values": [
+				"Free initial consultation (normally PKR 8,000 / 60 min). Attestation chains fixed-fee; refusal-appeal files and POA execution stage-based; asylum-documentation scoped on instruction."
+			]
 		}
 	],
 	"faqs": [

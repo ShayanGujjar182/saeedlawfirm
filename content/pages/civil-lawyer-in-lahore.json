@@ -34,11 +34,21 @@
 		},
 		{
 			"label": "Case Types We Handle",
-			"values": []
+			"values": [
+				"Declaration of title (Section 42 SRA)",
+				"Possession of immovable property",
+				"Specific performance (Section 12 SRA)",
+				"Recovery of money & debt suits",
+				"Injunctions & stay orders (Order 39 CPC)",
+				"Damages, personal injury & road accident",
+				"Ejectment, tenancy & civil defamation"
+			]
 		},
 		{
 			"label": "Fee Structure",
-			"values": []
+			"values": [
+				"Free initial consultation (normally PKR 8,000). Plaint drafting fixed-fee; trial representation quoted stage-by-stage; appeals a separate engagement."
+			]
 		}
 	],
 	"faqs": [

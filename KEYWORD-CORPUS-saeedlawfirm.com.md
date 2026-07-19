@@ -1561,3 +1561,36 @@ Note: the `498 crpc` / `498 crpc pakistan` cluster (→ `/blog/pre-arrest-bail-i
 - **run-23 divorce-rate geo/metric + `/divorce-lawyer` link — strong.** divorce-rate 1716 @ 5.53 (41 clk); `/divorce-lawyer-in-lahore` **recovered pos 75.7 → 10.25** via the contextual link (the "a strong internal link indexes AND ranks" mechanism, now on a money page).
 - **run-20 SERVICE_GUIDES mesh — compounding.** how-much-cost 504 @ 4.37 (12 clk), road-accident 187 @ 6.56 (3 clk) — both from ZERO.
 - **PHANTOM #4 softened.** `/blog/pre-arrest-bail-in-pakistan` matured to 733 @ 5.32, 16 clk on its own; still no on-page lever (snippet aligned) — it just needed crawl time.
+
+---
+
+## 2026-07-19 — Run 26 (cycle 4, theme 5): money-page PAK query mining + GLOBAL/PAK measurement correction
+
+Source: Google Search Console (sc-domain:saeedlawfirm.com), 2026-06-19 → 07-16. **All figures PAK-filtered unless marked GLOBAL.**
+
+**Measurement correction (durable):** prior corpus/log "PAK" money-page page-dim figures were actually GLOBAL (un-country-filtered). Verified `/civil-lawyer-in-lahore` GLOBAL 06-18→07-16 = 751 impr @ 7.53, CTR 0.40% (identical to run-25's reported "751 PAK") vs PAK-only 215 @ 9.83, 0 clicks. Label every figure GLOBAL vs PAK; grade money-page conversion on PAK-only.
+
+### Money pages (PAK, page dim)
+| Page | Impr | Pos | CTR | Clicks |
+|---|---|---|---|---|
+| /family-lawyer-in-lahore | 405 | 12.16 | 0.25% | 1 |
+| /lawyers-in-lahore (hub) | 415 | 15.70 | 0.72% | 3 |
+| /civil-lawyer-in-lahore | 215 | 9.83 | 0% | 0 |
+| /criminal-lawyer-in-lahore | 180 | 7.97 | 0% | 0 |
+| /property-lawyer-in-lahore | 212 | 7.35 | 1.42% | 3 |
+| /immigration-lawyer-in-lahore | 89 | 16.34 | 1.12% | 1 |
+| /tax-lawyer-in-lahore | 89 | 8.54 | 2.25% | 2 |
+| /khula-lawyer-in-lahore | 75 | 7.71 | 5.33% | 4 |
+| /divorce-lawyer-in-lahore | 1 | 64 | 0% | 0 |
+
+### /civil-lawyer-in-lahore (PAK, query dim) — ranks pos 1 for core civil terms; accident/PI intent thin + mostly non-PAK spillover
+best civil lawyer in lahore pos 1; civil lawyer pos 1 (2 impr); civil lawyer near me pos 1 (2); lawyer for civil court pos 1; civil litigation in lahore 8 @ 7.6; civil court aiwan e adal lahore 7 @ 10.4; car accident lawyer 4 @ 11.5; accident claim attorney 2 @ 6; injury lawyers 1 @ 7; no win no fee civil lawyers near me 1 @ 4.
+
+### /criminal-lawyer-in-lahore (PAK, query dim) — title already matches; pos-8 immaturity (PHANTOM #4 class), 0 clk
+criminal defense lawyer 81 @ 7.85; criminal lawyer lahore 33 @ 8.85; best criminal lawyer in lahore 25 @ 8.52; criminal lawyer 7 @ 7.86; criminal defense attorney 6 @ 8.5; bail lawyer 5 @ 9.2; criminal defense lawyer (US spelling) is the largest single query = diaspora/spillover.
+
+### /immigration-lawyer-in-lahore (PAK, query dim) — position-gated on the LOCAL money terms
+immigration lawyer 26 @ 8.23; immigration lawyer lahore 10 @ 26.7; immigration lawyer in lahore 3 @ 23.67; best immigration lawyer in lahore 4 @ 44.5; immigration attorney near me 4 @ 15.75; immigration lawyer fees 2 @ 3.5 (1 clk); notary public dha lahore 5 @ 11.2.
+
+### Guide grades (PAK)
+/blog/divorce-rate-in-pakistan 399 @ 4.69, 10 clk (strongest guide); /blog/pre-arrest-bail-in-pakistan 197 @ 5.70, 0 clk (PHANTOM #4, PAK-confirmed); /blog/how-much-does-a-lawyer-cost-in-pakistan 42 @ 4.83, 1 clk; /blog/road-accident-compensation-and-car-insurance-in-pakistan 38 @ 7.89, 1 clk (run-20 mesh confirmed in PAK); /blog/inheritance-law-in-pakistan 98 @ 7.84, 3 clk; /blog/cheque-bounce-in-pakistan 64 @ 6.45, 0 clk.
