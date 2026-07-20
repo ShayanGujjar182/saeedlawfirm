@@ -954,6 +954,9 @@ No DataForSEO calls this run (theme-1 technical work needs no volume data; GSC s
 
 ### ⚠️ DATA GOTCHA (durable)
 `mcp__dataforseo__kw_data_google_ads_search_volume` **ignores `location_code`** — passed 2586 (Pakistan), it returned `location_code: 2840` (USA) volumes for every keyword. All PK-intent terms (khula/talaq/court-marriage procedure) showed only 10-50/mo = US spillover, NOT Pakistan demand. Do NOT trust that tool for PK volume. Use GSC intent signal, or `dataforseo_labs_google_keyword_overview` / `_bulk_keyword_difficulty` with an explicit location filter and verify the returned `location_code` echoes 2586/1011082.
+
+---
+
 ## 2026-07-10 — GSC page-dim snapshot (run 18, theme 4) · window 2026-06-12 → 07-08
 
 Source: `google-search-console` MCP `search_analytics`, page dimension, sc-domain:saeedlawfirm.com. PK/Lahore intent. Appended for grading, not fabricated.
@@ -1594,3 +1597,29 @@ immigration lawyer 26 @ 8.23; immigration lawyer lahore 10 @ 26.7; immigration l
 
 ### Guide grades (PAK)
 /blog/divorce-rate-in-pakistan 399 @ 4.69, 10 clk (strongest guide); /blog/pre-arrest-bail-in-pakistan 197 @ 5.70, 0 clk (PHANTOM #4, PAK-confirmed); /blog/how-much-does-a-lawyer-cost-in-pakistan 42 @ 4.83, 1 clk; /blog/road-accident-compensation-and-car-insurance-in-pakistan 38 @ 7.89, 1 clk (run-20 mesh confirmed in PAK); /blog/inheritance-law-in-pakistan 98 @ 7.84, 3 clk; /blog/cheque-bounce-in-pakistan 64 @ 6.45, 0 clk.
+
+---
+
+## 2026-07-20 — Run 27 (Theme 6: Internal linking & architecture) — GSC only, 0 DataForSEO calls
+
+Window 2026-06-20 → 2026-07-17, **countryFilter=PAK** (PAK-only per the run-26 measurement-discipline rule; do not confuse with GLOBAL).
+
+### Money-page PAK page-dim snapshot (grading baseline)
+/lawyers-in-lahore 426 @ 15.61 (3 clk, 0.70%); /family-lawyer-in-lahore 414 @ 11.99 (1 clk, 0.24%); /property-lawyer-in-lahore 218 @ 7.25 (3 clk, 1.38%); /civil-lawyer-in-lahore 211 @ 9.91 (0 clk); /criminal-lawyer-in-lahore 188 @ 7.91 (0 clk); /tax-lawyer-in-lahore 92 @ 8.55 (2 clk, 2.17%); /immigration-lawyer-in-lahore 90 @ 16.26 (1 clk); /khula-lawyer-in-lahore 77 @ 7.55 (**4 clk, 5.19% — best-converting money page**); /divorce-lawyer-in-lahore 1 @ 64.
+**ZERO PAK impressions (invisible):** /child-custody-lawyer-in-lahore, /court-marriage-lawyer-in-lahore, /corporate-lawyer-in-lahore.
+
+### Guide PAK page-dim snapshot
+/blog/divorce-rate-in-pakistan **448 @ 4.56, 11 clk (2.46%)** — still the strongest guide, up from 399 @ 4.69 / 10 clk; /blog/pre-arrest-bail-in-pakistan 239 @ 5.84, 0 clk (PHANTOM #4 re-confirmed, 3rd time); /blog/inheritance-law-in-pakistan 110 @ 7.52, 3 clk; /blog/how-to-file-income-tax-return-in-pakistan 88 @ 22.32; /blog/cheque-bounce-in-pakistan 76 @ 6.72; /blog/how-to-file-an-fir-in-pakistan 73 @ 7.85; /blog/child-custody-in-pakistan 61 @ 13.00; /blog/how-much-does-a-lawyer-cost-in-pakistan 60 @ 4.07, 1 clk; /blog/court-marriage-in-pakistan 51 @ 18.63; /blog/road-accident-compensation... 48 @ 7.25, 1 clk; /blog/company-registration-in-pakistan-secp 42 @ 13.64; /blog/defamation-law-in-pakistan 41 @ 9.02, 1 clk.
+
+### CHILD CUSTODY cluster (PAK, query dim) — ~35 impr, commercial lawyer-intent present but NOT landing on the custody money page
+best child custody lawyer near me 3 @ 10 (**1 clk**); best custody lawyer near me 1 @ 7; best family lawyers for child custody near me 1 @ 1; free consultation custody lawyer near me 1 @ 15; child custody 4 @ 19; child custody after divorce 3 @ 31; custody case for child 3 @ 10.67; custody rights 3 @ 16.67; child custody if mother remarried in pakistan 2 @ 8.5; permanent child custody in pakistan 2 @ 14; what is the age limit for child custody in pakistan 1 @ 1; custody of minor child 1 @ 1; legal custody of child 1 @ 3; custody of minor 1 @ 5; custody of minor child to father in pakistan case law in urdu 1 @ 4; child custody and divorce 1 @ 4; child custody law in pakistan 1 @ 22; child custody in pakistan 1 @ 18; child custody jurisdiction 1 @ 40.
+
+### COURT MARRIAGE cluster (PAK, query dim) — ~48 impr, informational-dominant with live commercial edge
+court marriage 9 @ 15.33; court marriage in islam 7 @ 7.86; court marriage in pakistan 4 @ 36; civil marriage in pakistan 2 @ 21.5; cot marriage [sic] 2 @ 9.5; court marriage in lahore 2 @ 17.5; court marriage karna sahi hai ya galat 2 @ 8; court marriage law in pakistan 2 @ 11; for court marriage what documents required 2 @ 11; how to do court marriage in pakistan 2 @ 43; **marriage lawyer near me 1 @ 1; marriage lawyers near me 1 @ 12**; documents required for court marriage 1 @ 10; difference between court marriage and register marriage 1 @ 8; is court marriage and registry the same 1 @ 36; court marriage rules in pakistan 1 @ 12; court marriage list 2026 1 @ 8; can court marriage happen on sunday 1 @ 8; what is a court marriage 1 @ 7; court marriage procedure in pakistan 1 @ 62; procedure of court marriage in pakistan 1 @ 11.
+
+### Divorce-rate cluster (PAK) — run-23 hypothesis tracking
+divorce rate in pakistan 2026 57 @ 1.75 (3 clk); divorce ratio in pakistan 2026 38 @ 1.66 (3 clk); divorce rate in pakistan 126 @ 5.07 (2 clk); divorce rate in islamabad 2026 9 @ 3.0 (1 clk); divorce rate in pakistan percentage 7 @ 7.86 (1 clk); pakistan divorce rate 2026 7 @ 1.43 (1 clk); love marriage divorce rate in pakistan 1 @ 1.
+**The run-23 per-city + per-metric sections are converting: the geo query (islamabad 2026) and the metric query (percentage) both now earn clicks.**
+
+### Internal-link audit (repo-derived, not GSC) — inbound contextual links per money page
+Total inbound (body + card) / body-links-from-strong-pages(≥40 PAK impr): civil **41**; family 38; property 36; lawyers-in-lahore 28; tax 19; corporate 18; criminal 17; divorce 13; khula 10; child-custody 9; **immigration 6 (thinnest with real demand)**; court-marriage 6.
