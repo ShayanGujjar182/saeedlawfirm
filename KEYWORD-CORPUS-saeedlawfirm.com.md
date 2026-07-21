@@ -1623,3 +1623,38 @@ divorce rate in pakistan 2026 57 @ 1.75 (3 clk); divorce ratio in pakistan 2026 
 
 ### Internal-link audit (repo-derived, not GSC) — inbound contextual links per money page
 Total inbound (body + card) / body-links-from-strong-pages(≥40 PAK impr): civil **41**; family 38; property 36; lawyers-in-lahore 28; tax 19; corporate 18; criminal 17; divorce 13; khula 10; child-custody 9; **immigration 6 (thinnest with real demand)**; court-marriage 6.
+
+---
+
+## 2026-07-21 — Run 28 (Theme 7: Local + GEO — CYCLE-4 POINTER WRAP) — GSC only, 0 DataForSEO calls
+
+Window 2026-06-21 → 2026-07-19, **countryFilter=PAK** unless labelled GLOBAL.
+
+### Money-page PAK snapshot (run-22 duplicate-meta grading, 4th read)
+/family-lawyer-in-lahore 453 @ 11.73 (**2 clk, 0.44%** — was 0 clk); /lawyers-in-lahore 439 @ 15.49 (3 clk, 0.68%); /property-lawyer-in-lahore 223 @ 7.20 (**3 clk, 1.35%**); /civil-lawyer-in-lahore 208 @ 9.75 (0 clk); /criminal-lawyer-in-lahore 195 @ 7.91 (0 clk); /tax-lawyer-in-lahore 98 @ 8.42 (2 clk, 2.04%); /immigration-lawyer-in-lahore 88 @ 15.59 (1 clk); /khula-lawyer-in-lahore 78 @ 7.46 (**4 clk, 5.13% — still best-converting**); /divorce-lawyer-in-lahore 1 @ 64.
+**STILL ZERO PAK impressions:** /child-custody-lawyer-in-lahore, /court-marriage-lawyer-in-lahore, /corporate-lawyer-in-lahore. (Run-27 up-links shipped 07-20, ~1 day old — NOT yet gradeable.)
+
+### Guide PAK snapshot
+/blog/divorce-rate-in-pakistan **568 @ 4.50, 14 clk (2.46%)** — up from 448 @ 4.56 / 11 clk; /blog/pre-arrest-bail-in-pakistan 301 @ 5.43, 3 clk (first clicks on this page); /blog/inheritance-law-in-pakistan 132 @ 7.30, 4 clk; /blog/how-to-file-an-fir-in-pakistan 101 @ 7.59; /blog/cheque-bounce-in-pakistan 98 @ 6.49; /blog/how-to-file-income-tax-return-in-pakistan 96 @ 22.45; /blog/how-much-does-a-lawyer-cost-in-pakistan 80 @ 4.45, 1 clk; /blog/child-custody-in-pakistan 65 @ 12.66; /blog/road-accident-compensation... 61 @ 7.30, 1 clk; /blog/company-registration-in-pakistan-secp 59 @ 14.71; /blog/court-marriage-in-pakistan 58 @ 17.84; /blog/defamation-law-in-pakistan 56 @ 9.23, 1 clk.
+
+### Divorce-rate cluster (PAK) — run-23 hypothesis, VALIDATED
+divorce rate in pakistan 183 @ 4.87 (4 clk); divorce rate in pakistan 2026 70 @ 1.73 (4 clk); divorce ratio in pakistan 2026 42 @ 1.60 (3 clk); divorce rate in islamabad 2026 11 @ 3.36 (**1 clk** — the run-23 per-city section); divorce rate in pakistan percentage 9 @ 7.22 (**1 clk** — the run-23 measurement section); pakistan divorce rate 2026 7 @ 1.43 (1 clk).
+
+### "NEAR ME" / proximity cluster (PAK, query dim) — live but NOT resolvable on-page
+advocate near me 14 @ 8.71 (0 clk); advocate near me for property 4 @ 11; advocate for property near me 4 @ 7; adverse possession lawyers near me 4 @ 12.5; best child custody lawyer near me 3 @ 10 (**1 clk**); property advocate near me 2 @ 5 (**1 clk**); khula lawyer near me 2 @ 1 (**1 clk**); family case advocate near me 1 @ 10 (**1 clk**); best custody lawyer near me 1 @ 7; best family court lawyer near me 1 @ 9; best asylum lawyer near me 1 @ 6; advocate nearby me 1 @ 7; any lawyer near me 1 @ 5; advocate firm near me 1 @ 40; attorney near me family law 1 @ 37.
+**Reading:** proximity intent is real in PAK but is resolved by Google's Maps/local-pack layer, not by neighbourhood landing pages. Off-site / GBP-gated. Do not treat as an on-page lever.
+
+### Head local-commercial cluster (PAK) — authority-gated, unchanged
+law firms in lahore 49 @ 9.96 (2 clk); best family lawyer in lahore 40 @ 11.63 (0 clk); best criminal lawyer in lahore 35 @ 9.86 (0 clk); criminal lawyer lahore 34 @ 8.91 (1 clk); best property lawyer in lahore 33 @ 7.70 (0 clk); best lawyer in lahore 23 @ 27.13; lawyers in lahore 23 @ 23.48 (1 clk); best divorce lawyer in lahore 12 @ 18.42; best law firm in lahore 12 @ 15.42; best immigration lawyer in lahore 4 @ 44.5; law firm lahore 17 @ 11.76 (1 clk); tax lawyer lahore 44 @ 7.95 (1 clk); property lawyer lahore 63 @ 6.98 (1 clk).
+
+### Court-entity local queries (PAK) — vocabulary ALREADY covered on-site (phantom #6)
+aiwan e adal lahore 5 @ 11.6; aiwan e adal 1 @ 5; atir lahore 3 @ 5.33; advocate lahore high court 1 @ 20.
+Site already uses **Aiwan-e-Adal ×25** (title + meta + H1 + intro) on /courts/district-court-lawyer-lahore and **ATIR ×130 / "Appellate Tribunal Inland Revenue" ×7** (title + meta + intro) on /courts/tax-tribunal-lawyer-lahore. No vocabulary gap.
+
+### AREA LAYER — repo-derived measurement (not GSC), decisive
+8 area pages, unique-content check on built HTML: word counts **1198–2263** (dha 1198, faisal-town 1258, township 1585, cantt 1833, model-town 1958, gulberg 1977, bahria-town 2007, johar-town 2263); max pairwise 5-gram Jaccard overlap **0.052** (near-duplicate threshold 0.5). Pages are substantial and genuinely distinct — NOT thin, NOT doorway, NOT templated.
+GSC: **0 PAK impressions across all 8.** GLOBAL, only 1 of 8 registers at all: /areas/lawyer-in-lahore-cantt 10 impr @ 4.20, 0 clk.
+**Conclusion: the area layer is a DEMAND failure, not a quality failure.** Neighbourhood-modifier queries ("lawyer in johar town lahore") effectively do not exist in this market; the proximity demand that does exist arrives as "near me" and is resolved by Maps/GBP. ~14,000 words of correct, unique local content earning ~0. Do not build more area pages; do not rewrite the existing ones.
+
+### Host split (PAK, monitoring only — known consolidation lag, host-gated)
+http://saeedlawfirm.com/ 822 @ 5.23 (9 clk) vs https://saeedlawfirm.com/ 182 @ 6.18 (9 clk). Legacy /tax-lawyer/ 11 @ 32 (308 → /tax-lawyer, correct).
