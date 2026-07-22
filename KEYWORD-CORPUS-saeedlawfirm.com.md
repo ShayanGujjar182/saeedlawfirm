@@ -1658,3 +1658,22 @@ GSC: **0 PAK impressions across all 8.** GLOBAL, only 1 of 8 registers at all: /
 
 ### Host split (PAK, monitoring only — known consolidation lag, host-gated)
 http://saeedlawfirm.com/ 822 @ 5.23 (9 clk) vs https://saeedlawfirm.com/ 182 @ 6.18 (9 clk). Legacy /tax-lawyer/ 11 @ 32 (308 → /tax-lawyer, correct).
+
+## 2026-07-22 — Run 29 (cycle 5 OPENS · Theme 1: Technical & crawlability) — GSC only, 0 DataForSEO calls
+
+**No new keyword/volume data pulled this run** (technical theme; the ship is `sitemap.xml` `<lastmod>`). GSC page-dim PAK grading snapshot only (2026-06-22 → 07-20), logged here for the measurement trail.
+
+### Money pages (PAK, page dim) — position/authority-gated, holding
+khula-lawyer-in-lahore 78 @ 7.46 (**4 clk, 5.13% CTR — best-converting money page in PAK**); property-lawyer-in-lahore 221 @ 7.18 (3 clk, 1.36%); family-lawyer-in-lahore 440 @ 11.86 (2 clk, 0.45%); tax-lawyer-in-lahore 98 @ 8.42 (2 clk, 2.04%); lawyers-in-lahore 435 @ 15.35 (3 clk, 0.69% — generic hub ranks worst, pos 15); immigration-lawyer-in-lahore 87 @ 15.67 (1 clk); civil-lawyer-in-lahore 199 @ 9.74 (**0 clk** — run-19 CTR rewrite CLOSED NEGATIVE, position-gated); criminal-lawyer-in-lahore 195 @ 7.91 (**0 clk**); divorce-lawyer-in-lahore 1 @ 64. Confirms the standing thesis: **specific-intent exact-match pages (khula @ 5.13%) outperform generic ones (lawyers-in-lahore @ 0.69%)**.
+
+### Guides (PAK, page dim) — divorce-rate still dominant
+divorce-rate-in-pakistan **568 @ 4.50, 14 clk** (strongest guide, holding at the run-28 level); pre-arrest-bail 301 @ 5.43 (**3 clk** — PHANTOM #4 earned its first PAK clicks, still no on-page lever); how-to-file-an-fir 101 @ 7.59; cheque-bounce 98 @ 6.49; inheritance-law 132 @ 7.30 (4 clk); how-much-does-a-lawyer-cost 80 @ 4.45 (1 clk, run-20 mesh holding); road-accident 61 @ 7.30 (1 clk, run-20 mesh holding); court-marriage-in-pakistan 58 @ 17.84; child-custody-in-pakistan 65 @ 12.66.
+
+### Run-27 up-link targets — NOT gradeable yet (grade ~08-03)
+/child-custody-lawyer-in-lahore and /court-marriage-lawyer-in-lahore both still **0 PAK impressions** — but this window ends 07-20, the day the run-27 up-links shipped, so it captures ~0 days of post-crawl effect. Not a null result; grade at 08-03 as planned.
+
+### Sitemap (theme-1 status)
+GSC registers `https://saeedlawfirm.com/sitemap.xml` (submitted 2026-07-03, last downloaded 2026-07-13, **0 warnings / 0 errors**, 53 URLs — now builds 56). Run-29 adds `<lastmod>` to the 22 article URLs that carry a real `dateModified` (20 × 2026-06-28, 1 × 2026-07-01 child-custody, 1 × 2026-07-16 divorce-rate); the 26 service/area/court pages + 8 static routes stay `<loc>`-only (no `dateModified` to derive from — never synthesised). Google picks up the lastmods on the next sitemap fetch after the owner deploys.
+
+### Theme-1 regression (production curl, 5th clean confirmation)
+http → 301 → https ✓ · www → 308 → non-www ✓ · /about-us/ → 308 → /about-us (→ /about) ✓ · /prize/*, /shop/pg/*, /hello-world all 410 ✓. Host split (PAK, monitor-only, host-gated): http root 800 @ 5.29 (9 clk) vs https root 181 @ 6.20 (9 clk) — consolidation lag, no repo fix.
