@@ -112,6 +112,10 @@ const SERVICE_GUIDES: Record<string, { title: string; href: string }[]> = {
 		}
 	],
 	'immigration-lawyer-in-lahore': [
+		{
+			title: 'MOFA Attestation in Pakistan',
+			href: '/blog/mofa-attestation-in-pakistan'
+		},
 		{ title: 'Best Countries for Asylum', href: '/blog/best-countries-for-asylum' },
 		{
 			title: 'Legal Fees in Pakistan Explained',

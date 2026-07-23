@@ -1677,3 +1677,26 @@ GSC registers `https://saeedlawfirm.com/sitemap.xml` (submitted 2026-07-03, last
 
 ### Theme-1 regression (production curl, 5th clean confirmation)
 http → 301 → https ✓ · www → 308 → non-www ✓ · /about-us/ → 308 → /about-us (→ /about) ✓ · /prize/*, /shop/pg/*, /hello-world all 410 ✓. Host split (PAK, monitor-only, host-gated): http root 800 @ 5.29 (9 clk) vs https root 181 @ 6.20 (9 clk) — consolidation lag, no repo fix.
+
+---
+
+## 2026-07-23 — Run 30 (Theme 2, content) · GSC PAK pull (90d 04-24→07-21, query+page dims) + immigration/attestation spoke targets
+
+**Source:** Google Search Console (`sc-domain:saeedlawfirm.com`), country=PAK. Zero DataForSEO this run.
+
+**Immigration/attestation cluster = greenfield in PAK (no ranking spoke existed).** Only live PAK queries in the cluster:
+| query | impr | pos | clk |
+|---|---|---|---|
+| immigration lawyer fees | 2 | 3.5 | 1 |
+| advocate immigration | 1 | 5 | 0 |
+
+(No PAK impressions yet for mofa/attestation/apostille/hec/ibcc/visa/passport/nicop — confirms the new `/blog/mofa-attestation-in-pakistan` spoke targets uncontested informational demand documented in prior corpus pulls: `immigration lawyer` 26 @ 8.23, `immigration lawyer lahore` 10 @ 26.7, `notary public dha lahore` 5 @ 11.2 = attestation intent.)
+
+**Spoke target terms (run 30, informational, PAK intent):** mofa attestation, mofa attestation pakistan, mofa attestation process/fee/documents, hec attestation, ibcc attestation, degree attestation for abroad, document attestation for visa, apostille pakistan, police character certificate, notary public dha lahore.
+
+**Money-page baseline (grade run-30 spoke ~08-03):** `/immigration-lawyer-in-lahore` = **123 PAK impr @ pos 22.1, 1 clk** (weak — the up-links should lift it).
+
+**Grading snapshots (PAK, formal grades later):**
+- run-23 divorce-rate depth VALIDATING: `/blog/divorce-rate-in-pakistan` 716 impr @ 4.38 / 21 clk. Cluster converts: `divorce ratio in pakistan 2026` 54 @ 1.57 (5 clk), `divorce rate in pakistan 2026` 81 @ 1.65 (4 clk), `divorce rate in islamabad 2026` 12 @ 3.75 (1 clk), `divorce rate in pakistan percentage` 10 @ 7.2 (1 clk).
+- run-27 up-links EARLY-POSITIVE: `/child-custody-lawyer-in-lahore` 0→1 PAK impr @ pos 9; `/court-marriage-lawyer-in-lahore` still 0 PAK.
+- run-22 CTR (PAK money pages): khula 123 @ 9.61 / 5 clk (4.07%), property 363 @ 7.93 / 5 clk (1.38%), tax 118 @ 8.77 / 2 clk (1.69%), family 537 @ 13.18 / 4 clk (0.74%), civil 435 @ 10.02 / 1 clk (0.23%), criminal 226 @ 7.96 / 0 clk.
