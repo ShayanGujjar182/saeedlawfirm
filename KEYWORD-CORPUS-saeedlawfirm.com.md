@@ -1700,3 +1700,33 @@ http → 301 → https ✓ · www → 308 → non-www ✓ · /about-us/ → 308 
 - run-23 divorce-rate depth VALIDATING: `/blog/divorce-rate-in-pakistan` 716 impr @ 4.38 / 21 clk. Cluster converts: `divorce ratio in pakistan 2026` 54 @ 1.57 (5 clk), `divorce rate in pakistan 2026` 81 @ 1.65 (4 clk), `divorce rate in islamabad 2026` 12 @ 3.75 (1 clk), `divorce rate in pakistan percentage` 10 @ 7.2 (1 clk).
 - run-27 up-links EARLY-POSITIVE: `/child-custody-lawyer-in-lahore` 0→1 PAK impr @ pos 9; `/court-marriage-lawyer-in-lahore` still 0 PAK.
 - run-22 CTR (PAK money pages): khula 123 @ 9.61 / 5 clk (4.07%), property 363 @ 7.93 / 5 clk (1.38%), tax 118 @ 8.77 / 2 clk (1.69%), family 537 @ 13.18 / 4 clk (0.74%), civil 435 @ 10.02 / 1 clk (0.23%), criminal 226 @ 7.96 / 0 clk.
+
+---
+
+## 2026-07-24 — Run 31 (cycle 5, Theme 3: E-E-A-T & YMYL trust) — GSC PAK page-dim snapshot
+
+Source: GSC `search_analytics`, page dim, `countryFilter=PAK`, 2026-06-24 → 07-23 (30d). Zero DataForSEO (0 spend). All figures **PAK-only**.
+
+**Touched money pages (baselines for the run-31 distinct-speakable-hook change; no ranking bet, GEO/E-E-A-T hygiene):**
+| Page | Impr | Pos | Clicks | CTR |
+|---|---|---|---|---|
+| /khula-lawyer-in-lahore | 96 | 7.68 | 4 | 4.17% |
+| /lawyers-in-lahore (hub) | 433 | 15.18 | 3 | 0.69% |
+| /family-lawyer-in-lahore | 445 | 11.58 | 3 | 0.67% |
+| /property-lawyer-in-lahore | 223 | 7.11 | 2 | 0.90% |
+| /criminal-lawyer-in-lahore | 215 | 7.55 | 0 | 0% |
+| /tax-lawyer-in-lahore | 106 | 7.82 | 2 | 1.89% |
+| /corporate-lawyer-in-lahore | 0 (not in results) | — | 0 | — |
+| /court-marriage-lawyer-in-lahore | 0 (not in results) | — | 0 | — |
+
+khula again the best-converting money page (specific-intent > generic, re-confirmed). criminal + civil (176 @ 9.86) still 0 clk = position-gated (learnings cycle-4). corporate/court-marriage/child-custody money pages invisible in PAK (0 impr).
+
+**Grades in flight (PAK):**
+- run-23 divorce-rate depth — HOLDING STRONG: /blog/divorce-rate-in-pakistan 716 impr @ 4.38, 21 clk (still the strongest guide by a wide margin).
+- run-27 spoke→money up-links — NOT gradeable: /child-custody-lawyer-in-lahore + /court-marriage-lawyer-in-lahore both 0 PAK impr in this window; formal grade ~08-03.
+- run-30 immigration spoke — early: /blog/mofa-attestation-in-pakistan 0 PAK impr (brand new, expected); /immigration-lawyer-in-lahore 85 @ 14.19 (position improved vs the 90d 22.1 baseline, but this window mixes pre/post — do not over-read; grade ~08-03).
+- run-22 duplicate-meta CTR — mixed/position-gated: khula 4.17%, tax 1.89%, property 0.90%, hub 0.69%, family 0.67%, criminal 0%, civil 0%.
+- PHANTOM #4 pre-arrest-bail: 397 @ 5.38, 3 clk (matured, still no on-page lever).
+- Host split persists (monitor): http root 742 @ 5.41 vs https root 270 @ 9.19 (consolidation lag, not a repo fix).
+
+**Other surfacing guides (PAK, context):** inheritance-law 148 @ 7.22 (4 clk), how-much-does-a-lawyer-cost 105 @ 4.10 (3 clk), cheque-bounce 121 @ 6.41, how-to-file-an-fir 116 @ 7.75, how-to-file-income-tax-return 110 @ 22.09, company-registration-secp 80 @ 14.54, child-custody guide 85 @ 12.41, court-marriage guide 73 @ 18.34, road-accident 70 @ 7.56 (2 clk).
