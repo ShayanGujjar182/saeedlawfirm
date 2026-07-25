@@ -1730,3 +1730,65 @@ khula again the best-converting money page (specific-intent > generic, re-confir
 - Host split persists (monitor): http root 742 @ 5.41 vs https root 270 @ 9.19 (consolidation lag, not a repo fix).
 
 **Other surfacing guides (PAK, context):** inheritance-law 148 @ 7.22 (4 clk), how-much-does-a-lawyer-cost 105 @ 4.10 (3 clk), cheque-bounce 121 @ 6.41, how-to-file-an-fir 116 @ 7.75, how-to-file-income-tax-return 110 @ 22.09, company-registration-secp 80 @ 14.54, child-custody guide 85 @ 12.41, court-marriage guide 73 @ 18.34, road-accident 70 @ 7.56 (2 clk).
+
+---
+
+## 2026-07-25 — Run 32 (cycle 5, Theme 4: Legal schema & structured data → theme-2 lever) — GSC PAK snapshot + fee-intent query cluster
+
+Source: GSC `search_analytics`, `countryFilter=PAK`, 2026-06-25 → 07-24 (30d), page dim + query dim on `/blog/how-much-does-a-lawyer-cost-in-pakistan`. Zero DataForSEO (0 spend). All figures **PAK-only** unless labelled GLOBAL.
+
+### Fee guide query cluster (page dim: 139 impr @ pos 3.84, 3 clk) — the run-32 target
+
+The page ranks broadly but on a very fragmented tail (most queries = 1 impression at pos 1-4). Clusters with real signal:
+
+| Query | Impr | Pos | Clicks | Cluster |
+|---|---|---|---|---|
+| high court lawyer fees in pakistan | 10 | 4.10 | 0 | **court-level tier (biggest single query)** |
+| lawyer fees | 3 | 3.67 | 1 | head |
+| consultation fee lawyer | 1 | 1.00 | 1 | consultation |
+| how much will a lawyer charge | 1 | 2.00 | 1 | head |
+| high court lawyer fees | 1 | 4.00 | 0 | court-level tier |
+| high court rate / high court wakeel | 1 each | 6.00 / 1.00 | 0 | court-level tier (Roman-Urdu) |
+| criminal case lawyer fees | 1 | 3.00 | 0 | case-type tier |
+| court fees for civil cases in pakistan | 1 | 4.00 | 0 | **court fee ≠ lawyer fee** |
+| court costs | 1 | 31.0 | 0 | court fee (weak position) |
+| how much does it cost to file an answer in court | 1 | 19.0 | 0 | court fee (weak position) |
+| government lawyer fees | 1 | 10.0 | 0 | **legal aid / state counsel** |
+| government lawyer fees for divorce | 1 | 1.00 | 0 | legal aid |
+| free legal aid | 1 | 4.00 | 0 | legal aid |
+| advocate fee / advocate fees | 1 each | 8.00 | 0 | head (weak position) |
+| how much do lawyers charge for a consultation | 1 | 12.0 | 0 | consultation (weak position) |
+| average lawyer fee / average lawyer fees | 1 each | 1.00 | 0 | head |
+| criminal lawyer ki fees kitni hoti hai / fee kitni hai / fee kitne ha | 1 each | 2.00 / 1.00 / 2.00 | 0 | **Roman-Urdu fee intent** |
+| advocate registration fees / advocate license fees | 1 each | 5.00 / 10.0 | 0 | *mismatched intent* (people wanting to BECOME a lawyer, not hire one) |
+
+**Read:** three coherent sub-intents had no dedicated on-page section before this run: (1) cost by **court level** (District / Family Court / tribunals / LHC / Supreme Court), (2) **court fee vs lawyer fee** (Court Fees Act 1870, ad valorem vs fixed, process fee, copies, stamp/registration), (3) **"government lawyer" / legal aid** (state counsel in capital cases, District Legal Empowerment Committees, bar association legal aid committees, Legal Aid and Justice Authority Act 2020). Roman-Urdu phrasing left untouched deliberately (forcing transliterated queries into YMYL English copy is the same anti-pattern as the closed-dead "near me" area-page bet).
+
+### PAK page dim (30d, 06-25 → 07-24)
+
+| Page | Impr | Pos | Clicks | CTR |
+|---|---|---|---|---|
+| /blog/divorce-rate-in-pakistan | 793 | 4.33 | 24 | 3.03% |
+| / (https) | 302 | 8.79 | 10 | 3.31% |
+| / (http, consolidation lag) | 716 | 5.46 | 9 | 1.26% |
+| /blog/inheritance-law-in-pakistan | 156 | 7.29 | 4 | 2.56% |
+| /family-lawyer-in-lahore | 501 | 11.17 | 4 | 0.80% |
+| /khula-lawyer-in-lahore | 98 | 7.68 | 4 | 4.08% |
+| /blog/how-much-does-a-lawyer-cost-in-pakistan | 139 | 3.84 | 3 | 2.16% |
+| /blog/pre-arrest-bail-in-pakistan | 440 | 5.34 | 3 | 0.68% |
+| /lawyers-in-lahore | 438 | 15.07 | 3 | 0.68% |
+| /blog/road-accident-compensation-and-car-insurance | 79 | 7.90 | 2 | 2.53% |
+| /property-lawyer-in-lahore | 258 | 6.97 | 2 | 0.78% |
+| /tax-lawyer-in-lahore | 110 | 7.81 | 2 | 1.82% |
+| /immigration-lawyer-in-lahore | 79 | 12.92 | 1 | 1.27% |
+| /criminal-lawyer-in-lahore | 235 | 7.45 | 0 | 0% |
+| /civil-lawyer-in-lahore | 172 | 9.83 | 0 | 0% |
+| /blog/cheque-bounce-in-pakistan | 134 | 6.34 | 0 | 0% |
+| /blog/how-to-file-an-fir-in-pakistan | 132 | 7.48 | 0 | 0% |
+| /blog/mofa-attestation-in-pakistan (run 30) | 0 | — | 0 | — |
+| /child-custody-lawyer-in-lahore, /court-marriage-lawyer-in-lahore (run 27) | 0 | — | 0 | — |
+
+**Grades in flight:** run-23 divorce-rate depth still compounding (716 → **793 impr**, 21 → **24 clk**, pos 4.38 → 4.33; strongest asset on the site by a wide margin). run-30 immigration spoke: guide 0 PAK (2 days live, expected), `/immigration-lawyer-in-lahore` 79 @ **12.92** (vs 22.1 on the 90d baseline, 14.19 last window; improving but window mixes pre/post) — formal grade ~08-03. run-27 up-links: both target money pages still 0 PAK — grade ~08-03. run-22 meta CTR: khula 4.08% best, tax 1.82%, property 0.78%, family 0.80%, criminal + civil still 0 (position-gated, re-confirmed).
+
+### Rich-result surface check (theme 4, GLOBAL, searchAppearance dim, 30d)
+Only `TRANSLATED_RESULT` (1 impr @ pos 8). **No FAQ/HowTo/Article rich-result surface is being served at all** — consistent with Google's 2023 retirement of FAQ/HowTo rich results for non-authoritative sites. The site's FAQPage (49 blocks) + HowTo (10 guides) schema is therefore an **entity/AI-answer asset, not a SERP-feature asset**. Guardrail confirmed a 2nd time (run 25 = same conclusion): do NOT extend schema chasing rich results that Google does not serve here.
