@@ -32,11 +32,21 @@
 		},
 		{
 			"label": "Case Types We Handle",
-			"values": []
+			"values": [
+				"Uncontested khula petitions",
+				"Contested khula on the statutory grounds (DMMA 1939)",
+				"Haq mehr (dower) claims",
+				"Dowry recovery (Dowry and Bridal Gifts (Restriction) Act 1976)",
+				"Iddat maintenance",
+				"Custody alongside khula (Guardians and Wards Act 1890)",
+				"Decree registration with NADRA"
+			]
 		},
 		{
 			"label": "Fee Structure",
-			"values": []
+			"values": [
+				"Free initial consultation (normally PKR 8,000 for 60 minutes). Uncontested khula on a fixed fee; contested khula billed stage by stage. Court fees under the Court Fees Act 1870 (approximately PKR 3,000 to 15,000) and NADRA registration are payable separately."
+			]
 		}
 	],
 	"faqs": [

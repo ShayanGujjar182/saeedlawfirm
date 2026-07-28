@@ -29,11 +29,21 @@
 		},
 		{
 			"label": "Case Types We Handle",
-			"values": []
+			"values": [
+				"Hizanat (physical custody) petitions",
+				"Guardianship petitions (Section 25, GWA 1890)",
+				"Visitation and access orders",
+				"Removal of an unfit guardian (Section 39, GWA 1890)",
+				"Interim custody and variation applications",
+				"Habeas corpus for unlawful retention (LHC)",
+				"NOC for minor travel abroad (Section 41, GWA 1890)"
+			]
 		},
 		{
 			"label": "Fee Structure",
-			"values": []
+			"values": [
+				"Free initial consultation (normally PKR 8,000 for 60 minutes). Interim and uncontested custody orders on a fixed fee; contested petitions billed stage by stage. No contingency or success fees."
+			]
 		}
 	],
 	"faqs": [

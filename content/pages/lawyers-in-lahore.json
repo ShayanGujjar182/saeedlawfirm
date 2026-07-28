@@ -17,19 +17,43 @@
 	"details": [
 		{
 			"label": "Governing Law in Pakistan",
-			"values": []
+			"values": [
+				"West Pakistan Family Courts Act 1964",
+				"Muslim Family Laws Ordinance 1961",
+				"Pakistan Penal Code 1860",
+				"Transfer of Property Act 1882",
+				"Income Tax Ordinance 2001",
+				"Companies Act 2017"
+			]
 		},
 		{
 			"label": "Where Lawyers in Lahore Cases Are Heard",
-			"values": []
+			"values": [
+				"Magistrate and Cantonment Courts, Lahore",
+				"District and Sessions Courts, Aiwan-e-Adal, Mall Road",
+				"Family Courts, Aiwan-e-Adal",
+				"Lahore High Court, Mall Road",
+				"Appellate Tribunal Inland Revenue (ATIR) Lahore",
+				"Punjab Service Tribunal Lahore"
+			]
 		},
 		{
 			"label": "Case Types We Handle",
-			"values": []
+			"values": [
+				"Family: divorce, khula, custody, maintenance",
+				"Criminal defence and bail",
+				"Property, mutation and revenue disputes",
+				"Tax appeals and FBR audit defence",
+				"Civil suits, recovery and injunctions",
+				"Immigration and document attestation",
+				"Corporate and SECP compliance"
+			]
 		},
 		{
 			"label": "Fee Structure",
-			"values": []
+			"values": [
+				"Free initial consultation (normally PKR 8,000 for 60 minutes), including a written case scope, the applicable statutes, the likely Lahore court and a fee estimate. The consultation fee is credited toward your engagement if you proceed."
+			]
 		}
 	],
 	"faqs": [

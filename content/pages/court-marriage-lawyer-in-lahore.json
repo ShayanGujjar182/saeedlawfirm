@@ -21,19 +21,39 @@
 	"details": [
 		{
 			"label": "Governing Law in Pakistan",
-			"values": []
+			"values": [
+				"Muslim Family Laws Ordinance 1961",
+				"NADRA Ordinance 2000",
+				"Punjab Protection of Women Against Violence Act 2016",
+				"Pakistan Penal Code 1860"
+			]
 		},
 		{
 			"label": "Where Court Marriage Lawyer Cases Are Heard",
-			"values": []
+			"values": [
+				"Oath commissioner, Lahore (free-will affidavits)",
+				"Union Council (nikah registration, MFLO 1961 Section 5)",
+				"NADRA (marriage registration certificate)",
+				"Lahore High Court (protection petitions)"
+			]
 		},
 		{
 			"label": "Case Types We Handle",
-			"values": []
+			"values": [
+				"Routine court marriage (both parties adult)",
+				"Previous-marriage clearance (talaqnama or death certificate)",
+				"NADRA registration and MOFA attestation",
+				"Court marriage with a protection order (LHC writ)",
+				"Convert and cross-religion documentation",
+				"Spouse-visa documentation packages",
+				"Judicial permission on age variance (MFLO 1961, Section 6)"
+			]
 		},
 		{
 			"label": "Fee Structure",
-			"values": []
+			"values": [
+				"Free initial consultation (normally PKR 8,000 for 60 minutes). Court marriage handled on fixed-package fees quoted at consultation; protection-order writs and spouse-visa documentation quoted as separate engagements. All fees quoted upfront."
+			]
 		}
 	],
 	"faqs": [

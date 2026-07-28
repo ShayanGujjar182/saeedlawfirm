@@ -30,7 +30,14 @@
 		},
 		{
 			"label": "Where Corporate Lawyer Cases Are Heard",
-			"values": []
+			"values": [
+				"Lahore Civil Courts (contract and recovery suits)",
+				"Lahore High Court Companies Bench (winding up, oppression, Section 171)",
+				"Banking Courts Lahore (FIO 2001 recovery)",
+				"SECP (compliance and regulatory matters)",
+				"Arbitration tribunals (Arbitration Act 1940)",
+				"Lahore High Court writ jurisdiction (Article 199)"
+			]
 		},
 		{
 			"label": "Case Types We Handle",
@@ -44,7 +51,9 @@
 		},
 		{
 			"label": "Fee Structure",
-			"values": []
+			"values": [
+				"Free initial consultation (normally PKR 8,000 per hour). Four models: fixed-package (incorporation and standard filings), per-document (contracts), stage-based (litigation and M&A), and retainer (ongoing compliance). Written fee proposal before any retainer."
+			]
 		}
 	],
 	"faqs": [

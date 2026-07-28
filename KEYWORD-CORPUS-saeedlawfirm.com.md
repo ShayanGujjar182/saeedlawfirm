@@ -1792,3 +1792,194 @@ The page ranks broadly but on a very fragmented tail (most queries = 1 impressio
 
 ### Rich-result surface check (theme 4, GLOBAL, searchAppearance dim, 30d)
 Only `TRANSLATED_RESULT` (1 impr @ pos 8). **No FAQ/HowTo/Article rich-result surface is being served at all** — consistent with Google's 2023 retirement of FAQ/HowTo rich results for non-authoritative sites. The site's FAQPage (49 blocks) + HowTo (10 guides) schema is therefore an **entity/AI-answer asset, not a SERP-feature asset**. Guardrail confirmed a 2nd time (run 25 = same conclusion): do NOT extend schema chasing rich results that Google does not serve here.
+
+---
+
+## 2026-07-26 — Run 33 (theme 5, cycle 5) · GSC PAK query dim on `/blog/cheque-bounce-in-pakistan` + PAK page dim
+
+Source: Google Search Console, `sc-domain:saeedlawfirm.com`, 2026-06-28 → 2026-07-24, **country = PAK**. Zero DataForSEO calls this run (0 spend).
+
+### `/blog/cheque-bounce-in-pakistan` — query dim (159 PAK impr @ pos 6.44, 1 clk)
+Pulled to test the run-23/32 depth recipe (a page ranking well on a cluster it does not cover). Four coherent sub-intents surfaced:
+
+**A. Validity period of a cheque (~30 impr, no dedicated section)**
+| Query | Impr | Pos |
+|---|---|---|
+| cheque validity in pakistan | 16 | 7.88 |
+| cheque bounce validity period in pakistan | 8 | 5.00 |
+| cheque validity period in pakistan | 3 | 9.00 |
+| validity of cheque in pakistan | 3 | 11.33 (1 clk — the page's only PAK click) |
+
+**B. Punishment / section (~40 impr)**
+| Query | Impr | Pos |
+|---|---|---|
+| cheque bounce law in pakistan | 23 | 6.70 |
+| check bounce case in pakistan | 16 | 7.69 |
+| cheque bounce case in pakistan | 11 | 9.36 |
+| what is the punishment of cheque bounce in pakistan | 10 | 6.50 |
+| check dishonour law in pakistan | 5 | 8.00 |
+| cheque bounce | 5 | 2.40 |
+| cheque bounce punishment in pakistan | 3 | 8.00 |
+| check bounce section | 3 | 7.00 |
+| check bounce punishment | 2 | 9.00 |
+| 489-f ppc ingredients | 1 | 3.00 |
+
+**C. Threshold / limitation / bail (uncovered sub-questions)**
+| Query | Impr | Pos |
+|---|---|---|
+| what is the minimum amount for cheque bounce case in pakistan | 11 | 5.00 |
+| bail in cheque bounce case in pakistan | 2 | 12.00 |
+| can i file cheque bounce case after 2 years | 2 | 1.00 |
+| cheque bounce case bailable or not | 1 | 7.00 |
+
+**D. Civil recovery route vs FIR route**
+| Query | Impr | Pos |
+|---|---|---|
+| bounced cheque recovery pakistan | 4 | 11.25 |
+| fir on cheque bounce in pakistan | 2 | 11.00 |
+| civil suit for recovery of cheque amount | 2 | 2.50 |
+| cheque bounce fir | 1 | 5.00 |
+
+### PAK page dim — top pages (2026-06-28 → 07-24)
+| Page | Impr | Pos | Clicks |
+|---|---|---|---|
+| /blog/divorce-rate-in-pakistan | 802 | 4.31 | 24 |
+| / (https) | 345 | 8.45 | 11 |
+| / (http, consolidation lag) | 629 | 5.56 | 9 |
+| /family-lawyer-in-lahore | 514 | 10.95 | 6 |
+| /blog/pre-arrest-bail-in-pakistan | 531 | 5.47 | 3 |
+| /lawyers-in-lahore | 393 | 15.01 | 3 |
+| /criminal-lawyer-in-lahore | 242 | 7.45 | 0 |
+| /property-lawyer-in-lahore | 267 | 6.76 | 1 |
+| /blog/how-much-does-a-lawyer-cost-in-pakistan | 182 | 3.79 | 3 |
+| /blog/inheritance-law-in-pakistan | 176 | 7.43 | 4 |
+| /blog/cheque-bounce-in-pakistan | 159 | 6.44 | 1 |
+| /blog/how-to-file-an-fir-in-pakistan | 144 | 7.33 | 0 |
+| /civil-lawyer-in-lahore | 139 | 10.22 | 1 |
+| /blog/company-registration-in-pakistan-secp | 126 | 14.21 | 1 |
+| /blog/how-to-file-income-tax-return-in-pakistan | 127 | 22.06 | 0 |
+| /blog/child-custody-in-pakistan | 113 | 11.37 | 0 |
+| /tax-lawyer-in-lahore | 105 | 7.79 | 2 |
+| /khula-lawyer-in-lahore | 96 | 7.30 | 3 |
+| /immigration-lawyer-in-lahore | 84 | 12.52 | 2 |
+| /blog/court-marriage-in-pakistan | 83 | 18.34 | 0 |
+| /divorce-lawyer-in-lahore | 1 | 64.00 | 0 |
+
+**Still at 0 PAK impressions (absent from the report):** `/child-custody-lawyer-in-lahore`, `/court-marriage-lawyer-in-lahore` (run-27 up-link targets, grade ~08-03), `/blog/mofa-attestation-in-pakistan` (run-30 spoke, grade ~08-03), all 8 `/areas/*` bar three at 1–2 impressions.
+
+---
+
+## 2026-07-27 — Run 34 (theme 6, internal linking) · GSC PAK page dim, 2026-06-28 → 2026-07-25
+
+Source: Google Search Console `sc-domain:saeedlawfirm.com`, `dimensions=page`, `countryFilter=PAK`. Zero DataForSEO calls this run (0 spend).
+
+| Page | PAK impr | Avg pos | Clicks |
+|---|---|---|---|
+| /blog/divorce-rate-in-pakistan | 802 | 4.31 | 24 |
+| https:// root | 373 | 8.17 | 11 |
+| http:// root (consolidation lag) | 629 | 5.56 | 9 |
+| /family-lawyer-in-lahore | 536 | 10.87 | 7 |
+| /blog/pre-arrest-bail-in-pakistan | 559 | 5.47 | 4 |
+| /lawyers-in-lahore | 403 | 14.72 | 4 |
+| /property-lawyer-in-lahore | 281 | 6.63 | 4 |
+| /criminal-lawyer-in-lahore | 256 | 7.31 | 2 |
+| /blog/how-much-does-a-lawyer-cost-in-pakistan | 205 | 3.83 | 3 |
+| /blog/inheritance-law-in-pakistan | 182 | 7.39 | 5 |
+| /blog/cheque-bounce-in-pakistan | 173 | 6.44 | 1 |
+| /blog/company-registration-in-pakistan-secp | 158 | 15.12 | 1 |
+| /blog/how-to-file-an-fir-in-pakistan | 154 | 7.32 | 0 |
+| /civil-lawyer-in-lahore | 139 | 10.22 | 1 |
+| /blog/how-to-file-income-tax-return-in-pakistan | 133 | 21.87 | 0 |
+| /blog/child-custody-in-pakistan | 117 | 11.71 | 0 |
+| /tax-lawyer-in-lahore | 108 | 7.76 | 2 |
+| /khula-lawyer-in-lahore | 104 | 7.40 | 3 |
+| /immigration-lawyer-in-lahore | 89 | 12.55 | 2 |
+| /blog/road-accident-compensation-and-car-insurance-in-pakistan | 88 | 7.59 | 2 |
+| /blog/court-marriage-in-pakistan | 86 | 17.88 | 0 |
+| /blog/defamation-law-in-pakistan | 82 | 8.52 | 1 |
+| /blog/recovery-of-money-and-specific-performance-in-pakistan | 57 | 5.42 | 0 |
+| /blog/nadra-succession-certificate-in-pakistan | 53 | 6.38 | 0 |
+| /blog/gift-deed-hiba-vs-sale-vs-will-in-pakistan | 46 | 6.93 | 1 |
+| /blog/divorce-procedure-in-pakistan | 45 | 12.67 | 0 |
+| /blog/how-to-transfer-property-in-punjab | 39 | 9.64 | 1 |
+| /blog/fbr-tax-notice-how-to-respond | 31 | 27.77 | 0 |
+| /courts/service-tribunal-lawyer-lahore | 26 | 8.19 | 0 |
+| /blog/how-to-become-a-filer-in-pakistan | 26 | 31.12 | 0 |
+| /blog/rent-and-tenancy-law-in-punjab | 25 | 7.48 | 0 |
+| /courts/tax-tribunal-lawyer-lahore | 17 | 7.47 | 0 |
+| /courts/district-court-lawyer-lahore | 13 | 11.00 | 1 |
+| /blog/best-countries-for-asylum | 7 | 7.43 | 0 |
+| /divorce-lawyer-in-lahore | 1 | 64.00 | 0 |
+
+**Still at 0 PAK impressions:** `/child-custody-lawyer-in-lahore`, `/court-marriage-lawyer-in-lahore`, `/corporate-lawyer-in-lahore`, `/blog/mofa-attestation-in-pakistan` (run-30 spoke), `/blog/khula-procedure-in-pakistan`, 5 of 8 `/areas/*`.
+
+**Read of this pull (theme 6):** the weakest cluster by position is TAX/CORPORATE, not family or criminal — `how-to-file-income-tax-return` 133 @ **21.87**, `how-to-become-a-filer` 26 @ **31.12**, `fbr-tax-notice` 31 @ **27.77**, `company-registration-secp` 158 @ **15.12**. Real PAK demand (348 impr combined) parked on pages 2–3 while `/tax-lawyer-in-lahore` itself ranks 7.76. Contrast the criminal cluster (pre-arrest-bail 5.47, FIR 7.32, cheque-bounce 6.44) which is broadly page 1. `/blog/how-to-transfer-property-in-punjab` has **collapsed** from its cycle-2/3 dominance (1127 global impr @ 6.34 → 39 PAK @ 9.64) and `/blog/divorce-rate-in-pakistan` is now the site's single authority asset (802 @ 4.31, 24 clk = 40% of all PAK blog clicks).
+
+---
+
+## 2026-07-28 — Run 35 (Theme 7: Local + GEO, cycle 5 → maintenance passed, spent on a theme-2 lever)
+
+**Source:** Google Search Console, `sc-domain:saeedlawfirm.com`, **country = PAK**, 2026-06-29 → 2026-07-26. Zero DataForSEO calls (0 spend).
+
+### SECP / company-registration query dim — the SMC cluster (the run's target)
+
+`/blog/company-registration-in-pakistan-secp` = 158 PAK impr @ 15.12, 1 clk. Query dim shows the page's demand is **not** generic "company registration" (those sit at pos 25–53 and are unwinnable) but a tight **SMC / Single Member Company** cluster already sitting page 1:
+
+| Query | Impr | Pos | Clicks |
+|---|---|---|---|
+| smc pvt ltd registration | 30 | 10.30 | 0 |
+| smc company registration | 16 | 9.00 | 0 |
+| smc pvt ltd | 5 | 1.00 | 0 |
+| how to register smc company in pakistan | 3 | 7.00 | 0 |
+| smc pvt ltd registration fee | 3 | 1.00 | 0 |
+| pvt company | 3 | 1.00 | 0 |
+| smc | 2 | 6.50 | 0 |
+| smc pvt ltd means | 2 | 42.00 | 0 |
+| single member company in pakistan | 1 | 3.00 | 0 |
+| secp smc registration fee | 1 | 3.00 | 0 |
+| smc pvt ltd registration fee in pakistan (smc company registration fee in pakistan) | 1 | 3.00 | 0 |
+| smc private limited company | 1 | 27.00 | 0 |
+| single member company pakistan | 1 | 45.00 | 0 |
+| smc pvt | 1 | 2.00 | 0 |
+
+**≈ 70 PAK impressions of SMC-specific intent**, versus the generic set (`company registration pakistan` 7 @ 33.86, `business registration in pakistan` 5 @ 34.40, `secp pakistan company registration` 5 @ 42.80, `secp company registration` 2 @ 53.00, `secp registration` 2 @ 51.00, `register a company in pakistan` 3 @ 25.33, `register it company in pakistan` 3 @ 28.00, `online company registration in pakistan` 2 @ 22.00, `pakistan company registration` 2 @ 29.00) which is parked on pages 3–5.
+
+**Coverage gap verified against the real `bodyMarkdown` before actioning** (PHANTOM rule): page was 2201 words, `smc` ×14, but had **no dedicated SMC heading** and **zero mention of the nominee requirement**, which is the single most distinctive legal feature of a Pakistani SMC. Fee intent was already satisfied (`smc pvt ltd registration fee` and `secp smc registration fee` both already pos 1–3 off the existing fees section) so no fee work was done. Actioned: one 467-word SMC section + 2 FAQs.
+
+### PHANTOM #10 — the queued cheque-bounce depth pass was mostly already covered
+
+Backlog's #1 item for this run was a depth pass on `/blog/cheque-bounce-in-pakistan` (173 PAK @ 6.44, 1 clk) across four sub-intents mapped in run 33. Verified against the actual 2765-word body first. **Three of the four already have dedicated H2 sections:**
+
+| Queued sub-intent | Status |
+|---|---|
+| Validity period / time limit | **Covered** — `## What is the validity period and time limit for cheque recovery?` (`validity` ×3, `6 month` ×8, `limitation` ×3) |
+| Bail + limitation | **Covered** — `## Is bail available in 489-F cases?` (`bail` ×12) |
+| Civil recovery vs FIR route | **Covered** — `## How do criminal and civil recovery routes differ?` + `### Filing a Criminal Case (FIR)` / `### Filing a Civil Suit` (`fir` ×19) |
+| Minimum amount / threshold | **GENUINE GAP** — `minimum` ×0; only `threshold` use is a burden-of-proof table cell. Target: `what is the minimum amount for cheque bounce case in pakistan` 11 impr @ 5.00 |
+
+Net: the queued item was ~75% phantom. The residual real gap is **one query at 11 impressions**, far below the SECP cluster's ~70, so the run was reallocated. Requeued at low priority, not as a full depth pass.
+
+### PAK page-dim delta vs the 2026-07-25 window (grading context)
+
+| Page | This window | Prior window | Note |
+|---|---|---|---|
+| /blog/divorce-rate-in-pakistan | 802 @ 4.31, 24 clk | 802 @ 4.31, 24 clk | flat, still 40% of PAK blog clicks |
+| /blog/how-much-does-a-lawyer-cost-in-pakistan | 205 @ 3.83, 3 clk | 205 @ 3.83, 3 clk | run-32 grade still pending ~08-08 |
+| /blog/how-to-file-an-fir-in-pakistan | 154 @ 7.32, 0 clk | 144 @ 7.33 | rising impressions, still 0 clicks |
+| /blog/cheque-bounce-in-pakistan | 173 @ 6.44, 1 clk | 173 @ 6.44, 1 clk | flat |
+| /criminal-lawyer-in-lahore | 253 @ 7.28, 2 clk | 256 @ 7.31, 0 clk | **first PAK clicks** — NOT attributable to run 34 (see below) |
+| /civil-lawyer-in-lahore | 128 @ 10.37, 1 clk | 139 @ 10.22, 0 clk | **first PAK click** — NOT attributable to run 34 (see below) |
+| /child-custody-lawyer-in-lahore | 0 | 0 | run-27 up-links still null |
+| /court-marriage-lawyer-in-lahore | 0 | 0 | run-27 up-links still null |
+| /divorce-lawyer-in-lahore | 1 @ 64.00 | 1 @ 64.00 | most stubborn money page, unchanged |
+
+### ⚠ MEASUREMENT BLOCKER — runs 33, 34 and 35 are UNCOMMITTED, therefore UNDEPLOYED
+
+`git status` at the start of this run showed run 33's 7 content JSONs and run 34's 3 content JSONs still uncommitted at `HEAD = d3ca34d`. Uncommitted means unpushed means **not live on saeedlawfirm.com**. Consequences, binding on future grading:
+
+1. The two "first PAK click" rows above are **organic maturation or noise, not a run-34 effect**. The run-34 contextual body links have never been served to a crawler. Do **not** grade them, and do not repeat the run-34 mechanism claim on this evidence.
+2. Run 33's 16 filled detail rows are likewise not live.
+3. This run (35) adds a **third** uncommitted batch. Three runs of shipped work are now queued behind one owner review.
+4. Every outstanding grade date in `state.json` (~08-03 run-27 up-links, ~08-08 run-32 fee guide) assumed deployment. Run-27 and run-30 edits were committed at the time, so those grades stand; runs 32+ need their grade clocks restarted **from the commit date**, not the edit date.
+
+**Owner action: review and commit `content/pages/*.json` + both corpus copies.** Until that happens the routine is writing into a buffer, and no post-run-32 hypothesis is measurable.
