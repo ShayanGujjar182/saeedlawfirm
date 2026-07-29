@@ -1983,3 +1983,77 @@ Net: the queued item was ~75% phantom. The residual real gap is **one query at 1
 4. Every outstanding grade date in `state.json` (~08-03 run-27 up-links, ~08-08 run-32 fee guide) assumed deployment. Run-27 and run-30 edits were committed at the time, so those grades stand; runs 32+ need their grade clocks restarted **from the commit date**, not the edit date.
 
 **Owner action: review and commit `content/pages/*.json` + both corpus copies.** Until that happens the routine is writing into a buffer, and no post-run-32 hypothesis is measurable.
+
+---
+
+## 2026-07-29 — Run 36 · Theme 1: Technical & crawlability (cycle 6 opens)
+
+**Source:** Google Search Console (PAK, page dim, 2026-06-30 → 2026-07-27) + live production curls + GSC URL Inspection + GSC Sitemaps API. **Zero DataForSEO calls (0 spend).**
+
+### PAK page dim — top pages, 2026-06-30 → 2026-07-27
+
+| Page | Impr | Pos | Clicks |
+|---|---|---|---|
+| /blog/divorce-rate-in-pakistan | 808 | 4.29 | 24 |
+| **http://saeedlawfirm.com/** (http, not https) | 570 | 5.68 | 9 |
+| /blog/pre-arrest-bail-in-pakistan | 582 | 5.46 | 5 |
+| /family-lawyer-in-lahore | 540 | 10.56 | 7 |
+| https://saeedlawfirm.com/ | 420 | 7.40 | 12 |
+| /lawyers-in-lahore | 391 | 13.37 | 4 |
+| /property-lawyer-in-lahore | 285 | 6.61 | 4 |
+| /criminal-lawyer-in-lahore | 249 | 7.20 | 2 |
+| /blog/how-much-does-a-lawyer-cost-in-pakistan | 222 | 3.97 | 3 |
+| /blog/company-registration-in-pakistan-secp | 201 | 14.52 | 1 |
+| /blog/inheritance-law-in-pakistan | 195 | 7.43 | 6 |
+| /blog/cheque-bounce-in-pakistan | 192 | 6.54 | 2 |
+| /blog/child-custody-in-pakistan | 121 | 11.59 | 0 |
+| /civil-lawyer-in-lahore | 113 | 10.66 | 1 |
+| /khula-lawyer-in-lahore | 102 | 7.40 | 3 |
+| /tax-lawyer-in-lahore | 93 | 7.91 | 2 |
+| /blog/road-accident-compensation-and-car-insurance | 93 | 7.89 | 2 |
+| /blog/court-marriage-in-pakistan | 87 | 18.10 | 0 |
+| /immigration-lawyer-in-lahore | 85 | 11.45 | 2 |
+| /blog/defamation-law-in-pakistan | 85 | 8.58 | 1 |
+| /blog/divorce-procedure-in-pakistan | 48 | 12.42 | 0 |
+| /blog/gift-deed-hiba-vs-sale-vs-will-in-pakistan | 46 | 6.93 | 1 |
+| /blog/how-to-transfer-property-in-punjab | 39 | 9.64 | 1 |
+| /courts/district-court-lawyer-lahore | 13 | 11.00 | 1 |
+| /blog/best-countries-for-asylum | 11 | 8.27 | 0 |
+| /areas/* (4 pages registering) | 1–4 each | 4–22 | 0 |
+
+Notable within-window movement: `/blog/pre-arrest-bail-in-pakistan` roughly doubled (301 → 582 impr) and now carries 5 PAK clicks; `/immigration-lawyer-in-lahore` position improved sharply (22.1 → 11.45). **Neither is attributable to any routine edit — see the deployment finding below.**
+
+### ⚠ SUPERSEDES the run-35 grading rule — commit date is ALSO wrong
+
+Run 35 recorded "grade clocks start from the COMMIT date, not the edit date." That rule is **insufficient and is hereby superseded**. The owner committed the whole buffer on 2026-07-28 (`da18805`), the working tree is clean, and **production is still serving a build from before 2026-07-22**.
+
+Evidence, all live-verified 2026-07-29:
+
+| Check | Repo at HEAD | Live production | Verdict |
+|---|---|---|---|
+| /sitemap.xml URL count | 57 (49 content + 8 static) | **56** | stale |
+| /sitemap.xml `<lastmod>` count | 23 (valid ISO `dateModified`) | **0** | stale |
+| /blog/mofa-attestation-in-pakistan (run 30, commit `3536a32` 07-23) | exists | **HTTP 404** | not deployed |
+| Run-34 body link → /blog/defamation-law-in-pakistan on /criminal-lawyer-in-lahore | present | **absent** | not deployed |
+| Run-35 SMC nominee copy on the SECP page | present | **`nominee` ×0** | not deployed |
+
+`/sitemap.xml` is rendered by `getServerSideProps`, so it is generated fresh on every request from the deployed content model. A live sitemap with 0 `<lastmod>` therefore proves the **running Node process is executing pre-`5db15bf` (2026-07-22) code** — this is not a CDN cache artifact (`x-hcdn-cache-status: DYNAMIC`).
+
+GSC URL Inspection on the MOFA guide returns `"URL is unknown to Google"` — it has never been crawlable, ~6 days after the commit.
+
+**Runs 29 through 35 (seven consecutive runs, 2026-07-22 → 2026-07-28) are committed and NOT live.** No hypothesis from any of them is measurable. Every impression/position gain in the table above is organic maturation or noise.
+
+**New binding rule: grade clocks start from the date a change is VERIFIED LIVE on the production URL.** Not the edit date, not the commit date. Mechanised as `seo-routine/deploy-fresh.sh`, which must be run first, every run.
+
+### Root cause (not a repo defect)
+The repo has **no CI/CD** (no `.github/`, no deploy workflow; `package.json` scripts are only `dev`/`build`/`start`). Hosting is Hostinger (`platform: hostinger`, `server: hcdn`, `x-powered-by: Next.js`) running a long-lived Node process that must be rebuilt and restarted by hand. Committing to `main` deploys nothing.
+
+### Repo-side technical layer — audited clean, no edits needed
+- `pages/sitemap.xml.ts`: correct, incl. the run-29 ISO guard that refuses to synthesise a `lastmod`. Would emit 57/23 on deploy.
+- Content model: 49 pages, **0** duplicate routes, **0** missing `route`, **0** noindex, **0** non-null-but-invalid `dateModified`.
+- Redirect/status regression **PASSED (6th consecutive clean)**: http→301→https, www→308, `/about-us`→308, `/services/family-law`→308, `/sitemap_index.xml`→308; `/prize/*`, `/shop/*`, `/hello-world`, `/category/*`, `/author/*` all **410**. Canonical correct on home.
+- Security headers live: HSTS 63072000, `nosniff`, `SAMEORIGIN`, `strict-origin-when-cross-origin`.
+- `robots.txt` live 200, `Allow: /`, sitemap declared.
+
+### Re-opened: the http:// homepage is not a closed phantom
+Phantom #5 recorded the http/https split as "consolidation lag, host-gated, not a repo fix". The 301 is confirmed live again today, but **`http://saeedlawfirm.com/` still draws 570 PAK impressions at pos 5.68 with 9 clicks — more impressions than the https homepage (420 @ 7.40)**. The redirect is correct, so this remains host/index-side, but the volume is too large to keep filed as closed. Track it; do not "fix" it in the repo (there is nothing to fix).
