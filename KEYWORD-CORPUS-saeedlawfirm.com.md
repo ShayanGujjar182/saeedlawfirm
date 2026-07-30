@@ -2057,3 +2057,94 @@ The repo has **no CI/CD** (no `.github/`, no deploy workflow; `package.json` scr
 
 ### Re-opened: the http:// homepage is not a closed phantom
 Phantom #5 recorded the http/https split as "consolidation lag, host-gated, not a repo fix". The 301 is confirmed live again today, but **`http://saeedlawfirm.com/` still draws 570 PAK impressions at pos 5.68 with 9 clicks — more impressions than the https homepage (420 @ 7.40)**. The redirect is correct, so this remains host/index-side, but the volume is too large to keep filed as closed. Track it; do not "fix" it in the repo (there is nothing to fix).
+
+---
+
+## 2026-07-30 — Run 37 (theme 2, Topical-authority content, cycle 6) — GSC PAK query dim, five-guide gap audit
+
+Source: Google Search Console, `sc-domain:saeedlawfirm.com`, **country = PAK**, 2026-06-28 → 2026-07-27. No DataForSEO calls this run (0 spend). Deploy probe = **STALE**, so none of the figures below grade any prior edit; they are current-state demand only.
+
+### PAK blog page table (28d)
+
+| Page | Impr | Pos | Clicks |
+|---|---|---|---|
+| /blog/divorce-rate-in-pakistan | 811 | 4.28 | 24 |
+| /blog/pre-arrest-bail-in-pakistan | 629 | 5.41 | 6 |
+| /blog/company-registration-in-pakistan-secp | 253 | 15.27 | 1 |
+| /blog/how-much-does-a-lawyer-cost-in-pakistan | 245 | 4.20 | 3 |
+| /blog/cheque-bounce-in-pakistan | 216 | 6.59 | 2 |
+| /blog/inheritance-law-in-pakistan | 202 | 7.39 | 6 |
+| /blog/how-to-file-an-fir-in-pakistan | 169 | 7.25 | 0 |
+| /blog/how-to-file-income-tax-return-in-pakistan | 153 | 21.72 | 0 |
+| /blog/child-custody-in-pakistan | 128 | 11.46 | 0 |
+| /blog/road-accident-compensation-and-car-insurance | 98 | 8.45 | 2 |
+| /blog/court-marriage-in-pakistan | 90 | 17.58 | 0 |
+| /blog/defamation-law-in-pakistan | 86 | 8.60 | 1 |
+| /blog/recovery-of-money-and-specific-performance | 60 | 5.43 | 0 |
+| /blog/nadra-succession-certificate-in-pakistan | 56 | 6.86 | 0 |
+| /blog/divorce-procedure-in-pakistan | 51 | 13.14 | 0 |
+| /blog/gift-deed-hiba-vs-sale-vs-will | 46 | 6.93 | 1 |
+| /blog/how-to-transfer-property-in-punjab | 39 | 9.64 | 1 |
+| /blog/fbr-tax-notice-how-to-respond | 31 | 27.77 | 0 |
+| /blog/how-to-become-a-filer-in-pakistan | 27 | 30.04 | 0 |
+| /blog/rent-and-tenancy-law-in-punjab | 25 | 7.48 | 0 |
+| /blog/best-countries-for-asylum | 16 | 8.00 | 0 |
+
+### Tax/corporate cluster — the queued theme-2 target, DISQUALIFIED on live data
+
+The cluster has **no coherent sub-intent on page 1**. Each page ranks pos 17–57 on its *own exact-match head term*, which is a position/authority signal, not a content gap.
+
+`/blog/how-to-file-income-tax-return-in-pakistan` (153 @ 21.72) — top PAK queries: `income tax return` 21 @ 14.48, `tax return` 20 @ 18.45, `income tax filing` 12 @ 24.75, `income tax return filing` 6 @ 23.50, `income tax return filling in pakistan` 5 @ 32.80, `how to file tax return in pakistan` 4 @ 28.75, `income tax return pakistan` 4 @ 18.25, `pakistan tax return` 3 @ 17.00. Remainder is a ~50-query tail at 1–2 impressions, pos 24–43, much of it generic/non-PK-specific (`how do i report tips on my tax return`, `how to file 1701a online`).
+
+`/blog/how-to-become-a-filer-in-pakistan` (27 @ 30.04) — `how to become filer in pakistan` 4 @ 46.25, `how to become a tax filer` 3 @ 57.00, `tax filer in pakistan` 3 @ 46.33, `how to become a filer in pakistan` 2 @ 17.50, `how to become a filer` 2 @ 31.00. One page-1 outlier: `filer hone ki fees in pakistan` 2 @ 4.00 (Roman Urdu — **do not chase**, per the standing rule).
+
+`/blog/fbr-tax-notice-how-to-respond` (31 @ 27.77) — `fbr notice & audit` 8 @ 34.88, `fbr notice reply consultant` 8 @ 33.25, `how to respond to fbr notice` 7 @ 32.86, `fbr notice reply` 1 @ 36.00. Page-1 outliers: `income tax return notified for review only` 4 @ 2.25, `fbr notice` 1 @ 8.00, `section 176` 1 @ 11.00.
+
+### /blog/how-to-file-an-fir-in-pakistan (169 @ 7.25, 0 clk) — coherent clusters, but PRE-COVERED
+
+Clusters found: **"under which section"** ~39 impr (`fir is registered under which section` 10 @ 9.50, `fir section` 13 @ 10.08, `fir registered under which section` 5 @ 8.40, `fir lodged in which section` 2 @ 8.00, `fir kis section mein hai` 2 @ 5.50, `fir sections` 2 @ 11.00). **Definitional** ~27 impr (`what is fir in pakistan` 18 @ 7.00, `what is an fir in pakistan` 5 @ 4.80, `what is fir` 2 @ 2.50, `f.i.r full form` 1 @ 2.00). **Fee** ~22 impr (`fir fee` 15 @ 9.40, `fir fees in punjab` 2 @ 4.50, `fir charges` 2 @ 6.00, `is fir free of cost` 1 @ 1.00). **Validity/time** ~7 impr (`fir is valid for how many days in pakistan` 4 @ 11.00, `fir filing time period` 1 @ 1.00, `fir should be filed within 24 hours` 1 @ 4.00). **Counter-FIR** ~5 impr (`counter fir` 4 @ 4.25).
+
+Body diff (2624 words): `section 154` ×8 with its own H2, `crpc` ×18, `quash` ×14, counter-FIR has a dedicated H3, and the fee cluster is answered in **three** places (body line "There is no fee to file an FIR", a dedicated FAQ, and HowTo step 3). Only genuine residue is FIR validity/expiry (`valid` ×0, ~7 impr). **Verdict: aligned and immature, the PHANTOM #4 pattern. No depth pass warranted.**
+
+### /blog/recovery-of-money-and-specific-performance (60 @ 5.43, 0 clk) — PRE-COVERED
+
+Tight **limitation-period** cluster, all top-of-page-1: `limitation for suit for recovery of money` 4 @ 5.25, `limitation period for suit for recovery of money` 3 @ 5.67, `recovery of money limitation` 2 @ 5.00, `limitation for recovery of money` 1 @ 4.00, `limitation period for recovery of money` 1 @ 4.00, `limitation for recovery of money suit` 1 @ 5.00, `recovery suit time limit` 1 @ 4.00, `article 113 of limitation act 1908` 1 @ 2.00 (~15 impr). Also `suit for recovery of money in pakistan` 10 @ 8.60, `suit for recovery of money under specific relief act` 9 @ 3.44, `recovery of money` 4 @ 3.25, `recovery suit in pakistan` 4 @ 8.00.
+
+Body diff (2719 words): dedicated H2 "What are the limitation periods for recovery suits?", `limitation` ×10, `article 113` ×2, `Limitation Act` ×2, a Key Facts row, and a dedicated FAQ. **Fully covered. No gap.**
+
+### /blog/nadra-succession-certificate-in-pakistan (56 @ 6.86, 0 clk) — PRE-COVERED
+
+`succession certificate from court` 7 @ 7.86, `succession certificate` 6 @ 3.17, `succession certificate for bank account` 5 @ 5.00, `succession certificate means` 3 @ 7.67, `succession certificate for property` 2 @ 7.50, `succession certificate from civil court` 2 @ 5.50, `succession facilitation unit (nadra)` 2 @ 7.50, `what is succession certificate in pakistan` 2 @ 6.00, `succession certificate is for movable or immovable property` 1 @ 10.00.
+
+Body diff (1631 words): `movable` ×18, `immovable` ×5, `bank account` ×6, `mutation` ×8, dedicated H2 "What a Succession Certificate Covers and Doesn't Cover", plus an FAQ on succession certificate vs inheritance mutation. **Covered. No gap.**
+
+### /blog/cheque-bounce-in-pakistan (216 @ 6.59, 2 clk) — THE ONE VERIFIED GAP, actioned this run
+
+| Query | Impr | Pos | Clicks |
+|---|---|---|---|
+| cheque bounce law in pakistan | 31 | 6.77 | 1 |
+| cheque validity in pakistan | 18 | 7.89 | 0 |
+| check bounce case in pakistan | 16 | 7.69 | 0 |
+| cheque bounce | 14 | 6.07 | 0 |
+| cheque bounce case in pakistan | 13 | 9.00 | 0 |
+| **what is the minimum amount for cheque bounce case in pakistan** | **11** | **5.00** | **0** |
+| what is the punishment of cheque bounce in pakistan | 11 | 6.55 | 0 |
+| check dishonour law in pakistan | 10 | 9.10 | 0 |
+| cheque bounce validity period in pakistan | 8 | 5.00 | 0 |
+| cheque validity period in pakistan | 7 | 9.14 | 0 |
+| check bounce | 6 | 7.67 | 0 |
+| bounced cheque recovery pakistan | 4 | 11.25 | 0 |
+| check bounce section | 4 | 6.50 | 0 |
+| validity of cheque in pakistan | 3 | 11.33 | 1 |
+| check bounce case | 3 | 2.67 | 0 |
+| cheque bounce fir | 3 | 6.67 | 0 |
+| cheque bounce punishment in pakistan | 3 | 8.00 | 0 |
+| check bounce punishment | 3 | 8.00 | 0 |
+| cheque bounce case | 3 | 2.33 | 0 |
+| civil suit for recovery of cheque amount | 2 | 2.50 | 0 |
+| can i file cheque bounce case after 2 years | 2 | 1.00 | 0 |
+| bail in cheque bounce case in pakistan | 2 | 12.00 | 0 |
+| fir on cheque bounce in pakistan | 2 | 11.00 | 0 |
+| cheque bounce section | 2 | 3.50 | 0 |
+
+Body diff (2765 words): `minimum` ×0, `no minimum` ×0, `any amount` ×0, `pecuniary` ×0 — **genuine uncovered sub-intent at pos 5.00**. The validity cluster (~36 impr) is already served by a dedicated H2 ("What is the validity period and time limit for cheque recovery?"); bail has its own H2 (`bail` ×12); the civil-vs-FIR route has its own H2 and comparison table. Those three stay closed, as the backlog recorded. **Actioned: one H2 + one FAQ on the minimum-amount question. See log.md run 37.**
