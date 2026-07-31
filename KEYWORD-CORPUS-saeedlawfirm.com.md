@@ -2148,3 +2148,55 @@ Body diff (1631 words): `movable` ×18, `immovable` ×5, `bank account` ×6, `mu
 | cheque bounce section | 2 | 3.50 | 0 |
 
 Body diff (2765 words): `minimum` ×0, `no minimum` ×0, `any amount` ×0, `pecuniary` ×0 — **genuine uncovered sub-intent at pos 5.00**. The validity cluster (~36 impr) is already served by a dedicated H2 ("What is the validity period and time limit for cheque recovery?"); bail has its own H2 (`bail` ×12); the civil-vs-FIR route has its own H2 and comparison table. Those three stay closed, as the backlog recorded. **Actioned: one H2 + one FAQ on the minimum-amount question. See log.md run 37.**
+
+---
+
+## 2026-07-31 — Run 38 (Theme 3 → pivoted to structure) · GSC only, 0 DataForSEO calls ($0)
+
+Source: Google Search Console, `sc-domain:saeedlawfirm.com`, **country = PAK**, 2026-07-01 → 2026-07-28. Deploy probe STALE (10th consecutive run) — none of this reflects any routine edit since 2026-07-22.
+
+### /blog/child-custody-in-pakistan (130 @ 11.32, 0 clk) — CHECKED, DISQUALIFIED as a content gap
+
+| Query | Impr | Pos | Clicks |
+|---|---|---|---|
+| hizanat meaning | 15 | 10.13 | 0 |
+| child custody | 10 | 21.50 | 0 |
+| child custody law in pakistan pdf | 9 | 5.22 | 0 |
+| custody rights | 6 | 17.17 | 0 |
+| visitation rights of father pakistan | 6 | 8.17 | 0 |
+| yes | 6 | 2.00 | 0 |
+| child custody law in pakistan | 5 | 22.80 | 0 |
+| child custody after divorce | 3 | 31.00 | 0 |
+| custody case for child | 3 | 10.67 | 0 |
+| custody of minor child to father in pakistan case law in urdu | 3 | 3.67 | 0 |
+| permanent child custody in pakistan | 3 | 10.33 | 0 |
+| child custody if mother remarried in pakistan | 2 | 8.50 | 0 |
+| pakistan law about child custody after divorce | 2 | 2.50 | 0 |
+| legal custody of children | 2 | 17.00 | 0 |
+| mother rights to her child | 2 | 11.00 | 0 |
+| child support | 2 | 41.00 | 0 |
+
+Body diff (1,716 words): `hizanat` ×7 under a dedicated heading **"Hizanat vs guardianship"** with a Role/Meaning/Holder/Authority table; `remarr` ×4 including an explicit **"Common myth: Remarriage automatically ends a mother's custody. Wrong."** passage; `visitation` ×3 under **"Visitation and access rights"** covering the father's access specifically; `welfare` ×16. **All three real clusters are pre-covered.** `pdf` intent (9 @ 5.22) is not servable without fabricating a document. Consistent with run 37's finding that pre-coverage is the default.
+
+### /blog/rent-and-tenancy-law-in-punjab (25 @ 7.48, 0 clk) — DISQUALIFIED, demand too diffuse
+
+20 distinct queries, 18 of them at 1–2 impressions, no cluster above 2. Largest: `punjab rented premises act 2009` 2 @ 24.00, `punjab rented premises act 2019` 2 @ 2.00, `rent tribunal` 2 @ 7.50, `rent tribunal court` 2 @ 8.50, `rent premises act 2009` 2 @ 17.50. Nothing to attach a depth pass to.
+
+### Structural cohort finding — heading hierarchy vs position (PAK page dim)
+
+Ten content pages emitted **H1 → H3 with no H2 at all**. The four highest-demand ones all sit on page 2 with zero or near-zero clicks, against page-1 positions for the correctly-structured guides. Correlation only, and confounded by topic competitiveness and page age (all published 2026-06-28), but it is what motivated the run-38 batch.
+
+| Page | Impr | Pos | Clk | Structure before |
+|---|---|---|---|---|
+| /blog/company-registration-in-pakistan-secp | 290 | 15.57 | 1 | H1→H3, 11 H3, 0 H2 |
+| /blog/child-custody-in-pakistan | 130 | 11.32 | 0 | H1→H3, 14 H3, 0 H2 |
+| /blog/court-marriage-in-pakistan | 95 | 16.71 | 0 | H1→H3, 9 H3, 0 H2 |
+| /blog/divorce-procedure-in-pakistan | 59 | 15.22 | 0 | H1→H3, 12 H3, 0 H2 |
+| /blog/how-to-transfer-property-in-punjab | 39 | 9.64 | 1 | H1→H3, 12 H3, 0 H2 |
+| /courts/tax-tribunal-lawyer-lahore | 24 | 7.33 | 0 | H1→H3, 16 H3 + 2 H4, 0 H2 |
+| /areas/lawyer-in-johar-town-lahore | 4 | 19.25 | 0 | H1→H3, 7 H3, 0 H2 |
+| /areas/lawyer-in-gulberg-lahore | 1 | 10.00 | 0 | H1→H3, 9 H3, 0 H2 |
+| /areas/lawyer-in-lahore-cantt | 0 | — | 0 | H1→H3, 9 H3, 0 H2 |
+| /areas/lawyer-in-model-town-lahore | 0 | — | 0 | H1→H3, 7 H3, 0 H2 |
+
+Correctly-structured comparators (body H2s present): /blog/divorce-rate-in-pakistan 813 @ 4.28 (24 clk), /blog/pre-arrest-bail-in-pakistan 667 @ 5.40 (6 clk), /blog/how-much-does-a-lawyer-cost-in-pakistan 263 @ 4.21 (3 clk), /blog/cheque-bounce-in-pakistan 238 @ 6.62 (2 clk), /blog/how-to-file-an-fir-in-pakistan 170 @ 7.22, /blog/recovery-of-money-and-specific-performance-in-pakistan 61 @ 5.36, /blog/nadra-succession-certificate-in-pakistan 56 @ 6.86.
