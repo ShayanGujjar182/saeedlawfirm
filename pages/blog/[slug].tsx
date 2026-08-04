@@ -1,7 +1,7 @@
 import type { GetStaticPaths, GetStaticProps } from 'next'
 
 import DynamicSeoPage from '../../components/shared/DynamicSeoPage'
-import { markdownToHtml } from '../../lib/seo-content'
+import { REVALIDATE, markdownToHtml } from '../../lib/seo-content'
 import { findSeoPageByRoute, listSeoPagesByKind } from '../../lib/page-content'
 import type { SeoPageContent } from '../../lib/page-content'
 
@@ -29,5 +29,6 @@ export const getStaticProps: GetStaticProps<Props> = ({ params }) => {
       page,
       html: markdownToHtml(page.bodyMarkdown),
     },
+    revalidate: REVALIDATE,
   }
 }

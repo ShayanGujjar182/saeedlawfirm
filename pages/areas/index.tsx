@@ -2,6 +2,7 @@ import type { GetStaticProps } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
 
+import { REVALIDATE } from '../../lib/seo-content'
 import { listSeoPagesByKind } from '../../lib/page-content'
 
 // ponytail: only the fields the cards render — full SeoPageContent ballooned page-data past Next's 128 kB warning.
@@ -76,5 +77,6 @@ export const getStaticProps: GetStaticProps<Props> = () => ({
 			h1: area.hero.h1,
 			intro: area.hero.intro
 		}))
-	}
+	},
+	revalidate: REVALIDATE
 })

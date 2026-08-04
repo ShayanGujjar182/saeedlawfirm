@@ -2,7 +2,7 @@ import type { GetStaticProps } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
 
-import { SITE_URL } from '../../lib/seo-content'
+import { REVALIDATE, SITE_URL } from '../../lib/seo-content'
 import { listSeoPagesByKind } from '../../lib/page-content'
 
 type ArticleCard = {
@@ -191,5 +191,5 @@ export const getStaticProps: GetStaticProps<Props> = () => {
 		})
 	}
 
-	return { props: { groups } }
+	return { props: { groups }, revalidate: REVALIDATE }
 }

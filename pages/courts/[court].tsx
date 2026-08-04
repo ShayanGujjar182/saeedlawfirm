@@ -1,7 +1,7 @@
 import type { GetStaticPaths, GetStaticProps } from 'next'
 
 import DynamicSeoPage from '../../components/shared/DynamicSeoPage'
-import { hasStructuredContent, markdownToHtml } from '../../lib/seo-content'
+import { REVALIDATE, hasStructuredContent, markdownToHtml } from '../../lib/seo-content'
 import { findSeoPageByRoute, listSeoPagesByKind } from '../../lib/page-content'
 import type { SeoPageContent } from '../../lib/page-content'
 
@@ -28,13 +28,14 @@ export const getStaticProps: GetStaticProps<Props> = ({ params }) => {
 	// Court pages render page.content.sections; their markdown body never reaches the DOM.
 	// Shipping it anyway inlined it twice into __NEXT_DATA__ (~20 kB of dead weight per page).
 	if (hasStructuredContent(page)) {
-		return { props: { page: { ...page, bodyMarkdown: '' }, html: '' } }
+		return { props: { page: { ...page, bodyMarkdown: '' }, html: '' }, revalidate: REVALIDATE }
 	}
 
 	return {
 		props: {
 			page,
 			html: markdownToHtml(page.bodyMarkdown)
-		}
+		},
+		revalidate: REVALIDATE
 	}
 }

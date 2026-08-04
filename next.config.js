@@ -1,6 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 	reactStrictMode: true,
+	// Caps the `stale-while-revalidate` window Next appends to `s-maxage`.
+	// Pages carry `revalidate: REVALIDATE` (600s) from lib/seo-content.ts, so the
+	// header is now `s-maxage=600, stale-while-revalidate=3000` instead of
+	// `s-maxage=31536000`. Without the numeric revalidate this value does nothing:
+	// expireTime only feeds the swr term, and that term is only emitted when
+	// revalidate is a number (next/dist/server/lib/cache-control.js).
+	expireTime: 3600,
 	async headers() {
 		return [
 			{

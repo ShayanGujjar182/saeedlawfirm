@@ -6,6 +6,16 @@ export type FAQ = { q: string; a: string }
 export const FIRM = firm
 export const SITE_URL = firm.url || 'https://saeedlawfirm.com'
 
+// Seconds of `s-maxage` on every prerendered page. Content only changes on a
+// deploy, so this is NOT about freshness of the data - it is the only lever that
+// stops a CDN pinning a page forever. Without a NUMERIC `revalidate` returned
+// from getStaticProps, Next hardcodes `s-maxage=31536000` (one year, see
+// next/dist/server/lib/cache-control.js), and on 2026-08-04 that left hcdn edge
+// nodes serving pre-deploy HTML until the cache was purged by hand.
+// ponytail: one constant, spread into every getStaticProps return. A literal per
+//           route drifts, and this repo has been bitten by per-file drift twice.
+export const REVALIDATE = 600
+
 function escapeHtml(value: string) {
 	return value
 		.replace(/&/g, '&amp;')
