@@ -2222,3 +2222,29 @@ The remaining 7 area/court pages (dha, bahria-town, lahore-cantt, model-town, ca
 **Read:** `/courts/tax-tribunal-lawyer-lahore` is the highest-impression **zero-click** page in the areas/courts set — 266 impressions at position 10.25 with no clicks at all. That is a snippet/intent question, not a ranking one, and it is queued as the run-40 theme-5 primary candidate. `/courts/service-tribunal-lawyer-lahore` is the same shape one tier down. The area pages remain negligible (29 PAK impressions across all 8).
 
 DataForSEO calls this run: **0** ($0). GSC only.
+
+---
+
+## 2026-08-04 — GSC query dimension, `/courts/tax-tribunal-lawyer-lahore` (run 40, theme 5)
+
+Source: Google Search Console, `sc-domain:saeedlawfirm.com`, country = PAK, 2026-07-06 → 2026-08-02, dimension = query, page filter = `https://saeedlawfirm.com/courts/tax-tribunal-lawyer-lahore`. Production STALE at pull time (12th consecutive run) — baseline, not outcome.
+
+| Query | Clicks | Impr | CTR | Avg pos |
+|---|---|---|---|---|
+| `fbr atir lahore inquiry` | 0 | 235 | 0% | 10.69 |
+| `atir lahore` | 0 | 20 | 0% | 5.55 |
+| `tax tribunal` | 0 | 7 | 0% | 10.14 |
+| `income tax tribunal` | 0 | 3 | 0% | 8.00 |
+| `what is atir` | 0 | 3 | 0% | 9.33 |
+| `atir` | 0 | 1 | 0% | 3.00 |
+| `appellate tribunal inland revenue lahore address` | 0 | 1 | 0% | 10.00 |
+
+Page total: **270 impr / 0 clicks / pos 10.22**.
+
+**Read — the intent is ENTITY LOOKUP, not hire.** One query is 87% of the page (`fbr atir lahore inquiry`, 235 impr). The whole set is people trying to identify or locate the tribunal (`what is atir`, `atir`, `atir lahore`, `...lahore address`), and the dominant query bakes in a factual confusion: it treats ATIR as an FBR office. The page's snippet answered only "hire a tax tribunal lawyer".
+
+**The audit that followed found a legal error, not just a snippet gap.** The rendered page (`content.sections[0]`) asserted twice that *"The FBR maintains procedural oversight of all tribunal appeals"* — false. ATIR is constituted under s.130 Income Tax Ordinance 2001, sits administratively under the Ministry of Law and Justice (`molaw.gov.pk`), publishes its own ATIR Rules 2010 at `atir.gov.pk`, and hears appeals *against* Commissioner Inland Revenue (Appeals) orders, with the department appearing as the opposing party. The page's own (unrendered) `bodyMarkdown` already said this correctly under "The FBR's Role in ATIR Appeals" — the two representations had drifted, and the wrong one was the one rendering.
+
+**Do not chase `...lahore address` or an ATIR case-status/inquiry lookup with fabricated contact detail.** No address, phone, portal URL or cause-list procedure was published, because none could be verified this run (`atir.gov.pk` returns 403 to automated fetch). The honest, ownable part of the intent is the *what is it / is it part of FBR* half, which is what shipped.
+
+DataForSEO calls this run: **0** ($0). GSC only.
