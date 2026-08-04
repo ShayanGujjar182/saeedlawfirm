@@ -1,4 +1,5 @@
 import firm from '../data/firm.json'
+import type { SeoPageContent } from './page-content'
 
 export type FAQ = { q: string; a: string }
 
@@ -105,6 +106,16 @@ export function markdownToHtml(markdown: string) {
 		}
 
 		flushTable()
+
+		// Without this case an `#### ` line falls through to the paragraph branch and the
+		// hash marks render as literal text.
+		if (trimmed.startsWith('#### ')) {
+			flushParagraph()
+			flushList()
+			flushOrderedList()
+			html.push(`<h4>${inlineMarkdownToHtml(trimmed.slice(5))}</h4>`)
+			continue
+		}
 
 		if (trimmed.startsWith('### ')) {
 			flushParagraph()
@@ -332,4 +343,10 @@ export function articleSchema(page: {
 		publisher: { '@id': `${SITE_URL}#organization` },
 		image: page.image ?? FIRM.logo
 	}
+}
+
+// Pages carrying a structured `content` block render that instead of bodyMarkdown.
+// Single source of truth: DynamicSeoPage picks the branch, the routes decide what to ship.
+export function hasStructuredContent(page: SeoPageContent) {
+	return Boolean(page.content?.sections?.length || page.content?.introBlocks?.length)
 }

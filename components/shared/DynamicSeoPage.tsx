@@ -8,6 +8,7 @@ import {
 	articleSchema,
 	breadcrumbSchema,
 	faqSchema,
+	hasStructuredContent,
 	howToSchema,
 	inlineMarkdownToHtml,
 	jsonLd,
@@ -257,7 +258,7 @@ export default function DynamicSeoPage({ html, page }: Props) {
 	const canonicalUrl = `${SITE_URL}${canonicalPath}`
 	const ogImageUrl = page.image ? `${SITE_URL}${page.image.src}` : `${SITE_URL}/og-default.jpg`
 	const content = page.content
-	const hasStructuredContent = Boolean(content?.sections?.length || content?.introBlocks?.length)
+	const structured = hasStructuredContent(page)
 	const hierarchy = page.ancestors?.length
 		? page.ancestors
 		: page.parent
@@ -465,7 +466,7 @@ export default function DynamicSeoPage({ html, page }: Props) {
 								</p>
 							</div>
 						)}
-						{hasStructuredContent && content ? (
+						{structured && content ? (
 							<article className="seo-content text-navy-800">
 								{content.introBlocks.map(renderContentBlock)}
 								{content.sections.map(section => (

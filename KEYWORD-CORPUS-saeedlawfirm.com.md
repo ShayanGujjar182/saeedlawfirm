@@ -2200,3 +2200,25 @@ Ten content pages emitted **H1 → H3 with no H2 at all**. The four highest-dema
 | /areas/lawyer-in-model-town-lahore | 0 | — | 0 | H1→H3, 7 H3, 0 H2 |
 
 Correctly-structured comparators (body H2s present): /blog/divorce-rate-in-pakistan 813 @ 4.28 (24 clk), /blog/pre-arrest-bail-in-pakistan 667 @ 5.40 (6 clk), /blog/how-much-does-a-lawyer-cost-in-pakistan 263 @ 4.21 (3 clk), /blog/cheque-bounce-in-pakistan 238 @ 6.62 (2 clk), /blog/how-to-file-an-fir-in-pakistan 170 @ 7.22, /blog/recovery-of-money-and-specific-performance-in-pakistan 61 @ 5.36, /blog/nadra-succession-certificate-in-pakistan 56 @ 6.86.
+
+---
+
+## 2026-08-03 — GSC page dimension, `/areas/*` and `/courts/*` (run 39, theme 4)
+
+Source: Google Search Console, `sc-domain:saeedlawfirm.com`, country = PAK, 2026-07-06 → 2026-08-02, dimension = page. Pre-deploy baseline for the run-39 payload change (14 area/court pages, 275 kB / 55.5% of page weight removed). **Production was STALE at pull time — these are baselines, not outcomes.**
+
+| Page | Clicks | Impr | CTR | Avg pos |
+|---|---|---|---|---|
+| `/courts/tax-tribunal-lawyer-lahore` | 0 | 266 | 0% | 10.25 |
+| `/courts/service-tribunal-lawyer-lahore` | 0 | 76 | 0% | 8.86 |
+| `/areas/lawyer-in-johar-town-lahore` | 0 | 10 | 0% | 13.00 |
+| `/courts/district-court-lawyer-lahore` | 1 | 6 | 16.67% | 12.17 |
+| `/areas/lawyer-in-township-lahore` | 0 | 6 | 0% | 11.67 |
+| `/areas/lawyer-in-faisal-town-lahore` | 0 | 4 | 0% | 6.00 |
+| `/areas/lawyer-in-gulberg-lahore` | 0 | 3 | 0% | 8.67 |
+
+The remaining 7 area/court pages (dha, bahria-town, lahore-cantt, model-town, cantonment-court, family-court, lahore-high-court) drew **0 PAK impressions** in the window.
+
+**Read:** `/courts/tax-tribunal-lawyer-lahore` is the highest-impression **zero-click** page in the areas/courts set — 266 impressions at position 10.25 with no clicks at all. That is a snippet/intent question, not a ranking one, and it is queued as the run-40 theme-5 primary candidate. `/courts/service-tribunal-lawyer-lahore` is the same shape one tier down. The area pages remain negligible (29 PAK impressions across all 8).
+
+DataForSEO calls this run: **0** ($0). GSC only.
