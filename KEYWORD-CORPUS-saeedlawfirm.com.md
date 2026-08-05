@@ -2248,3 +2248,56 @@ Page total: **270 impr / 0 clicks / pos 10.22**.
 **Do not chase `...lahore address` or an ATIR case-status/inquiry lookup with fabricated contact detail.** No address, phone, portal URL or cause-list procedure was published, because none could be verified this run (`atir.gov.pk` returns 403 to automated fetch). The honest, ownable part of the intent is the *what is it / is it part of FBR* half, which is what shipped.
 
 DataForSEO calls this run: **0** ($0). GSC only.
+
+---
+
+## 2026-08-05 — GSC courts-layer page + forum-entity query dimension (run 41, theme 6)
+
+Source: Google Search Console, `sc-domain:saeedlawfirm.com`, country = PAK, 2026-07-06 → 2026-08-04. Production **FRESH** at pull time (probe exit 0, first clean run since the 2026-08-04 deploy), but the grade clock only started 2026-08-04, so these are **baselines, not outcomes**.
+
+### Courts layer, page dimension
+
+| Page | Clicks | Impr | Avg pos | In-body inbound links (built HTML) |
+|---|---|---|---|---|
+| `/courts/tax-tribunal-lawyer-lahore` | 0 | 274 | 10.15 | 3 |
+| `/courts/service-tribunal-lawyer-lahore` | 0 | 83 | 8.82 | 2 |
+| `/courts/district-court-lawyer-lahore` | 1 | 6 | 12.17 | 13 |
+| `/courts/family-court-lawyer-lahore` | 0 | 0 | n/a | 7 |
+| `/courts/lawyer-at-lahore-high-court` | 0 | 0 | n/a | 20 |
+| `/courts/cantonment-court-lawyer-lahore` | 0 | 0 | n/a | 4 |
+
+**Three of six courts pages draw zero PAK impressions.** Inbound-link count and impressions are inversely related here: the two pages carrying 357 of the layer's 363 impressions are the two *least*-linked pages on the site.
+
+### Forum-entity query dimension (regex: family court | guardian | high court | cantonment | service tribunal)
+
+`/courts/service-tribunal-lawyer-lahore` — clean entity ownership, no competing page:
+
+| Query | Clicks | Impr | Avg pos |
+|---|---|---|---|
+| `punjab service tribunal` | 0 | 20 | 10.70 |
+| `punjab service tribunal lahore` | 0 | 18 | 8.44 |
+| `service tribunal lahore` | 0 | 13 | 8.46 |
+| `punjab service tribunal members list` | 0 | 6 | 5.33 |
+| `service tribunal punjab` | 0 | 2 | 10.00 |
+| `punjab service tribunal judges` | 0 | 1 | 1.00 |
+| `punjab service tribunal act 1974` | 0 | 1 | 16.00 |
+
+Family-court demand, and **which page Google actually serves it with**:
+
+| Query | Page Google ranks | Impr | Avg pos |
+|---|---|---|---|
+| `family court lawyer lahore` | `/family-lawyer-in-lahore` | 12 | 7.00 |
+| `cheap family court lawyers near me` | `/family-lawyer-in-lahore` | 5 | 7.40 |
+| `family court lawyers near me` | `/family-lawyer-in-lahore` | 5 | 13.00 |
+| `family court lahore` | `/family-lawyer-in-lahore` | 2 | 4.00 |
+| `family court lahore` | `/khula-lawyer-in-lahore` | 1 | 1.00 |
+| `family court` | `/family-lawyer-in-lahore` | 1 | 1.00 |
+| `advocate family court` | `/family-lawyer-in-lahore` | 1 | 1.00 |
+| `guardian court lahore` | `/child-custody-lawyer-in-lahore` | 1 | 7.00 |
+| `family court lawyer lahore` | `/areas/lawyer-in-johar-town-lahore` | 1 | 8.00 |
+
+**Read — the obvious theme-6 target is the wrong one.** `/courts/family-court-lawyer-lahore` is the most-discussed-but-unlinked forum on the site (27 prose mentions on `/blog/divorce-procedure-in-pakistan`, 25 on `/child-custody-lawyer-in-lahore`, 23 on `/blog/divorce-rate-in-pakistan`, 22 on `/family-lawyer-in-lahore`, all with zero links to it). It is also at **0 impressions** — because Google has already assigned every family-court query to `/family-lawyer-in-lahore` and is ranking it at **positions 1–7**. Pushing internal links at the courts page would fight a resolution that is currently going the money page's way and risk splitting a cluster that already works. **Do not link-build `/courts/family-court-lawyer-lahore`.** The same logic covers `/courts/lawyer-at-lahore-high-court` (0 impr on 20 inbound links — links are not its constraint).
+
+**The two real targets are the tribunals.** Both rank *only* on entity-lookup queries (guide-shaped demand, which run 22 validated as link-responsive), both sit at position 8–10 where a shift is readable, neither is cannibalised by another page, and both are the least-linked pages in the set. That is the run-22 mechanism pointed at the two nodes that have never had it.
+
+DataForSEO calls this run: **0** ($0). GSC only.
