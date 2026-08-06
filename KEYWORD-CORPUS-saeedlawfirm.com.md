@@ -2301,3 +2301,78 @@ Family-court demand, and **which page Google actually serves it with**:
 **The two real targets are the tribunals.** Both rank *only* on entity-lookup queries (guide-shaped demand, which run 22 validated as link-responsive), both sit at position 8–10 where a shift is readable, neither is cannibalised by another page, and both are the least-linked pages in the set. That is the run-22 mechanism pointed at the two nodes that have never had it.
 
 DataForSEO calls this run: **0** ($0). GSC only.
+
+---
+
+## 2026-08-06 — GSC PAK page + query + **date** dimension (run 42, theme 7 — Local + GEO, cycle 6 closes)
+
+Window 2026-07-09 → 2026-08-05, country = PAK. **DataForSEO calls: 0 ($0). GSC only.**
+
+### Site page dimension (PAK, 28 days)
+
+| Page | Clicks | Impr | Avg pos | CTR |
+|---|---|---|---|---|
+| `/blog/divorce-rate-in-pakistan` | 37 | 1,133 | 4.26 | 3.27% |
+| `/` | 20 | 721 | 6.61 | 2.77% |
+| `/family-lawyer-in-lahore` | 11 | 681 | 10.33 | 1.62% |
+| `/blog/pre-arrest-bail-in-pakistan` | 8 | **917** | **5.43** | **0.87%** |
+| `/lawyers-in-lahore` | 7 | 410 | 11.93 | 1.71% |
+| `/property-lawyer-in-lahore` | 7 | 281 | 5.83 | 2.49% |
+| `/civil-lawyer-in-lahore` | **1** | **562** | **4.54** | **0.18%** |
+| `/blog/company-registration-in-pakistan-secp` | 2 | 400 | 14.62 | 0.50% |
+| `/blog/cheque-bounce-in-pakistan` | 2 | 354 | 6.79 | 0.56% |
+| `/courts/tax-tribunal-lawyer-lahore` | 0 | 274 | 10.15 | 0% |
+| `/courts/service-tribunal-lawyer-lahore` | 0 | 87 | 8.80 | 0% |
+
+### PHANTOM #13 — a big impression block that is not demand
+
+`/civil-lawyer-in-lahore` showed 562 impressions at pos 4.54 on 1 click. **458 of them (81%) come from a single query, `personal injury lawyer near me`, at pos 3.19 with ZERO clicks.** It reads like the largest untapped opportunity on the site. It is not.
+
+Date + device dimension for that query:
+
+| Date | Device | Impr | Avg pos | Clicks |
+|---|---|---|---|---|
+| 2026-07-09 → 07-21 (11 days) | mixed | **1–4/day** | **1.00** | 0 |
+| 2026-08-03 | MOBILE | 24 | 3.83 | 0 |
+| **2026-08-04** | **MOBILE** | **434** | **3.14** | **0** |
+
+**434 of 458 impressions landed on ONE day, all mobile, all zero-click.** The steady-state signal underneath is 1–4 impressions/day **at position 1** — i.e. for the genuine trickle of this query in Pakistan the page already ranks first and there is nothing to win. The page also already carries the intent (title `Civil & Personal Injury Lawyer in Lahore | Accident Claims`, 7× "personal injury", 14× "injury", 10× "accident", 23× "damages"), so it is not a coverage gap either.
+
+**NEW BINDING RULE — check the DATE dimension before acting on any large impression block.** A 28-day total hides single-day spikes. An aggregate that is one day of mobile impressions is a SERP anomaly, not demand, and optimising for it is unfalsifiable work. Position-3-with-0-clicks over 458 impressions is the tell: real position-3 demand converts at *some* rate.
+
+### The "near me" cluster — query → page Google actually serves
+
+| Query | Page Google ranks | Impr | Avg pos | Clicks |
+|---|---|---|---|---|
+| `personal injury lawyer near me` | `/civil-lawyer-in-lahore` | 458 | 3.19 | 0 |
+| `lawyer near me` | `/` | 4 | 1.00 | 1 |
+| `advocate near me` | `/lawyers-in-lahore` | 6 | 9.67 | 0 |
+| `advocate for property near me` | `/property-lawyer-in-lahore` | 6 | 4.00 | 0 |
+| `advocate near me for property` | `/property-lawyer-in-lahore` | 5 | 3.00 | 0 |
+| `cheap family court lawyers near me` | `/family-lawyer-in-lahore` | 5 | 7.40 | 0 |
+| `khula lawyer near me` | `/khula-lawyer-in-lahore` | 5 | 5.00 | 1 |
+| `immigration attorney near me` | `/immigration-lawyer-in-lahore` | 4 | 5.00 | 1 |
+| `bail bond lawyers near me` | `/criminal-lawyer-in-lahore` | 3 | 6.33 | 0 |
+| `property lawyer near me` | `/lawyers-in-lahore` | 1 | 1.00 | 1 |
+
+Routing is **correct on every one** — each near-me query is served by the right practice-area page, and the intent-appropriate page ranks. Excluding the phantom, the whole cluster is ~40 impressions / 4 clicks. **The near-me ceiling is not on-site and never was: it needs a GBP.** Confirms the run-28 saturation finding for a sixth run; stop treating near-me as an on-site content problem.
+
+### `/blog/pre-arrest-bail-in-pakistan` — the site's biggest genuine CTR gap
+
+917 impressions at pos 5.43 returning 8 clicks (0.87%). Demand is **statute-shaped**, not service-shaped:
+
+| Query | Clicks | Impr | Avg pos |
+|---|---|---|---|
+| `498 crpc` | 1 | 146 | 8.45 |
+| `pre arrest bail section` | 1 | 109 | 3.99 |
+| `bail before arrest` | 1 | 84 | 4.69 |
+| `498 crpc pakistan` | 0 | 54 | 5.24 |
+| `bail before arrest section` | 1 | 28 | 4.18 |
+| `498` | 0 | 23 | 8.91 |
+| `grounds for pre arrest bail` | 2 | 21 | 3.71 |
+| `anticipatory bail in pakistan` | 1 | 15 | 3.13 |
+| `grounds of pre arrest bail` | 1 | 3 | 4.67 |
+
+Reading this page for **correctness** (run-40 rule) rather than coverage found a systematic YMYL defect — see run 42 in `seo-routine/log.md`. Snippet/CTR work on it is deliberately deferred until the corrected copy has been deployed and re-measured.
+
+DataForSEO calls this run: **0** ($0). GSC only.
