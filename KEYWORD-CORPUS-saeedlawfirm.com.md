@@ -2376,3 +2376,81 @@ Routing is **correct on every one** — each near-me query is served by the righ
 Reading this page for **correctness** (run-40 rule) rather than coverage found a systematic YMYL defect — see run 42 in `seo-routine/log.md`. Snippet/CTR work on it is deliberately deferred until the corrected copy has been deployed and re-measured.
 
 DataForSEO calls this run: **0** ($0). GSC only.
+
+---
+
+## 2026-08-07 — GSC PAK page dimension + index-status inspection (run 43, theme 1 — Technical & crawlability, cycle 7 opens)
+
+**Read this section as a baseline, not as a measurement.** Production is serving the **2026-08-04 build**. Runs 41 and 42 are committed (`494c585`, `857e25e`) and **not deployed**, so every number below reflects the site as it stood before those two runs. Nothing here grades either run.
+
+### PAK page dimension, 2026-07-10 → 2026-08-06 (28d)
+
+41 of 57 sitemap URLs earn PAK impressions. Total across the property: 123 clicks.
+
+| Page | Clicks | Impr | Avg pos |
+|---|---|---|---|
+| `/blog/divorce-rate-in-pakistan` | 37 | 1176 | 4.23 |
+| `/` | 19 | 734 | 6.62 |
+| `/family-lawyer-in-lahore` | 11 | 691 | 10.14 |
+| `/blog/pre-arrest-bail-in-pakistan` | 8 | 946 | 5.45 |
+| `/lawyers-in-lahore` | 7 | 397 | 11.69 |
+| `/blog/inheritance-law-in-pakistan` | 6 | 284 | 7.50 |
+| `/property-lawyer-in-lahore` | 6 | 275 | 5.77 |
+| `http://saeedlawfirm.com/` | 4 | 264 | 5.85 |
+| `/blog/how-much-does-a-lawyer-cost-in-pakistan` | 4 | 324 | 4.11 |
+| `/immigration-lawyer-in-lahore` | 4 | 78 | 8.81 |
+| `/blog/cheque-bounce-in-pakistan` | 3 | 364 | 6.75 |
+| `/blog/road-accident-compensation-and-car-insurance-in-pakistan` | 3 | 120 | 9.96 |
+| `/khula-lawyer-in-lahore` | 3 | 125 | 7.21 |
+| `/blog/company-registration-in-pakistan-secp` | 2 | 422 | 14.47 |
+| `/criminal-lawyer-in-lahore` | 2 | 230 | 7.00 |
+| `/civil-lawyer-in-lahore` | 1 | 984 | 4.02 |
+| `/tax-lawyer-in-lahore` | 1 | 122 | 7.53 |
+| `/blog/defamation-law-in-pakistan` | 1 | 90 | 8.53 |
+| `/blog/gift-deed-hiba-vs-sale-vs-will-in-pakistan` | 1 | 113 | 7.78 |
+| `/courts/district-court-lawyer-lahore` | 1 | 2 | 17.00 |
+| `/courts/tax-tribunal-lawyer-lahore` | 0 | 280 | 10.06 |
+| `/blog/how-to-file-an-fir-in-pakistan` | 0 | 171 | 7.19 |
+| `/blog/how-to-file-income-tax-return-in-pakistan` | 0 | 149 | 21.91 |
+| `/blog/child-custody-in-pakistan` | 0 | 125 | 10.82 |
+| `/blog/court-marriage-in-pakistan` | 0 | 94 | 16.27 |
+| `/courts/service-tribunal-lawyer-lahore` | 0 | 94 | 8.74 |
+| `/blog/divorce-procedure-in-pakistan` | 0 | 86 | 13.85 |
+| `/blog/recovery-of-money-and-specific-performance-in-pakistan` | 0 | 63 | 5.22 |
+| `/blog/nadra-succession-certificate-in-pakistan` | 0 | 50 | 6.76 |
+| `/blog/best-countries-for-asylum` | 0 | 27 | 6.22 |
+| `/blog/fbr-tax-notice-how-to-respond` | 0 | 26 | 25.35 |
+| `/blog/how-to-become-a-filer-in-pakistan` | 0 | 25 | 30.04 |
+| `/blog/rent-and-tenancy-law-in-punjab` | 0 | 25 | 7.48 |
+| `/areas/lawyer-in-johar-town-lahore` | 0 | 13 | 12.62 |
+| `/areas/lawyer-in-faisal-town-lahore` | 0 | 12 | 7.42 |
+| `/child-custody-lawyer-in-lahore` | 0 | 12 | 9.08 |
+| `/blog/how-to-transfer-property-in-punjab` | 0 | 9 | 8.56 |
+| `/areas/lawyer-in-gulberg-lahore` | 0 | 7 | 13.86 |
+| `/areas/lawyer-in-township-lahore` | 0 | 6 | 11.67 |
+| `/blog/blog` (index) | 0 | 2 | 24.00 |
+| `/blog/khula-procedure-in-pakistan` | 0 | 1 | 46.00 |
+
+**Run-41/42 baselines are therefore FROZEN, not moved.** `/courts/service-tribunal-lawyer-lahore` 94 impr @ 8.74 and `/courts/tax-tribunal-lawyer-lahore` 280 @ 10.06 are pre-edit values; the run-41 inbound link and the run-42 down-links have never been served. `/blog/fbr-tax-notice-how-to-respond` 26 @ 25.35 and `/blog/how-to-file-income-tax-return-in-pakistan` 149 @ 21.91 are likewise the untouched baselines for run 42's downward-link hypothesis.
+
+### The 16 sitemap URLs with zero PAK impressions
+
+`/about` · `/areas` · `/areas/lawyer-in-bahria-town-lahore` · `/areas/lawyer-in-dha-lahore` · `/areas/lawyer-in-lahore-cantt` · `/areas/lawyer-in-model-town-lahore` · `/blog/mofa-attestation-in-pakistan` · `/contact` · `/corporate-lawyer-in-lahore` · `/court-marriage-lawyer-in-lahore` · `/courts` · `/courts/cantonment-court-lawyer-lahore` · `/courts/family-court-lawyer-lahore` · `/courts/lawyer-at-lahore-high-court` · `/divorce-lawyer-in-lahore` · `/ethos` · `/what-we-do`
+
+Six are static/nav pages where zero is expected. `/courts/family-court-lawyer-lahore` is the known run-41 case (every family-court query is already served by `/family-lawyer-in-lahore` at pos 1–7). The rest split into two genuinely different states, which the impression count alone does not distinguish:
+
+| URL | Coverage state | Last crawl | Reading |
+|---|---|---|---|
+| `/corporate-lawyer-in-lahore` | **Submitted and indexed** (rich results PASS) | 2026-08-02 | Indexed, drawing no demand. Ranking/demand problem. |
+| `/divorce-lawyer-in-lahore` | **Crawled – currently not indexed** | 2026-07-07 | Google fetched it and declined. Quality/authority judgement, not a technical fault: `robotsTxtState` ALLOWED, `indexingState` INDEXING_ALLOWED, `pageFetchState` SUCCESSFUL, user canonical == Google canonical. |
+| `/blog/mofa-attestation-in-pakistan` | **URL is unknown to Google** | never | Was a live 404 until the 2026-08-04 deploy. Correctly in the sitemap with `lastmod 2026-07-23`. Three days old as a reachable URL: needs crawl time, or one manual Request Indexing. |
+
+**Do not read "zero impressions" as one condition.** Indexed-but-no-demand, crawled-and-declined, and never-crawled need three different responses, and only the index inspection separates them.
+
+### Technical regression, 8th consecutive clean
+
+57/57 sitemap URLs return **200**. `http`→301→`https`; `www`→308; `/about-us/`→308; `/services/family-law`→308→`/family-lawyer-in-lahore`; `/family-lawyer`→308; `/sitemap_index.xml`→308. `/prize/*`, `/shop/pg/*`, `/hello-world`, `/category/*`, `/author/*` all **410**. `robots.txt` 200 with the sitemap declared, `Allow: /`. `/llms.txt` 200. Homepage canonical correct. HSTS + `nosniff` + `SAMEORIGIN` + `strict-origin-when-cross-origin` all live.
+
+`http://saeedlawfirm.com/` still draws 264 PAK impr @ 5.85 with 4 clicks against the https homepage's 734 @ 6.62. The 301 is live and correct (7th verification). The gap has **narrowed substantially** — http was previously out-impressing https (570 vs 420 at run 42). Consolidation is proceeding. Monitor only; no repo fix exists.
+
+DataForSEO calls this run: **0** ($0). GSC only.
