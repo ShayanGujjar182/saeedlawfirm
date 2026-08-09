@@ -2454,3 +2454,116 @@ Six are static/nav pages where zero is expected. `/courts/family-court-lawyer-la
 `http://saeedlawfirm.com/` still draws 264 PAK impr @ 5.85 with 4 clicks against the https homepage's 734 @ 6.62. The 301 is live and correct (7th verification). The gap has **narrowed substantially** — http was previously out-impressing https (570 vs 420 at run 42). Consolidation is proceeding. Monitor only; no repo fix exists.
 
 DataForSEO calls this run: **0** ($0). GSC only.
+
+---
+
+## 2026-08-09 — Run 45 · GSC pull (theme 3 slot, spent on measurement) · DataForSEO calls: 0 ($0)
+
+GSC access **restored** this run after being wholly unavailable on run 44. Window `2026-07-10 → 2026-08-06` throughout, so it is directly comparable to the run-43 pull recorded above. **Read the run-43 areas figures in this file as PAK-only and therefore understated — see the correction below.**
+
+### 🔴 CONTAMINATION: one junk query owns the entire post-deploy impression rise
+
+`/civil-lawyer-in-lahore` showed **1,344 PAK impressions @ pos 3.83 on 1 click** in the 28-day window. The date dimension decomposes it:
+
+| Date | Impr | Pos | Clicks |
+|---|---|---|---|
+| 2026-07-10 → 08-03 (25 days) | 10–112/day | 5.2–9.4 | 0–3/day |
+| **2026-08-04** | **469** | **3.36** | **0** |
+| **2026-08-05** | **435** | **3.38** | **0** |
+| **2026-08-06** | **411** | **3.45** | **0** |
+
+Query dimension over `2026-08-04 → 08-06` isolates the cause to a single term:
+
+| Query | Impr (3d) | Pos | Clicks | CTR |
+|---|---|---|---|---|
+| **`personal injury lawyer near me`** | **1,206** | **3.21** | **0** | **0.00%** |
+| `stay order fees in pakistan` | 5 | 9.00 | 0 | 0% |
+| `who deals with civil matters` | 2 | 8.50 | 0 | 0% |
+| all other queries | 1 each | — | 0 | 0% |
+
+Country + date breakdown of that one query — **100% Pakistan**, and it switches on precisely at the deploy date:
+
+| Date | Country | Impr | Pos | Clicks |
+|---|---|---|---|---|
+| 2026-07-11 → 07-21 | pak | 1–6/day | 1.00 | 0 |
+| 2026-08-03 | pak | 24 | 3.83 | 0 |
+| **2026-08-04** | pak | **434** | 3.14 | **0** |
+| **2026-08-05** | pak | **415** | 3.25 | **0** |
+| **2026-08-06** | pak | **358** | 3.22 | **0** |
+
+**2026-08-04 is the owner's manual rebuild + restart date** (serving commit `3b4cbee`). On-site cause confirmed: `content/pages/civil-lawyer-in-lahore.json` contains the string **"personal injury" ×7**.
+
+**Site-wide effect — impressions and average position both move, clicks do not:**
+
+| Date | Impr | Clicks | Avg pos |
+|---|---|---|---|
+| 2026-08-01 | 1,148 | 22 | 6.04 |
+| 2026-08-02 | 1,387 | 24 | 5.69 |
+| 2026-08-03 | 1,583 | 34 | 6.28 |
+| **2026-08-04** | **1,843** | 24 | **5.36** |
+| **2026-08-05** | **2,286** | 29 | **5.68** |
+| **2026-08-06** | **2,258** | 33 | **5.52** |
+
+Impressions **+43%** and average position **6.28 → 5.52** across the deploy boundary, on **flat clicks (34 → 33)**. The entire delta is one zero-click query. **The runs 29–40 cohort went live on this exact date and is due for grading ~2026-08-18: grading it on impressions or average position would have produced a large false win.** Grade on clicks, or filter this query out.
+
+**VERDICT — `personal injury lawyer near me` is a REJECTED LEVER.** Intent-checked per the P3 standing rule: Pakistan traffic, English query, position 3.2, and **zero clicks across 1,206+ impressions**. Pakistan has no contingency-fee personal-injury bar and the firm does not market the practice. Zero conversion at position 3 over three days is the empirical answer. Do not propose work against this query again.
+
+### Page performance by bucket — PAK, 2026-07-10 → 2026-08-06
+
+| Bucket | Pages | Clicks | Impr | CTR | % of clicks |
+|---|---|---|---|---|---|
+| **blog** | 23 | **69** | 4,900 | 1.41% | **53.5%** |
+| money | 9 | 35 | 3,364 | 1.04% | 27.1% |
+| home | 2 | 24 | 1,038 | 2.31% | 18.6% |
+| courts | 3 | 1 | 387 | 0.26% | 0.8% |
+| areas | 4 | 0 | 42 | 0.00% | 0.0% |
+| **TOTAL** | 41 | **129** | 9,731 | 1.33% | — |
+
+Excluding the junk query, the money bucket is 35 clicks / 2,158 impr = **1.62% CTR** and the site is 129 / 8,525 = **1.51%**.
+
+**OPEN QUESTION ANSWERED — "is the blog earning impressions, or only occupying build time?"** The blog is the site's **largest single source of both clicks and impressions**, and it out-clicks the entire money-page set **69 to 35**. The CONTENT-PLAN spoke strategy is earning. Top blog performers:
+
+| Page | Clicks | Impr | Pos |
+|---|---|---|---|
+| `/blog/divorce-rate-in-pakistan` | **41** | 1,250 | 4.21 |
+| `/blog/pre-arrest-bail-in-pakistan` | 8 | 976 | 5.48 |
+| `/blog/inheritance-law-in-pakistan` | 6 | 293 | 7.53 |
+| `/blog/how-much-does-a-lawyer-cost-in-pakistan` | 4 | 335 | 4.12 |
+| `/blog/cheque-bounce-in-pakistan` | 3 | 389 | 6.72 |
+| `/blog/road-accident-compensation-and-car-insurance-in-pakistan` | 3 | 131 | 10.28 |
+| `/blog/company-registration-in-pakistan-secp` | 2 | 452 | 14.26 |
+
+`/blog/divorce-rate-in-pakistan` alone is the site's **#1 page by clicks**, ahead of the homepage.
+
+### 🟡 CORRECTION to the run-43 areas figures — country filter was hiding 90% of the traffic
+
+Same window, `/areas/` pages, **without** a country dimension:
+
+| Page | Clicks | Impr | Pos |
+|---|---|---|---|
+| `/areas/lawyer-in-johar-town-lahore` | 3 | 117 | 8.44 |
+| `/areas/lawyer-in-township-lahore` | 3 | 79 | 6.43 |
+| `/areas/lawyer-in-faisal-town-lahore` | 2 | 73 | 7.04 |
+| `/areas/lawyer-in-lahore-cantt` | 2 | 19 | 5.16 |
+| `/areas/lawyer-in-gulberg-lahore` | 1 | 132 | 9.37 |
+| **TOTAL** | **11** | **420** | — |
+
+**420 impressions and 11 clicks at 2.6% CTR — the highest CTR of any bucket on this site**, against a 1.33% site average. The PAK-filtered view records the same pages as 42 impressions / 0 clicks. The routine has been writing the areas pages off as dead on the strength of the filtered number.
+
+**Caveat, recorded honestly: the country split is NOT recoverable from this API.** Three separate pulls (`country`; `page,country`; `page`+countryFilter) all return only `pak 42 / 0 clicks`, while the `page`-only pull returns `420 / 11`. GSC drops low-volume rows when a country dimension is requested rather than bucketing them as unknown. **Where the other 378 impressions and 11 clicks originate is unknown.** A diaspora hypothesis is plausible for DHA/Gulberg/Johar Town property and inheritance work but is **UNPROVEN — do not act on it as fact.**
+
+### Areas indexation — three states, cleanly separated
+
+8 areas content files exist; all 8 are in the live `sitemap.xml`. Only 5 draw any traffic.
+
+| URL | Coverage state | Impr |
+|---|---|---|
+| `/areas/lawyer-in-johar-town-lahore` | **Submitted and indexed** (crawled 2026-07-21, rich results PASS, canonicals agree) | 117 |
+| `/areas/lawyer-in-model-town-lahore` | **Discovered – currently not indexed** (sitemap seen) | 0 |
+| `/areas/lawyer-in-dha-lahore` | **URL is unknown to Google** (despite being in the sitemap) | 0 |
+
+Impressions are non-zero exactly where the coverage state is "indexed" and zero exactly where it is not. `/areas/lawyer-in-dha-lahore` being unknown to Google is the most actionable of the three: **DHA Phase 3 is where the firm's own office sits**, and the page has never been crawled.
+
+### Frozen baselines re-verified (unchanged, runs 41/42 still not live)
+
+`/courts/service-tribunal-lawyer-lahore` **103 impr @ 8.82, 0 clicks** (frozen record: 94 @ 8.74) · `/courts/tax-tribunal-lawyer-lahore` **282 @ 10.03, 0 clicks** (frozen: 280 @ 10.06) · `/blog/fbr-tax-notice-how-to-respond` **26 @ 25.35** · `/blog/how-to-file-income-tax-return-in-pakistan` **149 @ 21.91**. Small drift is GSC backfill on the same window, not movement. `deploy-fresh.sh` exit **4** for the third consecutive day, so these remain pre-edit values.
