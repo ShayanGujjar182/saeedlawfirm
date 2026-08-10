@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
+import { FIRM } from '../../lib/seo-content'
 
 const SERVICES = [
 	{ label: 'Best Lawyers in Lahore', href: '/lawyers-in-lahore' },
@@ -42,8 +43,11 @@ const NAV_GROUPS = [
 	{ title: 'Practice Areas', links: PRACTICE_AREAS }
 ]
 
+// ponytail: email comes from firm.json so the visible NAP can't drift from the
+// organizationSchema JSON-LD. Phone stays literal here (display formatting differs
+// from firm.json's schema form); change both together if the number ever moves.
 const CONTACT_LINKS = {
-	email: 'ahmadbilal2003@gmail.com',
+	email: FIRM.email,
 	phone: '+92 319 4959420',
 	phoneHref: '+923194959420'
 }

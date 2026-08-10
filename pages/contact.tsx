@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { useState, type ChangeEvent, type FormEvent } from 'react'
-import { SITE_URL, jsonLd, organizationSchema, breadcrumbSchema } from '../lib/seo-content'
+import { FIRM, SITE_URL, jsonLd, organizationSchema, breadcrumbSchema } from '../lib/seo-content'
 
 type StatusType = 'idle' | 'sending' | 'success' | 'error'
 
@@ -173,7 +173,7 @@ export default function Contact() {
 						</a>
 
 						<a
-							href="mailto:ahmadbilal2003@gmail.com"
+							href={`mailto:${FIRM.email}`}
 							className="flex flex-col items-center text-center bg-white border border-gray-200 rounded-lg px-4 py-6 hover:border-gold-300 transition-colors duration-200"
 						>
 							<svg
@@ -190,9 +190,7 @@ export default function Contact() {
 									d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
 								/>
 							</svg>
-							<span className="text-sm text-navy-700 font-medium">
-								ahmadbilal2003@gmail.com
-							</span>
+							<span className="text-sm text-navy-700 font-medium">{FIRM.email}</span>
 						</a>
 
 						<div className="flex flex-col items-center text-center bg-white border border-gray-200 rounded-lg px-4 py-6">
