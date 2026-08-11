@@ -492,17 +492,14 @@ export default function DynamicSeoPage({ html, page }: Props) {
 								))}
 							</article>
 						) : (
-							<>
-								{page.reviewNote && (
-									<p className="text-sm italic text-gray-500 mb-8">
-										{page.reviewNote}
-									</p>
-								)}
-								<article
-									className="seo-content text-navy-800"
-									dangerouslySetInnerHTML={{ __html: html }}
-								/>
-							</>
+							// The credential + last-updated + disclaimer line is already rendered
+							// once above, by the author box (articles) or the reviewed-by box
+							// (service/area). Rendering `reviewNote` here repeated it verbatim, and
+							// most articles also opened bodyMarkdown with a third copy. One byline.
+							<article
+								className="seo-content text-navy-800"
+								dangerouslySetInnerHTML={{ __html: html }}
+							/>
 						)}
 					</div>
 				</section>

@@ -36,23 +36,30 @@ const CLUSTERS: { title: string; blurb: string; slugs: string[] }[] = [
 	},
 	{
 		title: 'Family Law',
-		blurb: 'Court marriage, khula, divorce, and child custody under Pakistani and Islamic law.',
+		blurb: 'Marriage registration, court marriage, khula, divorce, custody and guardianship under Pakistani and Islamic law.',
 		slugs: [
 			'court-marriage-in-pakistan',
+			'nikah-nama-in-pakistan',
+			'nadra-marriage-certificate-in-pakistan',
 			'khula-procedure-in-pakistan',
 			'divorce-procedure-in-pakistan',
+			'second-marriage-law-in-pakistan',
 			'child-custody-in-pakistan',
+			'guardianship-certificate-in-pakistan',
+			'domestic-violence-laws-in-pakistan',
 			'divorce-rate-in-pakistan'
 		]
 	},
 	{
 		title: 'Property & Inheritance',
-		blurb: 'Succession certificates, property transfer, inheritance shares, and gift deeds.',
+		blurb: 'Succession certificates, property transfer, inheritance shares, gift deeds, e-stamping and powers of attorney.',
 		slugs: [
 			'nadra-succession-certificate-in-pakistan',
 			'inheritance-law-in-pakistan',
 			'how-to-transfer-property-in-punjab',
-			'gift-deed-hiba-vs-sale-vs-will-in-pakistan'
+			'gift-deed-hiba-vs-sale-vs-will-in-pakistan',
+			'e-stamp-paper-in-punjab',
+			'power-of-attorney-in-pakistan'
 		]
 	},
 	{
@@ -67,8 +74,14 @@ const CLUSTERS: { title: string; blurb: string; slugs: string[] }[] = [
 	},
 	{
 		title: 'Criminal Defence',
-		blurb: 'Pre-arrest bail and how to file, check, or quash an FIR.',
-		slugs: ['pre-arrest-bail-in-pakistan', 'how-to-file-an-fir-in-pakistan']
+		blurb: 'Bail before and after arrest, filing an FIR, cybercrime complaints and harassment cases.',
+		slugs: [
+			'pre-arrest-bail-in-pakistan',
+			'post-arrest-bail-in-pakistan',
+			'how-to-file-an-fir-in-pakistan',
+			'how-to-report-cybercrime-in-pakistan',
+			'harassment-laws-in-pakistan'
+		]
 	},
 	{
 		title: 'Corporate',
