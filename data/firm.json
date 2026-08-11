@@ -7,7 +7,7 @@
 	"url": "https://saeedlawfirm.com",
 	"logo": "https://saeedlawfirm.com/logo.png",
 	"telephone": "+92-319-4959420",
-	"email": "saeedlawfirmpakistan@gmail.com",
+	"email": "info@saeedlawfirm.com",
 	"address": {
 		"streetAddress": "Y Block Main Market, Sector Y, DHA Phase 3",
 		"addressLocality": "Lahore",
@@ -19,20 +19,13 @@
 		"latitude": 31.472,
 		"longitude": 74.378
 	},
-	"openingHours": [
-		"Mo-Fr 09:00-18:00",
-		"Sa 10:00-14:00"
-	],
+	"openingHours": ["Mo-Su 00:00-23:59"],
 	"principalLawyer": {
 		"name": "Bilal Saeed",
 		"title": "Advocate",
 		"barCouncil": "Punjab Bar Council",
 		"barCouncilNumber": "REPLACE_WITH_ACTUAL",
-		"courtsAdmitted": [
-			"Lahore High Court",
-			"District Courts Lahore",
-			"Family Courts Lahore"
-		]
+		"courtsAdmitted": ["Lahore High Court", "District Courts Lahore", "Family Courts Lahore"]
 	},
 	"sameAs": [
 		"https://www.facebook.com/people/Saaed-Law-Firm/61589129141834/",

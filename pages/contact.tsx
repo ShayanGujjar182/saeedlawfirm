@@ -209,11 +209,7 @@ export default function Contact() {
 								/>
 							</svg>
 							<span className="text-xs text-navy-700 font-medium leading-relaxed">
-								Monday to Friday: 9:00 AM to 6:00 PM
-								<br />
-								Saturday: 10:00 AM to 2:00 PM
-								<br />
-								Sunday: Closed
+								Open 24 hours, 7 days a week
 							</span>
 						</div>
 					</div>

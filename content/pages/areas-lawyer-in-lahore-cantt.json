@@ -19,11 +19,7 @@
 		"description": "Lawyer in Lahore Cantt handling property under Cantonment Board, MEO A-1 defence leases, tax disputes, and civil matters. Cantonments Act 1924 governs the rules.",
 		"canonicalPath": "/areas/lawyer-in-lahore-cantt"
 	},
-	"areaServed": [
-		"Lahore Cantt",
-		"Lahore Cantonment",
-		"Lahore"
-	],
+	"areaServed": ["Lahore Cantt", "Lahore Cantonment", "Lahore"],
 	"hero": {
 		"eyebrow": "Lahore Cantt",
 		"h1": "Lawyer in Lahore Cantt",
@@ -57,7 +53,7 @@
 			"label": "Consultation",
 			"values": [
 				"In-office at DHA Phase 3, Lahore",
-				"Email: saeedlawfirmpakistan@gmail.com",
+				"Email: info@saeedlawfirm.com",
 				"Zoom video consultation",
 				"WhatsApp consultation"
 			]
@@ -86,7 +82,7 @@
 		},
 		{
 			"q": "How do I book a consultation?",
-			"a": "Email saeedlawfirmpakistan@gmail.com, contact us via the [contact form](/contact), or call +92-319-4959420. We respond within one business day and schedule same-week meetings for urgent matters. Zoom and WhatsApp consultation available."
+			"a": "Email info@saeedlawfirm.com, contact us via the [contact form](/contact), or call +92-319-4959420. We respond within one business day and schedule same-week meetings for urgent matters. Zoom and WhatsApp consultation available."
 		}
 	],
 	"relatedPages": [
@@ -247,7 +243,7 @@
 					},
 					{
 						"type": "paragraph",
-						"text": "How do I book a consultation? Email saeedlawfirmpakistan@gmail.com, contact us via the [contact form](/contact), or call +92-319-4959420. We respond within one business day and schedule same-week meetings for urgent matters. Zoom and WhatsApp consultation available."
+						"text": "How do I book a consultation? Email info@saeedlawfirm.com, contact us via the [contact form](/contact), or call +92-319-4959420. We respond within one business day and schedule same-week meetings for urgent matters. Zoom and WhatsApp consultation available."
 					},
 					{
 						"type": "paragraph",
