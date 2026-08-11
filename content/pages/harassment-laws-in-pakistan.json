@@ -1,0 +1,124 @@
+{
+	"kind": "article",
+	"slug": "harassment-laws-in-pakistan",
+	"route": "/blog/harassment-laws-in-pakistan",
+	"parent": {
+		"label": "Blog",
+		"slug": "blog",
+		"route": "/blog"
+	},
+	"ancestors": [
+		{
+			"label": "Best Lawyers in Lahore",
+			"slug": "lawyers-in-lahore",
+			"route": "/lawyers-in-lahore"
+		},
+		{
+			"label": "Blog",
+			"slug": "blog",
+			"route": "/blog"
+		}
+	],
+	"seo": {
+		"title": "Harassment Laws in Pakistan: Workplace, Online & Public",
+		"description": "Which harassment law applies to your situation, where to complain, and what remedies exist: the 2010 Act, PECA, and PPC 509 explained by a Lahore lawyer.",
+		"canonicalPath": "/blog/harassment-laws-in-pakistan"
+	},
+	"hero": {
+		"eyebrow": "Criminal Law",
+		"h1": "Harassment Laws in Pakistan: Workplace, Online and Public, Which Law Applies and Where to Complain",
+		"intro": "Pakistan does not have one harassment law. It has three, and which one applies depends on where the harassment happened. Workplace harassment goes to an internal committee or the Ombudsperson under the 2010 Act, online harassment goes to the NCCIA under PECA 2016, and harassment in public places is a police matter under the Pakistan Penal Code. This guide routes you to the right one."
+	},
+	"author": {
+		"name": "Bilal Saeed",
+		"title": "Advocate",
+		"barCouncil": "Punjab Bar Council"
+	},
+	"datePublished": "2026-08-10",
+	"dateModified": "2026-08-10",
+	"bodyMarkdown": "**By Bilal Saeed, Advocate (Punjab Bar Council), Lahore High Court and District Courts Lahore. Reviewed and last updated 10 August 2026.**\n\nThis article is general information about harassment law in Pakistan, not legal advice. Every situation turns on its own facts, and forum, procedure, and outcomes vary case by case. Speak to a lawyer before you file, or if you are unsure which route applies to you.\n\nMost people who search for harassment law in Pakistan are not looking for a definition. They are trying to work out what just happened to them and where to take it. A colleague who will not stop making comments, a stranger sending threatening messages online, a man who followed and cornered someone on the street: these feel like the same problem, but Pakistani harassment law treats them as three separate problems, each with its own statute, its own forum, and its own evidence rules. I get a version of this question most weeks: which law actually applies here? The honest answer is always the same. It depends on where it happened, not on how serious it felt.\n\nThe short version of Pakistan's harassment law: workplace harassment (including at university or in informal work settings) is handled under the Protection Against Harassment of Women at the Workplace Act 2010, as amended in 2022. Online harassment is handled under the Prevention of Electronic Crimes Act 2016 (PECA). Harassment in public places, meaning the street, a market, transport, or any place that is not a workplace, is a criminal offence under the Pakistan Penal Code (PPC), most often Section 509. The rest of this guide walks through each route, what it can get you, and how the routes work together when your situation touches more than one.\n\n## Harassment law in Pakistan: the three routes at a glance\n\nStart here if you are not sure which law applies. Match your situation to the route, then read the relevant section below for detail.\n\n- **It happened at your workplace, in a class, or in a work-like setting.** The [Protection Against Harassment of Women at the Workplace Act 2010](https://pakistancode.gov.pk), as amended in 2022, applies. Your employer or institution must have an internal inquiry committee that hears the complaint, or you can go to the Ombudsperson (FOSPAH).\n- **It happened online: messages, social media, email, or a fake account.** [PECA 2016](https://pakistancode.gov.pk) applies. The National Cyber Crime Investigation Agency (NCCIA), which now carries out the role the FIA Cyber Crime Wing used to hold, takes the complaint.\n- **It happened in a public place: a street, market, bus, or shop, and involved a word, gesture, or physical act.** The [Pakistan Penal Code](https://pakistancode.gov.pk) applies, most commonly Section 509. You report it to the police as a criminal matter and an FIR can be registered.\n\nSome situations cross two or three of these lines at once. A colleague who harasses you at work and then continues on WhatsApp after hours can trigger both the 2010 Act and PECA. Where that happens, the routes run in parallel rather than one replacing the other, and later sections explain how that works in practice.\n\n## Workplace harassment: the 2010 Act\n\n### What counts as harassment under the Act\n\nThe [Protection Against Harassment of Women at the Workplace Act 2010](https://pakistancode.gov.pk) is the workplace branch of harassment law. It covers unwelcome conduct of a sexual nature, and behaviour intended to create a hostile or intimidating work environment, or to interfere with someone's ability to do their job. In plain terms this includes two broad patterns. The first is quid pro quo: a demand or suggestion, explicit or implied, that a benefit (a promotion, a grade, continued employment) depends on submitting to unwanted attention. The second is a hostile work environment: repeated comments, jokes, physical proximity, or messages that make the workplace unbearable, even without a direct demand attached. A single serious incident can also qualify; it does not always need to be repeated conduct.\n\n### Who is protected\n\nThe original 2010 Act was written around the employer-employee relationship. The 2022 amendment broadened who the Act protects and who it applies against, now reaching students, domestic workers, and people in informal or non-traditional work arrangements, not just those on a formal payroll. [VERIFY WITH FIRM: the exact categories added by the 2022 amendment and whether a specific complainant's situation, such as a gig worker or unpaid intern, falls within the amended definition.] If your situation does not look like a classic office job, do not assume the Act cannot help you. Ask a lawyer to check the current wording against your facts before you rule it out.\n\n### The internal inquiry committee\n\nEvery organisation covered by the Act has a duty to constitute an inquiry committee to hear harassment complaints. The committee typically includes representation from both management and staff, and is meant to give the complainant a forum inside the organisation before, or instead of, going outside it. You submit a written complaint, the committee hears both sides, and it issues findings. [VERIFY WITH FIRM: the committee's exact composition requirements and the timeline it must follow, since both are set out in the Act and its rules and can change.] What matters for a complainant is that the organisation cannot simply ignore a complaint once it is raised in writing; the duty to convene the committee is the employer's, not optional.\n\n### Penalties the committee can recommend\n\nWhere the committee finds the complaint proven, it can recommend action against the harasser, ranging up to termination depending on the severity of the conduct, along with other measures the Act allows. A complaint that exists in writing is far harder for an organisation to brush aside than one that was only ever raised verbally, something I see play out the same way almost every time. It can also make findings that support the complainant seeking compensation. The exact penalty scale depends on the finding and the organisation's own rules, so we are not going to guess at numbers here; a lawyer reviewing your committee's report can tell you what outcome is realistic on your facts.\n\n## The Ombudsperson route\n\nIf you do not want to go through your organisation's internal committee, or if the committee's decision is not the end of the matter for you, the Act also gives you a route to the Ombudsperson. There is a [Federal Ombudsman Secretariat for Protection Against Harassment (FOSPAH)](https://fospah.gov.pk) with jurisdiction over federal-level and many private-sector cases, and there are provincial Ombudsperson offices as well. A complainant can go to the Ombudsperson directly in the first instance, rather than starting with the internal committee, and can also appeal a committee's finding to the Ombudsperson if they are unhappy with the outcome.\n\nGoing straight to the Ombudsperson often makes more sense than the internal route in one common scenario: when the harasser sits on management, or is the person who would normally receive the internal complaint. An employee working under a manager who is also the alleged harasser is not well served by a committee that reports to that same manager, and the Act does not force you through that door first. The Ombudsperson's office reviews the complaint, calls for a response from the employer or the accused, and issues a finding, in a shape broadly similar to the internal committee process but sitting outside the organisation entirely.\n\nRepresentation is allowed at this stage: you do not have to face the process alone, and a lawyer can draft the complaint, gather supporting documents, and appear alongside you. The filing mechanics differ by office, since the correct one depends on whether your employer is federal, provincial, or private. Confirm that before you file, not after.\n\n## Online harassment\n\nHarassment that happens through a phone, a social media account, or email falls under the second branch of harassment law, [PECA 2016](https://pakistancode.gov.pk). Three sections come up most often in harassment complaints. Section 20 deals with offences against a person's dignity, which covers material published or sent with intent to harm someone's reputation or dignity. Section 21 deals with offences against modesty, which covers content of a sexual nature shared or threatened to be shared without consent. Section 24 is the cyberstalking provision, which covers repeated, unwanted contact, monitoring, or communication that causes fear or distress, including through fake profiles or impersonation.\n\nA common pattern touches more than one section at once. Someone creates a fake profile using a victim's photos, sends messages after being blocked or ignored, and threatens to circulate edited images unless the victim responds. That single course of conduct can involve the dignity offence, the modesty offence, and cyberstalking together, and a complainant does not need to work out in advance which section fits best. The complaint form asks what happened; matching the facts to the statute is the investigator's job, not yours.\n\nThe complaint goes to the National Cyber Crime Investigation Agency (NCCIA), which now carries out the cybercrime mandate the FIA Cyber Crime Wing used to hold on its own. You can file through the [official complaint portal](https://complaint.nccia.gov.pk), by phone through the helpline, or in person. Our companion guide on [how to report cybercrime in Pakistan](/blog/how-to-report-cybercrime-in-pakistan) walks through that filing process end to end, so we will not repeat the mechanics here.\n\nBefore you file, preserve evidence rather than reacting to the harasser. Screenshot the messages or posts with visible timestamps and usernames, save the original files rather than only a screenshot where possible, and avoid deleting the conversation even if it is distressing to keep. Evidence quality is usually what decides how quickly a complaint moves.\n\n## Harassment in public places\n\nHarassment that happens on the street, in a market, on public transport, or in a shop, meaning it falls outside the workplace or online categories, sits under the third branch of harassment law: [Section 509 of the Pakistan Penal Code](https://pakistancode.gov.pk). In plain language, Section 509 covers a word, sound, gesture, or act intended to insult the modesty of a person, or intruding on their privacy in a way meant to insult or intimidate. This covers a wide range of conduct: following someone, making comments, exposing oneself, or persistent unwanted contact in a public setting. A common example is someone following a woman from a bus stop, making comments, and blocking her path when she tries to walk away; physical contact is not required for the conduct to qualify, only the word, gesture, or act and the intent behind it. If the same person later obtains a phone number and continues by message, the conduct moves from a PPC matter into PECA territory as well, and both complaints can proceed together.\n\nBecause this is a criminal offence under the PPC, the route is the police, not an internal committee or a regulator. You report the incident to the Station House Officer at the relevant police station, and an FIR can be registered if the officer accepts that a cognizable offence has occurred. If the police decline to register it, the same escalation route used for other criminal matters applies. For that process in full, including what to do if registration is refused, see our guide on [how to file an FIR in Pakistan](/blog/how-to-file-an-fir-in-pakistan).\n\nReport a public-place incident as soon as you can do so safely. Note the time, the location, and anything that identifies the person, such as a description, a vehicle, or a shop they went into afterward. If anyone nearby saw what happened, ask whether they are willing to be a witness before they leave the scene; someone who saw the incident directly carries more weight at the police station than a second-hand account.\n\n## What remedies can you actually get?\n\nThe remedy depends on which route you take, and the routes are not mutually exclusive. Under the 2010 Act, the internal committee or the Ombudsperson can recommend action against the harasser within the workplace, and a finding in your favour can also support a separate compensation claim. The exact figures depend on the finding and the specific rules in force, so this guide does not attempt to quote a number. The two routes also differ in what has to be proven. A workplace committee or the Ombudsperson decides on the weight of the evidence in front of it, closer to how a civil dispute is judged, while a criminal case under PECA or the PPC requires the prosecution to prove guilt beyond reasonable doubt, a higher bar. That difference is one reason a workplace complaint can succeed on facts that a criminal case would struggle with, and it is worth discussing with a lawyer before deciding which route, or routes, to pursue.\n\nUnder PECA and the PPC, the outcome is criminal: investigation, potential prosecution, and, on conviction, penalties set by the relevant statute.\n\nIn practice, many people pursue more than one route where their facts support it. A workplace harasser who also sends threatening messages after hours can face both an internal committee finding and a PECA complaint at the same time; one process does not need to wait for the other to conclude. Where the harassment involves clearly false and damaging statements rather than unwanted conduct, it may shade into defamation instead, and our guide on [defamation law in Pakistan](/blog/defamation-law-in-pakistan) explains where that boundary sits and how the two overlap.\n\n## Evidence and practical steps before you complain\n\nWhichever branch of harassment law applies to you, the same groundwork helps. Write down what happened as soon as you can, with dates, times, and exact words where you remember them; a contemporaneous note carries more weight than a recollection written months later. Save messages, emails, and screenshots in their original form rather than only as edited copies. I ask new clients the same first question every time: what have you kept? If there were witnesses, note who they were and what they saw, even if you do not approach them yet.\n\nTell someone you trust early, even before you decide whether to make it formal. A colleague, friend, or family member you mention it to at the time becomes a witness to the fact that you raised it then, not months later when a dispute makes the timing look convenient. If the harassment is repeated rather than a single incident, keep a simple log: date, what happened, who else was present. A pattern is harder to dismiss than one isolated complaint, and a log built as you go does that work for you later.\n\nResist the urge to resign or walk away from the situation in haste. Leaving a job or a course before you complain can weaken your position later and, in a workplace context, is not something you need to do. The Act treats retaliation against a complainant, such as demotion, exclusion, or dismissal for having raised a complaint, as itself actionable; you do not lose your protection by speaking up. [VERIFY WITH FIRM: the specific retaliation protections and remedies available under the current version of the Act.]\n\n## How a lawyer helps\n\nMost of the difficulty under Pakistan's harassment laws is not proving that something happened, it is knowing which forum to use and drafting the complaint so that forum can actually act on it. In my experience, the situations that go wrong are less about weak facts and more about the wrong forum, or a missed step like the internal committee. A lawyer reviews your facts against the three routes above, drafts the complaint to the internal committee, the Ombudsperson, the NCCIA, or the police as the facts require, and represents you at a committee hearing or in a criminal proceeding if it gets that far. Where a case touches more than one route at once, a lawyer also helps you sequence the complaints so one does not undercut the other.\n\nThere is a defensive side to this too. Someone named in a harassment complaint is entitled to respond, and a hurried, defensive reply to an inquiry committee or a police notice can do more damage than taking a day to get advice first. If you have been accused and believe the complaint is mistaken or exaggerated, speak to a lawyer before you put anything in writing.\n\n## Speak to a lawyer in Lahore\n\nIf you are dealing with harassment at work, online, or in public and are not sure where to take it, Saeed Law Firm has practised in Lahore since 1975 and offers a free initial consultation. We will help you identify the right forum, draft the complaint, and represent you through the process. A [criminal lawyer in Lahore](/criminal-lawyer-in-lahore) at our firm handles the PECA and PPC routes; for workplace matters we guide you through the internal committee and Ombudsperson process. [Contact us](/contact) or call [+92-319-4959420](tel:+92-319-4959420).\n\n**Saeed Law Firm**, Y Block Main Market, Sector Y, DHA Phase 3, Lahore 54793. Phone: [+92-319-4959420](tel:+92-319-4959420).",
+	"details": [
+		{
+			"label": "Workplace harassment law",
+			"values": [
+				"Protection Against Harassment of Women at the Workplace Act 2010, as amended 2022"
+			]
+		},
+		{
+			"label": "Workplace forums",
+			"values": [
+				"Internal inquiry committee (employer's duty to constitute)",
+				"Federal or provincial Ombudsperson (FOSPAH)"
+			]
+		},
+		{
+			"label": "Online harassment law",
+			"values": ["PECA 2016, Sections 20 (dignity), 21 (modesty), 24 (cyberstalking)"]
+		},
+		{
+			"label": "Online harassment forum",
+			"values": ["National Cyber Crime Investigation Agency (NCCIA)"]
+		},
+		{
+			"label": "Public-places harassment law",
+			"values": ["Pakistan Penal Code, Section 509"]
+		},
+		{
+			"label": "Public-places forum",
+			"values": ["Police (FIR at the local police station)"]
+		}
+	],
+	"faqs": [
+		{
+			"q": "What is the harassment law in Pakistan?",
+			"a": "There is no single harassment law. Workplace harassment is governed by the Protection Against Harassment of Women at the Workplace Act 2010, as amended in 2022. Online harassment falls under PECA 2016, mainly Sections 20, 21, and 24. Harassment in public places is a criminal offence under the Pakistan Penal Code, most often Section 509. Which one applies depends on where the harassment happened."
+		},
+		{
+			"q": "What counts as workplace harassment under the 2010 Act?",
+			"a": "The Act covers unwelcome conduct of a sexual nature and behaviour that creates a hostile or intimidating environment, including demands that tie a workplace benefit to submitting to unwanted attention (quid pro quo) and repeated comments or conduct that make the workplace unbearable. A single serious incident can also qualify; it does not always need to repeat."
+		},
+		{
+			"q": "Who can file a harassment complaint?",
+			"a": "Under the workplace Act, anyone covered by the 2022 amendment's broadened protections can file, which extends beyond the traditional employer-employee relationship. For online harassment under PECA or public-places harassment under the PPC, any victim can file directly with the NCCIA or the police. Specific edge cases are worth checking with a lawyer before you assume you are not covered."
+		},
+		{
+			"q": "How do I complain to the Ombudsperson (FOSPAH)?",
+			"a": "You can approach the Federal Ombudsman Secretariat for Protection Against Harassment (FOSPAH), or the relevant provincial Ombudsperson office, either directly or after an internal committee decision you want to appeal. Representation by a lawyer is allowed. The exact office and filing steps depend on whether your employer is federal, provincial, or private, so confirm the correct office before filing."
+		},
+		{
+			"q": "Is online harassment a crime in Pakistan?",
+			"a": "Yes. PECA 2016 makes several forms of online harassment criminal offences, including conduct against a person's dignity (Section 20), modesty (Section 21), and cyberstalking (Section 24). Complaints now go to the National Cyber Crime Investigation Agency (NCCIA), which took over the role the FIA Cyber Crime Wing used to hold."
+		},
+		{
+			"q": "What is Section 509 PPC?",
+			"a": "Section 509 of the Pakistan Penal Code makes it a criminal offence to use a word, sound, gesture, or act intended to insult a person's modesty, or to intrude on their privacy to insult or intimidate them. It is the main provision used for harassment in public places such as streets, markets, and transport, and a complaint is filed as an FIR with the police."
+		},
+		{
+			"q": "Can men file harassment complaints?",
+			"a": "The 2022 amendment broadened the workplace Act's protective scope beyond its original framing. Whether a specific complaint by a man fits within the amended definitions depends on the current wording and your facts, so we would rather confirm that with you directly than guess. Online harassment under PECA and public-places harassment under the PPC are not limited by the complainant's gender."
+		}
+	],
+	"relatedPages": [
+		{
+			"title": "How to Report Cybercrime in Pakistan",
+			"href": "/blog/how-to-report-cybercrime-in-pakistan",
+			"description": "Filing an NCCIA cybercrime complaint step by step: PECA offences covered, evidence to prepare, and what happens after you submit."
+		},
+		{
+			"title": "How to File an FIR in Pakistan",
+			"href": "/blog/how-to-file-an-fir-in-pakistan",
+			"description": "Registering an FIR at the police station, what to do if police refuse, and how FIR quashing works at the Lahore High Court."
+		},
+		{
+			"title": "Defamation Law in Pakistan",
+			"href": "/blog/defamation-law-in-pakistan",
+			"description": "Civil, criminal, and online defamation tracks in Pakistan, and where harassment and defamation claims can overlap."
+		},
+		{
+			"title": "Criminal Lawyer in Lahore",
+			"href": "/criminal-lawyer-in-lahore",
+			"description": "Criminal defence representation in Lahore, including PECA cybercrime matters and PPC offences. Free initial consultation."
+		}
+	],
+	"reviewNote": "Written and reviewed by Bilal Saeed, Advocate (Punjab Bar Council), admitted to the Lahore High Court and District Courts Lahore. Last updated 10 August 2026. This article is general information, not legal advice."
+}

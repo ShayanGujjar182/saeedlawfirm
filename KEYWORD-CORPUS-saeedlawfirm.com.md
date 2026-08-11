@@ -2729,3 +2729,134 @@ Bing ABSENT→ABSENT · OSM unverifiable→**CONFIRMED ABSENT** (Overpass back u
 
 ### Brand SERP (mobile, Lahore, 2026-08-10)
 Pack: Saeed #1 (5.0×107, **https** url) · Mian Saeed #2 (4.4×13) · Saeed & Moeez #3 (5.0×31). Organic: saeedlawfirm.com #1 **with sitelinks** · Lawzana profile #2 (+#9 second URL) · Instagram #3 · Bhutta/LUMS #4 · smlaw.pk #5. US-index view (WebSearch) still S&M-dominated — diaspora/AI-surface exposure, primary market clean.
+
+---
+
+## 2026-08-10 — Blog-batch topic research (10 new guides written; DataForSEO volume pulls + 3 live SERPs)
+
+Context: 10 new blog drafts produced (see `content/pages/` untracked files in the repo + `20-Clients/SaeedLawFirm/BLOG-BATCH-2026-08-10.md`). Research below fed topic selection. Ads volume calls: 4 (~45 keywords, loc 2586/en). Live SERP calls: 3 (Lahore). Labs calls: 0.
+
+### Google Ads volumes (PK, pulled 2026-08-10)
+
+| keyword | vol/mo | note |
+|---|---|---|
+| nikah nama | 6,600 | mixed intent: pdf/download + decor + explainer slice (see SERP note) |
+| nadra marriage certificate | 2,900 | SELECTED #1 |
+| fia cybercrime complaint | 2,400 | SELECTED (with the two below on one page) |
+| employment law in pakistan | 1,300 | REJECTED: global-publisher SERP, broad head |
+| how to report cybercrime in pakistan | 880 | SELECTED (same page as fia complaint) |
+| e stamp paper punjab | 880 | SELECTED |
+| trademark registration in pakistan | 880 | REJECTED: corporate cluster authority-gated (run-37 finding) |
+| second marriage law in pakistan | 390 | SELECTED |
+| cybercrime law in pakistan | 320 | folded into cybercrime page |
+| domestic violence law in pakistan | 320 | SELECTED (Jan spike to 1,000) |
+| harassment law in pakistan | 320 | SELECTED |
+| power of attorney in pakistan | 170 | SELECTED (diaspora angle) |
+| consumer court in pakistan | 170 | rejected this round, viable later |
+| fard malkiat | 170 | rejected: adjacency to transfer-property page |
+| guardianship certificate in pakistan | 140 | SELECTED (zero site coverage, clean gap) |
+| section 497 crpc | 90 | SELECTED (post-arrest bail page, completes bail pair) |
+| divorce certificate in pakistan | 90 | rejected: collides with divorce-procedure |
+| second marriage in pakistan | 70 | secondary on second-marriage page |
+| legal notice in pakistan | 70 | rejected: thin head, rising trend worth rechecking 2027 |
+| special power of attorney pakistan | 30 | secondary on POA page |
+| post arrest bail in pakistan | 20 | primary phrasing on bail page |
+| stay order on property in pakistan | 20 | too thin |
+| wife maintenance law in pakistan | 20 | too thin alone; maintenance cluster future candidate |
+| medical negligence law in pakistan | 20 | too thin |
+| blackmailing law in pakistan | 20 | folded into cybercrime page |
+| adoption process in pakistan | 20 | too thin |
+| how to make a will in pakistan | 10 | too thin + gift-deed overlap |
+| dowry law in pakistan | 10 | too thin |
+| haq mehr in pakistan | 10 | covered inside nikah-nama page |
+| no data: maintenance of wife/child maintenance/child maintenance law, power of attorney for overseas pakistanis, property verification, how to check property documents, partition of property, bail after arrest, women property rights, wife rights in pakistan | — | Ads returns null on these exact phrases |
+
+### Live SERP notes (Lahore, 2026-08-10)
+
+- **"nikah nama"**: images block + form-download/decor mixed intent; legal explainers DO hold page 1 (pklegal.org #7, theframers legal guide #9, pakistanlawbot #4). PAA: what to write in nikah nama / how to check / how to get from NADRA / marital status by CNIC. Related searches dominated by pdf/download. Strategy: target explainer slice (columns/rights/registration), never host a form.
+- **"fia cybercrime complaint"**: BOTH FIA portals (complaint.fia.gov.pk #1, fia.gov.pk/complaints_dept #2) AND NCCIA portal (complaint.nccia.gov.pk #6) rank simultaneously; searchers confused about which agency now handles cybercrime. No ranking page resolves the FIA→NCCIA transition: that answer-the-confusion gap is the new page's lead section (run-40 ATIR pattern). NCCIA helpline 1799 per official portal. Knowledge panel: FIA Cyber Crime Wing Lahore, Gulberg 2 (3.7★, 9 reviews).
+- **GSC cross-check (28d PK, query dim)**: court-marriage guide earns ZERO "nadra marriage certificate" impressions (its query profile is court-marriage + MFLO-validity long-tails), so the dedicated MRC page is additive, not cannibalizing.
+
+### Cannibalisation clearance (body-diff method, all 10 topics)
+
+Checked all 50 existing content pages. Verdicts: guardianship/harassment/DV/second-marriage/e-stamp/POA = zero dedicated coverage anywhere. Post-arrest bail: pre-arrest guide covers the CONTRAST only (2x "497", comparison H2); dedicated s.497 page is the completing pair, cross-linked. NADRA MRC: court-marriage guide has one MRC section but earns none of the query demand (GSC-verified above). Nikah nama: mentions only, no columns coverage anywhere. Cybercrime: defamation guide covers only online-defamation reporting; scoped around it.
+
+---
+
+## 2026-08-11 — Run 47 · GSC money-page query + index-status pull (theme 5, cycle 7) · DataForSEO calls: 0 ($0)
+
+Window **2026-07-13 → 2026-08-08** (26 days), `sc-domain:saeedlawfirm.com`, **no country dimension** (per the run-45 measurement gotcha: the PAK filter understates low-volume pages). Dimensions `query,page`, pageFilter `contains lawyer-in-lahore`.
+
+### Money-page totals (page dimension, unfiltered)
+
+| Page | Clicks | Impr | CTR | Avg pos |
+|---|---|---|---|---|
+| /property-lawyer-in-lahore | 27 | 1,134 | 2.38% | 5.33 |
+| /lawyers-in-lahore | 21 | 1,170 | 1.79% | 8.15 |
+| /immigration-lawyer-in-lahore | 18 | 412 | 4.37% | 7.93 |
+| /family-lawyer-in-lahore | 17 | 1,383 | 1.23% | 9.01 |
+| /khula-lawyer-in-lahore | 16 | 896 | 1.79% | 6.48 |
+| /criminal-lawyer-in-lahore | 14 | 722 | 1.94% | 6.29 |
+| /tax-lawyer-in-lahore | 9 | 458 | 1.97% | 7.21 |
+| /civil-lawyer-in-lahore | 6 | 2,473 | **0.24%** | 4.49 |
+| /child-custody-lawyer-in-lahore | 2 | 140 | 1.43% | 6.71 |
+| /corporate-lawyer-in-lahore | 1 | 62 | 1.61% | 7.77 |
+| **/divorce-lawyer-in-lahore** | — | **0** | — | — |
+| **/court-marriage-lawyer-in-lahore** | — | **0** | — | — |
+
+### /civil-lawyer-in-lahore — query decomposition (C5/C6)
+
+1,616 named-query impressions, of which **1,495 (92.5%) = `personal injury lawyer near me`**, pos 3.2, **0 clicks** (already a REJECTED LEVER, run 45). Residual after exclusion: **121 impr / 1 click**.
+
+Real residual demand is a **stay-order / court-fee cluster**, all zero-click:
+
+| Query | Impr | Pos |
+|---|---|---|
+| stay order fees in pakistan | 51 | 8.9 |
+| civil court aiwan e adal lahore | 12 | 10.6 |
+| civil litigation in lahore | 5 | 6.4 |
+| stay order on property fees | 3 | 5.7 |
+| court stay order fees | 2 | 3.5 |
+| stay order court fees | 2 | 10.5 |
+| small claims fees | 2 | 25.5 |
+| best civil lawyer in lahore | 2 | 7.0 |
+| who deals with civil matters | 2 | 8.5 |
+
+### /family-lawyer-in-lahore — absorbing sibling money-page intent
+
+| Query | Impr | Clicks | Pos | Should serve |
+|---|---|---|---|---|
+| saeed law firm | 82 | 1 | 2.0 | homepage (brand) |
+| family lawyer lahore | 75 | 2 | 7.3 | correct |
+| **divorce lawyer lahore** | **71** | 1 | 8.0 | /divorce-lawyer-in-lahore |
+| best family lawyer in lahore | 70 | 1 | 9.0 | correct |
+| family lawyer in lahore | 44 | 1 | 9.1 | correct |
+| family lawyer | 34 | 0 | 22.8 | correct |
+| family lawyer near me | 19 | 0 | 13.8 | correct |
+| **divorce lawyer in lahore** | **18** | 0 | 9.0 | /divorce-lawyer-in-lahore |
+| **best divorce lawyer in lahore** | **17** | 1 | 10.2 | /divorce-lawyer-in-lahore |
+| **divorce lawyer near me** | **13** | 0 | 10.5 | /divorce-lawyer-in-lahore |
+
+**~119 impressions of exact-match divorce-lawyer commercial intent land on the family page** while the dedicated page is unindexed.
+
+### Other money-page head queries
+
+- `/criminal-lawyer-in-lahore` (223 named impr, 2 clk): `criminal defense lawyer` 65 @ 7.0 (0 clk); `best criminal lawyer in lahore` 46 @ 7.5 (0 clk); `criminal lawyer lahore` 33 @ 8.2 (1 clk).
+- `/property-lawyer-in-lahore` (272, 6 clk): `property lawyer lahore` 61 @ 7.0 (2 clk); `best property lawyer in lahore` 23 @ 7.1; `property lawyer near me` 17 @ 3.7.
+- `/tax-lawyer-in-lahore` (133, 1 clk): `tax lawyer lahore` 46 @ 7.9 (0 clk); `tax lawyer in lahore` 16 @ 7.8 (1 clk); `tax lawyers near me` 16 @ 6.9.
+- `/khula-lawyer-in-lahore` (125, 2 clk): `khula case fees in pakistan` 42 @ 9.2 (0 clk); `khula lawyer in lahore` 24 @ 3.1 (1 clk).
+- `/immigration-lawyer-in-lahore` (90, 4 clk): `immigration lawyer lahore` 21 @ 11.7 (1 clk); `immigration lawyer` 19 @ 7.4 (1 clk).
+- `/child-custody-lawyer-in-lahore` (19, 0 clk): `guardian court lahore` 7 @ 7.6; `hizanat` 6 @ 9.2.
+- `/corporate-lawyer-in-lahore` (1, 0 clk): `corporate law firm lahore` 1 @ 52.0.
+
+### Index-status inspection (GSC URL Inspection API, 2026-08-11)
+
+| Money page | Coverage state | Last crawl | Impr (26d) |
+|---|---|---|---|
+| /corporate-lawyer-in-lahore | Submitted and indexed | 2026-08-02 | 62 |
+| /khula-lawyer-in-lahore | Submitted and indexed | 2026-07-19 | 896 |
+| /child-custody-lawyer-in-lahore | Submitted and indexed | 2026-07-26 | 140 |
+| **/divorce-lawyer-in-lahore** | **Crawled – currently not indexed** | **2026-07-07** | **0** |
+| **/court-marriage-lawyer-in-lahore** | **Discovered – currently not indexed** | never fetched | **0** |
+
+Perfect separation between coverage state and non-zero impressions — the same pattern run 45 found on the areas pages, now reproduced on a second, independent page family. This is the evidence that moved playbook rule **C2 → validated**.
